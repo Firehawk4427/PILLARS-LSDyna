@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General Notes/Resources.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General Notes/Resources.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General Notes/Resources.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General Notes/Resources.md"
+                "file": "README.md"
               }
             }
           },
@@ -174,9 +174,11 @@
   },
   "active": "8f6bd50acb2d9806",
   "lastOpenFiles": [
-    "TODO.md",
-    "README.md",
     "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+    "PILLARS/PILLARS_v21_thru_v30/PILLARS_v24_stress.gif",
+    "README.md",
+    "TODO.md",
+    "General Notes/Resources.md",
     "attachments/Pasted image 20240715150639.png",
     "PILLARS/PILLARS_v21_thru_v30/d3plot02",
     "PILLARS/PILLARS_v21_thru_v30/d3dump01",
@@ -188,9 +190,7 @@
     "PILLARS/PILLARS_v21_thru_v30/adptmp",
     "PILLARS/PILLARS_v21_thru_v30/group_file",
     "PILLARS/PILLARS_v21_thru_v30/dyna.lsda",
-    "General Notes/Resources.md",
     "General Notes/Manuals.md",
-    "PILLARS/PILLARS_v21_thru_v30/PILLARS_v24_stress.gif",
     "attachments/Pasted image 20240715134012.png",
     "Pasted image 20240715134012.png",
     "School/ME 14/notebook/May 17, 2024.md",
@@ -219,7 +219,6 @@
     "Extracurriculars/Game Dev/DMT Simulator.md",
     "Extracurriculars/Game Dev/Voxel Gore & Destruction Game.md",
     "School/Untitled.md",
-    "2024-01-27.md",
     "Untitled.canvas",
     "Untitled 4.canvas",
     "Untitled 3.canvas",

@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8f6bd50acb2d9806",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+                "file": "TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md"
+                "file": "TODO.md"
               }
             }
           },
@@ -159,8 +172,10 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "f3ed8abaaf54784e",
+  "active": "8f6bd50acb2d9806",
   "lastOpenFiles": [
+    "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+    "TODO.md",
     "attachments/Pasted image 20240715150639.png",
     "PILLARS/PILLARS_v21_thru_v30/d3plot02",
     "PILLARS/PILLARS_v21_thru_v30/d3dump01",
@@ -174,7 +189,6 @@
     "PILLARS/PILLARS_v21_thru_v30/dyna.lsda",
     "General Notes/Resources.md",
     "General Notes/Manuals.md",
-    "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
     "PILLARS/PILLARS_v21_thru_v30/PILLARS_v24_stress.gif",
     "attachments/Pasted image 20240715134012.png",
     "Pasted image 20240715134012.png",
@@ -200,7 +214,6 @@
     "Pasted image 20240531042718.png",
     "Pasted image 20240531041229.png",
     "Pasted image 20240531041047.png",
-    "Pasted image 20240531040935.png",
     "School/ME 14/May 4, 2024.md",
     "Extracurriculars/Game Dev/DMT Simulator.md",
     "Extracurriculars/Game Dev/Voxel Gore & Destruction Game.md",

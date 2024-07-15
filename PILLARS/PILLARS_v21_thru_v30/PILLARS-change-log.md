@@ -21,8 +21,11 @@
 	- This refers to a more complex coupling where solid elements are immersed within shell elements, possibly in a fluid domain or within a structure. This can simulate scenarios like fluid-structure interactions (FSI) where solid elements interact with surrounding fluids represented by shell elements.
 [[Pasted image 20240715150639.png]]
 ### Results
-- sames as before
- 
+- same as before
+## V27 --> V28
+- changed density of fabric to that of kevlar
+![[Pasted image 20240715160706.png]]
+- unit system of (kg, m, s)
 
  
 

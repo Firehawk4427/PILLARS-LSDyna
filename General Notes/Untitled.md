@@ -1,6 +1,7 @@
 ## LS-PrePost (R13 Suite)
 - no undo feature
 - crashes if you try to open up any d3plotx (x = some integer) file other than the first one
+- no consistent unit system, you have to make your own. should be SI
 ## ANSYS Workbench
 - LS-Dyna files and models are empty / invisible when tying to upload them here. (will stick to standalone version for now)
 ## ANSYS Forums

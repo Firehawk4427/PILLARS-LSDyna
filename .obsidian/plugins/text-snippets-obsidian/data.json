@@ -1,0 +1,21 @@
+{
+  "snippets_file": "cmd : command\ndel : \\Delta x\nenhd : $\\epsilon -$ neighborhood\nex : example\nnhd : neighborhood\ntemp: temperature\ntemps : temperatures\nthm : theorem\n",
+  "snippets": [
+    "cmd : command",
+    "del : \\Delta x",
+    "enhd : $\\epsilon -$ neighborhood",
+    "ex : example",
+    "nhd : neighborhood",
+    "temp: temperature",
+    "temps : temperatures",
+    "thm : theorem"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}

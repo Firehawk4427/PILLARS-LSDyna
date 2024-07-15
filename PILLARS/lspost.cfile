@@ -1,13 +1,2 @@
 $# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
-$# Created on Jul-11-2024 (16:13:26)
-open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\PILLARS\d3plot"
-ac
-anim forward
-anim stop; state 150;
--M X5
-anim stop; state 150;
-anim stop; state 150;
-anim forward
--M X2
--M X6
--M X7
+$# Created on Jul-15-2024 (13:41:54)

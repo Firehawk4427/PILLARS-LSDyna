@@ -1,0 +1,16 @@
+{
+  "alwaysUpdateLinks": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "Attachments/",
+    "Miscellaneous/Templates/"
+  ],
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "attachments"
+}

@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "2353019f83cbb2c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "62b70a09c7e16b91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3ed8abaaf54784e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General Notes/Resources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "039395467ad6f787",
+    "type": "split",
+    "children": [
+      {
+        "id": "c74b711d27240b5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b28d76607c00fcb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "abe457acd2985005",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9249df761d421d05",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "b1bc148c22de512f",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcddb753c0649985",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2db2e0acb9395ff8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "General Notes/Resources.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cd354653a4b0b9a5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "General Notes/Resources.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a82cf0a678dcdd27",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d7c32a9644a03729",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "General Notes/Resources.md"
+              }
+            }
+          },
+          {
+            "id": "009c4d6aad6e039b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "templates:Insert template": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "f3ed8abaaf54784e",
+  "lastOpenFiles": [
+    "General Notes/Manuals.md",
+    "General Notes/Resources.md",
+    "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+    "General Notes",
+    "PILLARS/PILLARS_v21_thru_v30/lspp_temp_1",
+    "PILLARS/PILLARS_v21_thru_v30/PILLARS_v25.k",
+    "parachute_open/windflow_v1_thru_v10/lspost.msg",
+    "parachute_open/windflow_v1_thru_v10/lspost.cfile",
+    "parachute_open/windflow_v1_thru_v10/d3plot07",
+    "parachute_open/windflow_v1_thru_v10/d3dump01",
+    "parachute_open/windflow_v1_thru_v10/slefsi",
+    "parachute_open/windflow_v1_thru_v10/d3plot06",
+    "parachute_open/windflow_v1_thru_v10/d3plot05",
+    "PILLARS/PILLARS_v21_thru_v30/PILLARS_v24_stress.gif",
+    "attachments/Pasted image 20240715134012.png",
+    "Pasted image 20240715134012.png",
+    "School/ME 14/notebook/May 17, 2024.md",
+    "School/ME 14/notebook/May 15, 2024.md",
+    "School/ME 14/notebook/May 14, 2024.md",
+    "School/ME 14/Individual Contribution Statement.md",
+    "School/ME 14/notebook/May 13, 2024.md",
+    "School/ME 14/notebook/May 12, 2024.md",
+    "School/ME 14/notebook/May 10, 2024.md",
+    "School/ME 14/notebook-merged.md",
+    "School/ME 14/notebook/May 9, 2024.md",
+    "School/ME 14/notebook/May 8, 2024.md",
+    "School/ME 14/notebook/Engineering Design Notebook.md",
+    "School/ME 14/notebook/May 23, 2024.md",
+    "School/ME 14/notebook/May 22, 2024.md",
+    "School/ME 14/notebook/May 21, 2024.md",
+    "School/ME 14/notebook/May 20, 2024.md",
+    "School/ME 14/ME 14 Transmission Project Notebook.md",
+    "Pasted image 20240531043027.png",
+    "Pasted image 20240531042914.png",
+    "Pasted image 20240531042837.png",
+    "Pasted image 20240531042718.png",
+    "Pasted image 20240531041229.png",
+    "Pasted image 20240531041047.png",
+    "Pasted image 20240531040935.png",
+    "School/ME 14/May 4, 2024.md",
+    "Extracurriculars/Game Dev/DMT Simulator.md",
+    "Extracurriculars/Game Dev/Voxel Gore & Destruction Game.md",
+    "School/Untitled.md",
+    "2024-01-27.md",
+    "School/ME 12/Lectures/Lecture 2 - ME 12b.md",
+    "School/ME 12/Lectures/Lecture 3 - Nonlinearities in Bending - ME 12b.md",
+    "Untitled.canvas",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas"
+  ]
+}

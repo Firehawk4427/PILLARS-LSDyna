@@ -1,0 +1,11 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
+$# Created on Jul-15-2024 (14:27:36)
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\PILLARS\PILLARS_v21_thru_v30\d3plot"
+ac
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\parachute_open\windflow_v1_thru_v10\d3plot"
+anim forward
+-M X2
+fringe 3
+pfringe
+fringe 9
+pfringe

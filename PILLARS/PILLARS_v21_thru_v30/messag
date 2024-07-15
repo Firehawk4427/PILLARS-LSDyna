@@ -1,0 +1,280 @@
+
+
+ ***************************************************************
+ *            ANSYS 2023 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2023 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+      Date: 07/15/2024      Time: 14:10:00  
+      ___________________________________________________ 
+     |                                                   |
+     |  LS-DYNA, A Program for Nonlinear Dynamic         |
+     |  Analysis of Structures in Three Dimensions       |
+     |  Date    : 07/28/2023    Time: 16:45:29           |
+     |  Version : smp d R13                              |
+     |  Revision: R13.1.1-27-g8731a0d8c5                 |
+     |                                                   |
+     |  Features enabled in this version:                |
+     |    Shared Memory Parallel                         |
+     |    CESE CHEMISTRY EM ICFD STOCHASTIC_PARTICLES    |
+     |    FFTW (multi-dimensional FFTW Library)          |
+     |    ARPACK (nonsymmetric eigensolver library)      |
+     |    ANSYSLIC enabled                               |
+     |                                                   |
+     |  Licensed to:                                     |
+     |  Issued by  : ANSYS                               |
+     |                                                   |
+     |  Platform   : WINDOWS X64 SSE2                    |
+     |  OS Level   : Windows 8/10 & Srv 2016/2019/2022   |
+     |  Compiler   : Intel Fortran XE 2019 MSVC++ 2019   |
+     |  Hostname   : DESKTOP-F2LHD1U                     |
+     |  Precision  : Double precision (I8R8)             |
+     |                                                   |
+     |  Unauthorized use infringes Ansys Inc. copyrights |
+     |___________________________________________________|
+
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\PILLARS\PILLARS_v21_thru_v30\PILLARS_v25.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\PILLARS\PILLARS_v21_thru_v30\PILLA
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+ allocating  memory to    20000000 d     1975081 Initial allocation
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   07/15/24 14:10:00
+ expanding   memory to      111350 d     2022572  
+ expanding   memory to      146425 d     2022572  
+ expanding   memory to      166625 d     2124572  
+ expanding   memory to      194229 d     2124572  
+ expanding   memory to      216665 d     2181172  
+ expanding   memory to      281665 d     2181172  
+ expanding   memory to      302107 d     2181172  
+ expanding   memory to      323990 d     2272664  
+ expanding   memory to      348758 d     2342487  
+ expanding   memory to      371167 d     2342487  
+
+ Memory required to process keyword     :     371167  
+ Additional dynamic memory required     :    2342491  
+
+ contracting memory to           1 d     1846816 end of keyword reader
+
+ LS-DYNA will perform a structural only analysis 
+
+ LS-DYNA keyword deck by LS-PrePost                                      
+                    ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
+ expanding   memory to        2001 d     1551742 material, node and element data
+ expanding   memory to        2071 d     1551831 material properties
+ expanding   memory to        2079 d     1609103 element data for composite material
+ expanding   memory to        2093 d     1917612 gradient of damage data
+ expanding   memory to        5615 d     2054394 user control for contact interfaces
+ contracting memory to        5595 d     2054400 thermal expansion 0
+ expanding   memory to        5597 d     2054406 cross-sectional force definitions 0
+ expanding   memory to       12481 d     2054448 temp index array for node sorting
+ contracting memory to        5597 d     2061336 just because?
+ expanding   memory to        9097 d     2075154 arbitrary element numbering input
+ contracting memory to        5617 d     2136019 spc cards
+ expanding   memory to       28611 d     2540713 load curve data
+ contracting memory to       27448 d     2540713 user_define_loading_set
+ expanding   memory to       27652 d     2540713 regularize time history data
+ contracting memory to       27452 d     2540713 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       28452 d     3340197 contact segment data 1
+ expanding   memory to       69704 d     3340197 contact segment data 3
+ contracting memory to       27452 d     3514740 contact definition
+ expanding   memory to       27456 d     3531814 contact friction
+ expanding   memory to       27556 d     3532504 rigid bodies for disp. termination
+ expanding   memory to       27618 d     3532504 save d3plot control data
+ expanding   memory to       27624 d     3585357 ale reference system
+ expanding   memory to       27773 d     3585357 ALE fsi control block
+ expanding   memory to       27776 d     3599125 ALE fsi node and seg list
+ expanding   memory to       27778 d     4158599 ALE fsi coupling forces
+ expanding   memory to       27814 d     4158599 ALE storage for coupling shape functions
+ expanding   memory to       55466 d     4144835 void materials
+ contracting memory to       55426 d     4151725 mat add cohesive 0
+ expanding   memory to       55430 d     4151725 sensor_control for curve
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to begin solution      :     372K
+ Additional dynamically allocated memory:    4442K
+                                   Total:    4813K
+       1 t 0.0000E+00 dt 1.25E-03 flush i/o buffers            07/15/24 14:10:00
+       1 t 0.0000E+00 dt 1.25E-03 write d3plot file            07/15/24 14:10:00
+
+ *** Note history variables in lsprepost --> Fcomp -->misc
+     history variable        1 to        3 belongs to AMMG        1
+     history variable        4 to       13 belongs to AMMG        2
+     history variable       14 to       23 belongs to AMMG        3
+       2 t 1.2485E-03 dt 1.06E-03 write d3plot file            07/15/24 14:10:00
+       3 t 2.3037E-03 dt 8.20E-04 write d3plot file            07/15/24 14:10:00
+       4 t 3.1239E-03 dt 5.93E-04 write d3plot file            07/15/24 14:10:00
+       5 t 3.7166E-03 dt 4.92E-04 write d3plot file            07/15/24 14:10:00
+       6 t 4.2083E-03 dt 4.35E-04 write d3plot file            07/15/24 14:10:00
+       7 t 4.6437E-03 dt 3.97E-04 write d3plot file            07/15/24 14:10:00
+       8 t 5.0408E-03 dt 3.68E-04 write d3plot file            07/15/24 14:10:00
+       9 t 5.4093E-03 dt 3.46E-04 write d3plot file            07/15/24 14:10:00
+      10 t 5.7551E-03 dt 3.27E-04 write d3plot file            07/15/24 14:10:00
+      11 t 6.0824E-03 dt 3.12E-04 write d3plot file            07/15/24 14:10:00
+      12 t 6.3943E-03 dt 2.99E-04 write d3plot file            07/15/24 14:10:00
+      13 t 6.6929E-03 dt 2.87E-04 write d3plot file            07/15/24 14:10:00
+      14 t 6.9801E-03 dt 2.77E-04 write d3plot file            07/15/24 14:10:00
+      15 t 7.2572E-03 dt 2.68E-04 write d3plot file            07/15/24 14:10:00
+      16 t 7.5255E-03 dt 2.60E-04 write d3plot file            07/15/24 14:10:00
+      17 t 7.7859E-03 dt 2.53E-04 write d3plot file            07/15/24 14:10:00
+      18 t 8.0392E-03 dt 2.47E-04 write d3plot file            07/15/24 14:10:00
+      19 t 8.2861E-03 dt 2.41E-04 write d3plot file            07/15/24 14:10:00
+      20 t 8.5271E-03 dt 2.36E-04 write d3plot file            07/15/24 14:10:00
+      21 t 8.7629E-03 dt 2.31E-04 write d3plot file            07/15/24 14:10:00
+      22 t 8.9937E-03 dt 2.26E-04 write d3plot file            07/15/24 14:10:00
+      23 t 9.2201E-03 dt 2.22E-04 write d3plot file            07/15/24 14:10:00
+      24 t 9.4423E-03 dt 2.18E-04 write d3plot file            07/15/24 14:10:00
+      25 t 9.6607E-03 dt 2.15E-04 write d3plot file            07/15/24 14:10:00
+      26 t 9.8755E-03 dt 2.12E-04 write d3plot file            07/15/24 14:10:00
+      27 t 1.0087E-02 dt 2.08E-04 write d3plot file            07/15/24 14:10:00
+      28 t 1.0296E-02 dt 2.06E-04 write d3plot file            07/15/24 14:10:00
+      29 t 1.0501E-02 dt 2.03E-04 write d3plot file            07/15/24 14:10:00
+      30 t 1.0704E-02 dt 2.00E-04 write d3plot file            07/15/24 14:10:00
+      31 t 1.0905E-02 dt 1.98E-04 write d3plot file            07/15/24 14:10:00
+      32 t 1.1103E-02 dt 1.96E-04 write d3plot file            07/15/24 14:10:00
+      33 t 1.1299E-02 dt 1.94E-04 write d3plot file            07/15/24 14:10:00
+      34 t 1.1492E-02 dt 1.92E-04 write d3plot file            07/15/24 14:10:00
+      35 t 1.1684E-02 dt 1.90E-04 write d3plot file            07/15/24 14:10:00
+      36 t 1.1874E-02 dt 1.88E-04 write d3plot file            07/15/24 14:10:00
+      37 t 1.2063E-02 dt 1.87E-04 write d3plot file            07/15/24 14:10:00
+      38 t 1.2250E-02 dt 1.85E-04 write d3plot file            07/15/24 14:10:00
+      39 t 1.2435E-02 dt 1.84E-04 write d3plot file            07/15/24 14:10:00
+      40 t 1.2619E-02 dt 1.83E-04 write d3plot file            07/15/24 14:10:00
+      41 t 1.2801E-02 dt 1.81E-04 write d3plot file            07/15/24 14:10:00
+      42 t 1.2983E-02 dt 1.80E-04 write d3plot file            07/15/24 14:10:00
+      43 t 1.3163E-02 dt 1.79E-04 write d3plot file            07/15/24 14:10:00
+      44 t 1.3342E-02 dt 1.78E-04 write d3plot file            07/15/24 14:10:00
+      45 t 1.3520E-02 dt 1.77E-04 write d3plot file            07/15/24 14:10:00
+      46 t 1.3697E-02 dt 1.76E-04 write d3plot file            07/15/24 14:10:00
+      47 t 1.3873E-02 dt 1.75E-04 write d3plot file            07/15/24 14:10:00
+      48 t 1.4048E-02 dt 1.74E-04 write d3plot file            07/15/24 14:10:00
+      49 t 1.4222E-02 dt 1.74E-04 write d3plot file            07/15/24 14:10:00
+      50 t 1.4396E-02 dt 1.73E-04 write d3plot file            07/15/24 14:10:00
+      51 t 1.4569E-02 dt 1.72E-04 write d3plot file            07/15/24 14:10:00
+      52 t 1.4741E-02 dt 1.72E-04 write d3plot file            07/15/24 14:10:00
+      53 t 1.4913E-02 dt 1.71E-04 write d3plot file            07/15/24 14:10:00
+ 
+ *** termination time reached ***
+      53 t 1.5084E-02 dt 1.71E-04 write d3dump01 file          07/15/24 14:10:00
+      53 t 1.5084E-02 dt 1.71E-04 write d3plot file            07/15/24 14:10:00
+
+ N o r m a l    t e r m i n a t i o n                          07/15/24 14:10:00
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to complete solution   :     372K
+ Additional dynamically allocated memory:    4442K
+                                   Total:    4813K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     2.7000E-02    1.90
+    KW Reading ......... 0.0000E+00    0.00     1.1000E-02    0.78
+    KW Writing ......... 0.0000E+00    0.00     4.0000E-03    0.28
+  Initialization ....... 1.0000E+00  100.00     1.1600E+00   81.75
+    Init Proc Phase 1 .. 0.0000E+00    0.00     2.0000E-02    1.41
+    Init Proc Phase 2 .. 0.0000E+00    0.00     3.0000E-03    0.21
+  Init solver .......... 0.0000E+00    0.00     1.0000E-03    0.07
+  Element processing ... 0.0000E+00    0.00     4.1000E-02    2.89
+    Solids ............. 0.0000E+00    0.00     7.0000E-03    0.49
+    Shells ............. 0.0000E+00    0.00     3.3000E-02    2.33
+  Binary databases ..... 0.0000E+00    0.00     9.7000E-02    6.84
+  ALE FSI Algorithm .... 0.0000E+00    0.00     2.1000E-02    1.48
+    FSI ID         1 ... 0.0000E+00    0.00     2.1000E-02    1.48
+  ALE Advection ........ 0.0000E+00    0.00     5.6000E-02    3.95
+    ALE Adv ambient .... 0.0000E+00    0.00     1.0000E-03    0.07
+    ALE Adv reg1 ....... 0.0000E+00    0.00     1.0000E-03    0.07
+    ALE Adv comm ....... 0.0000E+00    0.00     4.7000E-02    3.31
+    ALE Adv post ....... 0.0000E+00    0.00     4.0000E-03    0.28
+  Rigid Bodies ......... 0.0000E+00    0.00     1.0000E-03    0.07
+  Time step size ....... 0.0000E+00    0.00     1.0000E-03    0.07
+  Misc. 1 .............. 0.0000E+00    0.00     1.0000E-03    0.07
+  Misc. 2 .............. 0.0000E+00    0.00     3.0000E-03    0.21
+  Misc. 3 .............. 0.0000E+00    0.00     1.0000E-02    0.70
+  ----------------------------------------------------------------
+  T o t a l s            1.0000E+00  100.00     1.4190E+00  100.00
+
+ Problem time       =    1.5084E-02
+ Problem cycle      =        53
+ Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
+ CPU time per zone cycle  =          0.000 picoseconds
+ Clock time per zone cycle=     720552.838 picoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   07/15/2024 14:10:00  
+ End time     07/15/2024 14:10:00  
+ Elapsed time       0 second  for      53 cycles using  2 SMP threads
+             (      0 hour   0 minute   0 second )
+
+ N o r m a l    t e r m i n a t i o n                          07/15/24 14:10:00

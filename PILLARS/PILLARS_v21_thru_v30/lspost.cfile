@@ -1,6 +1,0 @@
-$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
-$# Created on Jul-15-2024 (15:09:13)
-open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\PILLARS\PILLARS_v21_thru_v30\d3plot"
-ac
-anim forward
--M X5

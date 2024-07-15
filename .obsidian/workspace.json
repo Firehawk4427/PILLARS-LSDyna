@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meeting Notes.md",
+                "file": "Meeting Notes - 7-15-2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meeting Notes.md",
+                "file": "Meeting Notes - 7-15-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meeting Notes.md",
+                "file": "Meeting Notes - 7-15-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meeting Notes.md"
+                "file": "Meeting Notes - 7-15-2024.md"
               }
             }
           },
@@ -186,10 +186,11 @@
   },
   "active": "5114b7ae8b0f6c9e",
   "lastOpenFiles": [
-    "TODO.md",
-    "Meeting Notes.md",
-    "Untitled",
+    "simulation-subteam-meetings",
+    "README.md",
     "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+    "TODO.md",
+    "Meeting Notes - 7-15-2024.md",
     "attachments/Pasted image 20240715160706.png",
     "General Notes/Untitled.md",
     "PILLARS/PILLARS_v21_thru_v30/PILLARS_v24_stress.gif",
@@ -197,7 +198,6 @@
     "parachute_open/windflow_v1_thru_v10/parachute.gif",
     "airbag_closed/airbag.gif",
     "attachments/Pasted image 20240715154306.png",
-    "README.md",
     "General Notes/Resources.md",
     "attachments/Pasted image 20240715150639.png",
     "PILLARS/PILLARS_v21_thru_v30/d3plot02",
@@ -231,7 +231,6 @@
     "Pasted image 20240531043027.png",
     "School/ME 14/May 4, 2024.md",
     "Extracurriculars/Game Dev/DMT Simulator.md",
-    "Extracurriculars/Game Dev/Voxel Gore & Destruction Game.md",
     "Untitled.canvas",
     "Untitled 4.canvas",
     "Untitled 3.canvas",

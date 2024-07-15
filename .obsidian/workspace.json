@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+                "file": "General Notes/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+                "file": "General Notes/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+                "file": "General Notes/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md"
+                "file": "General Notes/Untitled.md"
               }
             }
           },
@@ -174,8 +174,10 @@
   },
   "active": "8f6bd50acb2d9806",
   "lastOpenFiles": [
-    "README.md",
+    "attachments/Pasted image 20240715154306.png",
     "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
+    "General Notes/Untitled.md",
+    "README.md",
     "PILLARS/PILLARS_v21_thru_v30/PILLARS_v24_stress.gif",
     "TODO.md",
     "General Notes/Resources.md",
@@ -218,7 +220,6 @@
     "School/ME 14/May 4, 2024.md",
     "Extracurriculars/Game Dev/DMT Simulator.md",
     "Extracurriculars/Game Dev/Voxel Gore & Destruction Game.md",
-    "School/Untitled.md",
     "Untitled.canvas",
     "Untitled 4.canvas",
     "Untitled 3.canvas",

@@ -7,4 +7,6 @@
 - can get wall adjacent temp (avg) using ANSYS
 ## Marilyn
 - around 33000 nodes
-- 
+## Mo
+- using inviscid at first 
+- use K-omega to observe what happens close to the walls

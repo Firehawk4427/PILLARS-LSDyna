@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meeting Notes - 7-15-2024.md",
+                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meeting Notes - 7-15-2024.md",
+                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meeting Notes - 7-15-2024.md",
+                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meeting Notes - 7-15-2024.md"
+                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md"
               }
             }
           },
@@ -186,11 +186,22 @@
   },
   "active": "5114b7ae8b0f6c9e",
   "lastOpenFiles": [
-    "simulation-subteam-meetings",
+    "PILLARS/PILLARS_v21_thru_v30/d3plot03",
+    "PILLARS/PILLARS_v21_thru_v30/d3dump01",
+    "PILLARS/PILLARS_v21_thru_v30/d3plot02",
+    "PILLARS/PILLARS_v21_thru_v30/status.out",
+    "PILLARS/PILLARS_v21_thru_v30/d3plot01",
+    "PILLARS/PILLARS_v21_thru_v30/d3plot",
+    "PILLARS/PILLARS_v21_thru_v30/ldcrvv",
+    "PILLARS/PILLARS_v21_thru_v30/part_des",
+    "PILLARS/PILLARS_v21_thru_v30/adptmp",
+    "PILLARS/PILLARS_v21_thru_v30/group_file",
+    "PILLARS/PILLARS_v21_thru_v30/dyna.lsda",
+    "attachments/Pasted image 20240715163747.png",
+    "Meeting Notes - 7-15-2024.md",
     "README.md",
     "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
     "TODO.md",
-    "Meeting Notes - 7-15-2024.md",
     "attachments/Pasted image 20240715160706.png",
     "General Notes/Untitled.md",
     "PILLARS/PILLARS_v21_thru_v30/PILLARS_v24_stress.gif",
@@ -200,15 +211,6 @@
     "attachments/Pasted image 20240715154306.png",
     "General Notes/Resources.md",
     "attachments/Pasted image 20240715150639.png",
-    "PILLARS/PILLARS_v21_thru_v30/d3plot02",
-    "PILLARS/PILLARS_v21_thru_v30/d3dump01",
-    "PILLARS/PILLARS_v21_thru_v30/status.out",
-    "PILLARS/PILLARS_v21_thru_v30/d3plot01",
-    "PILLARS/PILLARS_v21_thru_v30/d3plot",
-    "PILLARS/PILLARS_v21_thru_v30/ldcrvv",
-    "PILLARS/PILLARS_v21_thru_v30/part_des",
-    "PILLARS/PILLARS_v21_thru_v30/adptmp",
-    "PILLARS/PILLARS_v21_thru_v30/group_file",
     "General Notes/Manuals.md",
     "attachments/Pasted image 20240715134012.png",
     "Pasted image 20240715134012.png",
@@ -228,7 +230,6 @@
     "School/ME 14/notebook/May 21, 2024.md",
     "School/ME 14/notebook/May 20, 2024.md",
     "School/ME 14/ME 14 Transmission Project Notebook.md",
-    "Pasted image 20240531043027.png",
     "School/ME 14/May 4, 2024.md",
     "Extracurriculars/Game Dev/DMT Simulator.md",
     "Untitled.canvas",

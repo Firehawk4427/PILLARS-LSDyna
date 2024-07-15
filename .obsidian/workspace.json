@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "General Notes/Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TODO.md",
+                "file": "General Notes/Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TODO.md",
+                "file": "General Notes/Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TODO.md"
+                "file": "General Notes/Resources.md"
               }
             }
           },
@@ -174,8 +174,9 @@
   },
   "active": "8f6bd50acb2d9806",
   "lastOpenFiles": [
-    "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
     "TODO.md",
+    "README.md",
+    "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
     "attachments/Pasted image 20240715150639.png",
     "PILLARS/PILLARS_v21_thru_v30/d3plot02",
     "PILLARS/PILLARS_v21_thru_v30/d3dump01",
@@ -219,7 +220,6 @@
     "Extracurriculars/Game Dev/Voxel Gore & Destruction Game.md",
     "School/Untitled.md",
     "2024-01-27.md",
-    "School/ME 12/Lectures/Lecture 2 - ME 12b.md",
     "Untitled.canvas",
     "Untitled 4.canvas",
     "Untitled 3.canvas",

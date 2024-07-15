@@ -12,7 +12,16 @@
 - might need to rebuild model from the ground up using a multiphysics solver like dualcese
 - airbag with nullspace might not work cause it would not match actual inflation parameters
 ## V25 --> V26
-- CONTROL_TIMESTEP
+- CONTROL_TIMESTEP init timestep changed to 1e-8
+### Results
+- same as before
+## V26 --> V27
+- fixed boundary constraints
+- changed to **Solid-in-Shell Immersed Coupling (EQ.2)**
+	- This refers to a more complex coupling where solid elements are immersed within shell elements, possibly in a fluid domain or within a structure. This can simulate scenarios like fluid-structure interactions (FSI) where solid elements interact with surrounding fluids represented by shell elements.
+[[Pasted image 20240715150639.png]]
+### Results
+
  
 
  

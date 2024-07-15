@@ -24,9 +24,10 @@
 - same as before
 ## V27 --> V28
 - unit system of (kg, m, s)
-- changed density of fabric to that of kevlar
-![[Pasted image 20240715160706.png|300]]
-- changed youngs moudlus to 150 GPa (150e9 Pa)
-![[Pasted image 20240715163747.png|300]]
- ### Results
+- changed density of fabric to that of Kevlar
+[[Pasted image 20240715160706.png]]
+- changed young's modulus to 150 GPa (150e9 Pa)
+[[Pasted image 20240715163747.png]]
+### Results
+- same as before
 

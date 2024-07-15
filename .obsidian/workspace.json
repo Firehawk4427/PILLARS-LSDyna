@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General Notes/Resources.md",
+                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General Notes/Resources.md",
+                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General Notes/Resources.md",
+                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General Notes/Resources.md"
+                "file": "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md"
               }
             }
           },
@@ -161,8 +161,8 @@
   },
   "active": "f3ed8abaaf54784e",
   "lastOpenFiles": [
-    "General Notes/Manuals.md",
     "General Notes/Resources.md",
+    "General Notes/Manuals.md",
     "PILLARS/PILLARS_v21_thru_v30/PILLARS-change-log.md",
     "General Notes",
     "PILLARS/PILLARS_v21_thru_v30/lspp_temp_1",

@@ -923,6 +923,7 @@ LXd
 LLU
 Lcw
 Log
+Linear
 Vh
 Vg
 Vo
@@ -1432,6 +1433,7 @@ PBa
 PGR
 PrePost
 PILLARS
+Polynomial
 gg
 gOiU
 gB
@@ -2171,6 +2173,7 @@ format
 fix
 fabric
 flux
+flow
 RV
 Rs
 Ro
@@ -2667,6 +2670,7 @@ obsidian
 order
 old
 own
+outlet
 EW
 Ez
 Em

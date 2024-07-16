@@ -30,4 +30,6 @@
 [[Pasted image 20240715163747.png]]
 ### Results
 - same as before
+## V28 --> V29
+- changed V0 for inlet to 1000
 

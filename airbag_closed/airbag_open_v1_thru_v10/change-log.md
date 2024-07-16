@@ -5,4 +5,6 @@
 - Runs very simliar to $_{cv}$ case, but blows up at end
 ## V1 --> V2
 ![[Pasted image 20240716163009.png]]
-
+### Results
+- very similar, although the blowout was much worse at the end
+- worry about this later, setting up collisions is much harder and more important

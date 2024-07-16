@@ -14,3 +14,4 @@ same as before
 ### Results
 same as before
 ## V33 --> V34
+- differences between working wind tunnel and PILLARS model currently are the boundary spc set, 

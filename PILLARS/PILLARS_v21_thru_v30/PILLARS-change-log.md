@@ -34,4 +34,7 @@
 - changed V0 for inlet to 1000
 ### Results
 - same
+## V29 --> V30
+- changed $c_{5}=c_{4}=\gamma -1=\frac{C_{P}}{C_{V}}=1.4$ in EOS_Linear_Polynomial
+- 
 

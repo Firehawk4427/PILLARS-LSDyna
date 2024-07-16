@@ -8,3 +8,5 @@
 ### Results
 - very similar, although the blowout was much worse at the end
 - worry about this later, setting up collisions is much harder and more important
+## V2 --> V3
+- added rigidwall for fllor

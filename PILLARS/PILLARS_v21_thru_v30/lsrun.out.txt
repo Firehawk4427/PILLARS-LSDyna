@@ -82,3 +82,128 @@
  Student license active; 47 days remaning.
 
  Executing with ANSYS license
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\PILLARS\PILLARS_v21_thru_v30\PILLARS_v29.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\PILLARS\PILLARS_v21_thru_v30\PILLA
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+
+ on UNIX computers note the following change:
+
+ ctrl-c interrupts ls-dyna and prompts for a sense  switch.
+ type the desired sense switch: sw1., sw2., etc. to continue
+ the execution.  ls-dyna will respond as explained in the users manual
+
+    type                      response
+   -----   ------------------------------------------------------------
+   quit    ls-dyna terminates.
+   stop    ls-dyna terminates.
+   sw1.    a restart file is written and ls-dyna terminates.
+   sw2.    ls-dyna responds with time and cycle numbers.    
+   sw3.    a restart file is written and ls-dyna continues calculations.
+   sw4.    a plot state is written and ls-dyna continues calculations.
+   swa.    ls-dyna flushes all output i/o buffers.
+   swb.    a dynain is written and ls-dyna continues calculations.
+   swc.    a restart and dynain are written and ls-dyna continues calculations.
+   swd.    a restart and dynain are written and ls-dyna terminates.
+   swe.    stop dynamic relaxation just as though convergence
+   endtime=time change the termination time
+   lpri    toggle implicit lin. alg. solver output on/off.
+   nlpr    toggle implicit nonlinear solver output on/off.
+   iter    toggle implicit output to d3iter database on/off.
+   prof    output timing data to messag and continue.
+   conv    force implicit nonlinear convergence for current time step.
+   ttrm    terminate implicit time step, reduce time step, retry time step.
+   rtrm    terminate implicit at end of current time step.
+
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   07/15/24 18:01:36
+
+ Memory required to process keyword     :     371167  
+ Additional dynamic memory required     :    2342491  
+
+
+ input of data is completed
+
+ initial kinetic energy = 0.00000000E+00
+
+ Memory required to begin solution      :     372K
+ Additional dynamically allocated memory:    4442K
+                                   Total:    4813K
+
+ initialization completed
+       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            07/15/24 18:01:36
+       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            07/15/24 18:01:36
+ cpu time per zone cycle............         0 nanoseconds
+ average cpu time per zone cycle....         0 nanoseconds
+ average clock time per zone cycle..       433 nanoseconds
+
+ estimated total cpu time          =         1 sec (       0 hrs  0 mins)
+ estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
+ estimated total clock time        =      1387 sec (       0 hrs 23 mins)
+ estimated clock time to complete  =      1386 sec (       0 hrs 23 mins)
+ termination time                  = 1.500E-02
+      76 t 9.9904E-05 dt 3.06E-06 write d3plot file            07/15/24 18:01:36
+     143 t 1.9949E-04 dt 9.78E-07 write d3plot file            07/15/24 18:01:36
+     280 t 2.9970E-04 dt 5.82E-07 write d3plot file            07/15/24 18:01:37
+     486 t 3.9963E-04 dt 4.15E-07 write d3plot file            07/15/24 18:01:37
+     762 t 4.9980E-04 dt 3.22E-07 write d3plot file            07/15/24 18:01:38
+    1107 t 5.9981E-04 dt 2.63E-07 write d3plot file            07/15/24 18:01:39
+    1522 t 6.9996E-04 dt 2.23E-07 write d3plot file            07/15/24 18:01:39
+    2006 t 8.0000E-04 dt 1.93E-07 write d3plot file            07/15/24 18:01:41
+    2559 t 8.9997E-04 dt 1.70E-07 write d3plot file            07/15/24 18:01:42
+    3181 t 9.9989E-04 dt 1.52E-07 write d3plot file            07/15/24 18:01:43
+    3873 t 1.0999E-03 dt 1.38E-07 write d3plot file            07/15/24 18:01:45
+    4634 t 1.1999E-03 dt 1.26E-07 write d3plot file            07/15/24 18:01:46
+    5000 t 1.2450E-03 dt 1.21E-07 flush i/o buffers            07/15/24 18:01:47
+    5465 t 1.3000E-03 dt 1.16E-07 write d3plot file            07/15/24 18:01:48
+    6365 t 1.4000E-03 dt 1.07E-07 write d3plot file            07/15/24 18:01:50
+    7334 t 1.4999E-03 dt 9.96E-08 write d3plot file            07/15/24 18:01:52
+    8373 t 1.6000E-03 dt 9.32E-08 write d3plot file            07/15/24 18:01:55
+    9481 t 1.7000E-03 dt 8.75E-08 write d3plot file            07/15/24 18:01:57
+   10000 t 1.7448E-03 dt 8.52E-08 flush i/o buffers            07/15/24 18:01:58
+   10658 t 1.7999E-03 dt 8.25E-08 write d3plot file            07/15/24 18:02:00
+   11905 t 1.9000E-03 dt 7.80E-08 write d3plot file            07/15/24 18:02:03
+   13221 t 2.0000E-03 dt 7.40E-08 write d3plot file            07/15/24 18:02:05
+   14606 t 2.0999E-03 dt 7.04E-08 write d3plot file            07/15/24 18:02:09
+   15000 t 2.1275E-03 dt 6.95E-08 flush i/o buffers            07/15/24 18:02:09
+   16061 t 2.2000E-03 dt 6.71E-08 write d3plot file            07/15/24 18:02:12
+   17585 t 2.3000E-03 dt 6.42E-08 write d3plot file            07/15/24 18:02:15
+   19179 t 2.4000E-03 dt 6.14E-08 write d3plot file            07/15/24 18:02:19
+   20000 t 2.4499E-03 dt 6.01E-08 flush i/o buffers            07/15/24 18:02:20
+   20841 t 2.4999E-03 dt 5.89E-08 write d3plot file            07/15/24 18:02:22
+   22574 t 2.6000E-03 dt 5.66E-08 write d3plot file            07/15/24 18:02:26
+   24375 t 2.7000E-03 dt 5.45E-08 write d3plot file            07/15/24 18:02:30
+   25000 t 2.7338E-03 dt 5.38E-08 flush i/o buffers            07/15/24 18:02:32
+   26246 t 2.8000E-03 dt 5.25E-08 write d3plot file            07/15/24 18:02:34
+   28186 t 2.9000E-03 dt 5.06E-08 write d3plot file            07/15/24 18:02:39
+   30000 t 2.9904E-03 dt 4.91E-08 flush i/o buffers            07/15/24 18:02:43
+   30196 t 3.0000E-03 dt 4.89E-08 write d3plot file            07/15/24 18:02:43
+   32275 t 3.1000E-03 dt 4.73E-08 write d3plot file            07/15/24 18:02:48
+   34423 t 3.2000E-03 dt 4.58E-08 write d3plot file            07/15/24 18:02:52
+   35000 t 3.2263E-03 dt 4.54E-08 flush i/o buffers            07/15/24 18:02:54

@@ -112,6 +112,7 @@ NmL
 NdD
 NR
 NOTE
+Note
 Su
 Sx
 Si
@@ -175,6 +176,7 @@ Shell
 Suite
 Support
 Simulations
+SI
 Jg
 JdpC
 JD
@@ -351,6 +353,7 @@ MD
 Mf
 MS
 Made
+Misc
 pF
 pn
 pG
@@ -625,6 +628,8 @@ centerline
 conditions
 condition
 constant
+closed
+consistent
 jj
 jR
 jk
@@ -795,6 +800,7 @@ markdown
 meant
 mesh
 modulus
+make
 XS
 XG
 XC
@@ -1354,6 +1360,7 @@ undo
 upload
 useful
 unit
+use
 Py
 PG
 Pq
@@ -1555,6 +1562,7 @@ add
 anchors
 axisymmetric
 assuming
+access
 wd
 wz
 wc
@@ -1970,6 +1978,7 @@ yzU
 yEu
 you
 young
+your
 dkf
 dD
 dw
@@ -2030,6 +2039,7 @@ debugging
 dualcese
 domain
 density
+detection
 kl
 kg
 kYw
@@ -2597,6 +2607,7 @@ CA
 CdL
 CONTROL
 Coupling
+Collision
 or
 osp
 ou
@@ -2645,6 +2656,8 @@ one
 only
 obsidian
 order
+old
+own
 EW
 Ez
 Em
@@ -2914,6 +2927,7 @@ Az
 AAABBBBDHAFNAHS
 AP
 ANSYS
+Ansys
 Uz
 UW
 Ul
@@ -3087,4 +3101,5 @@ happens
 here
 has
 heat
+have
 äP

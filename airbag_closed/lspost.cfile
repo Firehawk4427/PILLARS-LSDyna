@@ -1,0 +1,65 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
+$# Created on Jul-16-2024 (15:53:13)
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag_closed\d3plot"
+ac
+anim forward
+state 70;
+anim stop; state 45;
+state 35;
+state 25;
+state 15;
+state 5;
+anim forward
+anim forward
+anim forward
+anim stop; state 39;
+anim forward
+anim speed 5
+anim stop; state 2;
+state 12;
+state 22;
+state 32;
+state 42;
+state 52;
+state 62;
+state 72;
+state 82;
+state 72;
+state 62;
+state 72;
+state 82;
+state 78;
+state 68;
+state 78;
+state 68;
+state 58;
+state 48;
+state 38;
+state 28;
+state 18;
+state 8;
+state 8;
+state 8;
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+undogeom enter
+occfilter clear
+occfilter add Node Vertex Face RefPoint RefPlane
+occfilter clear
+occfilter add Node Vertex RefPoint
+occfilter clear
+occfilter add Node Vertex Face RefPoint RefPlane
+occfilter clear
+occfilter add Node Vertex RefPoint
+occfilter clear
+occfilter add Node Vertex Face RefPoint RefPlane
+occfilter clear
+occfilter add Node Vertex RefPoint
+occfilter clear
+occfilter add Node Vertex Face RefPoint RefPlane
+occfilter clear
+occfilter add Node Vertex RefPoint
+circle param  0.0 0.0 5 0.0 0.0 1.0 350.000000
+ac
+undogeom leave

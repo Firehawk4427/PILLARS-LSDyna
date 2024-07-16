@@ -1,0 +1,15 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
+$# Created on Jul-16-2024 (16:01:17)
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag_closed\d3plot"
+ac
+anim forward
+anim backward
+anim speed 26
+anim speed 30
+anim stop; state 14;
+state 1;
+anim forward
+anim stop; state 28;
+anim forward
+anim speed 18
+anim stop; state 12;

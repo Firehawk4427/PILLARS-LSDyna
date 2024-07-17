@@ -1,5 +1,5 @@
 $# LS-DYNA Keyword file created by LS-PrePost(R) V4.10.5-23Jun2023
-$# Created on Jul-16-2024 (16:56:59)
+$# Created on Jul-16-2024 (17:07:52)
 *KEYWORD
 *TITLE
 $#                                                                         title
@@ -6372,7 +6372,7 @@ $#      id                                                                 title
 $#    nsid    nsidex     boxid    offset     birth     death     rwksf
          0         0         0       0.0       0.01.00000E20       1.0
 $#      xt        yt        zt        xh        yh        zh      fric      wvel
-    -350.0    -350.0       4.0     350.0     350.0       4.0       0.0       0.0
+       0.0       0.0      40.0       0.0       0.0     350.0       0.0       0.0
 *SET_PART_LIST_TITLE
 Airbag
 $#     sid       da1       da2       da3       da4    solver

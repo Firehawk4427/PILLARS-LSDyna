@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/16/2024      Time: 16:57:06  
+      Date: 07/16/2024      Time: 17:08:00  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -142,7 +142,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/16/24 16:57:07
+ Beginning of keyword reader                                   07/16/24 17:08:01
 
  Memory required to process keyword     :     254910  
  Additional dynamic memory required     :    2189889  
@@ -153,6 +153,158 @@
      for control volume 1
 
  input of data is completed
+ 
+ *** Warning 30226 (INI+226)
+     node 1 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 2 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 3 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 4 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 5 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 6 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 7 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 8 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 9 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 10 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 11 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 12 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 13 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 14 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 15 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 16 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 17 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 18 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 19 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 20 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 21 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 22 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 23 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 24 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 25 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 26 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 27 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 28 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 29 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 30 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 31 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 32 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 33 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 34 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 35 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 36 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 37 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 38 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 39 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 40 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 41 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 42 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 43 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 44 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 45 (rigidwall 1) init. penetration= 4.0000E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 46 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 47 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 48 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 49 (rigidwall 1) init. penetration= 3.9500E+01
+ 
+ *** Warning 30226 (INI+226)
+     node 50 (rigidwall 1) init. penetration= 4.0000E+01
+     Message 30226 (INI+226) exceeds 50 times
+     Further printing will be suppressed from screen only
 
  initial kinetic energy = 0.00000000E+00
 
@@ -161,104 +313,104 @@
                                    Total:    2925K
 
  initialization completed
-       1 t 0.0000E+00 dt 7.46E-03 flush i/o buffers            07/16/24 16:57:07
-       1 t 0.0000E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:07
+       1 t 0.0000E+00 dt 7.46E-03 flush i/o buffers            07/16/24 17:08:01
+       1 t 0.0000E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....         0 nanoseconds
- average clock time per zone cycle..       202 nanoseconds
+ average clock time per zone cycle..       173 nanoseconds
 
  estimated total cpu time          =         1 sec (       0 hrs  0 mins)
  estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =         4 sec (       0 hrs  0 mins)
- estimated clock time to complete  =         3 sec (       0 hrs  0 mins)
+ estimated total clock time        =         3 sec (       0 hrs  0 mins)
+ estimated clock time to complete  =         2 sec (       0 hrs  0 mins)
  termination time                  = 4.000E+01
-      68 t 4.9963E-01 dt 7.46E-03 write d3plot file            07/16/24 16:57:07
-     135 t 9.9926E-01 dt 7.46E-03 write d3plot file            07/16/24 16:57:07
-     202 t 1.4989E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:07
-     269 t 1.9985E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     336 t 2.4982E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     403 t 2.9978E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     470 t 3.4974E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     537 t 3.9971E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     604 t 4.4967E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     671 t 4.9963E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     738 t 5.4960E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     805 t 5.9956E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     872 t 6.4952E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-     939 t 6.9949E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1006 t 7.4945E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1073 t 7.9941E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1140 t 8.4937E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1207 t 8.9934E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1274 t 9.4930E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1341 t 9.9926E+00 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1409 t 1.0500E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1476 t 1.0999E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1543 t 1.1499E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1610 t 1.1999E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1677 t 1.2498E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1744 t 1.2998E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1811 t 1.3498E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1878 t 1.3997E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    1945 t 1.4497E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2012 t 1.4996E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2079 t 1.5496E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2146 t 1.5996E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2213 t 1.6495E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2280 t 1.6995E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2347 t 1.7495E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2414 t 1.7994E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2481 t 1.8494E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2548 t 1.8993E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2615 t 1.9493E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2682 t 1.9993E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2750 t 2.0500E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2817 t 2.0999E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2884 t 2.1499E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    2951 t 2.1999E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    3018 t 2.2498E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    3085 t 2.2998E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    3152 t 2.3498E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    3219 t 2.3997E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    3286 t 2.4497E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    3353 t 2.4997E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:08
-    3420 t 2.5496E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    3487 t 2.5996E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    3554 t 2.6495E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    3621 t 2.6995E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    3688 t 2.7495E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    3755 t 2.7994E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    3822 t 2.8494E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    3889 t 2.8994E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    3956 t 2.9493E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4023 t 2.9993E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4091 t 3.0500E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4158 t 3.1000E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4225 t 3.1499E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4292 t 3.1999E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4359 t 3.2498E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4426 t 3.2998E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4493 t 3.3498E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4560 t 3.3997E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4627 t 3.4497E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4694 t 3.4997E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4761 t 3.5496E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4828 t 3.5996E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4895 t 3.6496E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    4962 t 3.6995E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    5000 t 3.7279E+01 dt 7.46E-03 flush i/o buffers            07/16/24 16:57:09
-    5029 t 3.7495E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    5096 t 3.7994E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    5163 t 3.8494E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    5230 t 3.8994E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    5297 t 3.9493E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
-    5364 t 3.9993E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
+      68 t 4.9963E-01 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     135 t 9.9926E-01 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     202 t 1.4989E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     269 t 1.9985E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     336 t 2.4982E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     403 t 2.9978E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     470 t 3.4974E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     537 t 3.9971E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     604 t 4.4967E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     671 t 4.9963E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     738 t 5.4960E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     805 t 5.9956E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     872 t 6.4952E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+     939 t 6.9949E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+    1006 t 7.4945E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:01
+    1073 t 7.9941E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1140 t 8.4937E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1207 t 8.9934E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1274 t 9.4930E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1341 t 9.9926E+00 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1409 t 1.0500E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1476 t 1.0999E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1543 t 1.1499E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1610 t 1.1999E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1677 t 1.2498E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1744 t 1.2998E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1811 t 1.3498E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1878 t 1.3997E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    1945 t 1.4497E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2012 t 1.4996E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2079 t 1.5496E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2146 t 1.5996E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2213 t 1.6495E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2280 t 1.6995E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2347 t 1.7495E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2414 t 1.7994E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2481 t 1.8494E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2548 t 1.8993E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2615 t 1.9493E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2682 t 1.9993E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2750 t 2.0500E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2817 t 2.0999E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2884 t 2.1499E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    2951 t 2.1999E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3018 t 2.2498E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3085 t 2.2998E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3152 t 2.3498E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3219 t 2.3997E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3286 t 2.4497E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3353 t 2.4997E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3420 t 2.5496E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3487 t 2.5996E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3554 t 2.6495E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3621 t 2.6995E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3688 t 2.7495E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3755 t 2.7994E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3822 t 2.8494E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3889 t 2.8994E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    3956 t 2.9493E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    4023 t 2.9993E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    4091 t 3.0500E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:02
+    4158 t 3.1000E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4225 t 3.1499E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4292 t 3.1999E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4359 t 3.2498E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4426 t 3.2998E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4493 t 3.3498E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4560 t 3.3997E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4627 t 3.4497E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4694 t 3.4997E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4761 t 3.5496E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4828 t 3.5996E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4895 t 3.6496E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    4962 t 3.6995E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    5000 t 3.7279E+01 dt 7.46E-03 flush i/o buffers            07/16/24 17:08:03
+    5029 t 3.7495E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    5096 t 3.7994E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    5163 t 3.8494E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    5230 t 3.8994E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    5297 t 3.9493E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
+    5364 t 3.9993E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
  
  *** termination time reached ***
-    5364 t 4.0000E+01 dt 7.46E-03 write d3dump01 file          07/16/24 16:57:09
-    5364 t 4.0000E+01 dt 7.46E-03 write d3plot file            07/16/24 16:57:09
+    5364 t 4.0000E+01 dt 7.46E-03 write d3dump01 file          07/16/24 17:08:03
+    5364 t 4.0000E+01 dt 7.46E-03 write d3plot file            07/16/24 17:08:03
 
- N o r m a l    t e r m i n a t i o n                          07/16/24 16:57:09
+ N o r m a l    t e r m i n a t i o n                          07/16/24 17:08:03
 
  Memory required to complete solution   :     255K
  Additional dynamically allocated memory:    2670K
@@ -267,49 +419,46 @@
  T i m i n g   i n f o r m a t i o n
                         CPU(seconds)   %CPU  Clock(seconds) %Clock
   ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     1.7000E-02    0.59
-    KW Reading ......... 0.0000E+00    0.00     5.0000E-03    0.17
+  Keyword Processing ... 0.0000E+00    0.00     1.6000E-02    0.55
+    KW Reading ......... 0.0000E+00    0.00     6.0000E-03    0.21
     KW Writing ......... 0.0000E+00    0.00     2.0000E-03    0.07
-  Initialization ....... 1.0000E+00   50.00     1.1520E+00   39.97
+  Initialization ....... 1.0000E+00   50.00     1.1470E+00   39.47
     Init Proc Phase 1 .. 0.0000E+00    0.00     1.1000E-02    0.38
-    Init Proc Phase 2 .. 0.0000E+00    0.00     1.0000E-03    0.03
-  Element processing ... 1.0000E+00   50.00     1.2420E+00   43.10
-    Shells ............. 1.0000E+00   50.00     1.2130E+00   42.09
-    ISO Shells ......... 0.0000E+00    0.00     1.0000E-03    0.03
-    E Other ............ 0.0000E+00    0.00     2.0000E-02    0.69
-  Binary databases ..... 0.0000E+00    0.00     9.7000E-02    3.37
-  ASCII database ....... 0.0000E+00    0.00     5.0000E-03    0.17
+    Init Proc Phase 2 .. 0.0000E+00    0.00     2.1000E-02    0.72
+  Element processing ... 1.0000E+00   50.00     1.2450E+00   42.84
+    Shells ............. 1.0000E+00   50.00     1.2180E+00   41.91
+    E Other ............ 0.0000E+00    0.00     2.2000E-02    0.76
+  Binary databases ..... 0.0000E+00    0.00     9.1000E-02    3.13
+  ASCII database ....... 0.0000E+00    0.00     1.0000E-02    0.34
   Contact algorithm .... 0.0000E+00    0.00     2.0000E-03    0.07
-  Rigid Bodies ......... 0.0000E+00    0.00     1.3000E-02    0.45
-  Time step size ....... 0.0000E+00    0.00     4.0000E-03    0.14
-  Rigid wall ........... 0.0000E+00    0.00     6.2000E-02    2.15
-  Group force file ..... 0.0000E+00    0.00     1.0000E-03    0.03
-  Others ............... 0.0000E+00    0.00     1.0000E-03    0.03
-  Misc. 1 .............. 0.0000E+00    0.00     3.4000E-02    1.18
-    Force Constraints .. 0.0000E+00    0.00     1.0000E-03    0.03
-    Force to Accel ..... 0.0000E+00    0.00     1.5000E-02    0.52
-    Update RB nodes .... 0.0000E+00    0.00     1.2000E-02    0.42
-  Misc. 2 .............. 0.0000E+00    0.00     6.0000E-02    2.08
-  Misc. 3 .............. 0.0000E+00    0.00     1.0000E-02    0.35
-  Misc. 4 .............. 0.0000E+00    0.00     1.8200E-01    6.32
-    Timestep Init ...... 0.0000E+00    0.00     1.9000E-02    0.66
-    Apply Loads ........ 0.0000E+00    0.00     1.2500E-01    4.34
-    Compute exwork ..... 0.0000E+00    0.00     3.8000E-02    1.32
+  Rigid Bodies ......... 0.0000E+00    0.00     2.5000E-02    0.86
+  Time step size ....... 0.0000E+00    0.00     1.0000E-03    0.03
+  Rigid wall ........... 0.0000E+00    0.00     8.4000E-02    2.89
+  Others ............... 0.0000E+00    0.00     3.0000E-03    0.10
+  Misc. 1 .............. 0.0000E+00    0.00     2.8000E-02    0.96
+    Force to Accel ..... 0.0000E+00    0.00     1.4000E-02    0.48
+    Update RB nodes .... 0.0000E+00    0.00     1.1000E-02    0.38
+  Misc. 2 .............. 0.0000E+00    0.00     8.0000E-02    2.75
+  Misc. 3 .............. 0.0000E+00    0.00     7.0000E-03    0.24
+  Misc. 4 .............. 0.0000E+00    0.00     1.6700E-01    5.75
+    Timestep Init ...... 0.0000E+00    0.00     2.1000E-02    0.72
+    Apply Loads ........ 0.0000E+00    0.00     1.1700E-01    4.03
+    Compute exwork ..... 0.0000E+00    0.00     2.8000E-02    0.96
   ----------------------------------------------------------------
-  T o t a l s            2.0000E+00  100.00     2.8820E+00  100.00
+  T o t a l s            2.0000E+00  100.00     2.9060E+00  100.00
 
  Problem time       =    4.0000E+01
  Problem cycle      =      5364
  Total CPU time     =         2 seconds (   0 hours  0 minutes  2 seconds)
  CPU time per zone cycle  =         59.202 nanoseconds
- Clock time per zone cycle=        101.414 nanoseconds
+ Clock time per zone cycle=        103.190 nanoseconds
 
  Number of CPU's    2
  NLQ used/max     136/  136
- Start time   07/16/2024 16:57:07  
- End time     07/16/2024 16:57:09  
+ Start time   07/16/2024 17:08:01  
+ End time     07/16/2024 17:08:03  
  Elapsed time       2 seconds for    5364 cycles using  2 SMP threads
              (      0 hour   0 minute   2 seconds)
 
- N o r m a l    t e r m i n a t i o n                          07/16/24 16:57:09
+ N o r m a l    t e r m i n a t i o n                          07/16/24 17:08:03
 

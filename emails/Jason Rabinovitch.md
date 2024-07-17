@@ -1,2 +1,2 @@
 Hello,
-I am currently working on making a model of PILLARS in LS-Dyna to model inflation
+I am currently working on making a model of PILLARS in LS-Dyna to model the inflation pressure. The endgoal of this would be to add in fixed anchors / nodes connecting the structure to a rigid baseplate to model the maximum stress around these anchor points in the case of an off-nominal rocket landing. I have two different models that I am working on to get this up and running. The first 

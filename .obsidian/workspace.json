@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "emails/Jason Rabinovitch.md",
+                "file": "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "emails/Jason Rabinovitch.md",
+                "file": "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "emails/Jason Rabinovitch.md",
+                "file": "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "emails/Jason Rabinovitch.md"
+                "file": "airbag_closed/airbag_open_v1_thru_v10/change-log.md"
               }
             }
           },
@@ -196,10 +196,14 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "4b28d76607c00fcb",
+  "active": "8758618475efd211",
   "lastOpenFiles": [
     "airbag_closed/lspp_temp_1",
     "airbag_closed/tsf1.step",
+    "PILLARS/PILLARS_v31_thru_v40/change-log.md",
+    "emails/Jason Rabinovitch.md",
+    "airbag_closed/open_airbag_v4.k",
+    "airbag_closed/templsppfile_open_airbag_v4.k",
     "PILLARS/PILLARS_v31_thru_v40/wind-tunnel-fail.gif",
     "PILLARS/wind-tunnel-fail.gif",
     "wind-tunnel-fail.gif",
@@ -207,21 +211,16 @@
     "PILLARS/PILLARS_v31_thru_v40/lspost1.db",
     "airbag_closed/airbag_open_v1_thru_v10/airbag_open_collision_fail.gif",
     "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
-    "emails/Jason Rabinovitch.md",
     "emails",
     "airbag_closed/d3plot02",
     "airbag_closed/d3dump01",
     "airbag_closed/status.out",
     "airbag_closed/d3plot01",
-    "airbag_closed/d3plot",
-    "airbag_closed/part_des",
-    "airbag_closed/abstat",
     "airbag_closed/airbag_open_v1_thru_v10/airbag_open_v1.gif",
     "airbag_closed/airbag.gif",
     "README.md",
     "attachments/Pasted image 20240716163009.png",
     "airbag_closed/airbag_open_v1_thru_v10/notes.md",
-    "PILLARS/PILLARS_v31_thru_v40/change-log.md",
     "Meeting Notes - 7-15-2024.md",
     "PILLARS/PILLARS_v21_thru_v30/change-log.md",
     "attachments/Pasted image 20240716104645.png",

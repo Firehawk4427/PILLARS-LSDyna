@@ -9,4 +9,7 @@
 - very similar, although the blowout was much worse at the end
 - worry about this later, setting up collisions is much harder and more important
 ## V2 --> V3
-- added rigidwall for fllor
+- added rigidwall for floor
+## V3 --> V4
+- resized everything to 60 m wide (outer)
+- *still need to remap keywords 

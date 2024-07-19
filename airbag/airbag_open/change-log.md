@@ -78,4 +78,6 @@
 - will try null material as fabric with max porosity next
 ![[collisions-on-null-fucked.gif]]
 ## V32
-- 
+- added fabric card and made it more permeable and attached it to null material
+![[Pasted image 20240719150533.png]]
+- seems to work, turns upside down because inflation pressure too high and no anchor nodes yet

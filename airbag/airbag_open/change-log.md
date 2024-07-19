@@ -75,4 +75,7 @@
 ![[Pasted image 20240719143547.png]]
 - the model floats away, probably cause the null material is peircing the solid box below
 - but collisions work
+- will try null material as fabric with max porosity next
 ![[collisions-on-null-fucked.gif]]
+## V32
+- 

@@ -65,3 +65,6 @@
 - changed it to 1e-5
 - same thing
 - need to find some way to limit the maximum volume or pressure of the airbag. simple volume math
+## V29
+- changed endtime to 40 s
+- sim explodes at 10s

@@ -1,17 +1,8 @@
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....         0 nanoseconds
-<<<<<<< HEAD:airbag/airbag_open/status.out
- average clock time per zone cycle..        81 nanoseconds
+ average clock time per zone cycle..        93 nanoseconds
 
  estimated total cpu time          =         1 sec (       0 hrs  0 mins)
  estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =     66913 sec (      18 hrs 35 mins)
- estimated clock time to complete  =     66912 sec (      18 hrs 35 mins)
-=======
- average clock time per zone cycle..       173 nanoseconds
-
- estimated total cpu time          =         1 sec (       0 hrs  0 mins)
- estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =         3 sec (       0 hrs  0 mins)
- estimated clock time to complete  =         2 sec (       0 hrs  0 mins)
->>>>>>> parent of 39e8eb4 (update):airbag_closed/status.out
+ estimated total clock time        =    101962 sec (      28 hrs 19 mins)
+ estimated clock time to complete  =    101961 sec (      28 hrs 19 mins)

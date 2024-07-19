@@ -13,3 +13,6 @@
 ### Inputs of MAT_FABRIC
 - FVOPT:=Fabric venting option. 
 - A0REF:=Calculation option of initial area, A0, used for airbag porosity leakage calculation.
+
+### Airbag porosity
+![[Pasted image 20240719114810.png]]

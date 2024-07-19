@@ -68,3 +68,5 @@
 ## V29
 - changed endtime to 40 s
 - sim explodes at 10s
+## V30 
+![[Pasted image 20240719115124.png]]

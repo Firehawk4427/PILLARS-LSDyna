@@ -3,8 +3,8 @@ https://www.youtube.com/watch?v=MI_u7HEnbyQ&t=358s
 - mass flow rate
 - weight of inflator gas
 - gas constant (relative)
-- heat capacity coeef
-- cp
+- heat capacity coeff
+- cp (not that cp)
 - cv
 - ambient temp
 - temp of input gas
@@ -16,3 +16,6 @@ https://www.youtube.com/watch?v=MI_u7HEnbyQ&t=358s
 
 ### Airbag porosity
 ![[Pasted image 20240719114810.png]]
+
+### One Way contacts
+![[Pasted image 20240719141733.png]]![[Pasted image 20240719141744.png]]

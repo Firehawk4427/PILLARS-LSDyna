@@ -1,0 +1,664 @@
+
+
+ ***************************************************************
+ *            ANSYS 2023 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2023 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+      Date: 07/18/2024      Time: 15:24:14  
+      ___________________________________________________ 
+     |                                                   |
+     |  LS-DYNA, A Program for Nonlinear Dynamic         |
+     |  Analysis of Structures in Three Dimensions       |
+     |  Date    : 07/28/2023    Time: 16:45:29           |
+     |  Version : smp d R13                              |
+     |  Revision: R13.1.1-27-g8731a0d8c5                 |
+     |                                                   |
+     |  Features enabled in this version:                |
+     |    Shared Memory Parallel                         |
+     |    CESE CHEMISTRY EM ICFD STOCHASTIC_PARTICLES    |
+     |    FFTW (multi-dimensional FFTW Library)          |
+     |    ARPACK (nonsymmetric eigensolver library)      |
+     |    ANSYSLIC enabled                               |
+     |                                                   |
+     |  Licensed to:                                     |
+     |  Issued by  : ANSYS                               |
+     |                                                   |
+     |  Platform   : WINDOWS X64 SSE2                    |
+     |  OS Level   : Windows 8/10 & Srv 2016/2019/2022   |
+     |  Compiler   : Intel Fortran XE 2019 MSVC++ 2019   |
+     |  Hostname   : DESKTOP-F2LHD1U                     |
+     |  Precision  : Double precision (I8R8)             |
+     |                                                   |
+     |  Unauthorized use infringes Ansys Inc. copyrights |
+     |___________________________________________________|
+
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v28.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v28
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+ allocating  memory to    20000000 d     1975081 Initial allocation
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   07/18/24 15:24:14
+ expanding   memory to      129800 d     2034374  
+ expanding   memory to      165900 d     2034374  
+ expanding   memory to      187452 d     2144486  
+ expanding   memory to      214372 d     2144486  
+ expanding   memory to      236692 d     2214694  
+ expanding   memory to      301692 d     2214694  
+ expanding   memory to      328783 d     2331757  
+
+ Memory required to process keyword     :     328783  
+ Additional dynamic memory required     :    2425829  
+
+ contracting memory to           1 d     1905909 end of keyword reader
+
+ LS-DYNA will perform a structural only analysis 
+
+ LS-DYNA keyword deck by LS-PrePost                                      
+                    ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
+ expanding   memory to        2001 d     1550964 material, node and element data
+ expanding   memory to        2071 d     1551023 material properties
+ expanding   memory to        2075 d     1625581 element data for composite material
+ expanding   memory to        2089 d     2014002 gradient of damage data
+ expanding   memory to        2111 d     2164731 user control for contact interfaces
+ contracting memory to        2091 d     2164735 thermal expansion 0
+ expanding   memory to        2093 d     2164739 cross-sectional force definitions 0
+ expanding   memory to       10944 d     2164767 temp index array for node sorting
+ contracting memory to        2093 d     2173622 just because?
+ expanding   memory to        6269 d     2191358 arbitrary element numbering input
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 31 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 48 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 53 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 74 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 79 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 104 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 108 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 137 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 140 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 171 is computed as 3.3783E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 174 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 207 is computed as 3.4540E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 210 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 245 is computed as 3.4424E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 248 is computed as 3.3691E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 285 is computed as 3.3633E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 288 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 327 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 372 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 413 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 460 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 503 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 552 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 597 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 744 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 791 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1194 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1241 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1388 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1433 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1482 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1525 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1572 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1613 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1658 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1697 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1700 is computed as 3.3716E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1737 is computed as 3.3692E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1740 is computed as 3.4426E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1775 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1778 is computed as 3.4431E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1811 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1814 is computed as 3.3624E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1845 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1848 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1877 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1881 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1906 is computed as 3.6378E+01 degrees.
+     Message 20282 (STR+282) exceeds 50 times
+     Further printing will be suppressed from screen only
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1911 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1932 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1937 is computed as 3.6164E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1954 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1961 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1970 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1999 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2008 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2015 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2032 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2037 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2058 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2063 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2088 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2092 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2121 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2124 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2155 is computed as 3.3783E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2158 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2191 is computed as 3.4540E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2194 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2229 is computed as 3.4424E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2232 is computed as 3.3691E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2269 is computed as 3.3633E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2272 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2311 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2356 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2397 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2444 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2487 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2536 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2581 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2728 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2775 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3178 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3225 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3372 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3417 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3466 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3509 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3556 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3597 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3642 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3681 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3684 is computed as 3.3716E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3721 is computed as 3.3692E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3724 is computed as 3.4426E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3759 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3762 is computed as 3.4431E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3795 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3798 is computed as 3.3624E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3829 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3832 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3861 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3865 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3890 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3895 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3916 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3921 is computed as 3.6164E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3938 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3945 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3954 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20289 (STR+289)
+     Number of elements exceed warpage angle = 112
+       min warpage angle = 3.1860E+01
+       max warpage angle = 3.9438E+01
+ contracting memory to        4101 d     2561099 load curve data
+ contracting memory to        2526 d     2561099 user_define_loading_set
+ expanding   memory to        2732 d     2561099 regularize time history data
+ contracting memory to        2530 d     2561099 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       21232 d     2604069 implicit contact 1
+ contracting memory to        3530 d     2604591 contact segment data 1
+ expanding   memory to       58883 d     2604591 contact segment data 3
+ contracting memory to        2530 d     2813925 contact definition
+ expanding   memory to        2534 d     2874435 contact friction
+ expanding   memory to        2541 d     2875919 control volume input
+
+Checking Control Volume Orientations
+
+ Control Volume ID            1
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 3062 3113 1089 1038
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 3113 3164 1140 1089
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 3011 3062 1038 987
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 3164 3215 1191 1140
+ 
+ *** Warning 30106 (INI+106)
+     additional segments are being renumbered but not printed
+   convergence of normal check obtained in  16 iterations
+   region 1 has 4020 segments.
+   number of independent regions where normal vectors
+   are checked and if necessary reset =    1
+   number of renumbered segments = 2026
+ 
+ *** Warning 30107 (INI+107)
+     Number of improperly numbered segments 2026
+     for control volume 1
+ expanding   memory to        2545 d     2944900 control volume input 4
+ expanding   memory to        2641 d     2948805 rigid bodies for disp. termination
+ expanding   memory to        2700 d     2948805 save d3plot control data
+ expanding   memory to        2702 d     2984264 sensor_control for curve
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to begin solution      :     329K
+ Additional dynamically allocated memory:    3283K
+                                   Total:    3612K
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/18/24 15:24:14
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/18/24 15:24:14
+     754 t 4.9995E-01 dt 7.46E-04 write d3plot file            07/18/24 15:24:14
+    1424 t 9.9959E-01 dt 7.46E-04 write d3plot file            07/18/24 15:24:15
+    2095 t 1.5000E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:15
+    2765 t 1.9996E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:15
+    3436 t 2.5000E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:15
+    4106 t 2.9996E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:16
+    4777 t 3.5000E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:16
+    5000 t 3.6663E+00 dt 7.46E-04 flush i/o buffers            07/18/24 15:24:16
+    5447 t 3.9996E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:16
+    6118 t 4.5000E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:16
+    6788 t 4.9996E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:17
+    7458 t 5.4993E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:17
+    8129 t 5.9996E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:17
+    8799 t 6.4993E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:17
+    9470 t 6.9996E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:18
+   10000 t 7.3949E+00 dt 7.46E-04 flush i/o buffers            07/18/24 15:24:18
+   10140 t 7.4993E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:18
+   10811 t 7.9997E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:18
+   11481 t 8.4993E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:18
+   12152 t 8.9997E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:19
+   12822 t 9.4993E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:19
+   13493 t 9.9997E+00 dt 7.46E-04 write d3plot file            07/18/24 15:24:19
+   14163 t 1.0499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:19
+   14834 t 1.1000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:20
+   15000 t 1.1123E+01 dt 7.46E-04 flush i/o buffers            07/18/24 15:24:20
+   15504 t 1.1499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:20
+   16175 t 1.2000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:20
+   16845 t 1.2499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:20
+   17516 t 1.3000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:21
+   18186 t 1.3499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:21
+   18857 t 1.4000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:21
+   19527 t 1.4499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:21
+   20000 t 1.4852E+01 dt 7.46E-04 flush i/o buffers            07/18/24 15:24:22
+   20198 t 1.5000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:22
+   20868 t 1.5499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:22
+   21539 t 1.6000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:22
+   22209 t 1.6499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:22
+   22880 t 1.7000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:23
+   23550 t 1.7499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:23
+   24221 t 1.8000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:23
+   24891 t 1.8499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:23
+   25000 t 1.8581E+01 dt 7.46E-04 flush i/o buffers            07/18/24 15:24:24
+   25562 t 1.9000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:24
+   26232 t 1.9499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:24
+   26903 t 2.0000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:24
+   27573 t 2.0499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:24
+   28244 t 2.1000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:25
+   28914 t 2.1499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:25
+   29585 t 2.2000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:25
+   30000 t 2.2309E+01 dt 7.46E-04 flush i/o buffers            07/18/24 15:24:25
+   30255 t 2.2499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:25
+   30926 t 2.3000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:26
+   31596 t 2.3499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:26
+   32267 t 2.4000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:26
+   32937 t 2.4499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:26
+   33608 t 2.5000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:27
+   34278 t 2.5499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:27
+   34949 t 2.6000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:27
+   35000 t 2.6038E+01 dt 7.46E-04 flush i/o buffers            07/18/24 15:24:27
+   35619 t 2.6499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:27
+   36290 t 2.7000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:28
+   36960 t 2.7499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:28
+   37631 t 2.8000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:28
+   38301 t 2.8499E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:28
+   38972 t 2.9000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:29
+   39642 t 2.9500E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:29
+   40000 t 2.9766E+01 dt 7.46E-04 flush i/o buffers            07/18/24 15:24:29
+   40313 t 3.0000E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:29
+ 
+ *** termination time reached ***
+   40313 t 3.0001E+01 dt 7.46E-04 write d3dump01 file          07/18/24 15:24:29
+   40313 t 3.0001E+01 dt 7.46E-04 write d3plot file            07/18/24 15:24:29
+
+ N o r m a l    t e r m i n a t i o n                          07/18/24 15:24:29
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to complete solution   :     329K
+ Additional dynamically allocated memory:    3283K
+                                   Total:    3612K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     4.1000E-02    0.25
+    KW Reading ......... 0.0000E+00    0.00     1.6000E-02    0.10
+    KW Writing ......... 0.0000E+00    0.00     6.0000E-03    0.04
+  Initialization ....... 1.0000E+00    6.25     1.1640E+00    7.06
+    Init Proc Phase 1 .. 0.0000E+00    0.00     2.6000E-02    0.16
+    Init Proc Phase 2 .. 0.0000E+00    0.00     2.0000E-03    0.01
+  Element processing ... 9.0000E+00   56.25     9.8900E+00   59.96
+    Solids ............. 0.0000E+00    0.00     1.7800E-01    1.08
+    Shells ............. 9.0000E+00   56.25     9.2850E+00   56.30
+    ISO Shells ......... 0.0000E+00    0.00     1.0000E-03    0.01
+    E Other ............ 0.0000E+00    0.00     3.9700E-01    2.41
+  Binary databases ..... 0.0000E+00    0.00     1.0000E-01    0.61
+  ASCII database ....... 0.0000E+00    0.00     3.1000E-02    0.19
+  Contact algorithm .... 0.0000E+00    0.00     1.2000E-02    0.07
+  Rigid Bodies ......... 0.0000E+00    0.00     3.1800E-01    1.93
+  Time step size ....... 0.0000E+00    0.00     6.0000E-03    0.04
+  Group force file ..... 0.0000E+00    0.00     2.0000E-03    0.01
+  Others ............... 0.0000E+00    0.00     2.5000E-02    0.15
+  Misc. 1 .............. 2.0000E+00   12.50     9.0600E-01    5.49
+    Scale Masses ....... 0.0000E+00    0.00     9.0000E-03    0.05
+    Force Constraints .. 0.0000E+00    0.00     4.0000E-03    0.02
+    Force to Accel ..... 0.0000E+00    0.00     1.9500E-01    1.18
+    Update RB nodes .... 2.0000E+00   12.50     6.2800E-01    3.81
+  Misc. 2 .............. 2.0000E+00   12.50     8.9500E-01    5.43
+  Misc. 3 .............. 0.0000E+00    0.00     4.0000E-02    0.24
+  Misc. 4 .............. 2.0000E+00   12.50     3.0630E+00   18.57
+    Timestep Init ...... 1.0000E+00    6.25     7.0900E-01    4.30
+    Apply Loads ........ 1.0000E+00    6.25     1.7890E+00   10.85
+    Compute exwork ..... 0.0000E+00    0.00     5.5100E-01    3.34
+  ----------------------------------------------------------------
+  T o t a l s            1.6000E+01  100.00     1.6493E+01  100.00
+
+ Problem time       =    3.0001E+01
+ Problem cycle      =     40313
+ Total CPU time     =        16 seconds (   0 hours  0 minutes 16 seconds)
+ CPU time per zone cycle  =         47.851 nanoseconds
+ Clock time per zone cycle=         48.770 nanoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   07/18/2024 15:24:14  
+ End time     07/18/2024 15:24:29  
+ Elapsed time      15 seconds for   40313 cycles using  2 SMP threads
+             (      0 hour   0 minute  15 seconds)
+
+ N o r m a l    t e r m i n a t i o n                          07/18/24 15:24:29

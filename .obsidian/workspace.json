@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "62b70a09c7e16b91",
+        "id": "0c9a11451bbde2bf",
         "type": "tabs",
         "children": [
           {
-            "id": "f3ed8abaaf54784e",
+            "id": "6e5126366b143668",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PILLARS/PILLARS_v21_thru_v30/change-log.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8f6bd50acb2d9806",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PILLARS/PILLARS_v21_thru_v30/change-log.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5114b7ae8b0f6c9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8758618475efd211",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
+                "file": "airbag/airbag_open/change-log.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
+                "file": "airbag/airbag_open/change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
+                "file": "airbag/airbag_open/change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag_closed/airbag_open_v1_thru_v10/change-log.md"
+                "file": "airbag/airbag_open/change-log.md"
               }
             }
           },
@@ -196,36 +159,44 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "8758618475efd211",
+  "active": "6e5126366b143668",
   "lastOpenFiles": [
-    "airbag_closed/lspp_temp_1",
-    "airbag_closed/tsf1.step",
+    "airbag_closed/d3plot02",
+    "airbag_closed/d3plot01",
+    "airbag_closed/d3plot",
+    "airbag_closed/d3hsp",
+    "airbag_closed/d3dump01",
+    "airbag_closed/messag",
+    "airbag_closed/lsrunid",
+    "airbag_closed/lsrun.out.txt",
+    "airbag_closed/lspost.msg",
+    "airbag_closed/lspost.cfile",
+    "airbag_closed/group_file",
+    "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
+    "notes-n-resources/Resources.md",
+    "notes-n-resources/Manuals.md",
+    "notes-n-resources/bugs-n-errors.md",
+    "notes-n-resources/Units & Initial Parameters (EOS).md",
+    "airbag/airbag_open/change-log.md",
+    "attachments/Pasted image 20240718151501.png",
+    "airbag/airbag_open/notes.md",
+    "drafts/Jason Rabinovitch.md",
+    "airbag_closed/airbag_open_v1_thru_v10/null-material-v25.gif",
+    "attachments/Pasted image 20240718141656.png",
+    "attachments/Pasted image 20240718134644.png",
+    "attachments/Pasted image 20240718120135.png",
+    "airbag_closed/airbag_open_v1_thru_v10/null-explode.gif",
     "PILLARS/PILLARS_v31_thru_v40/change-log.md",
     "emails/Jason Rabinovitch.md",
-    "airbag_closed/open_airbag_v4.k",
-    "airbag_closed/templsppfile_open_airbag_v4.k",
     "PILLARS/PILLARS_v31_thru_v40/wind-tunnel-fail.gif",
     "PILLARS/wind-tunnel-fail.gif",
     "wind-tunnel-fail.gif",
     "airbag_closed/airbag_open_v1_thru_v10/wind-tunnel-fail.gif",
-    "PILLARS/PILLARS_v31_thru_v40/lspost1.db",
-    "airbag_closed/airbag_open_v1_thru_v10/airbag_open_collision_fail.gif",
-    "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
-    "emails",
-    "airbag_closed/d3plot02",
-    "airbag_closed/d3dump01",
-    "airbag_closed/status.out",
-    "airbag_closed/d3plot01",
-    "airbag_closed/airbag_open_v1_thru_v10/airbag_open_v1.gif",
-    "airbag_closed/airbag.gif",
     "README.md",
-    "attachments/Pasted image 20240716163009.png",
     "airbag_closed/airbag_open_v1_thru_v10/notes.md",
     "Meeting Notes - 7-15-2024.md",
     "PILLARS/PILLARS_v21_thru_v30/change-log.md",
-    "attachments/Pasted image 20240716104645.png",
     "General Notes/Units & Initial Parameters (EOS).md",
-    "attachments/Pasted image 20240716101430.png",
     "General Notes/Resources.md",
     "General Notes/Untitled.md",
     "General Notes/Manuals.md",
@@ -236,13 +207,6 @@
     "School/ME 14/Individual Contribution Statement.md",
     "School/ME 14/notebook/May 13, 2024.md",
     "School/ME 14/notebook/May 12, 2024.md",
-    "School/ME 14/notebook/May 10, 2024.md",
-    "School/ME 14/notebook-merged.md",
-    "School/ME 14/notebook/May 9, 2024.md",
-    "School/ME 14/notebook/May 8, 2024.md",
-    "School/ME 14/notebook/Engineering Design Notebook.md",
-    "School/ME 14/notebook/May 23, 2024.md",
-    "School/ME 14/notebook/May 22, 2024.md",
     "Untitled.canvas",
     "Untitled 4.canvas",
     "Untitled 3.canvas",

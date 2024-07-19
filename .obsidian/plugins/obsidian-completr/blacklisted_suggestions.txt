@@ -1,3 +1,5 @@
 constrained
 solid
 Solid
+rigidwall
+SOLID

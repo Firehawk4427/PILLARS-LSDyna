@@ -1,4 +1,4 @@
-## 
+https://www.youtube.com/watch?v=MI_u7HEnbyQ&t=358s
 ### Inputs of SIMPLE_AIRBAG_MODEL
 - mass flow rate
 - weight of inflator gas

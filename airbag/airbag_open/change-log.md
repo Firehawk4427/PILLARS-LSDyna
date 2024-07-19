@@ -83,3 +83,5 @@
 - seems to work, turns upside down because inflation pressure too high and no anchor nodes yet
 - for anchor nodes, need to look back at parachute model for reference
 ![[collisions-on-null=porous-fabric.gif]]
+## V33
+![[Pasted image 20240719160356.png]]

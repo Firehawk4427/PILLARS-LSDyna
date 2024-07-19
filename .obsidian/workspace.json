@@ -11,11 +11,9 @@
             "id": "6e5126366b143668",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "airbag/airbag_open/notes.md",
-                "mode": "source",
-                "source": false
+                "file": "airbag/airbag_open/null-material-v25.gif"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag/airbag_open/notes.md",
+                "file": "airbag/airbag_open/null-material-v25.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag/airbag_open/notes.md",
+                "file": "airbag/airbag_open/null-material-v25.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag/airbag_open/notes.md"
+                "file": "airbag/airbag_open/null-material-v25.gif"
               }
             }
           },
@@ -161,7 +159,11 @@
   },
   "active": "6e5126366b143668",
   "lastOpenFiles": [
+    "airbag/airbag_open/null-explode.gif",
+    "airbag/airbag_open/airbag_open_collision_fail.gif",
+    "airbag/airbag_open/airbag_open_v1.gif",
     "airbag/airbag_open/change-log.md",
+    "airbag/airbag_open/notes.md",
     "airbag/airbag_open/d3plot03",
     "airbag/airbag_open/d3dump01",
     "airbag/airbag_open/d3plot02",
@@ -173,7 +175,6 @@
     "airbag/airbag_open/adptmp",
     "airbag/airbag_open/dyna.lsda",
     "attachments/Pasted image 20240719115124.png",
-    "airbag/airbag_open/notes.md",
     "README.md",
     "attachments/Pasted image 20240719114810.png",
     "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
@@ -190,8 +191,6 @@
     "airbag_closed/airbag_open_v1_thru_v10/null-explode.gif",
     "PILLARS/PILLARS_v31_thru_v40/change-log.md",
     "emails/Jason Rabinovitch.md",
-    "PILLARS/PILLARS_v31_thru_v40/wind-tunnel-fail.gif",
-    "PILLARS/wind-tunnel-fail.gif",
     "airbag_closed/airbag_open_v1_thru_v10/notes.md",
     "Meeting Notes - 7-15-2024.md",
     "PILLARS/PILLARS_v21_thru_v30/change-log.md",

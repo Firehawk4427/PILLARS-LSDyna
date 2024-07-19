@@ -74,4 +74,5 @@
 - not sure if A or B is the master or slave (might matter for collisions)
 ![[Pasted image 20240719143547.png]]
 - the model floats away, probably cause the null material is peircing the solid box below
-![[Pasted image 20240719143916.png]]
+- but collisions work
+![[collisions-on-null-fucked.gif]]

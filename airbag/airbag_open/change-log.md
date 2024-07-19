@@ -72,3 +72,4 @@
 ![[Pasted image 20240719115124.png]]
 ## V31
 - not sure if A or B is the master or slave (might matter for collisions)
+![[Pasted image 20240719143547.png]]

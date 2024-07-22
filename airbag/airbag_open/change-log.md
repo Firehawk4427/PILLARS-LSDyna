@@ -93,3 +93,5 @@
 ![[Pasted image 20240722144103.png]]
 ![[Pasted image 20240722144515.png]]![[Pasted image 20240722145105.png]]
 ## V35
+- start with one anchor, then tes
+![[Screenshot 2024-07-22 151701.png|300]]

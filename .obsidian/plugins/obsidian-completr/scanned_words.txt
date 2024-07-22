@@ -2088,6 +2088,8 @@ SiO
 Sbo
 Ssw
 SCQ
+Stitch
+Spherical
 Jg
 JdpC
 JD
@@ -5331,6 +5333,7 @@ pyVG
 pWE
 pDw
 pjE
+patterns
 Fd
 Fg
 Fo
@@ -8474,6 +8477,7 @@ jiq
 jrMI
 jKK
 jqu
+joint
 rq
 rF
 rn
@@ -9148,6 +9152,7 @@ rzA
 rKs
 rXm
 rwxj
+resources
 mlw
 mL
 mk
@@ -12837,6 +12842,7 @@ OLr
 OqB
 OnOsf
 OtG
+Other
 lI
 lD
 lq
@@ -30411,6 +30417,7 @@ idFN
 ibL
 igj
 ijr
+instructions
 BouJ
 BX
 By

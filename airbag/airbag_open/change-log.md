@@ -89,5 +89,7 @@
 		- would work for the wind tunnel case (not currently running)
 	- might just figure out how to use joints / beams to keep it anchored in the meantime
 - gonna try and bring base plate closer and see if inflation still works
+	- TESTED: still works fine
 ![[Pasted image 20240722144103.png]]
-![[Pasted image 20240722144515.png]]![[Pasted image 20240722145105.png]]]]
+![[Pasted image 20240722144515.png]]![[Pasted image 20240722145105.png]]
+## V35

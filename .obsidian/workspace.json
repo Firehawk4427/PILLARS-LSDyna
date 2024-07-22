@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag/airbag_open/change-log.md"
+                "file": "README.md"
               }
             }
           },
@@ -161,6 +161,8 @@
   },
   "active": "6e5126366b143668",
   "lastOpenFiles": [
+    "airbag/airbag_open/change-log.md",
+    "airbag/airbag_open/notes.md",
     "parachute/windflow_v1_thru_v10/lspp_temp_1",
     "attachments/Pasted image 20240719160356.png",
     "parachute/windflow_v1_thru_v10/lspost2.db",
@@ -174,16 +176,13 @@
     "airbag/airbag_open/status.out",
     "airbag/airbag_open/d3plot01",
     "airbag/airbag_open/d3plot",
-    "airbag/airbag_open/ldcrvv",
     "airbag_closed/airbag_open_v1_thru_v10/collisions-on-null-fucked.gif",
     "attachments/Pasted image 20240719143916.png",
     "attachments/Pasted image 20240719143547.png",
-    "airbag/airbag_open/notes.md",
     "attachments/Pasted image 20240719141744.png",
     "attachments/Pasted image 20240719141733.png",
     "airbag/airbag_open/null-material-v25.gif",
     "airbag/airbag_open/null-explode.gif",
-    "airbag/airbag_open/change-log.md",
     "README.md",
     "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
     "notes-n-resources/Resources.md",

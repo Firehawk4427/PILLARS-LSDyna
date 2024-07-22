@@ -5,3 +5,5 @@ Collision detection for closed airbag - https://lsdyna.ansys.com/airbag-contact/
 Other resources  - https://web.archive.org/web/20221206194554/https://www.dynasupport.com/links
 
 Stitch patterns - https://airborne-sys.com/wp-content/uploads/2016/09/Implementation-of-Modeling-and-Simulation-of-Textile-Seam-and-Joints-for-Parachute-Design-Applications.pdf
+
+Spherical joint instructions - https://skill-lync.com/student-projects/week-11-joint-creation-and-demonstration-78

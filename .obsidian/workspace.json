@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "notes-n-resources/Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "notes-n-resources/Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "notes-n-resources/Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "notes-n-resources/Resources.md"
               }
             }
           },
@@ -161,6 +161,7 @@
   },
   "active": "6e5126366b143668",
   "lastOpenFiles": [
+    "README.md",
     "airbag/airbag_open/lspp_temp_1",
     "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/notes.md",
@@ -183,7 +184,6 @@
     "attachments/Pasted image 20240719141733.png",
     "airbag/airbag_open/null-material-v25.gif",
     "airbag/airbag_open/null-explode.gif",
-    "README.md",
     "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
     "notes-n-resources/Resources.md",
     "notes-n-resources/Manuals.md",

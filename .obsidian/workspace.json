@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "26cd68aa6b6ed1da",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "airbag_closed/airbag_open_v1_thru_v10/collisions-on-null=porous-fabric.gif"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "airbag_closed/airbag_open_v1_thru_v10/collisions-on-null=porous-fabric.gif",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "airbag_closed/airbag_open_v1_thru_v10/collisions-on-null=porous-fabric.gif",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag/airbag_open/change-log.md"
+                "file": "airbag_closed/airbag_open_v1_thru_v10/collisions-on-null=porous-fabric.gif"
               }
             }
           },
@@ -159,8 +170,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6e5126366b143668",
+  "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
+    "airbag/airbag_open/change-log.md",
     "attachments/Screenshot 2024-07-22 151701.png",
     "airbag/airbag_open/d3plot03",
     "airbag/airbag_open/d3dump01",
@@ -177,7 +189,6 @@
     "attachments/Pasted image 20240722144103.png",
     "notes-n-resources/Resources.md",
     "README.md",
-    "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/notes.md",
     "attachments/Pasted image 20240719160356.png",
     "airbag_closed/airbag_open_v1_thru_v10/collisions-on-null=porous-fabric.gif",
@@ -185,7 +196,6 @@
     "airbag_closed/airbag_open_v1_thru_v10/collisions-on-null-fucked.gif",
     "attachments/Pasted image 20240719143916.png",
     "attachments/Pasted image 20240719143547.png",
-    "attachments/Pasted image 20240719141744.png",
     "airbag_closed/airbag_open_v1_thru_v10/change-log.md",
     "notes-n-resources/Manuals.md",
     "notes-n-resources/bugs-n-errors.md",

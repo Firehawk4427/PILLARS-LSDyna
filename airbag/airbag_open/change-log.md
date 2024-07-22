@@ -84,4 +84,10 @@
 - for anchor nodes, need to look back at parachute model for reference
 ![[collisions-on-null=porous-fabric.gif]]
 ## V33
-![[Pasted image 20240719160356.png]]
+- considering adding physical anchors to mesh, would need to redesign.
+	- problem with this would be control volume airbag would be penetrated and no longer closed. (raises error and wont run correctly if i were to do this)
+		- would work for the wind tunnel case (not currently running)
+	- might just figure out how to use joints / beams to keep it anchored in the meantime
+- gonna try and bring base plate closer and see if inflation still works
+![[Pasted image 20240722144103.png]]
+![[Pasted image 20240722144515.png]]]]

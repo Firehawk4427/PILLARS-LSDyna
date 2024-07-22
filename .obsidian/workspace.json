@@ -23,11 +23,9 @@
             "id": "26cd68aa6b6ed1da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
-                "mode": "source",
-                "source": false
+                "file": "attachments/Screenshot 2024-07-22 151701.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "attachments/Screenshot 2024-07-22 151701.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "attachments/Screenshot 2024-07-22 151701.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag/airbag_open/change-log.md"
+                "file": "attachments/Screenshot 2024-07-22 151701.png"
               }
             }
           },
@@ -174,9 +172,9 @@
   },
   "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
+    "airbag/airbag_open/change-log.md",
     "airbag_/change-log.md",
     "airbag/airbag_open/collisions-on-null=porous-fabric.gif",
-    "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/collisions-on-null-fucked.gif",
     "airbag/airbag_open/lspp_temp_1",
     "attachments/Screenshot 2024-07-22 151701.png",

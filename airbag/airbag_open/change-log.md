@@ -119,3 +119,8 @@
 ![[Screenshot 2024-07-22 151701.png|300]]
 ## V39
 - tweaked keycards for beam, now ETA is 2m
+- runs well, but slightly incorrect geometry due to inner mesh constraining outer mesh
+	- This is fine if we assume there is a mechanism in place to constrain our mesh from moving radially outwards.
+	- We only want to focus on anchors anyways
+## V40
+- added 2 anchors

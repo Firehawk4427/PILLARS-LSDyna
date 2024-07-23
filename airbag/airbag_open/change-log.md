@@ -98,18 +98,20 @@
 - saving now before i break the keywords
 ## V36
 - added section id for beams with spotweld beam property (ELFORM=9) and attached the spotweld material card
->ERROR TYPES ENCOUNTERED 
->
->Warning 20123 (STR+123)
+
+*** Warning 20123 (STR+123)
      spotweld material type 100 yield stress is invalid,
      and has been reset to one percent of Youngs modulus
      for part id= 5
- Warning 20282 (STR+282)
+     
+ *** Warning 20282 (STR+282)
      warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
- Warning 30105 (INI+105)
+     
+ *** Warning 30105 (INI+105)
      improperly numbered segment
      segment connectivity: 3062 3113 1089 1038
- Warning 30106 (INI+106)
+     
+ *** Warning 30106 (INI+106)
 	additional segments are being renumbered but not printed
 	convergence of normal check obtained in  16 iterations
 	region 1 has 4020 segments.
@@ -124,3 +126,16 @@
 	- We only want to focus on anchors anyways
 ## V40
 - added 2 anchors
+- when merging new beams to pid 5, pid 6 didn't delete, idfk why
+ 
+ *** Error 10125 (KEY+125)
+     Checking PART and SECTION definition input.
+     PART ID 6 with
+     SECTION ID 0 does not exist.
+     This is PART 6 in the order of input.
+ 
+ *** Error 10133 (KEY+133)
+     input data failed with: 1 errors
+## V41
+- deleted PID 6
+ 

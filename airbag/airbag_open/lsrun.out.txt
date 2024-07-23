@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/23/2024      Time: 12:37:05  
+      Date: 07/23/2024      Time: 12:57:06  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -83,11 +83,11 @@
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v39.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v41.k 
                        ncpu=2 
                        memory=20m
 
- Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v39
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v41
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
@@ -142,9 +142,9 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/23/24 12:37:06
+ Beginning of keyword reader                                   07/23/24 12:57:07
 
- Memory required to process keyword     :     506978  
+ Memory required to process keyword     :     507038  
  Additional dynamic memory required     :    2857698  
 
  
@@ -319,203 +319,203 @@
  to avoid contact instabilities.  If the step size is
  bigger then scale the penalty of the offending surface.
 
- Memory required to begin solution      :     507K
+ Memory required to begin solution      :     508K
  Additional dynamically allocated memory:    6286K
                                    Total:    6793K
 
  initialization completed
-       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 12:37:06
-       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 12:37:06
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 12:57:07
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 12:57:07
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....         0 nanoseconds
- average clock time per zone cycle..       117 nanoseconds
+ average clock time per zone cycle..       131 nanoseconds
 
  estimated total cpu time          =         1 sec (       0 hrs  0 mins)
  estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =    216669 sec (      60 hrs 11 mins)
- estimated clock time to complete  =    216668 sec (      60 hrs 11 mins)
+ estimated total clock time        =    242160 sec (      67 hrs 16 mins)
+ estimated clock time to complete  =    242159 sec (      67 hrs 15 mins)
  termination time                  = 4.000E+01
-    2646 t 4.9998E-01 dt 1.94E-04 write d3plot file            07/23/24 12:37:08
-    5000 t 9.5678E-01 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:09
-    5222 t 9.9986E-01 dt 1.94E-04 write d3plot file            07/23/24 12:37:10
-    7799 t 1.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:11
-   10000 t 1.9270E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:13
-   10376 t 2.0000E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:13
-   12952 t 2.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:15
-   15000 t 2.8973E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:16
-   15529 t 2.9999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:17
-   18105 t 3.4998E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:18
-   20000 t 3.8675E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:20
-   20682 t 3.9999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:20
-   23259 t 4.5000E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:22
-   25000 t 4.8378E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:23
-   25835 t 4.9998E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:24
-   28412 t 5.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:26
-   30000 t 5.8081E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:27
-   30989 t 6.0000E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:27
-   33565 t 6.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:29
-   35000 t 6.7783E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:30
-   36142 t 6.9999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:31
-   38719 t 7.5000E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:33
-   40000 t 7.7486E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:34
-   41295 t 7.9999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:35
-   43872 t 8.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:36
-   45000 t 8.7188E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:37
-   46448 t 8.9998E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:38
-   49025 t 9.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:37:40
-   50000 t 9.6891E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:40
-   51602 t 1.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:41
-   54178 t 1.0500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:43
-   55000 t 1.0659E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:44
-   56755 t 1.1000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:45
-   59332 t 1.1500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:46
-   60000 t 1.1630E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:47
-   61908 t 1.2000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:48
-   64485 t 1.2500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:50
-   65000 t 1.2600E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:50
-   67062 t 1.3000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:51
-   69639 t 1.3500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:53
-   70000 t 1.3570E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:53
-   72216 t 1.4000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:55
-   74793 t 1.4500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:56
-   75000 t 1.4540E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:37:57
-   77370 t 1.5000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:37:58
-   79947 t 1.5500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:00
-   80000 t 1.5510E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:00
-   82525 t 1.6000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:01
-   85000 t 1.6480E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:03
-   85102 t 1.6500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:03
-   87680 t 1.7000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:05
-   90000 t 1.7450E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:06
-   90258 t 1.7500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:06
-   92836 t 1.8000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:08
-   95000 t 1.8420E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:09
-   95414 t 1.8500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:10
-   97992 t 1.9000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:11
-  100000 t 1.9389E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:13
-  100570 t 1.9500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:13
-  103149 t 2.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:15
-  105000 t 2.0359E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:16
-  105728 t 2.0500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:16
-  108307 t 2.1000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:18
-  110000 t 2.1328E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:19
-  110886 t 2.1500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:20
-  113466 t 2.2000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:21
-  115000 t 2.2297E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:22
-  116046 t 2.2500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:23
-  118626 t 2.3000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:25
-  120000 t 2.3266E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:26
-  121206 t 2.3500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:26
-  123786 t 2.4000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:28
-  125000 t 2.4235E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:29
-  126366 t 2.4500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:30
-  128946 t 2.5000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:31
-  130000 t 2.5204E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:32
-  131525 t 2.5500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:33
-  134105 t 2.6000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:35
-  135000 t 2.6173E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:35
-  136684 t 2.6500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:36
-  139262 t 2.7000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:38
-  140000 t 2.7143E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:39
-  141840 t 2.7500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:40
-  144417 t 2.8000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:41
-  145000 t 2.8113E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:42
-  146994 t 2.8500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:43
-  149571 t 2.9000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:45
-  150000 t 2.9083E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:45
-  152148 t 2.9500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:46
-  154724 t 3.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:48
-  155000 t 3.0053E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:48
-  157300 t 3.0500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:50
-  159875 t 3.1000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:52
-  160000 t 3.1024E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:52
-  162450 t 3.1500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:53
-  165000 t 3.1995E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:55
-  165025 t 3.2000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:55
-  167600 t 3.2500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:57
-  170000 t 3.2966E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:38:58
-  170174 t 3.3000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:38:58
-  172748 t 3.3500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:00
-  175000 t 3.3937E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:39:01
-  175323 t 3.4000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:02
-  177897 t 3.4500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:03
-  180000 t 3.4908E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:39:05
-  180471 t 3.5000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:05
-  183045 t 3.5500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:07
-  185000 t 3.5880E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:39:08
-  185619 t 3.6000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:08
-  188193 t 3.6500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:10
-  190000 t 3.6851E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:39:11
-  190768 t 3.7000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:12
-  193343 t 3.7500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:13
-  195000 t 3.7822E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:39:14
-  195917 t 3.8000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:15
-  198492 t 3.8500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:17
-  200000 t 3.8793E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:39:18
-  201068 t 3.9000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:18
-  203643 t 3.9500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:20
-  205000 t 3.9763E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:39:21
-  206218 t 4.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:22
+    2646 t 4.9998E-01 dt 1.94E-04 write d3plot file            07/23/24 12:57:09
+    5000 t 9.5678E-01 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:10
+    5222 t 9.9986E-01 dt 1.94E-04 write d3plot file            07/23/24 12:57:11
+    7799 t 1.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:12
+   10000 t 1.9270E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:14
+   10376 t 2.0000E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:14
+   12952 t 2.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:16
+   15000 t 2.8973E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:17
+   15529 t 2.9999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:18
+   18105 t 3.4998E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:19
+   20000 t 3.8675E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:21
+   20682 t 3.9999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:21
+   23259 t 4.5000E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:23
+   25000 t 4.8378E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:24
+   25835 t 4.9998E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:25
+   28412 t 5.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:27
+   30000 t 5.8081E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:28
+   30989 t 6.0000E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:29
+   33565 t 6.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:30
+   35000 t 6.7783E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:31
+   36142 t 6.9999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:32
+   38718 t 7.4998E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:34
+   40000 t 7.7486E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:35
+   41295 t 7.9999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:36
+   43872 t 8.5000E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:37
+   45000 t 8.7188E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:38
+   46448 t 8.9998E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:39
+   49025 t 9.4999E+00 dt 1.94E-04 write d3plot file            07/23/24 12:57:41
+   50000 t 9.6891E+00 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:42
+   51602 t 1.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:43
+   54178 t 1.0500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:44
+   55000 t 1.0659E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:45
+   56755 t 1.1000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:46
+   59332 t 1.1500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:48
+   60000 t 1.1630E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:48
+   61908 t 1.2000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:49
+   64485 t 1.2500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:51
+   65000 t 1.2600E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:51
+   67062 t 1.3000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:53
+   69639 t 1.3500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:54
+   70000 t 1.3570E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:55
+   72216 t 1.4000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:56
+   74794 t 1.4500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:58
+   75000 t 1.4540E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:57:58
+   77371 t 1.5000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:57:59
+   79948 t 1.5500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:01
+   80000 t 1.5510E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:01
+   82526 t 1.6000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:03
+   85000 t 1.6480E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:04
+   85104 t 1.6500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:04
+   87682 t 1.7000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:06
+   90000 t 1.7450E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:08
+   90260 t 1.7500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:08
+   92838 t 1.8000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:09
+   95000 t 1.8419E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:11
+   95416 t 1.8500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:11
+   97995 t 1.9000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:13
+  100000 t 1.9389E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:14
+  100573 t 1.9500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:14
+  103152 t 2.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:16
+  105000 t 2.0358E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:17
+  105731 t 2.0500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:18
+  108310 t 2.1000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:19
+  110000 t 2.1327E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:20
+  110890 t 2.1500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:21
+  113469 t 2.2000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:23
+  115000 t 2.2297E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:24
+  116049 t 2.2500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:24
+  118629 t 2.3000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:26
+  120000 t 2.3266E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:27
+  121209 t 2.3500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:28
+  123790 t 2.4000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:29
+  125000 t 2.4234E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:30
+  126370 t 2.4500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:31
+  128951 t 2.5000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:33
+  130000 t 2.5203E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:33
+  131532 t 2.5500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:34
+  134113 t 2.6000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:36
+  135000 t 2.6172E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:37
+  136694 t 2.6500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:38
+  139275 t 2.7000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:39
+  140000 t 2.7140E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:40
+  141857 t 2.7500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:41
+  144439 t 2.8000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:43
+  145000 t 2.8109E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:43
+  147020 t 2.8500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:45
+  149603 t 2.9000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:46
+  150000 t 2.9077E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:46
+  152185 t 2.9500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:48
+  154767 t 3.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:50
+  155000 t 3.0045E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:50
+  157349 t 3.0500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:51
+  159931 t 3.1000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:53
+  160000 t 3.1013E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:53
+  162513 t 3.1500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:55
+  165000 t 3.1982E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:58:56
+  165094 t 3.2000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:56
+  167676 t 3.2500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:58:58
+  170000 t 3.2950E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:59:00
+  170257 t 3.3000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:00
+  172838 t 3.3500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:01
+  175000 t 3.3919E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:59:03
+  175419 t 3.4000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:03
+  178000 t 3.4500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:05
+  180000 t 3.4888E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:59:06
+  180580 t 3.5000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:06
+  183160 t 3.5500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:08
+  185000 t 3.5856E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:59:09
+  185740 t 3.6000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:10
+  188320 t 3.6500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:11
+  190000 t 3.6826E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:59:13
+  190900 t 3.7000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:13
+  193479 t 3.7500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:15
+  195000 t 3.7795E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:59:16
+  196059 t 3.8000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:16
+  198638 t 3.8500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:18
+  200000 t 3.8764E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:59:19
+  201218 t 3.9000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:20
+  203797 t 3.9500E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:22
+  205000 t 3.9733E+01 dt 1.94E-04 flush i/o buffers            07/23/24 12:59:22
+  206376 t 4.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:23
  
  *** termination time reached ***
-  206218 t 4.0000E+01 dt 1.94E-04 write d3dump01 file          07/23/24 12:39:22
-  206218 t 4.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:39:22
+  206376 t 4.0000E+01 dt 1.94E-04 write d3dump01 file          07/23/24 12:59:23
+  206376 t 4.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 12:59:23
 
- N o r m a l    t e r m i n a t i o n                          07/23/24 12:39:22
+ N o r m a l    t e r m i n a t i o n                          07/23/24 12:59:23
 
- Memory required to complete solution   :     507K
+ Memory required to complete solution   :     508K
  Additional dynamically allocated memory:    6286K
                                    Total:    6793K
 
  T i m i n g   i n f o r m a t i o n
                         CPU(seconds)   %CPU  Clock(seconds) %Clock
   ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     7.5000E-02    0.05
-    KW Reading ......... 0.0000E+00    0.00     4.3000E-02    0.03
+  Keyword Processing ... 0.0000E+00    0.00     7.9000E-02    0.06
+    KW Reading ......... 0.0000E+00    0.00     4.4000E-02    0.03
     KW Writing ......... 0.0000E+00    0.00     6.0000E-03    0.00
-  Initialization ....... 1.0000E+00    0.73     1.2550E+00    0.91
-    Init Proc Phase 1 .. 0.0000E+00    0.00     5.8000E-02    0.04
+  Initialization ....... 1.0000E+00    0.72     1.2270E+00    0.89
+    Init Proc Phase 1 .. 0.0000E+00    0.00     6.1000E-02    0.04
     Init Proc Phase 2 .. 0.0000E+00    0.00     1.7000E-02    0.01
-  Element processing ... 7.5000E+01   54.74     6.8394E+01   49.77
-    Solids ............. 3.0000E+00    2.19     2.0770E+00    1.51
-    Shells ............. 6.5000E+01   47.45     6.2119E+01   45.20
-    Beams .............. 0.0000E+00    0.00     8.4500E-01    0.61
-    ISO Shells ......... 0.0000E+00    0.00     1.6000E-02    0.01
-    E Other ............ 7.0000E+00    5.11     2.9990E+00    2.18
-  Binary databases ..... 0.0000E+00    0.00     2.0400E-01    0.15
-  ASCII database ....... 0.0000E+00    0.00     1.0700E-01    0.08
-  Contact algorithm .... 2.4000E+01   17.52     2.9421E+01   21.41
-    Interf. ID         1 2.3000E+01   16.79     2.9119E+01   21.19
-  Rigid Bodies ......... 2.0000E+00    1.46     2.6380E+00    1.92
+  Element processing ... 6.8000E+01   49.28     6.9261E+01   50.16
+    Solids ............. 4.0000E+00    2.90     2.2540E+00    1.63
+    Shells ............. 5.8000E+01   42.03     6.2664E+01   45.38
+    Beams .............. 1.0000E+00    0.72     8.5000E-01    0.62
+    ISO Shells ......... 0.0000E+00    0.00     1.3000E-02    0.01
+    E Other ............ 5.0000E+00    3.62     3.0810E+00    2.23
+  Binary databases ..... 0.0000E+00    0.00     1.9200E-01    0.14
+  ASCII database ....... 1.0000E+00    0.72     1.0000E-01    0.07
+  Contact algorithm .... 2.5000E+01   18.12     2.9046E+01   21.04
+    Interf. ID         1 2.5000E+01   18.12     2.8745E+01   20.82
+  Rigid Bodies ......... 8.0000E+00    5.80     2.6880E+00    1.95
   Time step size ....... 0.0000E+00    0.00     7.1000E-02    0.05
-  Group force file ..... 0.0000E+00    0.00     2.6000E-02    0.02
-  Others ............... 0.0000E+00    0.00     1.4500E-01    0.11
-  Misc. 1 .............. 5.0000E+00    3.65     8.5310E+00    6.21
-    Scale Masses ....... 0.0000E+00    0.00     2.0000E-02    0.01
-    Force Constraints .. 0.0000E+00    0.00     1.8000E-02    0.01
-    Force to Accel ..... 2.0000E+00    1.46     1.9460E+00    1.42
-    Update RB nodes .... 3.0000E+00    2.19     6.1810E+00    4.50
-  Misc. 2 .............. 5.0000E+00    3.65     6.6130E+00    4.81
-  Misc. 3 .............. 1.0000E+00    0.73     2.6700E-01    0.19
-  Misc. 4 .............. 2.4000E+01   17.52     1.9672E+01   14.32
-    Timestep Init ...... 5.0000E+00    3.65     5.1570E+00    3.75
-    Apply Loads ........ 1.0000E+01    7.30     9.6030E+00    6.99
-    Compute exwork ..... 9.0000E+00    6.57     4.8630E+00    3.54
+  Group force file ..... 0.0000E+00    0.00     2.5000E-02    0.02
+  Others ............... 0.0000E+00    0.00     1.3600E-01    0.10
+  Misc. 1 .............. 1.0000E+01    7.25     8.7910E+00    6.37
+    Scale Masses ....... 0.0000E+00    0.00     2.5000E-02    0.02
+    Force Constraints .. 0.0000E+00    0.00     1.7000E-02    0.01
+    Force to Accel ..... 5.0000E+00    3.62     2.0520E+00    1.49
+    Update RB nodes .... 3.0000E+00    2.17     6.2890E+00    4.55
+  Misc. 2 .............. 9.0000E+00    6.52     6.8370E+00    4.95
+  Misc. 3 .............. 0.0000E+00    0.00     2.6900E-01    0.19
+  Misc. 4 .............. 1.6000E+01   11.59     1.9362E+01   14.02
+    Timestep Init ...... 7.0000E+00    5.07     5.1690E+00    3.74
+    Apply Loads ........ 5.0000E+00    3.62     9.3320E+00    6.76
+    Compute exwork ..... 4.0000E+00    2.90     4.8250E+00    3.49
   ----------------------------------------------------------------
-  T o t a l s            1.3700E+02  100.00     1.3742E+02  100.00
+  T o t a l s            1.3800E+02  100.00     1.3808E+02  100.00
 
  Problem time       =    4.0000E+01
- Problem cycle      =    206218
- Total CPU time     =       137 seconds (   0 hours  2 minutes 17 seconds)
- CPU time per zone cycle  =         50.045 nanoseconds
- Clock time per zone cycle=         50.078 nanoseconds
+ Problem cycle      =    206376
+ Total CPU time     =       138 seconds (   0 hours  2 minutes 18 seconds)
+ CPU time per zone cycle  =         50.367 nanoseconds
+ Clock time per zone cycle=         50.285 nanoseconds
 
  Number of CPU's    2
  NLQ used/max     136/  136
- Start time   07/23/2024 12:37:06  
- End time     07/23/2024 12:39:22  
- Elapsed time     136 seconds for  206218 cycles using  2 SMP threads
+ Start time   07/23/2024 12:57:07  
+ End time     07/23/2024 12:59:23  
+ Elapsed time     136 seconds for  206376 cycles using  2 SMP threads
              (      0 hour   2 minutes 16 seconds)
 
- N o r m a l    t e r m i n a t i o n                          07/23/24 12:39:22
+ N o r m a l    t e r m i n a t i o n                          07/23/24 12:59:23
 

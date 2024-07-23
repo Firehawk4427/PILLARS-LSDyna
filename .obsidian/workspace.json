@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes-n-resources/Resources.md",
+                "file": "airbag/airbag_open/change-log.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes-n-resources/Resources.md",
+                "file": "airbag/airbag_open/change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes-n-resources/Resources.md",
+                "file": "airbag/airbag_open/change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes-n-resources/Resources.md"
+                "file": "airbag/airbag_open/change-log.md"
               }
             }
           },
@@ -174,6 +174,11 @@
   },
   "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
+    "airbag/airbag_open/open_airbag_v36.k",
+    "airbag/airbag_open/templsppfile_open_airbag_v36.k",
+    "airbag/airbag_open/open_airbag_v35.k",
+    "airbag/airbag_open/templsppfile_open_airbag_v35.k",
+    "notes-n-resources/Resources.md",
     "airbag/airbag_open/lspp_temp_1",
     "attachments/Screenshot 2024-07-22 151701.png",
     "airbag/airbag_open/change-log.md",
@@ -186,13 +191,9 @@
     "airbag/airbag_open/status.out",
     "airbag/airbag_open/d3plot01",
     "airbag/airbag_open/d3plot",
-    "airbag/airbag_open/ldcrvv",
-    "airbag/airbag_open/part_des",
-    "airbag/airbag_open/abstat",
     "attachments/Pasted image 20240722145105.png",
     "attachments/Pasted image 20240722144515.png",
     "attachments/Pasted image 20240722144103.png",
-    "notes-n-resources/Resources.md",
     "README.md",
     "airbag/airbag_open/notes.md",
     "attachments/Pasted image 20240719160356.png",

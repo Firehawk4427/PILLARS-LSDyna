@@ -159,11 +159,11 @@
      segment connectivity: 3164 3215 1191 1140
  *** Warning 30106 (INI+106)
      additional segments are being renumbered but not printed
-   convergence of normal check obtained in  16 iterations
-   region 1 has 4020 segments.
-   number of independent regions where normal vectors
-   are checked and if necessary reset =    1
-   number of renumbered segments = 2026
+	convergence of normal check obtained in  16 iterations
+	 region 1 has 4020 segments.
+	 number of independent regions where normal vectors
+	 are checked and if necessary reset =    1
+	 number of renumbered segments = 2026
  *** Warning 30107 (INI+107)
      Number of improperly numbered segments 2026
      for control volume 1

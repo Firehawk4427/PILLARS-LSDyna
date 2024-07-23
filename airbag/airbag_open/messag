@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/23/2024      Time: 10:59:09  
+      Date: 07/23/2024      Time: 11:02:28  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -76,11 +76,11 @@
      |___________________________________________________|
 
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v37.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v38.k 
                        ncpu=2 
                        memory=20m
 
- Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v37
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v38
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
@@ -107,7 +107,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/23/24 10:59:09
+ Beginning of keyword reader                                   07/23/24 11:02:28
  expanding   memory to      227000 d     2068970  
  expanding   memory to      268560 d     2068970  
  expanding   memory to      290272 d     2179082  
@@ -130,11 +130,6 @@
                     ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
  expanding   memory to        2001 d     1551352 material, node and element data
  expanding   memory to        2071 d     1551434 material properties
- 
- *** Warning 20123 (STR+123)
-     spotweld material type 100 yield stress is invalid,
-     and has been reset to one percent of youngs modulus
-     for part id= 5
  expanding   memory to        2079 d     1691173 element data for composite material
  expanding   memory to        2093 d     2333298 gradient of damage data
  expanding   memory to        2119 d     2559712 user control for contact interfaces
@@ -558,20 +553,16 @@ Checking Control Volume Orientations
  Memory required to begin solution      :     507K
  Additional dynamically allocated memory:    6286K
                                    Total:    6793K
-       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 10:59:09
-       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 10:59:09
- f a i l e d   e l e m e n t   r e p o r t  time=  6.1297E-03
-     number of failed solid  elements = 0
-     number of failed beam   elements = 1
-     number of failed shell  elements = 0
-     number of failed tshell elements = 0
-     beam  element 13450  failed at time  6.1297E-03
- f a i l e d   e l e m e n t   r e p o r t  time=  6.5937E-03
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 11:02:28
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 11:02:28
+ f a i l e d   e l e m e n t   r e p o r t  time=  1.1577E-02
      number of failed solid  elements = 0
      number of failed beam   elements = 2
      number of failed shell  elements = 0
      number of failed tshell elements = 0
-     beam  element 13449  failed at time  6.5937E-03
-     923 t 4.9944E-01 dt 5.97E-04 write d3plot file            07/23/24 10:59:10
-    1761 t 9.9957E-01 dt 5.97E-04 write d3plot file            07/23/24 10:59:10
-    2599 t 1.4997E+00 dt 5.97E-04 write d3plot file            07/23/24 10:59:11
+     beam  element 13449  failed at time  1.1577E-02
+     beam  element 13450  failed at time  1.1577E-02
+     939 t 4.9973E-01 dt 5.97E-04 write d3plot file            07/23/24 11:02:29
+    1777 t 9.9986E-01 dt 5.97E-04 write d3plot file            07/23/24 11:02:30
+    2615 t 1.5000E+00 dt 5.97E-04 write d3plot file            07/23/24 11:02:31
+    3452 t 1.9995E+00 dt 5.97E-04 write d3plot file            07/23/24 11:02:31

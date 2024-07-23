@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/23/2024      Time: 10:59:08  
+      Date: 07/23/2024      Time: 11:02:27  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -83,11 +83,11 @@
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v37.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v38.k 
                        ncpu=2 
                        memory=20m
 
- Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v37
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v38
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
@@ -142,16 +142,11 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/23/24 10:59:09
+ Beginning of keyword reader                                   07/23/24 11:02:28
 
  Memory required to process keyword     :     506978  
  Additional dynamic memory required     :    2857698  
 
- 
- *** Warning 20123 (STR+123)
-     spotweld material type 100 yield stress is invalid,
-     and has been reset to one percent of youngs modulus
-     for part id= 5
  
  *** Warning 20282 (STR+282)
      warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
@@ -329,29 +324,32 @@
                                    Total:    6793K
 
  initialization completed
-       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 10:59:09
-       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 10:59:09
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 11:02:28
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 11:02:28
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....         0 nanoseconds
- average clock time per zone cycle..       137 nanoseconds
+ average clock time per zone cycle..       124 nanoseconds
 
  estimated total cpu time          =         1 sec (       0 hrs  0 mins)
  estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =    254905 sec (      70 hrs 48 mins)
- estimated clock time to complete  =    254904 sec (      70 hrs 48 mins)
+ estimated total clock time        =    229415 sec (      63 hrs 43 mins)
+ estimated clock time to complete  =    229414 sec (      63 hrs 43 mins)
  termination time                  = 4.000E+01
-     beam  element 13450  failed at time  6.1297E-03
-     beam  element 13449  failed at time  6.5937E-03
-     923 t 4.9944E-01 dt 5.97E-04 write d3plot file            07/23/24 10:59:10
-    1761 t 9.9957E-01 dt 5.97E-04 write d3plot file            07/23/24 10:59:10
-    2599 t 1.4997E+00 dt 5.97E-04 write d3plot file            07/23/24 10:59:11
+     beam  element 13449  failed at time  1.1577E-02
+     beam  element 13450  failed at time  1.1577E-02
+     939 t 4.9973E-01 dt 5.97E-04 write d3plot file            07/23/24 11:02:29
+    1777 t 9.9986E-01 dt 5.97E-04 write d3plot file            07/23/24 11:02:30
+    2615 t 1.5000E+00 dt 5.97E-04 write d3plot file            07/23/24 11:02:31
+    3452 t 1.9995E+00 dt 5.97E-04 write d3plot file            07/23/24 11:02:31
 forrtl: severe (157): Program Exception - access violation
 Image              PC                Routine            Line        Source             
-ls-dyna_smp_d_R13  00007FF73C4A2A78  BKSRT4A                 15131  fem3d_a.F
-ls-dyna_smp_d_R13  00007FF74218AD18  ASLAV0R                 28396  dynpc.F
-ls-dyna_smp_d_R13  00007FF73F04FE00  CONTACT                  2688  dyn33.F
-ls-dyna_smp_d_R13  00007FF73C4F9A81  FEM3D_CONTACT           37480  fem3d_a.F
-ls-dyna_smp_d_R13  00007FF73C442900  FEM3D                   11649  fem3d.F
+libiomp5md.dll     00007FFA69307571  Unknown               Unknown  Unknown
+ls-dyna_smp_d_R13  00007FF745B6C7A0  Unknown               Unknown  Unknown
+ls-dyna_smp_d_R13  00007FF73C497CBE  GRABEN                  12022  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF73E4449AD  MOMENT                    220  dyn3.F
+ls-dyna_smp_d_R13  00007FF73C4D013B  GLSTAT2                 21074  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF73C4C8CDA  FEM3D_OUTPUT            31180  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF73C4514DF  FEM3D                    5691  fem3d.F
 ls-dyna_smp_d_R13  00007FF73C43607A  SOLTN                     431  fem3d.F
 ls-dyna_smp_d_R13  00007FF73C562118  OVERLY                    276  dyn0.F
 ls-dyna_smp_d_R13  00007FF73B2F0B6A  LSDYNA1                   823  dynm.F
@@ -360,4 +358,3 @@ ls-dyna_smp_d_R13  00007FF748939092  Unknown               Unknown  Unknown
 ls-dyna_smp_d_R13  00007FF749219D48  Unknown               Unknown  Unknown
 KERNEL32.DLL       00007FFB84DD7344  Unknown               Unknown  Unknown
 ntdll.dll          00007FFB85A426B1  Unknown               Unknown  Unknown
-forrtl: severe (157): Program Exception - access violation

@@ -104,5 +104,16 @@
      for part id= 5
  Warning 20282 (STR+282)
      warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
+ Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 3062 3113 1089 1038
+ Warning 30106 (INI+106)
+	additional segments are being renumbered but not printed
+	convergence of normal check obtained in  16 iterations
+	region 1 has 4020 segments.
+	number of independent regions where normal vectors
+	are checked and if necessary reset =    1
+	number of renumbered segments = 2026
+
 
 ![[Screenshot 2024-07-22 151701.png|300]]

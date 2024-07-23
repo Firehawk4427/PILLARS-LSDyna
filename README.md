@@ -9,4 +9,5 @@
 - [ ] test stress around anchor nodes
 - [ ] make the inner fabric mesh able to stretch so it doesn't constrain geometry of mesh
 - [x] add collisions
-- [x] fix fabric mesh*=
+- [x] fix fabric mesh
+- [ ] add in single_surface_contact so mesh doesnt collide with itself

@@ -146,3 +146,5 @@
 ![[Pasted image 20240723131424.png|200]]
 ## V43
 - changed gravity to that of the moon
+- fixed the triangular geometry
+## V44

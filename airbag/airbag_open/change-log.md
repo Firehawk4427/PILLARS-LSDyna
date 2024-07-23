@@ -138,4 +138,8 @@
      input data failed with: 1 errors
 ## V41
 - deleted PID 6
- 
+- geometry too constrained, need to try and get rid of inner mesh
+![[4-anchor-test.gif]]
+
+## V42
+- added gravity

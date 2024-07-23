@@ -2,7 +2,7 @@
 
 ## TODO (no specific order)
 ---
-- [ ] Debug PILLARS model
+***Debug PILLARS model (never done)
 - [x] add in anchors (constrained nodes)
 	- [ ] more anchors
 - [x] add gravity (1/6 earth)
@@ -12,4 +12,4 @@
 - [ ] make the inner fabric mesh able to stretch so it doesn't constrain geometry of mesh
 - [x] add collisions
 - [x] fix fabric mesh
-- [ ] add in single_surface_contact so mesh doesnt collide with itself
+- [x] add in single_surface_contact so mesh doesnt collide with itself

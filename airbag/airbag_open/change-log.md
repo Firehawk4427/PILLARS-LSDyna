@@ -167,3 +167,8 @@
  *** Warning 30107 (INI+107)
      Number of improperly numbered segments 2026
      for control volume 1
+## V47
+- swapped airbag for auto contact
+	- less accurate but fixes errors
+- ETA 3m
+

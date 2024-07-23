@@ -658,3 +658,99 @@
   149624 t 2.9000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:30
   150000 t 2.9073E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:01:31
   152206 t 2.9500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:34
+  154788 t 3.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:38
+  155000 t 3.0041E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:01:38
+  157370 t 3.0500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:42
+  159952 t 3.1000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:45
+  160000 t 3.1009E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:01:45
+  162534 t 3.1500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:47
+  165000 t 3.1978E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:01:49
+  165116 t 3.2000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:49
+  167697 t 3.2500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:52
+  170000 t 3.2946E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:01:54
+  170278 t 3.3000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:54
+  172858 t 3.3500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:56
+  175000 t 3.3915E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:01:58
+  175439 t 3.4000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:01:58
+  178019 t 3.4500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:00
+  180000 t 3.4884E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:02:02
+  180599 t 3.5000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:02
+  183180 t 3.5500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:04
+  185000 t 3.5853E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:02:06
+  185760 t 3.6000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:06
+  188341 t 3.6500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:09
+  190000 t 3.6821E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:02:10
+  190922 t 3.7000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:11
+  193503 t 3.7500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:13
+  195000 t 3.7790E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:02:14
+  196084 t 3.8000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:15
+  198665 t 3.8500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:17
+  200000 t 3.8759E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:02:18
+  201246 t 3.9000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:19
+  203827 t 3.9500E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:21
+  205000 t 3.9727E+01 dt 1.94E-04 flush i/o buffers            07/23/24 16:02:22
+  206407 t 4.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:23
+ 
+ *** termination time reached ***
+  206407 t 4.0000E+01 dt 1.94E-04 write d3dump01 file          07/23/24 16:02:23
+  206407 t 4.0000E+01 dt 1.94E-04 write d3plot file            07/23/24 16:02:23
+
+ N o r m a l    t e r m i n a t i o n                          07/23/24 16:02:23
+
+ Memory required to complete solution   :     521K
+ Additional dynamically allocated memory:    6674K
+                                   Total:    7194K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     7.8000E-02    0.04
+    KW Reading ......... 0.0000E+00    0.00     4.5000E-02    0.02
+    KW Writing ......... 0.0000E+00    0.00     7.0000E-03    0.00
+  Initialization ....... 1.0000E+00    0.49     1.2100E+00    0.60
+    Init Proc Phase 1 .. 0.0000E+00    0.00     6.8000E-02    0.03
+    Init Proc Phase 2 .. 0.0000E+00    0.00     1.8000E-02    0.01
+  Element processing ... 8.2000E+01   40.39     8.4971E+01   41.87
+    Solids ............. 4.0000E+00    1.97     2.4600E+00    1.21
+    Shells ............. 7.5000E+01   36.95     7.6763E+01   37.82
+    Beams .............. 1.0000E+00    0.49     1.2000E+00    0.59
+    ISO Shells ......... 0.0000E+00    0.00     7.0000E-03    0.00
+    E Other ............ 2.0000E+00    0.99     4.0490E+00    2.00
+  Binary databases ..... 1.0000E+00    0.49     2.5800E-01    0.13
+  ASCII database ....... 1.0000E+00    0.49     1.5900E-01    0.08
+  Contact algorithm .... 6.9000E+01   33.99     6.7611E+01   33.31
+    Interf. ID         1 3.7000E+01   18.23     3.7525E+01   18.49
+    Interf. ID         2 3.2000E+01   15.76     2.9707E+01   14.64
+  Rigid Bodies ......... 1.0000E+00    0.49     3.1990E+00    1.58
+  Time step size ....... 1.0000E+00    0.49     1.4500E-01    0.07
+  Group force file ..... 0.0000E+00    0.00     4.1000E-02    0.02
+  Others ............... 0.0000E+00    0.00     2.1900E-01    0.11
+  Misc. 1 .............. 9.0000E+00    4.43     1.1029E+01    5.43
+    Scale Masses ....... 0.0000E+00    0.00     2.2000E-02    0.01
+    Force Constraints .. 0.0000E+00    0.00     2.2000E-02    0.01
+    Force to Accel ..... 5.0000E+00    2.46     3.0520E+00    1.50
+    Update RB nodes .... 4.0000E+00    1.97     7.3910E+00    3.64
+  Misc. 2 .............. 1.2000E+01    5.91     1.0714E+01    5.28
+  Misc. 3 .............. 0.0000E+00    0.00     3.1600E-01    0.16
+  Misc. 4 .............. 2.6000E+01   12.81     2.2997E+01   11.33
+    Timestep Init ...... 5.0000E+00    2.46     5.5720E+00    2.75
+    Apply Loads ........ 1.4000E+01    6.90     1.1727E+01    5.78
+    Compute exwork ..... 7.0000E+00    3.45     5.6270E+00    2.77
+  ----------------------------------------------------------------
+  T o t a l s            2.0300E+02  100.00     2.0295E+02  100.00
+
+ Problem time       =    4.0000E+01
+ Problem cycle      =    206407
+ Total CPU time     =       203 seconds (   0 hours  3 minutes 23 seconds)
+ CPU time per zone cycle  =         74.253 nanoseconds
+ Clock time per zone cycle=         74.127 nanoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   07/23/2024 15:59:02  
+ End time     07/23/2024 16:02:23  
+ Elapsed time     201 seconds for  206407 cycles using  2 SMP threads
+             (      0 hour   3 minutes 21 seconds)
+
+ N o r m a l    t e r m i n a t i o n                          07/23/24 16:02:23
+

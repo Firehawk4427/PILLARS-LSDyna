@@ -354,3 +354,135 @@
  2.90000E+01       1     2.0807E+04     5.9175E-04     3.0813E+01     1.0000E-06     7.3456E-09  0.000E+00  1.528E-04  1.028E+03  5.730E+03  0.000E+00  0.000E+00  0.000E+00
     Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
     Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 2.94999E+01       1     2.0799E+04     5.9365E-04     3.0900E+01     5.0007E-07     7.3665E-09  0.000E+00  1.532E-04  1.028E+03  5.737E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 2.99999E+01       1     2.0809E+04     5.9379E-04     3.0922E+01     1.2763E-10     7.3690E-09  0.000E+00  1.533E-04  1.028E+03  5.733E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.04998E+01       1     2.0831E+04     5.9292E-04     3.0909E+01     0.0000E+00     7.3612E-09  0.000E+00  1.533E-04  1.027E+03  5.730E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.09998E+01       1     2.0801E+04     5.9409E-04     3.0926E+01     0.0000E+00     7.3717E-09  0.000E+00  1.533E-04  1.028E+03  5.731E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.14999E+01       1     2.0792E+04     5.9446E-04     3.0932E+01     0.0000E+00     7.3750E-09  0.000E+00  1.533E-04  1.028E+03  5.725E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.20000E+01       1     2.0824E+04     5.9319E-04     3.0913E+01     0.0000E+00     7.3637E-09  0.000E+00  1.533E-04  1.028E+03  5.734E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.25000E+01       1     2.0809E+04     5.9376E-04     3.0921E+01     0.0000E+00     7.3688E-09  0.000E+00  1.533E-04  1.028E+03  5.731E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.30000E+01       1     2.0818E+04     5.9341E-04     3.0916E+01     0.0000E+00     7.3656E-09  0.000E+00  1.533E-04  1.028E+03  5.727E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.34999E+01       1     2.0815E+04     5.9353E-04     3.0918E+01     0.0000E+00     7.3667E-09  0.000E+00  1.533E-04  1.028E+03  5.735E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.40000E+01       1     2.0824E+04     5.9319E-04     3.0913E+01     0.0000E+00     7.3637E-09  0.000E+00  1.533E-04  1.028E+03  5.725E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.44999E+01       1     2.0781E+04     5.9489E-04     3.0938E+01     0.0000E+00     7.3788E-09  0.000E+00  1.533E-04  1.028E+03  5.730E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.49998E+01       1     2.0780E+04     5.9496E-04     3.0939E+01     0.0000E+00     7.3794E-09  0.000E+00  1.533E-04  1.028E+03  5.726E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.55000E+01       1     2.0824E+04     5.9318E-04     3.0913E+01     0.0000E+00     7.3636E-09  0.000E+00  1.533E-04  1.027E+03  5.735E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.59999E+01       1     2.0839E+04     5.9257E-04     3.0904E+01     0.0000E+00     7.3582E-09  0.000E+00  1.533E-04  1.027E+03  5.730E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.64999E+01       1     2.0830E+04     5.9294E-04     3.0909E+01     0.0000E+00     7.3615E-09  0.000E+00  1.533E-04  1.027E+03  5.733E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.70000E+01       1     2.0803E+04     5.9402E-04     3.0925E+01     0.0000E+00     7.3710E-09  0.000E+00  1.533E-04  1.028E+03  5.728E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.75000E+01       1     2.0843E+04     5.9244E-04     3.0902E+01     0.0000E+00     7.3570E-09  0.000E+00  1.533E-04  1.027E+03  5.731E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.80000E+01       1     2.0809E+04     5.9377E-04     3.0921E+01     0.0000E+00     7.3689E-09  0.000E+00  1.533E-04  1.028E+03  5.727E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.84999E+01       1     2.0788E+04     5.9464E-04     3.0934E+01     0.0000E+00     7.3765E-09  0.000E+00  1.533E-04  1.028E+03  5.729E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.90000E+01       1     2.0836E+04     5.9271E-04     3.0906E+01     0.0000E+00     7.3594E-09  0.000E+00  1.533E-04  1.027E+03  5.729E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.95000E+01       1     2.0818E+04     5.9341E-04     3.0916E+01     0.0000E+00     7.3656E-09  0.000E+00  1.533E-04  1.028E+03  5.726E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 3.99998E+01       1     2.0846E+04     5.9230E-04     3.0900E+01     0.0000E+00     7.3558E-09  0.000E+00  1.533E-04  1.027E+03  5.731E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00

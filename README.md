@@ -7,5 +7,6 @@
 - [ ] add gravity (1/6 earth)
 - [ ] test off nominal
 - [ ] test stress around anchor nodes
+- [ ] make the inner fabric mesh able to stetch so it doesnt constrain geometry of mesh
 - [x] add collisions
 - [x] fix fabric mesh*=

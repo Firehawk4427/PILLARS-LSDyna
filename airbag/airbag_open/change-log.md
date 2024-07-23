@@ -98,6 +98,8 @@
 - saving now before i break the keywords
 ## V36
 - added section id for beams with spotweld beam property (ELFORM=9) and attached the spotweld material card
+>ERROR TYPES ENCOUNTERED 
+>
 >Warning 20123 (STR+123)
      spotweld material type 100 yield stress is invalid,
      and has been reset to one percent of Youngs modulus
@@ -114,6 +116,6 @@
 	number of independent regions where normal vectors
 	are checked and if necessary reset =    1
 	number of renumbered segments = 2026
-
-
 ![[Screenshot 2024-07-22 151701.png|300]]
+## V39
+- tweaked keycards for beam, now ETA is 2m

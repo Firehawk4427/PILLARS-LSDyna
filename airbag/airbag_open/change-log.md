@@ -90,7 +90,10 @@
 	- might just figure out how to use joints / beams to keep it anchored in the meantime
 - gonna try and bring base plate closer and see if inflation still works
 	- TESTED: still works fine
-![[Pasted image 20240722144103.png|200]]![[Pasted image 20240722144515.png|200]]![[Pasted image 20240722145105.png|100]]
+
+![[Pasted image 20240722144103.png]] 
+![[Pasted image 20240722144515.png]] 
+
 ## V35
 - started with 2 beams using ele_edit
 - beams group together automatically

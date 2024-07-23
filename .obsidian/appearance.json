@@ -2,6 +2,7 @@
   "accentColor": "",
   "cssTheme": "Blue Topaz",
   "enabledCssSnippets": [
-    "darkimages"
+    "darkimages",
+    "media-grid-snippet"
   ]
 }

@@ -3,8 +3,8 @@
 ## TODO (no specific order)
 ---
 - [ ] Debug PILLARS model
-- [ ] add in anchors (constrained nodes)
-- [ ] add gravity (1/6 earth)
+- [x] add in anchors (constrained nodes)
+- [x] add gravity (1/6 earth)
 - [ ] test off nominal
 - [ ] test stress around anchor nodes
 - [ ] make the inner fabric mesh able to stretch so it doesn't constrain geometry of mesh

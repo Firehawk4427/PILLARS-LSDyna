@@ -90,8 +90,7 @@
 	- might just figure out how to use joints / beams to keep it anchored in the meantime
 - gonna try and bring base plate closer and see if inflation still works
 	- TESTED: still works fine
-![[Pasted image 20240722144103.png]]
-![[Pasted image 20240722144515.png]]![[Pasted image 20240722145105.png]]
+![[Pasted image 20240722144103.png|200]]![[Pasted image 20240722144515.png|200]]![[Pasted image 20240722145105.png|100]]
 ## V35
 - started with 2 beams using ele_edit
 - beams group together automatically
@@ -118,7 +117,7 @@
 	number of independent regions where normal vectors
 	are checked and if necessary reset =    1
 	number of renumbered segments = 2026
-![[Screenshot 2024-07-22 151701.png|300]]
+![[Screenshot 2024-07-22 151701.png|200]]
 ## V39
 - tweaked keycards for beam, now ETA is 2m
 - runs well, but slightly incorrect geometry due to inner mesh constraining outer mesh
@@ -139,7 +138,11 @@
 ## V41
 - deleted PID 6
 - geometry too constrained, need to try and get rid of inner mesh
-![[4-anchor-test.gif]]
+![[4-anchor-test.gif|200]]
 
 ## V42
 - added gravity
+- inflated geometry more triangular from top-down view, even though the anchors havent changed
+![[Pasted image 20240723131424.png|200]]
+## V43
+- changed gravity to that of the moon

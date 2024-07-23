@@ -96,4 +96,13 @@
 - started with 2 beams using ele_edit
 - beams group together automatically
 - saving now before i break the keywords
+## V36
+- added section id for beams with spotweld beam property (ELFORM=9) and attached the spotweld material card
+>Warning 20123 (STR+123)
+     spotweld material type 100 yield stress is invalid,
+     and has been reset to one percent of Youngs modulus
+     for part id= 5
+ Warning 20282 (STR+282)
+     warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
+
 ![[Screenshot 2024-07-22 151701.png|300]]

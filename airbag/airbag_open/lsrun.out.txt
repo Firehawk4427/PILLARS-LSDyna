@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/22/2024      Time: 15:03:01  
+      Date: 07/23/2024      Time: 10:59:08  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -79,15 +79,15 @@
 [license/error] Request name dyna does not exist in the licensing pool.
 [license/error] No valid FLEXlm servers specified.
 [license/error] Licensing mode "ANSYS LSDYNA" failed on feature "dyna". Undoing partial checkout.
- Student license active; 41 days remaning.
+ Student license active; 40 days remaning.
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v34.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v37.k 
                        ncpu=2 
                        memory=20m
 
- Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v34
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v37
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
@@ -142,11 +142,16 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/22/24 15:03:02
+ Beginning of keyword reader                                   07/23/24 10:59:09
 
- Memory required to process keyword     :     506376  
- Additional dynamic memory required     :    2857696  
+ Memory required to process keyword     :     506978  
+ Additional dynamic memory required     :    2857698  
 
+ 
+ *** Warning 20123 (STR+123)
+     spotweld material type 100 yield stress is invalid,
+     and has been reset to one percent of youngs modulus
+     for part id= 5
  
  *** Warning 20282 (STR+282)
      warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
@@ -320,173 +325,39 @@
  bigger then scale the penalty of the offending surface.
 
  Memory required to begin solution      :     507K
- Additional dynamically allocated memory:    6285K
-                                   Total:    6792K
+ Additional dynamically allocated memory:    6286K
+                                   Total:    6793K
 
  initialization completed
-       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/22/24 15:03:02
-       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/22/24 15:03:02
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 10:59:09
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 10:59:09
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....         0 nanoseconds
- average clock time per zone cycle..       124 nanoseconds
+ average clock time per zone cycle..       137 nanoseconds
 
  estimated total cpu time          =         1 sec (       0 hrs  0 mins)
  estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =    229415 sec (      63 hrs 43 mins)
- estimated clock time to complete  =    229414 sec (      63 hrs 43 mins)
+ estimated total clock time        =    254905 sec (      70 hrs 48 mins)
+ estimated clock time to complete  =    254904 sec (      70 hrs 48 mins)
  termination time                  = 4.000E+01
-     919 t 4.9999E-01 dt 5.97E-04 write d3plot file            07/22/24 15:03:03
-    1756 t 9.9953E-01 dt 5.97E-04 write d3plot file            07/22/24 15:03:03
-    2594 t 1.4997E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:04
-    3432 t 1.9998E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:04
-    4270 t 2.4999E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:05
-    5000 t 2.9356E+00 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:06
-    5107 t 2.9995E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:06
-    5945 t 3.4996E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:06
-    6783 t 3.9997E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:07
-    7621 t 4.4998E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:07
-    8459 t 5.0000E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:08
-    9296 t 5.4995E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:09
-   10000 t 5.9197E+00 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:09
-   10134 t 5.9996E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:09
-   10972 t 6.4998E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:10
-   11810 t 6.9999E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:10
-   12647 t 7.4994E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:11
-   13485 t 7.9996E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:11
-   14323 t 8.4997E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:12
-   15000 t 8.9037E+00 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:12
-   15161 t 8.9998E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:13
-   15999 t 9.5000E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:13
-   16836 t 9.9995E+00 dt 5.97E-04 write d3plot file            07/22/24 15:03:14
-   17674 t 1.0500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:14
-   18512 t 1.1000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:15
-   19350 t 1.1500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:15
-   20000 t 1.1888E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:16
-   20187 t 1.1999E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:16
-   21025 t 1.2500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:16
-   21863 t 1.3000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:17
-   22701 t 1.3500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:17
-   23539 t 1.4000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:18
-   24376 t 1.4499E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:19
-   25000 t 1.4872E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:19
-   25214 t 1.5000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:19
-   26052 t 1.5500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:20
-   26890 t 1.6000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:20
-   27728 t 1.6500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:21
-   28565 t 1.7000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:21
-   29403 t 1.7500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:22
-   30000 t 1.7856E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:22
-   30241 t 1.8000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:22
-   31079 t 1.8500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:23
-   31916 t 1.8999E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:24
-   32754 t 1.9500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:24
-   33592 t 2.0000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:25
-   34430 t 2.0500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:25
-   35000 t 2.0840E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:25
-   35268 t 2.1000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:26
-   36105 t 2.1500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:26
-   36943 t 2.2000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:27
-   37781 t 2.2500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:27
-   38619 t 2.3000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:28
-   39456 t 2.3499E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:28
-   40000 t 2.3824E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:29
-   40294 t 2.4000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:29
-   41132 t 2.4500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:29
-   41970 t 2.5000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:30
-   42808 t 2.5500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:30
-   43645 t 2.5999E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:31
-   44483 t 2.6500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:31
-   45000 t 2.6808E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:32
-   45321 t 2.7000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:32
-   46159 t 2.7500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:32
-   46996 t 2.7999E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:33
-   47834 t 2.8500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:34
-   48672 t 2.9000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:34
-   49510 t 2.9500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:35
-   50000 t 2.9792E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:35
-   50348 t 3.0000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:35
-   51185 t 3.0499E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:36
-   52023 t 3.1000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:36
-   52861 t 3.1500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:37
-   53699 t 3.2000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:37
-   54536 t 3.2499E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:38
-   55000 t 3.2776E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:38
-   55374 t 3.3000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:39
-   56212 t 3.3500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:39
-   57050 t 3.4000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:40
-   57888 t 3.4500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:40
-   58725 t 3.4999E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:41
-   59563 t 3.5500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:41
-   60000 t 3.5760E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:42
-   60401 t 3.6000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:42
-   61239 t 3.6500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:42
-   62077 t 3.7000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:43
-   62914 t 3.7500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:44
-   63752 t 3.8000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:44
-   64590 t 3.8500E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:45
-   65000 t 3.8744E+01 dt 5.97E-04 flush i/o buffers            07/22/24 15:03:45
-   65428 t 3.9000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:45
-   66265 t 3.9499E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:46
-   67103 t 4.0000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:46
- 
- *** termination time reached ***
-   67103 t 4.0000E+01 dt 5.97E-04 write d3dump01 file          07/22/24 15:03:46
-   67103 t 4.0000E+01 dt 5.97E-04 write d3plot file            07/22/24 15:03:46
-
- N o r m a l    t e r m i n a t i o n                          07/22/24 15:03:46
-
- Memory required to complete solution   :     507K
- Additional dynamically allocated memory:    6285K
-                                   Total:    6792K
-
- T i m i n g   i n f o r m a t i o n
-                        CPU(seconds)   %CPU  Clock(seconds) %Clock
-  ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     7.6000E-02    0.17
-    KW Reading ......... 0.0000E+00    0.00     4.4000E-02    0.10
-    KW Writing ......... 0.0000E+00    0.00     7.0000E-03    0.02
-  Initialization ....... 1.0000E+00    2.22     1.2770E+00    2.79
-    Init Proc Phase 1 .. 0.0000E+00    0.00     6.1000E-02    0.13
-    Init Proc Phase 2 .. 0.0000E+00    0.00     1.6000E-02    0.03
-  Element processing ... 2.0000E+01   44.44     2.1987E+01   48.05
-    Solids ............. 1.0000E+00    2.22     6.8300E-01    1.49
-    Shells ............. 1.7000E+01   37.78     2.0258E+01   44.27
-    ISO Shells ......... 0.0000E+00    0.00     1.0000E-03    0.00
-    E Other ............ 2.0000E+00    4.44     9.6000E-01    2.10
-  Binary databases ..... 0.0000E+00    0.00     1.7200E-01    0.38
-  ASCII database ....... 0.0000E+00    0.00     3.3000E-02    0.07
-  Contact algorithm .... 1.6000E+01   35.56     9.8620E+00   21.55
-    Interf. ID         1 1.6000E+01   35.56     9.7790E+00   21.37
-  Rigid Bodies ......... 1.0000E+00    2.22     8.4800E-01    1.85
-  Time step size ....... 0.0000E+00    0.00     2.7000E-02    0.06
-  Group force file ..... 0.0000E+00    0.00     1.2000E-02    0.03
-  Others ............... 0.0000E+00    0.00     5.7000E-02    0.12
-  Misc. 1 .............. 0.0000E+00    0.00     2.7910E+00    6.10
-    Scale Masses ....... 0.0000E+00    0.00     5.0000E-03    0.01
-    Force Constraints .. 0.0000E+00    0.00     9.0000E-03    0.02
-    Force to Accel ..... 0.0000E+00    0.00     5.9800E-01    1.31
-    Update RB nodes .... 0.0000E+00    0.00     2.0510E+00    4.48
-  Misc. 2 .............. 1.0000E+00    2.22     2.2430E+00    4.90
-  Misc. 3 .............. 0.0000E+00    0.00     9.6000E-02    0.21
-  Misc. 4 .............. 6.0000E+00   13.33     6.2760E+00   13.72
-    Timestep Init ...... 0.0000E+00    0.00     1.6530E+00    3.61
-    Apply Loads ........ 4.0000E+00    8.89     3.0710E+00    6.71
-    Compute exwork ..... 2.0000E+00    4.44     1.5300E+00    3.34
-  ----------------------------------------------------------------
-  T o t a l s            4.5000E+01  100.00     4.5757E+01  100.00
-
- Problem time       =    4.0000E+01
- Problem cycle      =     67103
- Total CPU time     =        45 seconds (   0 hours  0 minutes 45 seconds)
- CPU time per zone cycle  =         49.765 nanoseconds
- Clock time per zone cycle=         50.222 nanoseconds
-
- Number of CPU's    2
- NLQ used/max     136/  136
- Start time   07/22/2024 15:03:02  
- End time     07/22/2024 15:03:46  
- Elapsed time      44 seconds for   67103 cycles using  2 SMP threads
-             (      0 hour   0 minute  44 seconds)
-
- N o r m a l    t e r m i n a t i o n                          07/22/24 15:03:46
-
+     beam  element 13450  failed at time  6.1297E-03
+     beam  element 13449  failed at time  6.5937E-03
+     923 t 4.9944E-01 dt 5.97E-04 write d3plot file            07/23/24 10:59:10
+    1761 t 9.9957E-01 dt 5.97E-04 write d3plot file            07/23/24 10:59:10
+    2599 t 1.4997E+00 dt 5.97E-04 write d3plot file            07/23/24 10:59:11
+forrtl: severe (157): Program Exception - access violation
+Image              PC                Routine            Line        Source             
+ls-dyna_smp_d_R13  00007FF73C4A2A78  BKSRT4A                 15131  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF74218AD18  ASLAV0R                 28396  dynpc.F
+ls-dyna_smp_d_R13  00007FF73F04FE00  CONTACT                  2688  dyn33.F
+ls-dyna_smp_d_R13  00007FF73C4F9A81  FEM3D_CONTACT           37480  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF73C442900  FEM3D                   11649  fem3d.F
+ls-dyna_smp_d_R13  00007FF73C43607A  SOLTN                     431  fem3d.F
+ls-dyna_smp_d_R13  00007FF73C562118  OVERLY                    276  dyn0.F
+ls-dyna_smp_d_R13  00007FF73B2F0B6A  LSDYNA1                   823  dynm.F
+ls-dyna_smp_d_R13  00007FF73B2F04D9  MAIN__                   1912  dynm.F
+ls-dyna_smp_d_R13  00007FF748939092  Unknown               Unknown  Unknown
+ls-dyna_smp_d_R13  00007FF749219D48  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFB84DD7344  Unknown               Unknown  Unknown
+ntdll.dll          00007FFB85A426B1  Unknown               Unknown  Unknown
+forrtl: severe (157): Program Exception - access violation

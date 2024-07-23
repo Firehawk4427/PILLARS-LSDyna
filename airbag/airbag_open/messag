@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/23/2024      Time: 13:57:57  
+      Date: 07/23/2024      Time: 15:09:01  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -76,11 +76,11 @@
      |___________________________________________________|
 
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v45.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v46.k 
                        ncpu=2 
                        memory=20m
 
- Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v45
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v46
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
@@ -107,7 +107,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/23/24 13:57:57
+ Beginning of keyword reader                                   07/23/24 15:09:01
  expanding   memory to      227000 d     2068970  
  expanding   memory to      268620 d     2068970  
  expanding   memory to      290332 d     2179082  
@@ -563,14 +563,22 @@ Checking Control Volume Orientations
  Memory required to begin solution      :     521K
  Additional dynamically allocated memory:    6559K
                                    Total:    7079K
-       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 13:57:57
-       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 13:57:57
-    2646 t 4.9998E-01 dt 1.94E-04 write d3plot file            07/23/24 13:58:01
-    5000 t 9.5677E-01 dt 1.94E-04 flush i/o buffers            07/23/24 13:58:03
-    5222 t 9.9983E-01 dt 1.94E-04 write d3plot file            07/23/24 13:58:04
- f a i l e d   e l e m e n t   r e p o r t  time=  1.0596E+00
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 15:09:02
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 15:09:02
+    2646 t 4.9998E-01 dt 1.94E-04 write d3plot file            07/23/24 15:09:05
+    5000 t 9.5677E-01 dt 1.94E-04 flush i/o buffers            07/23/24 15:09:08
+    5222 t 9.9983E-01 dt 1.94E-04 write d3plot file            07/23/24 15:09:08
+ f a i l e d   e l e m e n t   r e p o r t  time=  1.0491E+00
      number of failed solid  elements = 0
-     number of failed beam   elements = 1
+     number of failed beam   elements = 3
      number of failed shell  elements = 0
      number of failed tshell elements = 0
-     beam  element 13450  failed at time  1.0596E+00
+     beam  element 13449  failed at time  1.0491E+00
+     beam  element 13450  failed at time  1.0491E+00
+     beam  element 13453  failed at time  1.0491E+00
+ f a i l e d   e l e m e n t   r e p o r t  time=  1.0494E+00
+     number of failed solid  elements = 0
+     number of failed beam   elements = 4
+     number of failed shell  elements = 0
+     number of failed tshell elements = 0
+     beam  element 13451  failed at time  1.0494E+00

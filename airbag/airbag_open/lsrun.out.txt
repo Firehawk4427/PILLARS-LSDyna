@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/23/2024      Time: 13:57:56  
+      Date: 07/23/2024      Time: 15:09:00  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -83,11 +83,11 @@
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v45.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v46.k 
                        ncpu=2 
                        memory=20m
 
- Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v45
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v46
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
@@ -142,7 +142,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/23/24 13:57:57
+ Beginning of keyword reader                                   07/23/24 15:09:01
 
  Memory required to process keyword     :     520315  
  Additional dynamic memory required     :    2857700  
@@ -324,21 +324,24 @@
                                    Total:    7079K
 
  initialization completed
-       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 13:57:57
-       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 13:57:57
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/23/24 15:09:02
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/23/24 15:09:02
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....         0 nanoseconds
- average clock time per zone cycle..       172 nanoseconds
+ average clock time per zone cycle..       165 nanoseconds
 
  estimated total cpu time          =         1 sec (       0 hrs  0 mins)
  estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =    318631 sec (      88 hrs 30 mins)
- estimated clock time to complete  =    318630 sec (      88 hrs 30 mins)
+ estimated total clock time        =    305886 sec (      84 hrs 58 mins)
+ estimated clock time to complete  =    305885 sec (      84 hrs 58 mins)
  termination time                  = 4.000E+01
-    2646 t 4.9998E-01 dt 1.94E-04 write d3plot file            07/23/24 13:58:01
-    5000 t 9.5677E-01 dt 1.94E-04 flush i/o buffers            07/23/24 13:58:03
-    5222 t 9.9983E-01 dt 1.94E-04 write d3plot file            07/23/24 13:58:04
-     beam  element 13450  failed at time  1.0596E+00
+    2646 t 4.9998E-01 dt 1.94E-04 write d3plot file            07/23/24 15:09:05
+    5000 t 9.5677E-01 dt 1.94E-04 flush i/o buffers            07/23/24 15:09:08
+    5222 t 9.9983E-01 dt 1.94E-04 write d3plot file            07/23/24 15:09:08
+     beam  element 13449  failed at time  1.0491E+00
+     beam  element 13450  failed at time  1.0491E+00
+     beam  element 13453  failed at time  1.0491E+00
+     beam  element 13451  failed at time  1.0494E+00
 forrtl: severe (157): Program Exception - access violation
 Image              PC                Routine            Line        Source             
 ls-dyna_smp_d_R13  00007FF73C4A28E2  BKSRT4A                 15119  fem3d_a.F

@@ -4,8 +4,10 @@
 ---
 - [ ] Debug PILLARS model
 - [x] add in anchors (constrained nodes)
+	- [ ] more anchors
 - [x] add gravity (1/6 earth)
 - [ ] test off nominal
+	- [ ] get load curve for stress on anchors as a function of off nominal distance
 - [ ] test stress around anchor nodes
 - [ ] make the inner fabric mesh able to stretch so it doesn't constrain geometry of mesh
 - [x] add collisions

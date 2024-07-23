@@ -8,4 +8,4 @@ Stitch patterns - https://airborne-sys.com/wp-content/uploads/2016/09/Implementa
 
 Spherical joint instructions - https://skill-lync.com/student-projects/week-11-joint-creation-and-demonstration-78
 
-Spotweld Beams - https://skill-lync.com/student-projects/week-5-modelling-spotwelds-71 / https://www.d3view.com/recommended-settings-for-spotwelds/
+Spotweld Beams - https://skill-lync.com/student-projects/week-5-modelling-spotwelds-71 / https://www.d3view.com/recommended-settings-for-spotwelds/ (Use Ele_edit to create beams between nodes)

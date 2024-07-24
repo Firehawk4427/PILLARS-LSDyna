@@ -786,3 +786,17 @@ Checking Control Volume Orientations
    66204 t 4.5000E+00 dt 6.80E-05 write d3plot file            07/24/24 15:27:17
    70000 t 4.7582E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:20
    73554 t 5.0000E+00 dt 6.80E-05 write d3plot file            07/24/24 15:27:23
+   75000 t 5.0984E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:24
+   80000 t 5.4385E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:28
+   80903 t 5.4999E+00 dt 6.80E-05 write d3plot file            07/24/24 15:27:29
+   85000 t 5.7787E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:32
+   88253 t 6.0000E+00 dt 6.80E-05 write d3plot file            07/24/24 15:27:35
+   90000 t 6.1188E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:36
+   95000 t 6.4590E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:40
+   95603 t 6.5000E+00 dt 6.80E-05 write d3plot file            07/24/24 15:27:40
+  100000 t 6.7991E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:44
+  102952 t 7.0000E+00 dt 6.80E-05 write d3plot file            07/24/24 15:27:46
+  105000 t 7.1393E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:48
+  110000 t 7.4794E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:52
+  110302 t 7.5000E+00 dt 6.80E-05 write d3plot file            07/24/24 15:27:52
+  115000 t 7.8196E+00 dt 6.80E-05 flush i/o buffers            07/24/24 15:27:55

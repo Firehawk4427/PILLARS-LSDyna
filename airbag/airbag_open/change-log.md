@@ -12,7 +12,7 @@
 - resized everything to 60 m wide (outer)
 - ran into bug where after deleting old parts and then transforming a new part, the old ones would reappear, merge into the new part, and irreversibly fuck up everything, then id restart. this happened far too many times
 - *still need to remap keywords* 
-## V12 
+## V12
 - mapped keywords, but the null material exploded during simulation
 ![[null-explode.gif]]
 
@@ -66,7 +66,7 @@
 ## V29
 - changed endtime to 40 s
 - sim explodes at 10s
-## V30 
+## V30
 ![[Pasted image 20240719115124.png]]
 ## V31
 - not sure if A or B is the master or slave (might matter for collisions)
@@ -171,10 +171,10 @@
 - swapped airbag for auto contact
 	- less accurate but fixes errors
 - ETA 3m
-## V48 
+## V48
 - deleted permeability keyword
 - swapped to WANG_NEFSKE
 ![[Pasted image 20240724143157.png|300]]![[Pasted image 20240724143221.png|300]]![[Pasted image 20240724143244.png|300]]
 ## V51
-- tried a feew changes with inner mesh density to see if i could get it to stretch more and not restrict the outer geometry.
-	- all it did was exponentially increase runtime and simulation r
+- tried a few changes with inner mesh density to see if i could get it to stretch more and not restrict the outer geometry.
+	- all it did was exponentially increase runtime and simulation ran almost the same

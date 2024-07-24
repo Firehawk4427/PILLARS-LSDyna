@@ -3,3 +3,6 @@ $# Created on Jul-24-2024 (12:41:26)
 open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v47.k"
 Message 1
 Message 0
+kwdtrans src MAT "ADD_PERMEABILITY"
+kwddel byrange MAT "ADD_PERMEABILITY" 0 1
+Keyword Delete 1128 1

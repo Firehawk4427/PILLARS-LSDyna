@@ -175,4 +175,6 @@
 - deleted permeability keyword
 - swapped to WANG_NEFSKE
 ![[Pasted image 20240724143157.png|300]]![[Pasted image 20240724143221.png|300]]![[Pasted image 20240724143244.png|300]]
-
+## V51
+- tried a feew changes with inner mesh density to see if i could get it to stretch more and not restrict the outer geometry.
+	- all it did was exponentially increase runtime and simulation r

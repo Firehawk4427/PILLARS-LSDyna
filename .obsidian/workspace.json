@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag/airbag_open/change-log.md"
+                "file": "README.md"
               }
             }
           },
@@ -174,10 +174,10 @@
   },
   "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
+    "airbag/airbag_open/change-log.md",
     "notes-n-resources/Material Properties.md",
     "notes-n-resources/Units & Initial Parameters (EOS).md",
     "attachments/Pasted image 20240724124525.png",
-    "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/lspost.db",
     "notes-n-resources/Manuals.md",
     "notes-n-resources/Resources.md",

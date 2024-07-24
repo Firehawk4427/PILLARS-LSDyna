@@ -13,3 +13,4 @@
 - [x] add collisions
 - [x] fix fabric mesh
 - [x] add in single_surface_contact so mesh doesnt collide with itself
+- [ ] swap simple model for hybrid model w/ leakage support

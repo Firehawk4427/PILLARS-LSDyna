@@ -171,4 +171,6 @@
 - swapped airbag for auto contact
 	- less accurate but fixes errors
 - ETA 3m
+## V48 
+- deleted permeability keyword
 

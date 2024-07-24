@@ -1,8 +1,15 @@
 $# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
-$# Created on Jul-24-2024 (12:41:26)
-open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v47.k"
-Message 1
-Message 0
-kwdtrans src MAT "ADD_PERMEABILITY"
-kwddel byrange MAT "ADD_PERMEABILITY" 0 1
-Keyword Delete 1128 1
+$# Created on Jul-24-2024 (14:51:51)
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\d3plot"
+ac
+anim forward
+anim speed 30
+anim speed 0
+anim speed 1
+anim speed 3
+anim speed 1
+anim speed 1
+anim speed 1
+anim speed 2
+anim speed 0
+-M X2

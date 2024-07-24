@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes-n-resources/Units & Initial Parameters (EOS).md",
+                "file": "notes-n-resources/Material Properties.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes-n-resources/Units & Initial Parameters (EOS).md",
+                "file": "notes-n-resources/Material Properties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes-n-resources/Units & Initial Parameters (EOS).md",
+                "file": "notes-n-resources/Material Properties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes-n-resources/Units & Initial Parameters (EOS).md"
+                "file": "notes-n-resources/Material Properties.md"
               }
             }
           },
@@ -174,10 +174,11 @@
   },
   "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
+    "notes-n-resources/Units & Initial Parameters (EOS).md",
+    "attachments/Pasted image 20240724124525.png",
     "airbag/airbag_open/change-log.md",
     "notes-n-resources/Material Properties.md",
     "airbag/airbag_open/lspost.db",
-    "notes-n-resources/Units & Initial Parameters (EOS).md",
     "notes-n-resources/Manuals.md",
     "notes-n-resources/Resources.md",
     "README.md",
@@ -199,7 +200,6 @@
     "attachments/Pasted image 20240722144103.png",
     "attachments/Pasted image 20240719160356.png",
     "attachments/Pasted image 20240719143916.png",
-    "attachments/Pasted image 20240719143547.png",
     "airbag_/change-log.md",
     "airbag/airbag_open/notes.md",
     "notes-n-resources/bugs-n-errors.md",

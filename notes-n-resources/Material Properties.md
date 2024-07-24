@@ -20,5 +20,9 @@
 ***(FD) Dynamic Coefficient of Friction***
 ## Termination
 ***(ENDTIM)*** 40 $s$
-***(ENDMAS) Percent change in the total mass for termination of calculation*** 1e
+***(ENDMAS) Percent change in the total mass for termination of calculation*** 1e8
+## Timestep
+DTINIT:=Initial time step size: 1e-7 $s$
+## Curve / Mass Flow Rate
+
 

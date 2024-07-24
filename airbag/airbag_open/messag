@@ -893,3 +893,88 @@ Checking Control Volume Orientations
   170000 t 3.2947E+01 dt 1.94E-04 flush i/o buffers            07/24/24 15:07:07
   170274 t 3.3000E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:08
   172856 t 3.3500E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:10
+  175000 t 3.3915E+01 dt 1.94E-04 flush i/o buffers            07/24/24 15:07:11
+  175438 t 3.4000E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:12
+  178020 t 3.4500E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:14
+  180000 t 3.4883E+01 dt 1.94E-04 flush i/o buffers            07/24/24 15:07:16
+  180602 t 3.5000E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:16
+  183183 t 3.5500E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:18
+  185000 t 3.5852E+01 dt 1.94E-04 flush i/o buffers            07/24/24 15:07:20
+  185764 t 3.6000E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:20
+  188346 t 3.6500E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:22
+  190000 t 3.6820E+01 dt 1.94E-04 flush i/o buffers            07/24/24 15:07:24
+  190927 t 3.7000E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:24
+  193508 t 3.7500E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:27
+  195000 t 3.7789E+01 dt 1.94E-04 flush i/o buffers            07/24/24 15:07:28
+  196089 t 3.8000E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:29
+  198670 t 3.8500E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:31
+  200000 t 3.8758E+01 dt 1.94E-04 flush i/o buffers            07/24/24 15:07:32
+  201251 t 3.9000E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:33
+  203832 t 3.9500E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:35
+  205000 t 3.9726E+01 dt 1.94E-04 flush i/o buffers            07/24/24 15:07:36
+  206413 t 4.0000E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:37
+ 
+ *** termination time reached ***
+  206413 t 4.0000E+01 dt 1.94E-04 write d3dump01 file          07/24/24 15:07:37
+  206413 t 4.0000E+01 dt 1.94E-04 write d3plot file            07/24/24 15:07:37
+
+ N o r m a l    t e r m i n a t i o n                          07/24/24 15:07:37
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to complete solution   :     521K
+ Additional dynamically allocated memory:    6673K
+                                   Total:    7194K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     7.7000E-02    0.05
+    KW Reading ......... 0.0000E+00    0.00     4.4000E-02    0.03
+    KW Writing ......... 0.0000E+00    0.00     6.0000E-03    0.00
+  Initialization ....... 1.0000E+00    0.59     1.2240E+00    0.72
+    Init Proc Phase 1 .. 0.0000E+00    0.00     6.6000E-02    0.04
+    Init Proc Phase 2 .. 0.0000E+00    0.00     1.9000E-02    0.01
+  Element processing ... 7.3000E+01   43.20     6.9457E+01   41.00
+    Solids ............. 2.0000E+00    1.18     2.3590E+00    1.39
+    Shells ............. 6.6000E+01   39.05     6.2522E+01   36.91
+    Beams .............. 3.0000E+00    1.78     9.6100E-01    0.57
+    ISO Shells ......... 0.0000E+00    0.00     1.1000E-02    0.01
+    E Other ............ 2.0000E+00    1.18     3.1820E+00    1.88
+  Binary databases ..... 0.0000E+00    0.00     2.1200E-01    0.13
+  ASCII database ....... 0.0000E+00    0.00     1.1800E-01    0.07
+  Contact algorithm .... 5.2000E+01   30.77     5.6621E+01   33.42
+    Interf. ID         1 2.2000E+01   13.02     3.1269E+01   18.46
+    Interf. ID         2 3.0000E+01   17.75     2.5055E+01   14.79
+  Rigid Bodies ......... 2.0000E+00    1.18     2.7050E+00    1.60
+  Time step size ....... 0.0000E+00    0.00     7.4000E-02    0.04
+  Group force file ..... 0.0000E+00    0.00     2.4000E-02    0.01
+  Others ............... 0.0000E+00    0.00     1.6200E-01    0.10
+  Misc. 1 .............. 6.0000E+00    3.55     8.7040E+00    5.14
+    Scale Masses ....... 0.0000E+00    0.00     2.0000E-02    0.01
+    Force Constraints .. 0.0000E+00    0.00     1.9000E-02    0.01
+    Force to Accel ..... 0.0000E+00    0.00     2.0000E+00    1.18
+    Update RB nodes .... 6.0000E+00    3.55     6.2230E+00    3.67
+  Misc. 2 .............. 9.0000E+00    5.33     6.9210E+00    4.09
+  Misc. 3 .............. 0.0000E+00    0.00     2.5300E-01    0.15
+  Misc. 4 .............. 2.6000E+01   15.38     2.2845E+01   13.49
+    Timestep Init ...... 6.0000E+00    3.55     5.2580E+00    3.10
+    Apply Loads ........ 1.1000E+01    6.51     1.2626E+01    7.45
+    Compute exwork ..... 9.0000E+00    5.33     4.9070E+00    2.90
+  ----------------------------------------------------------------
+  T o t a l s            1.6900E+02  100.00     1.6940E+02  100.00
+
+ Problem time       =    4.0000E+01
+ Problem cycle      =    206413
+ Total CPU time     =       169 seconds (   0 hours  2 minutes 49 seconds)
+ CPU time per zone cycle  =         61.753 nanoseconds
+ Clock time per zone cycle=         61.788 nanoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   07/24/2024 15:04:49  
+ End time     07/24/2024 15:07:37  
+ Elapsed time     168 seconds for  206413 cycles using  2 SMP threads
+             (      0 hour   2 minutes 48 seconds)
+
+ N o r m a l    t e r m i n a t i o n                          07/24/24 15:07:37

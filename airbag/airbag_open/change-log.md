@@ -173,4 +173,6 @@
 - ETA 3m
 ## V48 
 - deleted permeability keyword
+- swapped to WANG_NEFSKE
+![[Pasted image 20240724143157.png|300]]![[Pasted image 20240724143221.png|300]]![[Pasted image 20240724143244.png|300]]
 

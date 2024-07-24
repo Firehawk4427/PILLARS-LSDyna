@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "notes-n-resources/Material Properties.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "notes-n-resources/Material Properties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "notes-n-resources/Material Properties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag/airbag_open/change-log.md"
+                "file": "notes-n-resources/Material Properties.md"
               }
             }
           },
@@ -174,6 +174,8 @@
   },
   "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
+    "README.md",
+    "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/lspp_temp_1",
     "notes-n-resources/contact-definitions-jason-rabinovitch.pdf",
     "airbag/airbag_open/d3plot03",
@@ -184,17 +186,14 @@
     "airbag/airbag_open/d3plot",
     "airbag/airbag_open/ldcrvv",
     "airbag/airbag_open/part_des",
-    "airbag/airbag_open/abstat",
     "notes-n-resources/Manuals.md",
     "notes-n-resources/bugs-n-errors.md",
     "notes-n-resources/Material Properties.md",
     "notes-n-resources/Units & Initial Parameters (EOS).md",
     "notes-n-resources/Resources.md",
-    "airbag/airbag_open/change-log.md",
     "attachments/Pasted image 20240724143244.png",
     "attachments/Pasted image 20240724143221.png",
     "attachments/Pasted image 20240724143157.png",
-    "README.md",
     "attachments/Pasted image 20240724124525.png",
     "airbag/airbag_open/collisions-on-null=porous-fabric.gif",
     "airbag/airbag_open/collisions-on-null-fucked.gif",

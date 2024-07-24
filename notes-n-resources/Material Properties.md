@@ -1,5 +1,6 @@
 ## General
 ***Gravity*** 1.26 $\frac{m}{s}$
+***Air Density*** 1.293 $\frac{kg}{m^{3}}$
 
 ## Raptor Engine
 ***Mass Flow Rate*** 650 $\frac{kg}{s}$

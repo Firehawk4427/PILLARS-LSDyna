@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes-n-resources/Material Properties.md",
+                "file": "notes-n-resources/Units & Initial Parameters (EOS).md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes-n-resources/Material Properties.md",
+                "file": "notes-n-resources/Units & Initial Parameters (EOS).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes-n-resources/Material Properties.md",
+                "file": "notes-n-resources/Units & Initial Parameters (EOS).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes-n-resources/Material Properties.md"
+                "file": "notes-n-resources/Units & Initial Parameters (EOS).md"
               }
             }
           },
@@ -174,6 +174,7 @@
   },
   "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
+    "notes-n-resources/Material Properties.md",
     "README.md",
     "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/lspp_temp_1",
@@ -188,7 +189,6 @@
     "airbag/airbag_open/part_des",
     "notes-n-resources/Manuals.md",
     "notes-n-resources/bugs-n-errors.md",
-    "notes-n-resources/Material Properties.md",
     "notes-n-resources/Units & Initial Parameters (EOS).md",
     "notes-n-resources/Resources.md",
     "attachments/Pasted image 20240724143244.png",

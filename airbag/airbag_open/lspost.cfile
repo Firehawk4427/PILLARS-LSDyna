@@ -10,3 +10,55 @@ state 59;
 -M X2
 +M X1
 anim stop; state 80;
+anim forward
+anim speed 14
+anim speed 14
+anim stop; state 64;
+anim forward
+fringe 6
+pfringe
+fringe 7
+pfringe
+fringe 9
+pfringe
+fringe 530
+pfringe
+fringe 9
+pfringe
+fringe 530
+pfringe
+fringe 9
+pfringe
+fringe 530
+pfringe
+fringe 9
+pfringe
+fringe 530
+pfringe
+fringe 519
+pfringe
+fringe 518
+pfringe
+fringe 16
+pfringe
+fringe 15
+pfringe
+fringe 14
+pfringe
+fringe 13
+pfringe
+fringe 9
+pfringe
+fringe 10
+pfringe
+fringe 11
+pfringe
+fringe 12
+pfringe
+fringe 11
+pfringe
+fringe 10
+pfringe
+fringe 9
+pfringe
+anim stop; state 81;

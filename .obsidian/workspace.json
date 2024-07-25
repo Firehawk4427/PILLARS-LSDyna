@@ -23,11 +23,9 @@
             "id": "26cd68aa6b6ed1da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "notes-n-resources/contact-definitions-jason-rabinovitch.pdf"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "notes-n-resources/contact-definitions-jason-rabinovitch.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "notes-n-resources/contact-definitions-jason-rabinovitch.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "notes-n-resources/contact-definitions-jason-rabinovitch.pdf"
               }
             }
           },
@@ -174,6 +172,7 @@
   },
   "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
+    "README.md",
     "airbag/airbag_open/d3plot03",
     "airbag/airbag_open/d3dump01",
     "airbag/airbag_open/d3plot02",
@@ -184,10 +183,8 @@
     "airbag/airbag_open/part_des",
     "airbag/airbag_open/abstat",
     "airbag/airbag_open/adptmp",
-    "airbag/airbag_open/group_file",
     "notes-n-resources/Units & Initial Parameters (EOS).md",
     "notes-n-resources/Material Properties.md",
-    "README.md",
     "airbag/airbag_open/change-log.md",
     "notes-n-resources/Manuals.md",
     "notes-n-resources/bugs-n-errors.md",

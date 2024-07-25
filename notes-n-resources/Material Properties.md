@@ -5,11 +5,11 @@
 ## Raptor Engine
 ***Mass Flow Rate*** 650 $\frac{kg}{s}$
 ***Chamber Pressure***: 3.5e7 $Pa$
-
-## Airbag model
 ***(CV) Heat Capacity Constant Volume*** 896 $\frac{J}{kg\cdot K}$
 ***(CP) Heat Capacity Constant Pressure*** 1204 $\frac{J}{kg\cdot K}$
 	need to double check this ^^^
+
+## Airbag model
 ***(T) Ambient Temperature*** 260 K
 ***(MU) Shape factor for exit hole***
 ***(PE) Ambient Pressure*** 3e-10 $Pa$

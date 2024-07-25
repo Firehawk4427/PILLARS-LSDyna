@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/24/2024      Time: 16:37:45  
+      Date: 07/25/2024      Time: 11:20:34  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -79,15 +79,15 @@
 [license/error] Request name dyna does not exist in the licensing pool.
 [license/error] No valid FLEXlm servers specified.
 [license/error] Licensing mode "ANSYS LSDYNA" failed on feature "dyna". Undoing partial checkout.
- Student license active; 39 days remaning.
+ Student license active; 38 days remaning.
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v50.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v52.k 
                        ncpu=2 
                        memory=20m
 
- Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v50
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v52
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
@@ -142,7 +142,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/24/24 16:37:46
+ Beginning of keyword reader                                   07/25/24 11:20:35
 
  Memory required to process keyword     :     520160  
  Additional dynamic memory required     :    2857696  
@@ -310,12 +310,12 @@
      for control volume 1
 
  input of data is completed
- slave  stiffness of sliding interface 1 is scaled by   8.09734E+01
- master stiffness of sliding interface 1 is scaled by   1.23497E-02
+ slave  stiffness of sliding interface 1 is scaled by   7.76526E+01
+ master stiffness of sliding interface 1 is scaled by   1.28779E-02
 
  initial kinetic energy = 0.00000000E+00
 
- The LS-DYNA time step size should not exceed     3.501E-05
+ The LS-DYNA time step size should not exceed     3.700E-05
  to avoid contact instabilities.  If the step size is
  bigger then scale the penalty of the offending surface.
 
@@ -324,8 +324,8 @@
                                    Total:    7123K
 
  initialization completed
-       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/24/24 16:37:47
-       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/24/24 16:37:47
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/25/24 11:20:36
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/25/24 11:20:36
  
  *** Warning 40864 (SOL+864)
      Segment based contact stiffness was reduced due to
@@ -358,12 +358,12 @@
      Contact Interface # 2
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....         0 nanoseconds
- average clock time per zone cycle..       137 nanoseconds
+ average clock time per zone cycle..       144 nanoseconds
 
  estimated total cpu time          =         1 sec (       0 hrs  0 mins)
  estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =    254905 sec (      70 hrs 48 mins)
- estimated clock time to complete  =    254904 sec (      70 hrs 48 mins)
+ estimated total clock time        =    267650 sec (      74 hrs 20 mins)
+ estimated clock time to complete  =    267649 sec (      74 hrs 20 mins)
  termination time                  = 4.000E+01
  
  *** Warning 40864 (SOL+864)
@@ -471,1106 +471,195 @@
  *** Warning 40864 (SOL+864)
      Segment based contact stiffness was reduced due to
      an increasing solution time step. The new time step for
-     the stiffness calculation is 8.3320E-06
+     the stiffness calculation is 8.8197E-06
      Contact Interface # 2
-    5000 t 4.1356E-02 dt 8.33E-06 flush i/o buffers            07/24/24 16:37:52
-   10000 t 8.3016E-02 dt 8.33E-06 flush i/o buffers            07/24/24 16:37:58
-   15000 t 1.2468E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:38:04
-   20000 t 1.6634E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:38:11
-   25000 t 2.0800E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:38:18
-   30000 t 2.4966E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:38:25
-   35000 t 2.9132E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:38:32
-   40000 t 3.3298E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:38:40
-   45000 t 3.7464E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:38:48
-   50000 t 4.1630E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:38:56
-   55000 t 4.5796E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:39:05
-   60000 t 4.9962E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:39:13
-   60045 t 4.9999E-01 dt 8.33E-06 write d3plot file            07/24/24 16:39:13
-   65000 t 5.4128E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:39:22
-   70000 t 5.8294E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:39:30
-   75000 t 6.2460E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:39:38
-   80000 t 6.6626E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:39:47
-   85000 t 7.0792E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:39:55
-   90000 t 7.4958E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:40:04
-   95000 t 7.9124E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:40:12
-  100000 t 8.3290E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:40:21
-  105000 t 8.7456E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:40:30
-  110000 t 9.1622E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:40:38
-  115000 t 9.5788E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:40:47
-  120000 t 9.9954E-01 dt 8.33E-06 flush i/o buffers            07/24/24 16:40:55
-  120055 t 1.0000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:40:55
-  125000 t 1.0412E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:41:04
-  130000 t 1.0829E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:41:12
-  135000 t 1.1245E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:41:21
-  140000 t 1.1662E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:41:29
-  145000 t 1.2078E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:41:38
-  150000 t 1.2495E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:41:47
-  155000 t 1.2912E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:41:55
-  160000 t 1.3328E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:42:04
-  165000 t 1.3745E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:42:13
-  170000 t 1.4161E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:42:22
-  175000 t 1.4578E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:42:31
-  180000 t 1.4995E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:42:40
-  180064 t 1.5000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:42:40
-  185000 t 1.5411E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:42:49
-  190000 t 1.5828E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:42:58
-  195000 t 1.6244E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:43:07
-  200000 t 1.6661E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:43:16
-  205000 t 1.7078E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:43:24
-  210000 t 1.7494E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:43:33
-  215000 t 1.7911E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:43:42
-  220000 t 1.8327E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:43:50
-  225000 t 1.8744E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:43:58
-  230000 t 1.9161E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:44:06
-  235000 t 1.9577E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:44:15
-  240000 t 1.9994E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:44:23
-  240074 t 2.0000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:44:23
-  245000 t 2.0410E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:44:31
-  250000 t 2.0827E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:44:38
-  255000 t 2.1244E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:44:46
-  260000 t 2.1660E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:44:54
-  265000 t 2.2077E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:45:02
-  270000 t 2.2493E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:45:09
-  275000 t 2.2910E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:45:17
-  280000 t 2.3327E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:45:24
-  285000 t 2.3743E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:45:32
-  290000 t 2.4160E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:45:40
-  295000 t 2.4576E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:45:47
-  300000 t 2.4993E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:45:55
-  300083 t 2.5000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:45:55
-  305000 t 2.5410E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:46:02
-  310000 t 2.5826E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:46:10
-  315000 t 2.6243E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:46:17
-  320000 t 2.6659E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:46:24
-  325000 t 2.7076E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:46:32
-  330000 t 2.7493E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:46:39
-  335000 t 2.7909E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:46:47
-  340000 t 2.8326E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:46:54
-  345000 t 2.8742E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:47:02
-  350000 t 2.9159E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:47:09
-  355000 t 2.9576E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:47:17
-  360000 t 2.9992E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:47:24
-  360092 t 3.0000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:47:24
-  365000 t 3.0409E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:47:31
-  370000 t 3.0825E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:47:39
-  375000 t 3.1242E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:47:46
-  380000 t 3.1659E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:47:54
-  385000 t 3.2075E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:48:01
-  390000 t 3.2492E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:48:09
-  395000 t 3.2908E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:48:16
-  400000 t 3.3325E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:48:23
-  405000 t 3.3742E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:48:31
-  410000 t 3.4158E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:48:38
-  415000 t 3.4575E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:48:46
-  420000 t 3.4991E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:48:53
-  420102 t 3.5000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:48:53
-  425000 t 3.5408E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:49:01
-  430000 t 3.5825E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:49:08
-  435000 t 3.6241E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:49:16
-  440000 t 3.6658E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:49:23
-  445000 t 3.7074E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:49:30
-  450000 t 3.7491E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:49:38
-  455000 t 3.7908E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:49:45
-  460000 t 3.8324E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:49:53
-  465000 t 3.8741E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:50:00
-  470000 t 3.9157E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:50:08
-  475000 t 3.9574E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:50:15
-  480000 t 3.9991E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:50:23
-  480111 t 4.0000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:50:23
-  485000 t 4.0407E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:50:30
-  490000 t 4.0824E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:50:37
-  495000 t 4.1240E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:50:45
-  500000 t 4.1657E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:50:52
-  505000 t 4.2074E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:51:00
-  510000 t 4.2490E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:51:07
-  515000 t 4.2907E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:51:14
-  520000 t 4.3323E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:51:22
-  525000 t 4.3740E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:51:29
-  530000 t 4.4157E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:51:36
-  535000 t 4.4573E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:51:43
-  540000 t 4.4990E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:51:51
-  540121 t 4.5000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:51:51
-  545000 t 4.5407E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:51:58
-  550000 t 4.5823E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:52:05
-  555000 t 4.6240E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:52:12
-  560000 t 4.6656E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:52:19
-  565000 t 4.7073E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:52:26
-  570000 t 4.7490E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:52:33
-  575000 t 4.7906E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:52:41
-  580000 t 4.8323E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:52:48
-  585000 t 4.8739E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:52:55
-  590000 t 4.9156E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:53:02
-  595000 t 4.9573E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:53:09
-  600000 t 4.9989E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:53:16
-  600130 t 5.0000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:53:16
-  605000 t 5.0406E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:53:23
-  610000 t 5.0822E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:53:29
-  615000 t 5.1239E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:53:36
-  620000 t 5.1656E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:53:43
-  625000 t 5.2072E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:53:50
-  630000 t 5.2489E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:53:57
-  635000 t 5.2905E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:54:04
-  640000 t 5.3322E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:54:11
-  645000 t 5.3739E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:54:17
-  650000 t 5.4155E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:54:24
-  655000 t 5.4572E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:54:31
-  660000 t 5.4988E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:54:38
-  660140 t 5.5000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:54:38
-  665000 t 5.5405E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:54:44
-  670000 t 5.5822E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:54:51
-  675000 t 5.6238E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:54:58
-  680000 t 5.6655E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:55:05
-  685000 t 5.7071E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:55:11
-  690000 t 5.7488E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:55:18
-  695000 t 5.7905E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:55:25
-  700000 t 5.8321E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:55:31
-  705000 t 5.8738E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:55:38
-  710000 t 5.9154E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:55:45
-  715000 t 5.9571E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:55:51
-  720000 t 5.9988E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:55:58
-  720149 t 6.0000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:55:58
-  725000 t 6.0404E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:56:04
-  730000 t 6.0821E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:56:11
-  735000 t 6.1237E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:56:18
-  740000 t 6.1654E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:56:24
-  745000 t 6.2071E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:56:31
-  750000 t 6.2487E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:56:37
-  755000 t 6.2904E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:56:44
-  760000 t 6.3320E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:56:51
-  765000 t 6.3737E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:56:57
-  770000 t 6.4154E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:57:04
-  775000 t 6.4570E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:57:10
-  780000 t 6.4987E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:57:17
-  780158 t 6.5000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:57:17
-  785000 t 6.5403E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:57:23
-  790000 t 6.5820E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:57:30
-  795000 t 6.6237E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:57:36
-  800000 t 6.6653E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:57:43
-  805000 t 6.7070E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:57:49
-  810000 t 6.7486E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:57:55
-  815000 t 6.7903E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:02
-  820000 t 6.8320E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:08
-  825000 t 6.8736E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:15
-  830000 t 6.9153E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:21
-  835000 t 6.9569E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:28
-  840000 t 6.9986E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:34
-  840168 t 7.0000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:58:34
-  845000 t 7.0403E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:40
-  850000 t 7.0819E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:47
-  855000 t 7.1236E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:53
-  860000 t 7.1652E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:58:59
-  865000 t 7.2069E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:59:06
-  870000 t 7.2486E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:59:12
-  875000 t 7.2902E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:59:19
-  880000 t 7.3319E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:59:25
-  885000 t 7.3735E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:59:31
-  890000 t 7.4152E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:59:38
-  895000 t 7.4569E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:59:44
-  900000 t 7.4985E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:59:50
-  900177 t 7.5000E+00 dt 8.33E-06 write d3plot file            07/24/24 16:59:51
-  905000 t 7.5402E+00 dt 8.33E-06 flush i/o buffers            07/24/24 16:59:57
-  910000 t 7.5818E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:00:03
-  915000 t 7.6235E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:00:09
-  920000 t 7.6652E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:00:16
-  925000 t 7.7068E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:00:22
-  930000 t 7.7485E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:00:28
-  935000 t 7.7901E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:00:35
-  940000 t 7.8318E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:00:41
-  945000 t 7.8735E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:00:47
-  950000 t 7.9151E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:00:54
-  955000 t 7.9568E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:00
-  960000 t 7.9984E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:06
-  960187 t 8.0000E+00 dt 8.33E-06 write d3plot file            07/24/24 17:01:06
-  965000 t 8.0401E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:12
-  970000 t 8.0818E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:19
-  975000 t 8.1234E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:25
-  980000 t 8.1651E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:31
-  985000 t 8.2067E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:37
-  990000 t 8.2484E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:43
-  995000 t 8.2901E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:49
- 1000000 t 8.3317E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:01:55
- 1005000 t 8.3734E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:02
- 1010000 t 8.4150E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:08
- 1015000 t 8.4567E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:14
- 1020000 t 8.4984E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:20
- 1020196 t 8.5000E+00 dt 8.33E-06 write d3plot file            07/24/24 17:02:20
- 1025000 t 8.5400E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:26
- 1030000 t 8.5817E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:32
- 1035000 t 8.6233E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:38
- 1040000 t 8.6650E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:44
- 1045000 t 8.7067E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:50
- 1050000 t 8.7483E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:02:56
- 1055000 t 8.7900E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:02
- 1060000 t 8.8316E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:08
- 1065000 t 8.8733E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:14
- 1070000 t 8.9150E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:20
- 1075000 t 8.9566E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:27
- 1080000 t 8.9983E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:33
- 1080205 t 9.0000E+00 dt 8.33E-06 write d3plot file            07/24/24 17:03:33
- 1085000 t 9.0399E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:39
- 1090000 t 9.0816E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:45
- 1095000 t 9.1233E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:51
- 1100000 t 9.1649E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:03:57
- 1105000 t 9.2066E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:03
- 1110000 t 9.2482E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:09
- 1115000 t 9.2899E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:15
- 1120000 t 9.3316E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:21
- 1125000 t 9.3732E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:27
- 1130000 t 9.4149E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:33
- 1135000 t 9.4565E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:39
- 1140000 t 9.4982E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:45
- 1140215 t 9.5000E+00 dt 8.33E-06 write d3plot file            07/24/24 17:04:45
- 1145000 t 9.5399E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:51
- 1150000 t 9.5815E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:04:56
- 1155000 t 9.6232E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:02
- 1160000 t 9.6648E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:08
- 1165000 t 9.7065E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:14
- 1170000 t 9.7482E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:20
- 1175000 t 9.7898E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:26
- 1180000 t 9.8315E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:32
- 1185000 t 9.8731E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:38
- 1190000 t 9.9148E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:44
- 1195000 t 9.9565E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:50
- 1200000 t 9.9981E+00 dt 8.33E-06 flush i/o buffers            07/24/24 17:05:56
- 1200224 t 1.0000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:05:56
- 1205000 t 1.0040E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:02
- 1210000 t 1.0081E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:08
- 1215000 t 1.0123E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:13
- 1220000 t 1.0165E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:19
- 1225000 t 1.0206E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:25
- 1230000 t 1.0248E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:31
- 1235000 t 1.0290E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:37
- 1240000 t 1.0331E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:42
- 1245000 t 1.0373E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:48
- 1250000 t 1.0415E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:06:54
- 1255000 t 1.0456E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:00
- 1260000 t 1.0498E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:05
- 1260234 t 1.0500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:07:06
- 1265000 t 1.0540E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:11
- 1270000 t 1.0581E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:17
- 1275000 t 1.0623E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:23
- 1280000 t 1.0665E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:28
- 1285000 t 1.0706E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:34
- 1290000 t 1.0748E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:40
- 1295000 t 1.0790E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:45
- 1300000 t 1.0831E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:51
- 1305000 t 1.0873E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:07:57
- 1310000 t 1.0915E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:03
- 1315000 t 1.0956E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:08
- 1320000 t 1.0998E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:14
- 1320243 t 1.1000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:08:14
- 1325000 t 1.1040E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:20
- 1330000 t 1.1081E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:26
- 1335000 t 1.1123E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:31
- 1340000 t 1.1165E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:37
- 1345000 t 1.1206E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:43
- 1350000 t 1.1248E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:49
- 1355000 t 1.1290E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:08:55
- 1360000 t 1.1331E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:00
- 1365000 t 1.1373E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:06
- 1370000 t 1.1415E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:12
- 1375000 t 1.1456E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:18
- 1380000 t 1.1498E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:23
- 1380252 t 1.1500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:09:24
- 1385000 t 1.1540E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:29
- 1390000 t 1.1581E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:35
- 1395000 t 1.1623E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:41
- 1400000 t 1.1665E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:46
- 1405000 t 1.1706E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:52
- 1410000 t 1.1748E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:09:58
- 1415000 t 1.1790E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:04
- 1420000 t 1.1831E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:09
- 1425000 t 1.1873E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:15
- 1430000 t 1.1914E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:21
- 1435000 t 1.1956E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:27
- 1440000 t 1.1998E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:32
- 1440262 t 1.2000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:10:32
- 1445000 t 1.2039E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:38
- 1450000 t 1.2081E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:44
- 1455000 t 1.2123E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:49
- 1460000 t 1.2164E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:10:55
- 1465000 t 1.2206E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:01
- 1470000 t 1.2248E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:06
- 1475000 t 1.2289E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:12
- 1480000 t 1.2331E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:18
- 1485000 t 1.2373E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:23
- 1490000 t 1.2414E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:29
- 1495000 t 1.2456E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:35
- 1500000 t 1.2498E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:40
- 1500271 t 1.2500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:11:41
- 1505000 t 1.2539E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:46
- 1510000 t 1.2581E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:52
- 1515000 t 1.2623E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:11:58
- 1520000 t 1.2664E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:03
- 1525000 t 1.2706E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:09
- 1530000 t 1.2748E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:15
- 1535000 t 1.2789E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:21
- 1540000 t 1.2831E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:26
- 1545000 t 1.2873E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:32
- 1550000 t 1.2914E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:38
- 1555000 t 1.2956E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:43
- 1560000 t 1.2998E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:49
- 1560281 t 1.3000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:12:49
- 1565000 t 1.3039E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:12:55
- 1570000 t 1.3081E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:00
- 1575000 t 1.3123E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:06
- 1580000 t 1.3164E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:12
- 1585000 t 1.3206E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:18
- 1590000 t 1.3248E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:23
- 1595000 t 1.3289E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:29
- 1600000 t 1.3331E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:35
- 1605000 t 1.3373E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:41
- 1610000 t 1.3414E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:46
- 1615000 t 1.3456E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:52
- 1620000 t 1.3498E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:13:58
- 1620290 t 1.3500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:13:58
- 1625000 t 1.3539E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:03
- 1630000 t 1.3581E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:09
- 1635000 t 1.3623E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:15
- 1640000 t 1.3664E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:21
- 1645000 t 1.3706E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:26
- 1650000 t 1.3748E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:32
- 1655000 t 1.3789E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:38
- 1660000 t 1.3831E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:44
- 1665000 t 1.3873E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:49
- 1670000 t 1.3914E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:14:55
- 1675000 t 1.3956E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:00
- 1680000 t 1.3998E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:06
- 1680299 t 1.4000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:15:06
- 1685000 t 1.4039E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:12
- 1690000 t 1.4081E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:18
- 1695000 t 1.4122E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:23
- 1700000 t 1.4164E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:29
- 1705000 t 1.4206E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:35
- 1710000 t 1.4247E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:40
- 1715000 t 1.4289E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:46
- 1720000 t 1.4331E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:52
- 1725000 t 1.4372E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:15:57
- 1730000 t 1.4414E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:03
- 1735000 t 1.4456E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:09
- 1740000 t 1.4497E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:14
- 1740309 t 1.4500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:16:15
- 1745000 t 1.4539E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:20
- 1750000 t 1.4581E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:26
- 1755000 t 1.4622E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:31
- 1760000 t 1.4664E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:37
- 1765000 t 1.4706E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:43
- 1770000 t 1.4747E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:48
- 1775000 t 1.4789E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:16:54
- 1780000 t 1.4831E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:00
- 1785000 t 1.4872E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:05
- 1790000 t 1.4914E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:11
- 1795000 t 1.4956E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:17
- 1800000 t 1.4997E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:22
- 1800318 t 1.5000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:17:23
- 1805000 t 1.5039E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:28
- 1810000 t 1.5081E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:34
- 1815000 t 1.5122E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:39
- 1820000 t 1.5164E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:45
- 1825000 t 1.5206E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:51
- 1830000 t 1.5247E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:17:57
- 1835000 t 1.5289E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:02
- 1840000 t 1.5331E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:08
- 1845000 t 1.5372E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:14
- 1850000 t 1.5414E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:19
- 1855000 t 1.5456E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:25
- 1860000 t 1.5497E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:31
- 1860328 t 1.5500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:18:31
- 1865000 t 1.5539E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:37
- 1870000 t 1.5581E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:42
- 1875000 t 1.5622E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:48
- 1880000 t 1.5664E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:54
- 1885000 t 1.5706E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:18:59
- 1890000 t 1.5747E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:05
- 1895000 t 1.5789E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:11
- 1900000 t 1.5831E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:17
- 1905000 t 1.5872E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:22
- 1910000 t 1.5914E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:28
- 1915000 t 1.5956E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:34
- 1920000 t 1.5997E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:39
- 1920337 t 1.6000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:19:40
- 1925000 t 1.6039E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:45
- 1930000 t 1.6081E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:51
- 1935000 t 1.6122E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:19:56
- 1940000 t 1.6164E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:02
- 1945000 t 1.6205E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:08
- 1950000 t 1.6247E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:13
- 1955000 t 1.6289E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:19
- 1960000 t 1.6330E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:25
- 1965000 t 1.6372E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:31
- 1970000 t 1.6414E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:36
- 1975000 t 1.6455E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:42
- 1980000 t 1.6497E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:48
- 1980346 t 1.6500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:20:48
- 1985000 t 1.6539E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:53
- 1990000 t 1.6580E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:20:59
- 1995000 t 1.6622E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:05
- 2000000 t 1.6664E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:11
- 2005000 t 1.6705E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:16
- 2010000 t 1.6747E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:22
- 2015000 t 1.6789E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:28
- 2020000 t 1.6830E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:34
- 2025000 t 1.6872E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:39
- 2030000 t 1.6914E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:45
- 2035000 t 1.6955E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:51
- 2040000 t 1.6997E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:21:57
- 2040356 t 1.7000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:21:57
- 2045000 t 1.7039E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:02
- 2050000 t 1.7080E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:08
- 2055000 t 1.7122E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:14
- 2060000 t 1.7164E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:20
- 2065000 t 1.7205E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:25
- 2070000 t 1.7247E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:31
- 2075000 t 1.7289E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:37
- 2080000 t 1.7330E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:43
- 2085000 t 1.7372E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:48
- 2090000 t 1.7414E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:22:54
- 2095000 t 1.7455E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:00
- 2100000 t 1.7497E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:05
- 2100365 t 1.7500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:23:06
- 2105000 t 1.7539E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:11
- 2110000 t 1.7580E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:17
- 2115000 t 1.7622E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:23
- 2120000 t 1.7664E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:28
- 2125000 t 1.7705E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:34
- 2130000 t 1.7747E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:40
- 2135000 t 1.7789E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:45
- 2140000 t 1.7830E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:51
- 2145000 t 1.7872E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:23:57
- 2150000 t 1.7914E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:03
- 2155000 t 1.7955E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:08
- 2160000 t 1.7997E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:14
- 2160375 t 1.8000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:24:14
- 2165000 t 1.8039E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:20
- 2170000 t 1.8080E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:25
- 2175000 t 1.8122E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:31
- 2180000 t 1.8164E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:37
- 2185000 t 1.8205E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:42
- 2190000 t 1.8247E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:48
- 2195000 t 1.8288E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:24:54
- 2200000 t 1.8330E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:00
- 2205000 t 1.8372E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:06
- 2210000 t 1.8413E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:11
- 2215000 t 1.8455E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:17
- 2220000 t 1.8497E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:23
- 2220384 t 1.8500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:25:23
- 2225000 t 1.8538E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:29
- 2230000 t 1.8580E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:34
- 2235000 t 1.8622E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:40
- 2240000 t 1.8663E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:46
- 2245000 t 1.8705E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:52
- 2250000 t 1.8747E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:25:57
- 2255000 t 1.8788E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:03
- 2260000 t 1.8830E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:09
- 2265000 t 1.8872E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:15
- 2270000 t 1.8913E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:20
- 2275000 t 1.8955E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:26
- 2280000 t 1.8997E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:32
- 2280393 t 1.9000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:26:32
- 2285000 t 1.9038E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:38
- 2290000 t 1.9080E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:43
- 2295000 t 1.9122E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:49
- 2300000 t 1.9163E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:26:55
- 2305000 t 1.9205E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:01
- 2310000 t 1.9247E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:06
- 2315000 t 1.9288E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:12
- 2320000 t 1.9330E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:18
- 2325000 t 1.9372E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:24
- 2330000 t 1.9413E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:30
- 2335000 t 1.9455E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:35
- 2340000 t 1.9497E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:41
- 2340403 t 1.9500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:27:42
- 2345000 t 1.9538E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:47
- 2350000 t 1.9580E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:53
- 2355000 t 1.9622E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:27:59
- 2360000 t 1.9663E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:05
- 2365000 t 1.9705E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:10
- 2370000 t 1.9747E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:16
- 2375000 t 1.9788E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:22
- 2380000 t 1.9830E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:28
- 2385000 t 1.9872E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:34
- 2390000 t 1.9913E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:40
- 2395000 t 1.9955E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:45
- 2400000 t 1.9997E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:51
- 2400412 t 2.0000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:28:52
- 2405000 t 2.0038E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:28:57
- 2410000 t 2.0080E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:03
- 2415000 t 2.0122E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:09
- 2420000 t 2.0163E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:15
- 2425000 t 2.0205E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:21
- 2430000 t 2.0247E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:27
- 2435000 t 2.0288E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:32
- 2440000 t 2.0330E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:38
- 2445000 t 2.0372E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:44
- 2450000 t 2.0413E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:50
- 2455000 t 2.0455E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:29:56
- 2460000 t 2.0496E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:02
- 2460422 t 2.0500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:30:02
- 2465000 t 2.0538E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:08
- 2470000 t 2.0580E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:13
- 2475000 t 2.0621E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:19
- 2480000 t 2.0663E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:25
- 2485000 t 2.0705E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:31
- 2490000 t 2.0746E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:37
- 2495000 t 2.0788E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:43
- 2500000 t 2.0830E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:49
- 2505000 t 2.0871E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:30:55
- 2510000 t 2.0913E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:01
- 2515000 t 2.0955E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:07
- 2520000 t 2.0996E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:13
- 2520431 t 2.1000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:31:13
- 2525000 t 2.1038E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:19
- 2530000 t 2.1080E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:24
- 2535000 t 2.1121E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:30
- 2540000 t 2.1163E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:36
- 2545000 t 2.1205E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:42
- 2550000 t 2.1246E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:48
- 2555000 t 2.1288E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:31:54
- 2560000 t 2.1330E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:00
- 2565000 t 2.1371E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:06
- 2570000 t 2.1413E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:12
- 2575000 t 2.1455E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:18
- 2580000 t 2.1496E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:24
- 2580441 t 2.1500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:32:24
- 2585000 t 2.1538E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:30
- 2590000 t 2.1580E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:35
- 2595000 t 2.1621E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:41
- 2600000 t 2.1663E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:47
- 2605000 t 2.1705E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:54
- 2610000 t 2.1746E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:32:59
- 2615000 t 2.1788E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:05
- 2620000 t 2.1830E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:11
- 2625000 t 2.1871E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:17
- 2630000 t 2.1913E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:23
- 2635000 t 2.1955E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:29
- 2640000 t 2.1996E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:35
- 2640450 t 2.2000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:33:36
- 2645000 t 2.2038E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:41
- 2650000 t 2.2080E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:47
- 2655000 t 2.2121E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:53
- 2660000 t 2.2163E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:33:59
- 2665000 t 2.2205E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:05
- 2670000 t 2.2246E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:11
- 2675000 t 2.2288E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:17
- 2680000 t 2.2330E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:23
- 2685000 t 2.2371E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:29
- 2690000 t 2.2413E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:35
- 2695000 t 2.2455E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:41
- 2700000 t 2.2496E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:47
- 2700459 t 2.2500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:34:48
- 2705000 t 2.2538E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:53
- 2710000 t 2.2579E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:34:59
- 2715000 t 2.2621E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:35:05
- 2720000 t 2.2663E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:35:11
- 2725000 t 2.2704E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:35:17
- 2730000 t 2.2746E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:35:23
- 2735000 t 2.2788E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:35:29
- 2740000 t 2.2829E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:35:35
- 2745000 t 2.2871E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:35:41
- 2750000 t 2.2913E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:35:47
- 2755000 t 2.2954E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:35:53
- 2760000 t 2.2996E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:00
- 2760469 t 2.3000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:36:00
- 2765000 t 2.3038E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:05
- 2770000 t 2.3079E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:11
- 2775000 t 2.3121E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:17
- 2780000 t 2.3163E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:24
- 2785000 t 2.3204E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:30
- 2790000 t 2.3246E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:36
- 2795000 t 2.3288E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:42
- 2800000 t 2.3329E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:48
- 2805000 t 2.3371E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:36:54
- 2810000 t 2.3413E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:00
- 2815000 t 2.3454E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:06
- 2820000 t 2.3496E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:12
- 2820478 t 2.3500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:37:13
- 2825000 t 2.3538E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:18
- 2830000 t 2.3579E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:24
- 2835000 t 2.3621E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:30
- 2840000 t 2.3663E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:36
- 2845000 t 2.3704E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:43
- 2850000 t 2.3746E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:49
- 2855000 t 2.3788E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:37:55
- 2860000 t 2.3829E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:01
- 2865000 t 2.3871E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:07
- 2870000 t 2.3913E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:13
- 2875000 t 2.3954E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:19
- 2880000 t 2.3996E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:25
- 2880488 t 2.4000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:38:25
- 2885000 t 2.4038E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:31
- 2890000 t 2.4079E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:37
- 2895000 t 2.4121E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:43
- 2900000 t 2.4163E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:49
- 2905000 t 2.4204E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:38:55
- 2910000 t 2.4246E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:02
- 2915000 t 2.4288E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:08
- 2920000 t 2.4329E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:14
- 2925000 t 2.4371E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:20
- 2930000 t 2.4413E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:26
- 2935000 t 2.4454E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:32
- 2940000 t 2.4496E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:38
- 2940497 t 2.4500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:39:39
- 2945000 t 2.4538E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:44
- 2950000 t 2.4579E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:50
- 2955000 t 2.4621E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:39:56
- 2960000 t 2.4662E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:02
- 2965000 t 2.4704E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:08
- 2970000 t 2.4746E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:14
- 2975000 t 2.4787E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:20
- 2980000 t 2.4829E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:27
- 2985000 t 2.4871E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:33
- 2990000 t 2.4912E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:39
- 2995000 t 2.4954E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:45
- 3000000 t 2.4996E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:51
- 3000506 t 2.5000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:40:51
- 3005000 t 2.5037E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:40:57
- 3010000 t 2.5079E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:03
- 3015000 t 2.5121E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:09
- 3020000 t 2.5162E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:15
- 3025000 t 2.5204E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:21
- 3030000 t 2.5246E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:27
- 3035000 t 2.5287E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:33
- 3040000 t 2.5329E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:39
- 3045000 t 2.5371E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:45
- 3050000 t 2.5412E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:51
- 3055000 t 2.5454E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:41:58
- 3060000 t 2.5496E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:04
- 3060516 t 2.5500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:42:04
- 3065000 t 2.5537E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:10
- 3070000 t 2.5579E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:16
- 3075000 t 2.5621E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:22
- 3080000 t 2.5662E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:28
- 3085000 t 2.5704E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:34
- 3090000 t 2.5746E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:40
- 3095000 t 2.5787E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:46
- 3100000 t 2.5829E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:52
- 3105000 t 2.5871E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:42:58
- 3110000 t 2.5912E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:03
- 3115000 t 2.5954E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:10
- 3120000 t 2.5996E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:16
- 3120525 t 2.6000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:43:16
- 3125000 t 2.6037E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:22
- 3130000 t 2.6079E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:28
- 3135000 t 2.6121E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:34
- 3140000 t 2.6162E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:40
- 3145000 t 2.6204E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:46
- 3150000 t 2.6246E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:52
- 3155000 t 2.6287E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:43:58
- 3160000 t 2.6329E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:04
- 3165000 t 2.6371E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:10
- 3170000 t 2.6412E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:16
- 3175000 t 2.6454E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:22
- 3180000 t 2.6496E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:28
- 3180535 t 2.6500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:44:28
- 3185000 t 2.6537E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:34
- 3190000 t 2.6579E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:40
- 3195000 t 2.6621E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:46
- 3200000 t 2.6662E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:52
- 3205000 t 2.6704E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:44:58
- 3210000 t 2.6746E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:04
- 3215000 t 2.6787E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:10
- 3220000 t 2.6829E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:16
- 3225000 t 2.6870E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:22
- 3230000 t 2.6912E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:28
- 3235000 t 2.6954E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:34
- 3240000 t 2.6995E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:40
- 3240544 t 2.7000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:45:41
- 3245000 t 2.7037E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:46
- 3250000 t 2.7079E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:52
- 3255000 t 2.7120E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:45:58
- 3260000 t 2.7162E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:04
- 3265000 t 2.7204E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:10
- 3270000 t 2.7245E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:16
- 3275000 t 2.7287E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:22
- 3280000 t 2.7329E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:28
- 3285000 t 2.7370E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:34
- 3290000 t 2.7412E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:40
- 3295000 t 2.7454E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:46
- 3300000 t 2.7495E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:52
- 3300553 t 2.7500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:46:53
- 3305000 t 2.7537E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:46:58
- 3310000 t 2.7579E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:04
- 3315000 t 2.7620E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:10
- 3320000 t 2.7662E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:16
- 3325000 t 2.7704E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:22
- 3330000 t 2.7745E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:28
- 3335000 t 2.7787E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:34
- 3340000 t 2.7829E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:41
- 3345000 t 2.7870E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:47
- 3350000 t 2.7912E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:53
- 3355000 t 2.7954E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:47:59
- 3360000 t 2.7995E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:05
- 3360563 t 2.8000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:48:06
- 3365000 t 2.8037E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:11
- 3370000 t 2.8079E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:17
- 3375000 t 2.8120E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:23
- 3380000 t 2.8162E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:29
- 3385000 t 2.8204E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:35
- 3390000 t 2.8245E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:41
- 3395000 t 2.8287E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:47
- 3400000 t 2.8329E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:53
- 3405000 t 2.8370E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:48:59
- 3410000 t 2.8412E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:49:05
- 3415000 t 2.8454E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:49:11
- 3420000 t 2.8495E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:49:18
- 3420572 t 2.8500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:49:18
- 3425000 t 2.8537E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:49:24
- 3430000 t 2.8579E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:49:30
- 3435000 t 2.8620E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:49:36
- 3440000 t 2.8662E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:49:42
- 3445000 t 2.8704E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:49:48
- 3450000 t 2.8745E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:49:54
- 3455000 t 2.8787E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:00
- 3460000 t 2.8829E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:06
- 3465000 t 2.8870E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:12
- 3470000 t 2.8912E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:18
- 3475000 t 2.8953E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:24
- 3480000 t 2.8995E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:30
- 3480582 t 2.9000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:50:31
- 3485000 t 2.9037E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:36
- 3490000 t 2.9078E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:42
- 3495000 t 2.9120E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:48
- 3500000 t 2.9162E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:50:54
- 3505000 t 2.9203E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:01
- 3510000 t 2.9245E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:07
- 3515000 t 2.9287E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:13
- 3520000 t 2.9328E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:19
- 3525000 t 2.9370E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:25
- 3530000 t 2.9412E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:31
- 3535000 t 2.9453E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:37
- 3540000 t 2.9495E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:43
- 3540591 t 2.9500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:51:44
- 3545000 t 2.9537E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:49
- 3550000 t 2.9578E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:51:55
- 3555000 t 2.9620E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:01
- 3560000 t 2.9662E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:08
- 3565000 t 2.9703E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:14
- 3570000 t 2.9745E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:20
- 3575000 t 2.9787E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:26
- 3580000 t 2.9828E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:32
- 3585000 t 2.9870E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:38
- 3590000 t 2.9912E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:44
- 3595000 t 2.9953E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:51
- 3600000 t 2.9995E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:52:57
- 3600600 t 3.0000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:52:58
- 3605000 t 3.0037E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:03
- 3610000 t 3.0078E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:09
- 3615000 t 3.0120E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:15
- 3620000 t 3.0162E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:21
- 3625000 t 3.0203E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:27
- 3630000 t 3.0245E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:34
- 3635000 t 3.0287E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:40
- 3640000 t 3.0328E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:46
- 3645000 t 3.0370E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:52
- 3650000 t 3.0412E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:53:58
- 3655000 t 3.0453E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:54:04
- 3660000 t 3.0495E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:54:10
- 3660610 t 3.0500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:54:11
- 3665000 t 3.0537E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:54:16
- 3670000 t 3.0578E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:54:23
- 3675000 t 3.0620E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:54:29
- 3680000 t 3.0662E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:54:35
- 3685000 t 3.0703E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:54:41
- 3690000 t 3.0745E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:54:47
- 3695000 t 3.0787E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:54:54
- 3700000 t 3.0828E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:00
- 3705000 t 3.0870E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:06
- 3710000 t 3.0912E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:12
- 3715000 t 3.0953E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:18
- 3720000 t 3.0995E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:24
- 3720619 t 3.1000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:55:25
- 3725000 t 3.1036E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:30
- 3730000 t 3.1078E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:36
- 3735000 t 3.1120E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:43
- 3740000 t 3.1161E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:49
- 3745000 t 3.1203E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:55:55
- 3750000 t 3.1245E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:01
- 3755000 t 3.1286E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:07
- 3760000 t 3.1328E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:14
- 3765000 t 3.1370E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:20
- 3770000 t 3.1411E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:26
- 3775000 t 3.1453E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:32
- 3780000 t 3.1495E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:39
- 3780629 t 3.1500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:56:39
- 3785000 t 3.1536E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:45
- 3790000 t 3.1578E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:51
- 3795000 t 3.1620E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:56:57
- 3800000 t 3.1661E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:04
- 3805000 t 3.1703E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:10
- 3810000 t 3.1745E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:16
- 3815000 t 3.1786E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:22
- 3820000 t 3.1828E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:28
- 3825000 t 3.1870E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:35
- 3830000 t 3.1911E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:41
- 3835000 t 3.1953E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:47
- 3840000 t 3.1995E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:53
- 3840638 t 3.2000E+01 dt 8.33E-06 write d3plot file            07/24/24 17:57:54
- 3845000 t 3.2036E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:57:59
- 3850000 t 3.2078E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:58:05
- 3855000 t 3.2120E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:58:12
- 3860000 t 3.2161E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:58:18
- 3865000 t 3.2203E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:58:24
- 3870000 t 3.2245E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:58:30
- 3875000 t 3.2286E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:58:37
- 3880000 t 3.2328E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:58:43
- 3885000 t 3.2370E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:58:49
- 3890000 t 3.2411E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:58:55
- 3895000 t 3.2453E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:02
- 3900000 t 3.2495E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:08
- 3900647 t 3.2500E+01 dt 8.33E-06 write d3plot file            07/24/24 17:59:08
- 3905000 t 3.2536E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:14
- 3910000 t 3.2578E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:20
- 3915000 t 3.2620E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:27
- 3920000 t 3.2661E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:33
- 3925000 t 3.2703E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:39
- 3930000 t 3.2745E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:45
- 3935000 t 3.2786E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:51
- 3940000 t 3.2828E+01 dt 8.33E-06 flush i/o buffers            07/24/24 17:59:57
- 3945000 t 3.2870E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:04
- 3950000 t 3.2911E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:10
- 3955000 t 3.2953E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:16
- 3960000 t 3.2995E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:22
- 3960657 t 3.3000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:00:22
- 3965000 t 3.3036E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:28
- 3970000 t 3.3078E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:34
- 3975000 t 3.3120E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:40
- 3980000 t 3.3161E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:46
- 3985000 t 3.3203E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:52
- 3990000 t 3.3244E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:00:58
- 3995000 t 3.3286E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:04
- 4000000 t 3.3328E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:10
- 4005000 t 3.3369E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:16
- 4010000 t 3.3411E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:22
- 4015000 t 3.3453E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:28
- 4020000 t 3.3494E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:34
- 4020666 t 3.3500E+01 dt 8.33E-06 write d3plot file            07/24/24 18:01:35
- 4025000 t 3.3536E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:40
- 4030000 t 3.3578E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:46
- 4035000 t 3.3619E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:52
- 4040000 t 3.3661E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:01:58
- 4045000 t 3.3703E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:04
- 4050000 t 3.3744E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:10
- 4055000 t 3.3786E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:17
- 4060000 t 3.3828E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:23
- 4065000 t 3.3869E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:29
- 4070000 t 3.3911E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:35
- 4075000 t 3.3953E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:41
- 4080000 t 3.3994E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:47
- 4080676 t 3.4000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:02:48
- 4085000 t 3.4036E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:53
- 4090000 t 3.4078E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:02:59
- 4095000 t 3.4119E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:03:05
- 4100000 t 3.4161E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:03:12
- 4105000 t 3.4203E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:03:18
- 4110000 t 3.4244E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:03:24
- 4115000 t 3.4286E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:03:30
- 4120000 t 3.4328E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:03:36
- 4125000 t 3.4369E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:03:42
- 4130000 t 3.4411E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:03:48
- 4135000 t 3.4453E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:03:54
- 4140000 t 3.4494E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:00
- 4140685 t 3.4500E+01 dt 8.33E-06 write d3plot file            07/24/24 18:04:01
- 4145000 t 3.4536E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:06
- 4150000 t 3.4578E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:12
- 4155000 t 3.4619E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:18
- 4160000 t 3.4661E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:24
- 4165000 t 3.4703E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:30
- 4170000 t 3.4744E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:36
- 4175000 t 3.4786E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:42
- 4180000 t 3.4828E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:49
- 4185000 t 3.4869E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:04:55
- 4190000 t 3.4911E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:01
- 4195000 t 3.4953E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:07
- 4200000 t 3.4994E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:13
- 4200694 t 3.5000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:05:14
- 4205000 t 3.5036E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:19
- 4210000 t 3.5078E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:25
- 4215000 t 3.5119E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:31
- 4220000 t 3.5161E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:37
- 4225000 t 3.5203E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:43
- 4230000 t 3.5244E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:49
- 4235000 t 3.5286E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:05:55
- 4240000 t 3.5327E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:01
- 4245000 t 3.5369E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:08
- 4250000 t 3.5411E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:14
- 4255000 t 3.5452E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:20
- 4260000 t 3.5494E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:26
- 4260704 t 3.5500E+01 dt 8.33E-06 write d3plot file            07/24/24 18:06:27
- 4265000 t 3.5536E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:32
- 4270000 t 3.5577E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:38
- 4275000 t 3.5619E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:44
- 4280000 t 3.5661E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:51
- 4285000 t 3.5702E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:06:57
- 4290000 t 3.5744E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:03
- 4295000 t 3.5786E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:09
- 4300000 t 3.5827E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:15
- 4305000 t 3.5869E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:21
- 4310000 t 3.5911E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:27
- 4315000 t 3.5952E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:33
- 4320000 t 3.5994E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:40
- 4320713 t 3.6000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:07:41
- 4325000 t 3.6036E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:46
- 4330000 t 3.6077E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:52
- 4335000 t 3.6119E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:07:58
- 4340000 t 3.6161E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:04
- 4345000 t 3.6202E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:10
- 4350000 t 3.6244E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:16
- 4355000 t 3.6286E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:23
- 4360000 t 3.6327E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:29
- 4365000 t 3.6369E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:35
- 4370000 t 3.6411E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:41
- 4375000 t 3.6452E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:47
- 4380000 t 3.6494E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:53
- 4380723 t 3.6500E+01 dt 8.33E-06 write d3plot file            07/24/24 18:08:54
- 4385000 t 3.6536E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:08:59
- 4390000 t 3.6577E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:09:05
- 4395000 t 3.6619E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:09:11
- 4400000 t 3.6661E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:09:17
- 4405000 t 3.6702E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:09:23
- 4410000 t 3.6744E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:09:30
- 4415000 t 3.6786E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:09:36
- 4420000 t 3.6827E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:09:42
- 4425000 t 3.6869E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:09:48
- 4430000 t 3.6911E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:09:54
- 4435000 t 3.6952E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:00
- 4440000 t 3.6994E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:06
- 4440732 t 3.7000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:10:07
- 4445000 t 3.7036E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:12
- 4450000 t 3.7077E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:18
- 4455000 t 3.7119E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:24
- 4460000 t 3.7161E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:30
- 4465000 t 3.7202E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:36
- 4470000 t 3.7244E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:42
- 4475000 t 3.7286E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:48
- 4480000 t 3.7327E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:10:55
- 4485000 t 3.7369E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:01
- 4490000 t 3.7410E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:07
- 4495000 t 3.7452E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:13
- 4500000 t 3.7494E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:19
- 4500742 t 3.7500E+01 dt 8.33E-06 write d3plot file            07/24/24 18:11:20
- 4505000 t 3.7535E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:25
- 4510000 t 3.7577E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:31
- 4515000 t 3.7619E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:37
- 4520000 t 3.7660E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:43
- 4525000 t 3.7702E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:49
- 4530000 t 3.7744E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:11:55
- 4535000 t 3.7785E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:02
- 4540000 t 3.7827E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:08
- 4545000 t 3.7869E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:14
- 4550000 t 3.7910E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:20
- 4555000 t 3.7952E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:26
- 4560000 t 3.7994E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:32
- 4560751 t 3.8000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:12:33
- 4565000 t 3.8035E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:38
- 4570000 t 3.8077E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:44
- 4575000 t 3.8119E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:50
- 4580000 t 3.8160E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:56
- 4585000 t 3.8202E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:02
- 4590000 t 3.8244E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:08
- 4595000 t 3.8285E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:14
- 4600000 t 3.8327E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:20
- 4605000 t 3.8369E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:26
- 4610000 t 3.8410E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:32
- 4615000 t 3.8452E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:38
- 4620000 t 3.8494E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:44
- 4620760 t 3.8500E+01 dt 8.33E-06 write d3plot file            07/24/24 18:13:45
- 4625000 t 3.8535E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:50
- 4630000 t 3.8577E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:56
- 4635000 t 3.8619E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:02
- 4640000 t 3.8660E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:08
- 4645000 t 3.8702E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:14
- 4650000 t 3.8744E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:20
- 4655000 t 3.8785E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:26
- 4660000 t 3.8827E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:33
- 4665000 t 3.8869E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:39
- 4670000 t 3.8910E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:45
- 4675000 t 3.8952E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:51
- 4680000 t 3.8994E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:57
- 4680770 t 3.9000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:14:58
- 4685000 t 3.9035E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:03
- 4690000 t 3.9077E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:09
- 4695000 t 3.9119E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:15
- 4700000 t 3.9160E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:21
- 4705000 t 3.9202E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:27
- 4710000 t 3.9244E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:33
- 4715000 t 3.9285E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:39
- 4720000 t 3.9327E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:45
- 4725000 t 3.9369E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:52
- 4730000 t 3.9410E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:58
- 4735000 t 3.9452E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:04
- 4740000 t 3.9494E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:10
- 4740779 t 3.9500E+01 dt 8.33E-06 write d3plot file            07/24/24 18:16:11
- 4745000 t 3.9535E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:16
- 4750000 t 3.9577E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:22
- 4755000 t 3.9618E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:28
- 4760000 t 3.9660E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:34
- 4765000 t 3.9702E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:41
- 4770000 t 3.9743E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:47
- 4775000 t 3.9785E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:53
- 4780000 t 3.9827E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:59
- 4785000 t 3.9868E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:17:05
- 4790000 t 3.9910E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:17:11
- 4795000 t 3.9952E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:17:17
- 4800000 t 3.9993E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:17:23
- 4800789 t 4.0000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:17:24
  
- *** termination time reached ***
- 4800789 t 4.0000E+01 dt 8.33E-06 write d3dump01 file          07/24/24 18:17:24
- 4800789 t 4.0000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:17:24
-
- N o r m a l    t e r m i n a t i o n                          07/24/24 18:17:24
-
- Memory required to complete solution   :     521K
- Additional dynamically allocated memory:    6989K
-                                   Total:    7509K
-
- T i m i n g   i n f o r m a t i o n
-                        CPU(seconds)   %CPU  Clock(seconds) %Clock
-  ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     7.8000E-02    0.00
-  Initialization ....... 1.0000E+00    0.02     1.2290E+00    0.02
-    Init Proc Phase 1 .. 0.0000E+00    0.00     6.4000E-02    0.00
-  Element processing ... 1.6090E+03   26.85     1.6394E+03   27.38
-    Solids ............. 6.9000E+01    1.15     5.3700E+01    0.90
-    Shells ............. 1.4300E+03   23.86     1.4746E+03   24.62
-    Beams .............. 2.5000E+01    0.42     2.6172E+01    0.44
-    ISO Shells ......... 1.0000E+00    0.02     3.1800E-01    0.01
-    E Other ............ 7.3000E+01    1.22     7.3549E+01    1.23
-  Binary databases ..... 1.0000E+00    0.02     1.4270E+00    0.02
-  ASCII database ....... 4.0000E+00    0.07     2.9240E+00    0.05
-  Contact algorithm .... 3.3600E+03   56.07     3.3641E+03   56.17
-    Interf. ID         1 9.4800E+02   15.82     9.8196E+02   16.40
-    Interf. ID         2 2.4050E+03   40.13     2.3740E+03   39.64
-  Rigid Bodies ......... 6.2000E+01    1.03     6.5989E+01    1.10
-  Time step size ....... 4.0000E+00    0.07     2.2680E+00    0.04
-  Group force file ..... 2.0000E+00    0.03     6.2200E-01    0.01
-  Others ............... 4.0000E+00    0.07     4.4070E+00    0.07
-  Misc. 1 .............. 2.0100E+02    3.35     2.0336E+02    3.40
-    Scale Masses ....... 1.0000E+00    0.02     4.4900E-01    0.01
-    Force Constraints .. 2.0000E+00    0.03     4.9500E-01    0.01
-    Force to Accel ..... 4.2000E+01    0.70     4.6139E+01    0.77
-    Update RB nodes .... 1.4400E+02    2.40     1.4527E+02    2.43
-  Misc. 2 .............. 1.8100E+02    3.02     1.6038E+02    2.68
-  Misc. 3 .............. 8.0000E+00    0.13     6.3800E+00    0.11
-  Misc. 4 .............. 5.5600E+02    9.28     5.3611E+02    8.95
-    Timestep Init ...... 1.3100E+02    2.19     1.2023E+02    2.01
-    Apply Loads ........ 2.9900E+02    4.99     2.9848E+02    4.98
-    Compute exwork ..... 1.2500E+02    2.09     1.1605E+02    1.94
-  ----------------------------------------------------------------
-  T o t a l s            5.9930E+03  100.00     5.9887E+03  100.00
-
- Problem time       =    4.0000E+01
- Problem cycle      =   4800789
- Total CPU time     =      5993 seconds (   1 hours 39 minutes 53 seconds)
- CPU time per zone cycle  =         94.699 nanoseconds
- Clock time per zone cycle=         94.625 nanoseconds
-
- Number of CPU's    2
- NLQ used/max     136/  136
- Start time   07/24/2024 16:37:46  
- End time     07/24/2024 18:17:24  
- Elapsed time    5978 seconds for 4800789 cycles using  2 SMP threads
-             (      1 hour  39 minutes 38 seconds)
-
- N o r m a l    t e r m i n a t i o n                          07/24/24 18:17:24
-
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 1.0672E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 1.2913E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 1.5625E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 1.8906E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 2.2876E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 2.7680E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 3.3493E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 4.0527E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 4.9037E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 5.9335E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 7.1795E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 8.6872E-05
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 1.0512E-04
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 1.2719E-04
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 1.5390E-04
+     Contact Interface # 2
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 1.8622E-04
+     Contact Interface # 2
+    2646 t 4.9998E-01 dt 1.94E-04 write d3plot file            07/25/24 11:20:38
+    5000 t 9.5678E-01 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:40
+    5222 t 9.9986E-01 dt 1.94E-04 write d3plot file            07/25/24 11:20:40
+    7799 t 1.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:42
+   10000 t 1.9270E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:44
+   10376 t 2.0000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:44
+   12952 t 2.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:46
+   15000 t 2.8973E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:48
+   15529 t 2.9999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:48
+   18106 t 3.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:50
+   20000 t 3.8674E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:52
+   20683 t 3.9999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:53
+   23260 t 4.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:55
+   25000 t 4.8374E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:56
+   25838 t 5.0000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:57
+   28416 t 5.5000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:59
+   30000 t 5.8072E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:00
+   30994 t 5.9999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:01
+   33572 t 6.4998E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:03
+   35000 t 6.7767E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:04
+   36151 t 6.9998E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:05
+   38731 t 7.5000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:07
+   40000 t 7.7459E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:08
+   41310 t 7.9998E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:09
+   43890 t 8.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:11
+   45000 t 8.7150E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:12
+   46470 t 8.9998E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:13
+   49051 t 9.5000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:15
+   50000 t 9.6839E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:16
+   51630 t 9.9999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:17
+   54209 t 1.0500E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:19
+   55000 t 1.0653E+01 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:20
+   56787 t 1.1000E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:22
+   59363 t 1.1500E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:24
+   60000 t 1.1624E+01 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:24
+   61938 t 1.2000E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:26
+   64512 t 1.2500E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:28
+   65000 t 1.2595E+01 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:28
+   67084 t 1.3000E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:30
+   69654 t 1.3500E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:32
+   70000 t 1.3567E+01 dt 1.95E-04 flush i/o buffers            07/25/24 11:21:32
+   72221 t 1.4000E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:34
+   74785 t 1.4500E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:36
+   75000 t 1.4542E+01 dt 1.95E-04 flush i/o buffers            07/25/24 11:21:36
+   77346 t 1.5000E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:38
+   79906 t 1.5500E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:40
+   80000 t 1.5518E+01 dt 1.95E-04 flush i/o buffers            07/25/24 11:21:40
+   82462 t 1.6000E+01 dt 1.96E-04 write d3plot file            07/25/24 11:21:42
+   85000 t 1.6497E+01 dt 1.96E-04 flush i/o buffers            07/25/24 11:21:44
+   85013 t 1.6500E+01 dt 1.96E-04 write d3plot file            07/25/24 11:21:44
+   87558 t 1.7000E+01 dt 1.97E-04 write d3plot file            07/25/24 11:21:46
+   90000 t 1.7480E+01 dt 1.97E-04 flush i/o buffers            07/25/24 11:21:48
+   90099 t 1.7500E+01 dt 1.97E-04 write d3plot file            07/25/24 11:21:48
+   92634 t 1.8000E+01 dt 1.97E-04 write d3plot file            07/25/24 11:21:51
+   95000 t 1.8468E+01 dt 1.98E-04 flush i/o buffers            07/25/24 11:21:53
+   95163 t 1.8500E+01 dt 1.98E-04 write d3plot file            07/25/24 11:21:53
+   97684 t 1.9000E+01 dt 1.99E-04 write d3plot file            07/25/24 11:21:55
+  100000 t 1.9460E+01 dt 1.99E-04 flush i/o buffers            07/25/24 11:21:57
+  100199 t 1.9500E+01 dt 1.99E-04 write d3plot file            07/25/24 11:21:57
+  102708 t 2.0000E+01 dt 2.00E-04 write d3plot file            07/25/24 11:21:59
+  105000 t 2.0458E+01 dt 2.00E-04 flush i/o buffers            07/25/24 11:22:01
+  105209 t 2.0500E+01 dt 2.00E-04 write d3plot file            07/25/24 11:22:01
+ 
+ *** Warning 40864 (SOL+864)
+     Segment based contact stiffness was reduced due to
+     an increasing solution time step. The new time step for
+     the stiffness calculation is 2.1513E-04
+     Contact Interface # 2
+     beam  element 13449  failed at time  2.0720E+01
+     beam  element 13450  failed at time  2.0720E+01
+     beam  element 13451  failed at time  2.0720E+01
+     beam  element 13453  failed at time  2.0720E+01
+  107608 t 2.1000E+01 dt 2.15E-04 write d3plot file            07/25/24 11:22:10
+  109932 t 2.1500E+01 dt 2.15E-04 write d3plot file            07/25/24 11:22:12
+  110000 t 2.1514E+01 dt 2.15E-04 flush i/o buffers            07/25/24 11:22:12
+  112256 t 2.2000E+01 dt 2.15E-04 write d3plot file            07/25/24 11:22:14
+  114581 t 2.2500E+01 dt 2.15E-04 write d3plot file            07/25/24 11:22:15
+  115000 t 2.2590E+01 dt 2.15E-04 flush i/o buffers            07/25/24 11:22:15
+forrtl: severe (157): Program Exception - access violation
+Image              PC                Routine            Line        Source             
+ls-dyna_smp_d_R13  00007FF76FC42A78  BKSRT4A                 15131  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF77592AD18  ASLAV0R                 28396  dynpc.F
+ls-dyna_smp_d_R13  00007FF7727EFE00  CONTACT                  2688  dyn33.F
+ls-dyna_smp_d_R13  00007FF76FC99A81  FEM3D_CONTACT           37480  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF76FBE2900  FEM3D                   11649  fem3d.F
+ls-dyna_smp_d_R13  00007FF76FBD607A  SOLTN                     431  fem3d.F
+ls-dyna_smp_d_R13  00007FF76FD02118  OVERLY                    276  dyn0.F
+ls-dyna_smp_d_R13  00007FF76EA90B6A  LSDYNA1                   823  dynm.F
+ls-dyna_smp_d_R13  00007FF76EA904D9  MAIN__                   1912  dynm.F
+ls-dyna_smp_d_R13  00007FF77C0D9092  Unknown               Unknown  Unknown
+ls-dyna_smp_d_R13  00007FF77C9B9D48  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF81E357344  Unknown               Unknown  Unknown
+ntdll.dll          00007FF81EDE26B1  Unknown               Unknown  Unknown
+forrtl: severe (157): Program Exception - access violation

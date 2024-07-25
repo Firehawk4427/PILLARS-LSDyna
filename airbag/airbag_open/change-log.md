@@ -179,4 +179,6 @@
 - tried a few changes with inner mesh density to see if i could get it to stretch more and not restrict the outer geometry.
 	- all it did was exponentially increase runtime and simulation ran almost the same
 ## V52
-- put parameters for AIRBAG_WANA
+- put parameters for AIRBAG_WANG_NEFSKE in SI units
+	- load curve probably needs to be adapted to this
+- changed inner mesh density back

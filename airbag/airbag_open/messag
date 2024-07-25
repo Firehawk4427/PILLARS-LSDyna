@@ -1690,3 +1690,111 @@ Checking Control Volume Orientations
  4580000 t 3.8160E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:12:56
  4585000 t 3.8202E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:02
  4590000 t 3.8244E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:08
+ 4595000 t 3.8285E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:14
+ 4600000 t 3.8327E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:20
+ 4605000 t 3.8369E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:26
+ 4610000 t 3.8410E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:32
+ 4615000 t 3.8452E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:38
+ 4620000 t 3.8494E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:44
+ 4620760 t 3.8500E+01 dt 8.33E-06 write d3plot file            07/24/24 18:13:45
+ 4625000 t 3.8535E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:50
+ 4630000 t 3.8577E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:13:56
+ 4635000 t 3.8619E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:02
+ 4640000 t 3.8660E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:08
+ 4645000 t 3.8702E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:14
+ 4650000 t 3.8744E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:20
+ 4655000 t 3.8785E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:26
+ 4660000 t 3.8827E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:33
+ 4665000 t 3.8869E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:39
+ 4670000 t 3.8910E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:45
+ 4675000 t 3.8952E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:51
+ 4680000 t 3.8994E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:14:57
+ 4680770 t 3.9000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:14:58
+ 4685000 t 3.9035E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:03
+ 4690000 t 3.9077E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:09
+ 4695000 t 3.9119E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:15
+ 4700000 t 3.9160E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:21
+ 4705000 t 3.9202E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:27
+ 4710000 t 3.9244E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:33
+ 4715000 t 3.9285E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:39
+ 4720000 t 3.9327E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:45
+ 4725000 t 3.9369E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:52
+ 4730000 t 3.9410E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:15:58
+ 4735000 t 3.9452E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:04
+ 4740000 t 3.9494E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:10
+ 4740779 t 3.9500E+01 dt 8.33E-06 write d3plot file            07/24/24 18:16:11
+ 4745000 t 3.9535E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:16
+ 4750000 t 3.9577E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:22
+ 4755000 t 3.9618E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:28
+ 4760000 t 3.9660E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:34
+ 4765000 t 3.9702E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:41
+ 4770000 t 3.9743E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:47
+ 4775000 t 3.9785E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:53
+ 4780000 t 3.9827E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:16:59
+ 4785000 t 3.9868E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:17:05
+ 4790000 t 3.9910E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:17:11
+ 4795000 t 3.9952E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:17:17
+ 4800000 t 3.9993E+01 dt 8.33E-06 flush i/o buffers            07/24/24 18:17:23
+ 4800789 t 4.0000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:17:24
+ 
+ *** termination time reached ***
+ 4800789 t 4.0000E+01 dt 8.33E-06 write d3dump01 file          07/24/24 18:17:24
+ 4800789 t 4.0000E+01 dt 8.33E-06 write d3plot file            07/24/24 18:17:24
+
+ N o r m a l    t e r m i n a t i o n                          07/24/24 18:17:24
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to complete solution   :     521K
+ Additional dynamically allocated memory:    6989K
+                                   Total:    7509K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     7.8000E-02    0.00
+  Initialization ....... 1.0000E+00    0.02     1.2290E+00    0.02
+    Init Proc Phase 1 .. 0.0000E+00    0.00     6.4000E-02    0.00
+  Element processing ... 1.6090E+03   26.85     1.6394E+03   27.38
+    Solids ............. 6.9000E+01    1.15     5.3700E+01    0.90
+    Shells ............. 1.4300E+03   23.86     1.4746E+03   24.62
+    Beams .............. 2.5000E+01    0.42     2.6172E+01    0.44
+    ISO Shells ......... 1.0000E+00    0.02     3.1800E-01    0.01
+    E Other ............ 7.3000E+01    1.22     7.3549E+01    1.23
+  Binary databases ..... 1.0000E+00    0.02     1.4270E+00    0.02
+  ASCII database ....... 4.0000E+00    0.07     2.9240E+00    0.05
+  Contact algorithm .... 3.3600E+03   56.07     3.3641E+03   56.17
+    Interf. ID         1 9.4800E+02   15.82     9.8196E+02   16.40
+    Interf. ID         2 2.4050E+03   40.13     2.3740E+03   39.64
+  Rigid Bodies ......... 6.2000E+01    1.03     6.5989E+01    1.10
+  Time step size ....... 4.0000E+00    0.07     2.2680E+00    0.04
+  Group force file ..... 2.0000E+00    0.03     6.2200E-01    0.01
+  Others ............... 4.0000E+00    0.07     4.4070E+00    0.07
+  Misc. 1 .............. 2.0100E+02    3.35     2.0336E+02    3.40
+    Scale Masses ....... 1.0000E+00    0.02     4.4900E-01    0.01
+    Force Constraints .. 2.0000E+00    0.03     4.9500E-01    0.01
+    Force to Accel ..... 4.2000E+01    0.70     4.6139E+01    0.77
+    Update RB nodes .... 1.4400E+02    2.40     1.4527E+02    2.43
+  Misc. 2 .............. 1.8100E+02    3.02     1.6038E+02    2.68
+  Misc. 3 .............. 8.0000E+00    0.13     6.3800E+00    0.11
+  Misc. 4 .............. 5.5600E+02    9.28     5.3611E+02    8.95
+    Timestep Init ...... 1.3100E+02    2.19     1.2023E+02    2.01
+    Apply Loads ........ 2.9900E+02    4.99     2.9848E+02    4.98
+    Compute exwork ..... 1.2500E+02    2.09     1.1605E+02    1.94
+  ----------------------------------------------------------------
+  T o t a l s            5.9930E+03  100.00     5.9887E+03  100.00
+
+ Problem time       =    4.0000E+01
+ Problem cycle      =   4800789
+ Total CPU time     =      5993 seconds (   1 hours 39 minutes 53 seconds)
+ CPU time per zone cycle  =         94.699 nanoseconds
+ Clock time per zone cycle=         94.625 nanoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   07/24/2024 16:37:46  
+ End time     07/24/2024 18:17:24  
+ Elapsed time    5978 seconds for 4800789 cycles using  2 SMP threads
+             (      1 hour  39 minutes 38 seconds)
+
+ N o r m a l    t e r m i n a t i o n                          07/24/24 18:17:24

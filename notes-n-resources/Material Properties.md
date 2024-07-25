@@ -7,9 +7,10 @@
 ***Chamber Pressure***: 3.5e7 $Pa$
 
 ## Airbag model
-***(CV) Heat Capacity Constant Volume***
-***(CP) Heat Capacity Constant Pressure***
-***(T) Ambient Temperature***
+***(CV) Heat Capacity Constant Volume*** 896 $\frac{J}{kg\cdot K}$
+***(CP) Heat Capacity Constant Pressure*** 1204 $\frac{J}{kg\cdot K}$
+	need to double check this ^^^
+***(T) Ambient Temperature*** 260 K
 ***(MU) Shape factor for exit hole***
 ***(PE) Ambient Pressure*** 3e-10 $Pa$
 ***(RO) ***Ambient Density*** 3.9e-15$\frac{Kg}{m^{3}}$

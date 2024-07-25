@@ -182,3 +182,7 @@
 - put parameters for AIRBAG_WANG_NEFSKE in SI units
 	- load curve probably needs to be adapted to this
 - changed inner mesh density back
+- errors runninng, too many to put here
+## V53
+- changed mass flow rate to SI
+- changed timestep to 0 (LS-Dyna decides)

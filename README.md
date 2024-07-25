@@ -9,7 +9,7 @@
 - [ ] test off nominal
 	- [ ] get load curve for stress on anchors as a function of off nominal distance
 - [ ] test stress around anchor nodes
-- [ ] make the inner fabric mesh able to stretch so it doesn't constrain geometry of mesh
+- [ ] make the inner fabric mesh able to stretch so it doesn't constrain geometry of outer mesh
 - [x] add collisions
 - [x] fix fabric mesh
 - [x] add in single_surface_contact so mesh doesnt collide with itself

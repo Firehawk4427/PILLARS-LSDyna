@@ -8,12 +8,13 @@
 ***(CV) Heat Capacity Constant Volume*** 896 $\frac{J}{kg\cdot K}$
 ***(CP) Heat Capacity Constant Pressure*** 1204 $\frac{J}{kg\cdot K}$
 	need to double check this ^^^
+***(T) Temperature of Input Gas*** 3600 $K$
 
 ## Airbag model
-***(T) Ambient Temperature*** 260 K
+***Ambient Temperature*** 260 K
 ***(MU) Shape factor for exit hole***
 ***(PE) Ambient Pressure*** 3e-10 $Pa$
-***(RO) ***Ambient Density*** 3.9e-15$\frac{Kg}{m^{3}}$
+***(RO) Ambient Density*** 3.9e-15$\frac{Kg}{m^{3}}$
 ## One-Way Surface to Surface Contact
 ***(FS) Static Coefficient of Friction***
 ***(FD) Dynamic Coefficient of Friction***

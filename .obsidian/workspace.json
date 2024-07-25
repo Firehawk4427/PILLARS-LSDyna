@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes-n-resources/Material Properties.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes-n-resources/Material Properties.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes-n-resources/Material Properties.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes-n-resources/Material Properties.md"
+                "file": "README.md"
               }
             }
           },
@@ -172,10 +172,15 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "26cd68aa6b6ed1da",
+  "active": "4b28d76607c00fcb",
   "lastOpenFiles": [
-    "notes-n-resources/Resources.md",
+    "airbag/airbag_open/lspp_temp_1",
+    "airbag/airbag_open/4-anchor-test.gif",
+    "airbag/airbag_open/change-log.md",
     "notes-n-resources/contact-definitions-jason-rabinovitch.pdf",
+    "notes-n-resources/Manuals.md",
+    "notes-n-resources/Material Properties.md",
+    "notes-n-resources/Resources.md",
     "README.md",
     "airbag/airbag_open/d3plot03",
     "airbag/airbag_open/d3dump01",
@@ -187,9 +192,6 @@
     "airbag/airbag_open/part_des",
     "airbag/airbag_open/abstat",
     "notes-n-resources/Units & Initial Parameters (EOS).md",
-    "notes-n-resources/Material Properties.md",
-    "airbag/airbag_open/change-log.md",
-    "notes-n-resources/Manuals.md",
     "notes-n-resources/bugs-n-errors.md",
     "attachments/Pasted image 20240724143244.png",
     "attachments/Pasted image 20240724143221.png",
@@ -199,7 +201,6 @@
     "airbag/airbag_open/collisions-on-null-fucked.gif",
     "airbag/airbag_open/airbag_open_collision_fail.gif",
     "airbag/airbag_open/airbag_open_v1.gif",
-    "airbag/airbag_open/4-anchor-test.gif",
     "attachments/Pasted image 20240723131424.png",
     "airbag_/change-log.md",
     "airbag/airbag_open/notes.md",

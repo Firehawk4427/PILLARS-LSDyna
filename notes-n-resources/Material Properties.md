@@ -30,5 +30,7 @@ DTINIT:=Initial time step size: 1e-7 $s$
 ?!?!?
 ## Porosity Leakage
 ?!?!?
-
+## Kevlar
+EA 1.5e11 $Pa$
+RO 1440 $\frac{kg}{m^{3}}$
 

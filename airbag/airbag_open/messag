@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/25/2024      Time: 11:20:35  
+      Date: 07/25/2024      Time: 14:24:30  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -76,11 +76,11 @@
      |___________________________________________________|
 
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v52.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v53.k 
                        ncpu=2 
                        memory=20m
 
- Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v52
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v53
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
@@ -107,7 +107,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/25/24 11:20:35
+ Beginning of keyword reader                                   07/25/24 14:24:30
  expanding   memory to      227000 d     2068970  
  expanding   memory to      268620 d     2068970  
  expanding   memory to      290312 d     2179082  
@@ -556,322 +556,31 @@ Checking Control Volume Orientations
  Memory required to begin solution      :     521K
  Additional dynamically allocated memory:    6603K
                                    Total:    7123K
-       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            07/25/24 11:20:36
-       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            07/25/24 11:20:36
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.3310E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.6105E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.9487E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.3579E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.8531E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 3.4523E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.1772E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 5.0545E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 6.1159E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 7.4002E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 8.9543E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.0835E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.3110E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.5863E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.9194E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.3225E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.8102E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 3.4004E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.1145E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.9785E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 6.0240E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 7.2890E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 8.8197E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.0672E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.2913E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.5625E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.8906E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.2876E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.7680E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 3.3493E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.0527E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.9037E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 5.9335E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 7.1795E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 8.6872E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.0512E-04
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.2719E-04
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.5390E-04
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.8622E-04
-     Contact Interface # 2
-    2646 t 4.9998E-01 dt 1.94E-04 write d3plot file            07/25/24 11:20:38
-    5000 t 9.5678E-01 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:40
-    5222 t 9.9986E-01 dt 1.94E-04 write d3plot file            07/25/24 11:20:40
-    7799 t 1.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:42
-   10000 t 1.9270E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:44
-   10376 t 2.0000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:44
-   12952 t 2.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:46
-   15000 t 2.8973E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:48
-   15529 t 2.9999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:48
-   18106 t 3.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:50
-   20000 t 3.8674E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:52
-   20683 t 3.9999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:53
-   23260 t 4.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:55
-   25000 t 4.8374E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:20:56
-   25838 t 5.0000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:57
-   28416 t 5.5000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:20:59
-   30000 t 5.8072E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:00
-   30994 t 5.9999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:01
-   33572 t 6.4998E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:03
-   35000 t 6.7767E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:04
-   36151 t 6.9998E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:05
-   38731 t 7.5000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:07
-   40000 t 7.7459E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:08
-   41310 t 7.9998E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:09
-   43890 t 8.4999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:11
-   45000 t 8.7150E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:12
-   46470 t 8.9998E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:13
-   49051 t 9.5000E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:15
-   50000 t 9.6839E+00 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:16
-   51630 t 9.9999E+00 dt 1.94E-04 write d3plot file            07/25/24 11:21:17
-   54209 t 1.0500E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:19
-   55000 t 1.0653E+01 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:20
-   56787 t 1.1000E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:22
-   59363 t 1.1500E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:24
-   60000 t 1.1624E+01 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:24
-   61938 t 1.2000E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:26
-   64512 t 1.2500E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:28
-   65000 t 1.2595E+01 dt 1.94E-04 flush i/o buffers            07/25/24 11:21:28
-   67084 t 1.3000E+01 dt 1.94E-04 write d3plot file            07/25/24 11:21:30
-   69654 t 1.3500E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:32
-   70000 t 1.3567E+01 dt 1.95E-04 flush i/o buffers            07/25/24 11:21:32
-   72221 t 1.4000E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:34
-   74785 t 1.4500E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:36
-   75000 t 1.4542E+01 dt 1.95E-04 flush i/o buffers            07/25/24 11:21:36
-   77346 t 1.5000E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:38
-   79906 t 1.5500E+01 dt 1.95E-04 write d3plot file            07/25/24 11:21:40
-   80000 t 1.5518E+01 dt 1.95E-04 flush i/o buffers            07/25/24 11:21:40
-   82462 t 1.6000E+01 dt 1.96E-04 write d3plot file            07/25/24 11:21:42
-   85000 t 1.6497E+01 dt 1.96E-04 flush i/o buffers            07/25/24 11:21:44
-   85013 t 1.6500E+01 dt 1.96E-04 write d3plot file            07/25/24 11:21:44
-   87558 t 1.7000E+01 dt 1.97E-04 write d3plot file            07/25/24 11:21:46
-   90000 t 1.7480E+01 dt 1.97E-04 flush i/o buffers            07/25/24 11:21:48
-   90099 t 1.7500E+01 dt 1.97E-04 write d3plot file            07/25/24 11:21:48
-   92634 t 1.8000E+01 dt 1.97E-04 write d3plot file            07/25/24 11:21:51
-   95000 t 1.8468E+01 dt 1.98E-04 flush i/o buffers            07/25/24 11:21:53
-   95163 t 1.8500E+01 dt 1.98E-04 write d3plot file            07/25/24 11:21:53
-   97684 t 1.9000E+01 dt 1.99E-04 write d3plot file            07/25/24 11:21:55
-  100000 t 1.9460E+01 dt 1.99E-04 flush i/o buffers            07/25/24 11:21:57
-  100199 t 1.9500E+01 dt 1.99E-04 write d3plot file            07/25/24 11:21:57
-  102708 t 2.0000E+01 dt 2.00E-04 write d3plot file            07/25/24 11:21:59
-  105000 t 2.0458E+01 dt 2.00E-04 flush i/o buffers            07/25/24 11:22:01
-  105209 t 2.0500E+01 dt 2.00E-04 write d3plot file            07/25/24 11:22:01
+       1 t 0.0000E+00 dt 1.94E-04 flush i/o buffers            07/25/24 14:24:30
+       1 t 0.0000E+00 dt 1.94E-04 write d3plot file            07/25/24 14:24:30
  
  *** Warning 40864 (SOL+864)
      Segment based contact stiffness was reduced due to
      an increasing solution time step. The new time step for
      the stiffness calculation is 2.1513E-04
      Contact Interface # 2
- f a i l e d   e l e m e n t   r e p o r t  time=  2.0720E+01
+ f a i l e d   e l e m e n t   r e p o r t  time=  1.9519E-01
+     number of failed solid  elements = 0
+     number of failed beam   elements = 1
+     number of failed shell  elements = 0
+     number of failed tshell elements = 0
+     beam  element 13451  failed at time  1.9519E-01
+ f a i l e d   e l e m e n t   r e p o r t  time=  1.9541E-01
      number of failed solid  elements = 0
      number of failed beam   elements = 4
      number of failed shell  elements = 0
      number of failed tshell elements = 0
-     beam  element 13449  failed at time  2.0720E+01
-     beam  element 13450  failed at time  2.0720E+01
-     beam  element 13451  failed at time  2.0720E+01
-     beam  element 13453  failed at time  2.0720E+01
-  107608 t 2.1000E+01 dt 2.15E-04 write d3plot file            07/25/24 11:22:10
-  109932 t 2.1500E+01 dt 2.15E-04 write d3plot file            07/25/24 11:22:12
-  110000 t 2.1514E+01 dt 2.15E-04 flush i/o buffers            07/25/24 11:22:12
-  112256 t 2.2000E+01 dt 2.15E-04 write d3plot file            07/25/24 11:22:14
-  114581 t 2.2500E+01 dt 2.15E-04 write d3plot file            07/25/24 11:22:15
-  115000 t 2.2590E+01 dt 2.15E-04 flush i/o buffers            07/25/24 11:22:15
+     beam  element 13449  failed at time  1.9541E-01
+     beam  element 13450  failed at time  1.9541E-01
+     beam  element 13453  failed at time  1.9541E-01
+    2434 t 4.9982E-01 dt 2.15E-04 write d3plot file            07/25/24 14:24:59
+    4758 t 9.9979E-01 dt 2.15E-04 write d3plot file            07/25/24 14:25:01
+    5000 t 1.0519E+00 dt 2.15E-04 flush i/o buffers            07/25/24 14:25:01
+    7083 t 1.5000E+00 dt 2.15E-04 write d3plot file            07/25/24 14:25:02
+    9407 t 1.9999E+00 dt 2.15E-04 write d3plot file            07/25/24 14:25:03
+   10000 t 2.1275E+00 dt 2.15E-04 flush i/o buffers            07/25/24 14:25:04

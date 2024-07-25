@@ -186,3 +186,5 @@
 ## V53
 - changed mass flow rate to SI
 - changed timestep to 0 (LS-Dyna decides)
+## V54
+- changed fabric 1 to SI units

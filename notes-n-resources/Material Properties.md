@@ -33,4 +33,7 @@ DTINIT:=Initial time step size: 1e-7 $s$
 ## Kevlar
 EA 1.5e11 $Pa$
 RO 1440 $\frac{kg}{m^{3}}$
+## Elastic Liner
+EA 3e9 $Pa$
+RO 1510 $\frac{kg}{m^{3}}$
 

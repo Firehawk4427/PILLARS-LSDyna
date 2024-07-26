@@ -23,9 +23,11 @@
             "id": "26cd68aa6b6ed1da",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "airbag/airbag_closed/airbag.gif"
+                "file": "airbag/airbag_open/change-log.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag/airbag_closed/airbag.gif",
+                "file": "airbag/airbag_open/change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag/airbag_closed/airbag.gif",
+                "file": "airbag/airbag_open/change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag/airbag_closed/airbag.gif"
+                "file": "airbag/airbag_open/change-log.md"
               }
             }
           },
@@ -172,6 +174,7 @@
   },
   "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
+    "airbag/airbag_closed/airbag.gif",
     "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/lspp_temp_1",
     "notes-n-resources/Material Properties.md",

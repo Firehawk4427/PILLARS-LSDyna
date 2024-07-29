@@ -188,12 +188,12 @@
 - changed timestep to 0 (LS-Dyna decides)
 ## V54
 - changed fabric 1 to SI units
-## V55 
+## V55
 - changed all other materials to SI units
 	- made the rigid body equivalent to concrete
 - ETA 20m
 - stress on fabric around 10s of Mpa
-# V56
+## V56
 - deleted MAT_ADD_POROSITY
 - Tweaked parameters for leakage
 	- SA of fabric ~ 3300 $m^{2}$, of inner mesh ~2300 $m^{2}$
@@ -201,3 +201,5 @@
 - Inflation pressure seems low
 	- i think the probem is the leakage occurs everywhere and not just the blue area. maybe i can treat the rest as blockage
 	- also something could be wrong with thicknss of .25
+### V57
+- reverted bak to null material for inner mesh with 0 pressure cutoff. 

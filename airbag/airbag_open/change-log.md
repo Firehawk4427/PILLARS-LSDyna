@@ -195,3 +195,6 @@
 - stress on fabric around 10s of Mpa
 # V56
 - deleted MAT_ADD_POROSITY
+- Tweaked parameters for leakage
+	- SA of fabric ~ 3300 $m^{2}$, of inner mesh ~2300 $m^{2}$
+- ETA 20min

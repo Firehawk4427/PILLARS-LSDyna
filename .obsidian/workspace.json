@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "airbag/airbag_open/notes.md",
+                "file": "airbag/airbag_open/change-log.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag/airbag_open/notes.md",
+                "file": "airbag/airbag_open/change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag/airbag_open/notes.md",
+                "file": "airbag/airbag_open/change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag/airbag_open/notes.md"
+                "file": "airbag/airbag_open/change-log.md"
               }
             }
           },
@@ -174,20 +174,25 @@
   },
   "active": "3a230b89552914e7",
   "lastOpenFiles": [
-    "attachments/Pasted image 20240729141108.png",
-    "airbag/airbag_open/change-log.md",
-    "airbag/airbag_open/lspp_temp_1",
-    "README.md",
-    "airbag/airbag_open/collisions-on-null-fucked.gif",
-    "airbag/airbag_open/lspost.db",
-    "airbag/airbag_open/d3plot03",
-    "airbag/airbag_open/d3dump01",
-    "airbag/airbag_open/d3plot02",
+    "attachments/Pasted image 20240724143221.png",
     "airbag/airbag_open/status.out",
     "airbag/airbag_open/d3plot01",
     "airbag/airbag_open/d3plot",
     "airbag/airbag_open/ldcrvv",
     "airbag/airbag_open/part_des",
+    "airbag/airbag_open/abstat",
+    "airbag/airbag_open/adptmp",
+    "airbag/airbag_open/group_file",
+    "airbag/airbag_open/dyna.lsda",
+    "airbag/airbag_open/messag",
+    "attachments/Pasted image 20240724143244.png",
+    "attachments/Pasted image 20240724143157.png",
+    "attachments/Pasted image 20240729141108.png",
+    "attachments/Screenshot 2024-07-22 151701.png",
+    "airbag/airbag_open/change-log.md",
+    "airbag/airbag_open/notes.md",
+    "README.md",
+    "airbag/airbag_open/collisions-on-null-fucked.gif",
     "airbag/airbag_closed/airbag.gif",
     "notes-n-resources/Material Properties.md",
     "airbag/airbag_open/4-anchor-test.gif",
@@ -195,15 +200,9 @@
     "notes-n-resources/Resources.md",
     "notes-n-resources/Units & Initial Parameters (EOS).md",
     "notes-n-resources/bugs-n-errors.md",
-    "attachments/Pasted image 20240724143244.png",
-    "attachments/Pasted image 20240724143221.png",
-    "attachments/Pasted image 20240724143157.png",
     "attachments/Pasted image 20240724124525.png",
     "airbag/airbag_open/collisions-on-null=porous-fabric.gif",
-    "airbag/airbag_open/airbag_open_collision_fail.gif",
-    "airbag/airbag_open/airbag_open_v1.gif",
     "airbag_/change-log.md",
-    "airbag/airbag_open/notes.md",
     "drafts/Jason Rabinovitch.md",
     "PILLARS/PILLARS_v31_thru_v40/change-log.md",
     "emails/Jason Rabinovitch.md",

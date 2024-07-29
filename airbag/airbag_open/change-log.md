@@ -188,3 +188,7 @@
 - changed timestep to 0 (LS-Dyna decides)
 ## V54
 - changed fabric 1 to SI units
+## V55 
+- changed all other materials to SI units
+	- made the rigid body equivalent to concrete
+- ETA 20m

@@ -192,3 +192,4 @@
 - changed all other materials to SI units
 	- made the rigid body equivalent to concrete
 - ETA 20m
+- stress on fabric around 10s of Mpa

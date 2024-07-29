@@ -19,3 +19,5 @@ https://www.youtube.com/watch?v=MI_u7HEnbyQ&t=358s
 
 ### One Way contacts
 ![[Pasted image 20240719141733.png]]![[Pasted image 20240719141744.png]]
+### AIRBAG_WANG_NEFSKE
+![[Pasted image 20240729141108.png]]

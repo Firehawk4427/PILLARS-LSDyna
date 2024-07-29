@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "airbag/airbag_open/notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "airbag/airbag_open/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "airbag/airbag_open/change-log.md",
+                "file": "airbag/airbag_open/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "airbag/airbag_open/change-log.md"
+                "file": "airbag/airbag_open/notes.md"
               }
             }
           },
@@ -174,9 +174,10 @@
   },
   "active": "3a230b89552914e7",
   "lastOpenFiles": [
+    "attachments/Pasted image 20240729141108.png",
+    "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/lspp_temp_1",
     "README.md",
-    "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/collisions-on-null-fucked.gif",
     "airbag/airbag_open/lspost.db",
     "airbag/airbag_open/d3plot03",

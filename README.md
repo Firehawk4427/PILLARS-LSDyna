@@ -15,4 +15,4 @@
 - [x] add in single_surface_contact so mesh doesnt collide with itself
 - [x] swap simple model for hybrid (or WANG_NEFSKE) model w/ leakage support
 	- [ ] Tweak the leakage support paramters
-- [ ] need to find accurate numbers for sim parameters
+- [x] need to find accurate numbers for sim parameters

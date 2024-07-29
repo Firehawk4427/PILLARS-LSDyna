@@ -198,3 +198,6 @@
 - Tweaked parameters for leakage
 	- SA of fabric ~ 3300 $m^{2}$, of inner mesh ~2300 $m^{2}$
 - ETA 20min
+- Inflation pressure seems low
+	- i think the probem is the leakage occurs everywhere and not just the blue area. maybe i can treat the rest as blockage
+	- also something could be wrong with thicknss of .25

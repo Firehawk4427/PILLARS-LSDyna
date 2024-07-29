@@ -1,0 +1,25 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
+$# Created on Jul-29-2024 (16:09:49)
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\d3plot"
+ac
+anim forward
+anim stop; state 10;
+fringe 7
+pfringe
+fringe 9
+pfringe
+fringe 6
+pfringe
+fringe 7
+pfringe
+fringe 8
+pfringe
+fringe 9
+pfringe
+fringe 8
+pfringe
+anim forward
+fringe 13
+pfringe
+fringe 530
+pfringe

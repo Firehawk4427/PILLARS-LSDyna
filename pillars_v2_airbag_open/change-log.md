@@ -201,5 +201,5 @@
 - Inflation pressure seems low
 	- i think the probem is the leakage occurs everywhere and not just the blue area. maybe i can treat the rest as blockage
 	- also something could be wrong with thicknss of .25
-### V57
+## V57
 - reverted back to null material for inner mesh with 0 pressure cutoff. 

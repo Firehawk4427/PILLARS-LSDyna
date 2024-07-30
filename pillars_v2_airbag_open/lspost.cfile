@@ -1,0 +1,46 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
+$# Created on Jul-30-2024 (13:25:37)
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v59.k"
+Message 1
+Message 0
+wire
+feat
+grid
+grid
+edge
+feat
+noshad
+shad
+hide
+noshad
+wire
+feat
+grid
+edge
+feat
+wire
+edge
+feat
+update d3plot
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+inipene contactoff
+selectentity getalllabel
+edge
+inipene savestate
+inipene contactoff
+genselect clear
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+selectentity getalllabel
+inipene contactoff
+genselect clear

@@ -1,0 +1,442 @@
+
+
+ ***************************************************************
+ *            ANSYS 2023 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2023 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+      Date: 07/16/2024      Time: 11:22:01  
+      ___________________________________________________ 
+     |                                                   |
+     |  LS-DYNA, A Program for Nonlinear Dynamic         |
+     |  Analysis of Structures in Three Dimensions       |
+     |  Date    : 07/28/2023    Time: 16:45:29           |
+     |  Version : smp d R13                              |
+     |  Revision: R13.1.1-27-g8731a0d8c5                 |
+     |                                                   |
+     |  Features enabled in this version:                |
+     |    Shared Memory Parallel                         |
+     |    CESE CHEMISTRY EM ICFD STOCHASTIC_PARTICLES    |
+     |    FFTW (multi-dimensional FFTW Library)          |
+     |    ARPACK (nonsymmetric eigensolver library)      |
+     |    ANSYSLIC enabled                               |
+     |                                                   |
+     |  Licensed to:                                     |
+     |  Issued by  : ANSYS                               |
+     |                                                   |
+     |  Platform   : WINDOWS X64 SSE2                    |
+     |  OS Level   : Windows 8/10 & Srv 2016/2019/2022   |
+     |  Compiler   : Intel Fortran XE 2019 MSVC++ 2019   |
+     |  Hostname   : DESKTOP-F2LHD1U                     |
+     |  Precision  : Double precision (I8R8)             |
+     |                                                   |
+     |  Unauthorized use infringes Ansys Inc. copyrights |
+     |___________________________________________________|
+
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\PILLARS\PILLARS_v31_thru_v40\PILLARS_v33.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\PILLARS\PILLARS_v31_thru_v40\PILLA
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+ allocating  memory to    20000000 d     1975081 Initial allocation
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   07/16/24 11:22:01
+ expanding   memory to      111350 d     2022572  
+ expanding   memory to      146425 d     2022572  
+ expanding   memory to      166625 d     2124572  
+ expanding   memory to      194229 d     2124572  
+ expanding   memory to      216667 d     2181172  
+ expanding   memory to      281667 d     2181172  
+ expanding   memory to      302109 d     2181172  
+ expanding   memory to      323992 d     2272664  
+ expanding   memory to      348760 d     2342487  
+ expanding   memory to      371169 d     2342487  
+
+ Memory required to process keyword     :     371169  
+ Additional dynamic memory required     :    2342493  
+
+ contracting memory to           1 d     1846816 end of keyword reader
+
+ LS-DYNA will perform a structural only analysis 
+
+ LS-DYNA keyword deck by LS-PrePost                                      
+                    ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
+ expanding   memory to        2001 d     1551742 material, node and element data
+ expanding   memory to        2071 d     1551831 material properties
+ expanding   memory to        2079 d     1609103 element data for composite material
+ expanding   memory to        2093 d     1917612 gradient of damage data
+ expanding   memory to        5615 d     2054394 user control for contact interfaces
+ contracting memory to        5595 d     2054400 thermal expansion 0
+ expanding   memory to        5597 d     2054406 cross-sectional force definitions 0
+ expanding   memory to       12481 d     2054448 temp index array for node sorting
+ contracting memory to        5597 d     2061336 just because?
+ expanding   memory to        9097 d     2075154 arbitrary element numbering input
+ contracting memory to        5617 d     2136019 spc cards
+ expanding   memory to       28611 d     2540713 load curve data
+ contracting memory to       27451 d     2540713 user_define_loading_set
+ expanding   memory to       27657 d     2540713 regularize time history data
+ contracting memory to       27455 d     2540713 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       28455 d     3340197 contact segment data 1
+ expanding   memory to       69707 d     3340197 contact segment data 3
+ contracting memory to       27455 d     3514740 contact definition
+ expanding   memory to       27459 d     3531814 contact friction
+ expanding   memory to       27559 d     3532504 rigid bodies for disp. termination
+ expanding   memory to       27621 d     3532504 save d3plot control data
+ expanding   memory to       27627 d     3585357 ale reference system
+ expanding   memory to       27776 d     3585357 ALE fsi control block
+ expanding   memory to       27779 d     3599125 ALE fsi node and seg list
+ expanding   memory to       27781 d     4158599 ALE fsi coupling forces
+ expanding   memory to       27817 d     4158599 ALE storage for coupling shape functions
+ expanding   memory to       55469 d     4144835 void materials
+ contracting memory to       55429 d     4151725 mat add cohesive 0
+ expanding   memory to       55433 d     4151725 sensor_control for curve
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to begin solution      :     372K
+ Additional dynamically allocated memory:    4442K
+                                   Total:    4813K
+       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            07/16/24 11:22:01
+       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            07/16/24 11:22:01
+
+ *** Note history variables in lsprepost --> Fcomp -->misc
+     history variable        1 to        3 belongs to AMMG        1
+     history variable        4 to       13 belongs to AMMG        2
+     history variable       14 to       23 belongs to AMMG        3
+      78 t 9.8783E-05 dt 3.95E-06 write d3plot file            07/16/24 11:22:01
+     103 t 1.9779E-04 dt 3.96E-06 write d3plot file            07/16/24 11:22:01
+     128 t 2.9682E-04 dt 3.96E-06 write d3plot file            07/16/24 11:22:01
+     154 t 3.9981E-04 dt 3.96E-06 write d3plot file            07/16/24 11:22:01
+     179 t 4.9884E-04 dt 3.96E-06 write d3plot file            07/16/24 11:22:01
+     204 t 5.9787E-04 dt 3.96E-06 write d3plot file            07/16/24 11:22:01
+     229 t 6.9690E-04 dt 3.96E-06 write d3plot file            07/16/24 11:22:01
+     255 t 7.9989E-04 dt 3.96E-06 write d3plot file            07/16/24 11:22:01
+     280 t 8.9892E-04 dt 3.96E-06 write d3plot file            07/16/24 11:22:01
+     305 t 9.9795E-04 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     330 t 1.0970E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     356 t 1.2000E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     381 t 1.2990E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     406 t 1.3980E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     431 t 1.4971E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     456 t 1.5961E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     482 t 1.6991E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     507 t 1.7981E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     532 t 1.8971E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     557 t 1.9962E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     583 t 2.0992E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     608 t 2.1982E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     633 t 2.2972E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     658 t 2.3963E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     684 t 2.4993E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     709 t 2.5983E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:02
+     734 t 2.6973E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     759 t 2.7963E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     785 t 2.8993E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     810 t 2.9984E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     835 t 3.0974E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     860 t 3.1964E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     886 t 3.2994E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     911 t 3.3984E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     936 t 3.4975E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     961 t 3.5965E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+     987 t 3.6995E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+    1012 t 3.7985E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+    1037 t 3.8976E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+    1062 t 3.9966E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+    1088 t 4.0996E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+    1113 t 4.1986E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+    1138 t 4.2976E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:03
+    1163 t 4.3967E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1189 t 4.4997E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1214 t 4.5987E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1239 t 4.6977E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1264 t 4.7968E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1290 t 4.8997E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1315 t 4.9988E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1340 t 5.0978E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1365 t 5.1968E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1391 t 5.2998E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1416 t 5.3989E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1441 t 5.4979E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1466 t 5.5969E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1492 t 5.6999E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1517 t 5.7989E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1542 t 5.8980E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1567 t 5.9970E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:04
+    1593 t 6.1000E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1618 t 6.1990E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1643 t 6.2980E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1668 t 6.3971E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1693 t 6.4961E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1719 t 6.5991E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1744 t 6.6981E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1769 t 6.7972E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1794 t 6.8962E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1820 t 6.9992E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1845 t 7.0982E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1870 t 7.1972E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1895 t 7.2963E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1921 t 7.3993E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1946 t 7.4983E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1971 t 7.5973E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    1996 t 7.6964E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:05
+    2022 t 7.7993E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2047 t 7.8984E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2072 t 7.9974E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2097 t 8.0964E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2123 t 8.1994E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2148 t 8.2985E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2173 t 8.3975E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2198 t 8.4965E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2224 t 8.5995E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2249 t 8.6985E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2274 t 8.7976E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2299 t 8.8966E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2325 t 8.9996E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2350 t 9.0986E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2375 t 9.1977E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2400 t 9.2967E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2426 t 9.3997E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:06
+    2451 t 9.4987E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2476 t 9.5977E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2501 t 9.6968E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2527 t 9.7998E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2552 t 9.8988E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2577 t 9.9978E-03 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2602 t 1.0097E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2628 t 1.0200E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2653 t 1.0299E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2678 t 1.0398E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2703 t 1.0497E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2729 t 1.0600E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2754 t 1.0699E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2779 t 1.0798E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2804 t 1.0897E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2829 t 1.0996E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2855 t 1.1099E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:07
+    2880 t 1.1198E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    2905 t 1.1297E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    2930 t 1.1396E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    2956 t 1.1499E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    2981 t 1.1598E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3006 t 1.1697E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3031 t 1.1796E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3057 t 1.1899E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3082 t 1.1998E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3107 t 1.2097E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3132 t 1.2196E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3158 t 1.2299E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3183 t 1.2398E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3208 t 1.2497E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3233 t 1.2596E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3259 t 1.2699E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3284 t 1.2798E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:08
+    3309 t 1.2897E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3334 t 1.2996E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3360 t 1.3099E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3385 t 1.3198E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3410 t 1.3298E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3435 t 1.3397E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3461 t 1.3500E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3486 t 1.3599E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3511 t 1.3698E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3536 t 1.3797E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3562 t 1.3900E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3587 t 1.3999E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3612 t 1.4098E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3637 t 1.4197E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3663 t 1.4300E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3688 t 1.4399E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3713 t 1.4498E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:09
+    3738 t 1.4597E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3764 t 1.4700E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3789 t 1.4799E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3814 t 1.4898E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3839 t 1.4997E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3865 t 1.5100E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3890 t 1.5199E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3915 t 1.5298E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3940 t 1.5397E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3966 t 1.5500E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    3991 t 1.5599E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    4016 t 1.5698E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    4041 t 1.5797E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    4066 t 1.5896E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    4092 t 1.5999E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    4117 t 1.6098E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    4142 t 1.6197E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:10
+    4167 t 1.6296E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4193 t 1.6399E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4218 t 1.6498E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4243 t 1.6597E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4268 t 1.6696E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4294 t 1.6799E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4319 t 1.6898E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4344 t 1.6997E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4369 t 1.7096E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4395 t 1.7199E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4420 t 1.7298E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4445 t 1.7397E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4470 t 1.7496E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4496 t 1.7599E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4521 t 1.7698E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4546 t 1.7797E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4571 t 1.7896E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:11
+    4597 t 1.7999E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4622 t 1.8098E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4647 t 1.8198E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4672 t 1.8297E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4698 t 1.8400E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4723 t 1.8499E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4748 t 1.8598E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4773 t 1.8697E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4799 t 1.8800E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4824 t 1.8899E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4849 t 1.8998E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4874 t 1.9097E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4900 t 1.9200E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4925 t 1.9299E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4950 t 1.9398E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    4975 t 1.9497E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    5000 t 1.9596E-02 dt 3.96E-06 flush i/o buffers            07/16/24 11:22:12
+    5001 t 1.9600E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:12
+    5026 t 1.9699E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:13
+    5051 t 1.9798E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:13
+    5076 t 1.9897E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:13
+    5102 t 2.0000E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:13
+ 
+ *** termination time reached ***
+    5102 t 2.0004E-02 dt 3.96E-06 write d3dump01 file          07/16/24 11:22:13
+    5102 t 2.0004E-02 dt 3.96E-06 write d3plot file            07/16/24 11:22:13
+
+ N o r m a l    t e r m i n a t i o n                          07/16/24 11:22:13
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to complete solution   :     372K
+ Additional dynamically allocated memory:    4442K
+                                   Total:    4813K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     4.1000E-02    0.31
+    KW Reading ......... 0.0000E+00    0.00     2.1000E-02    0.16
+    KW Writing ......... 0.0000E+00    0.00     7.0000E-03    0.05
+  Initialization ....... 1.0000E+00    7.69     1.1700E+00    8.85
+    Init Proc Phase 1 .. 0.0000E+00    0.00     2.3000E-02    0.17
+    Init Proc Phase 2 .. 0.0000E+00    0.00     3.0000E-03    0.02
+  Element processing ... 3.0000E+00   23.08     3.4420E+00   26.05
+    Solids ............. 1.0000E+00    7.69     8.5800E-01    6.49
+    Shells ............. 2.0000E+00   15.38     2.4480E+00   18.53
+    E Other ............ 0.0000E+00    0.00     3.6000E-02    0.27
+  Binary databases ..... 1.0000E+00    7.69     3.6000E-01    2.72
+  ASCII database ....... 0.0000E+00    0.00     1.0000E-03    0.01
+  Contact algorithm .... 0.0000E+00    0.00     2.2000E-02    0.17
+  ALE FSI Algorithm .... 0.0000E+00    0.00     2.3760E+00   17.98
+    FSI ID         1 ... 0.0000E+00    0.00     2.3760E+00   17.98
+  ALE Advection ........ 4.0000E+00   30.77     5.1600E+00   39.05
+    ALE Adv mix ........ 0.0000E+00    0.00     1.4900E-01    1.13
+    ALE Adv ambient .... 0.0000E+00    0.00     2.4200E-01    1.83
+    ALE Adv pre ........ 0.0000E+00    0.00     2.0700E-01    1.57
+    ALE Adv reg1 ....... 0.0000E+00    0.00     8.9000E-02    0.67
+    ALE Adv comm ....... 4.0000E+00   30.77     3.7800E+00   28.61
+    ALE Adv post ....... 0.0000E+00    0.00     3.2200E-01    2.44
+  Rigid Bodies ......... 0.0000E+00    0.00     2.0000E-02    0.15
+  Time step size ....... 0.0000E+00    0.00     2.0000E-03    0.02
+  Others ............... 0.0000E+00    0.00     1.0000E-02    0.08
+  Misc. 1 .............. 0.0000E+00    0.00     6.5000E-02    0.49
+    Scale Masses ....... 0.0000E+00    0.00     1.0000E-03    0.01
+    Force Constraints .. 0.0000E+00    0.00     1.0000E-03    0.01
+    Force to Accel ..... 0.0000E+00    0.00     2.8000E-02    0.21
+    Update RB nodes .... 0.0000E+00    0.00     2.1000E-02    0.16
+  Misc. 2 .............. 3.0000E+00   23.08     3.6100E-01    2.73
+  Misc. 3 .............. 0.0000E+00    0.00     1.8000E-02    0.14
+  Misc. 4 .............. 1.0000E+00    7.69     1.6500E-01    1.25
+    Timestep Init ...... 1.0000E+00    7.69     8.3000E-02    0.63
+    Apply Loads ........ 0.0000E+00    0.00     7.0000E-03    0.05
+    Compute exwork ..... 0.0000E+00    0.00     7.4000E-02    0.56
+  ----------------------------------------------------------------
+  T o t a l s            1.3000E+01  100.00     1.3213E+01  100.00
+
+ Problem time       =    2.0004E-02
+ Problem cycle      =      5102
+ Total CPU time     =        13 seconds (   0 hours  0 minutes 13 seconds)
+ CPU time per zone cycle  =        387.164 nanoseconds
+ Clock time per zone cycle=        387.228 nanoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   07/16/2024 11:22:01  
+ End time     07/16/2024 11:22:13  
+ Elapsed time      12 seconds for    5102 cycles using  2 SMP threads
+             (      0 hour   0 minute  12 seconds)
+
+ N o r m a l    t e r m i n a t i o n                          07/16/24 11:22:13

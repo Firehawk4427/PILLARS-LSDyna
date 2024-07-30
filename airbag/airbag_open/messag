@@ -836,3 +836,24 @@ Checking Control Volume Orientations
    43966 t 2.0000E+00 dt 4.56E-05 write d3plot file            07/30/24 13:28:55
    45000 t 2.0471E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:56
    50000 t 2.2749E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:29:00
+ f a i l e d   e l e m e n t   r e p o r t  time=  2.4504E+00
+     number of failed solid  elements = 0
+     number of failed beam   elements = 1
+     number of failed shell  elements = 0
+     number of failed tshell elements = 0
+     beam  element 13451  failed at time  2.4504E+00
+ f a i l e d   e l e m e n t   r e p o r t  time=  2.4506E+00
+     number of failed solid  elements = 0
+     number of failed beam   elements = 2
+     number of failed shell  elements = 0
+     number of failed tshell elements = 0
+     beam  element 13450  failed at time  2.4506E+00
+ f a i l e d   e l e m e n t   r e p o r t  time=  2.4507E+00
+     number of failed solid  elements = 0
+     number of failed beam   elements = 4
+     number of failed shell  elements = 0
+     number of failed tshell elements = 0
+     beam  element 13449  failed at time  2.4507E+00
+     beam  element 13453  failed at time  2.4507E+00
+   54938 t 2.5000E+00 dt 4.56E-05 write d3plot file            07/30/24 13:29:16
+   55000 t 2.5028E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:29:16

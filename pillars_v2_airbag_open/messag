@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/30/2024      Time: 13:28:23  
+      Date: 07/30/2024      Time: 15:29:07  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -76,11 +76,11 @@
      |___________________________________________________|
 
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v59.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v59.k 
                        ncpu=2 
                        memory=20m
 
- Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\airbag\airbag_open\open_airbag_v59
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
@@ -107,7 +107,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/30/24 13:28:23
+ Beginning of keyword reader                                   07/30/24 15:29:07
  expanding   memory to      227000 d     2068970  
  expanding   memory to      268620 d     2068970  
  expanding   memory to      290292 d     2179082  
@@ -556,8 +556,8 @@ Checking Control Volume Orientations
  Memory required to begin solution      :     521K
  Additional dynamically allocated memory:    6518K
                                    Total:    7038K
-       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            07/30/24 13:28:23
-       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            07/30/24 13:28:23
+       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            07/30/24 15:29:07
+       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            07/30/24 15:29:07
  
  *** Warning 40864 (SOL+864)
      Segment based contact stiffness was reduced due to
@@ -822,38 +822,44 @@ Checking Control Volume Orientations
      an increasing solution time step. The new time step for
      the stiffness calculation is 4.5570E-05
      Contact Interface # 2
-    5000 t 2.2428E-01 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:27
-   10000 t 4.5213E-01 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:31
-   11050 t 4.9998E-01 dt 4.56E-05 write d3plot file            07/30/24 13:28:31
-   15000 t 6.7998E-01 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:35
-   20000 t 9.0783E-01 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:38
-   22022 t 9.9998E-01 dt 4.56E-05 write d3plot file            07/30/24 13:28:40
-   25000 t 1.1357E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:42
-   30000 t 1.3635E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:46
-   32994 t 1.5000E+00 dt 4.56E-05 write d3plot file            07/30/24 13:28:48
-   35000 t 1.5914E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:49
-   40000 t 1.8192E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:53
-   43966 t 2.0000E+00 dt 4.56E-05 write d3plot file            07/30/24 13:28:55
-   45000 t 2.0471E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:28:56
-   50000 t 2.2749E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:29:00
- f a i l e d   e l e m e n t   r e p o r t  time=  2.4504E+00
+    5000 t 2.2428E-01 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:11
+   10000 t 4.5213E-01 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:15
+   11050 t 4.9998E-01 dt 4.56E-05 write d3plot file            07/30/24 15:29:16
+   15000 t 6.7998E-01 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:19
+   20000 t 9.0783E-01 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:23
+   22022 t 9.9998E-01 dt 4.56E-05 write d3plot file            07/30/24 15:29:25
+   25000 t 1.1357E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:27
+   30000 t 1.3635E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:31
+   32994 t 1.5000E+00 dt 4.56E-05 write d3plot file            07/30/24 15:29:33
+   35000 t 1.5914E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:34
+   40000 t 1.8192E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:38
+   43966 t 2.0000E+00 dt 4.56E-05 write d3plot file            07/30/24 15:29:41
+   45000 t 2.0471E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:41
+   50000 t 2.2749E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:45
+ f a i l e d   e l e m e n t   r e p o r t  time=  2.4414E+00
      number of failed solid  elements = 0
      number of failed beam   elements = 1
      number of failed shell  elements = 0
      number of failed tshell elements = 0
-     beam  element 13451  failed at time  2.4504E+00
- f a i l e d   e l e m e n t   r e p o r t  time=  2.4506E+00
+     beam  element 13450  failed at time  2.4414E+00
+ f a i l e d   e l e m e n t   r e p o r t  time=  2.4415E+00
      number of failed solid  elements = 0
      number of failed beam   elements = 2
      number of failed shell  elements = 0
      number of failed tshell elements = 0
-     beam  element 13450  failed at time  2.4506E+00
- f a i l e d   e l e m e n t   r e p o r t  time=  2.4507E+00
+     beam  element 13453  failed at time  2.4415E+00
+ f a i l e d   e l e m e n t   r e p o r t  time=  2.4416E+00
+     number of failed solid  elements = 0
+     number of failed beam   elements = 3
+     number of failed shell  elements = 0
+     number of failed tshell elements = 0
+     beam  element 13449  failed at time  2.4416E+00
+ f a i l e d   e l e m e n t   r e p o r t  time=  2.4417E+00
      number of failed solid  elements = 0
      number of failed beam   elements = 4
      number of failed shell  elements = 0
      number of failed tshell elements = 0
-     beam  element 13449  failed at time  2.4507E+00
-     beam  element 13453  failed at time  2.4507E+00
-   54938 t 2.5000E+00 dt 4.56E-05 write d3plot file            07/30/24 13:29:16
-   55000 t 2.5028E+00 dt 4.56E-05 flush i/o buffers            07/30/24 13:29:16
+     beam  element 13451  failed at time  2.4417E+00
+   54938 t 2.5000E+00 dt 4.56E-05 write d3plot file            07/30/24 15:29:58
+   55000 t 2.5028E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:58
+   60000 t 2.7306E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:30:01

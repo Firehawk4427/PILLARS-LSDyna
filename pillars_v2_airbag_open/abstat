@@ -39,6 +39,6 @@
 
 
       time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
- 2.49997E+00       1            NaN            NaN            NaN     8.1249E+01            NaN        NaN        NaN  0.000E+00  6.361E-01  0.000E+00        NaN        NaN
+ 2.49997E+00       1            NaN            NaN            NaN     8.1249E+01            NaN        NaN        NaN  0.000E+00  1.908E+00  0.000E+00        NaN        NaN
     Material I.D.=           1  Unblocked  Area=         NaN    Blocked  Area=  0.0000E+00    Leakage      =         NaN
     Material I.D.=           1  Unblocked  Area=         NaN    Blocked  Area=  0.0000E+00    Leakage      =         NaN

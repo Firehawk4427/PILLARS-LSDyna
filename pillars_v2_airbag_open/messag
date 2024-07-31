@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 07/30/2024      Time: 15:29:07  
+      Date: 07/31/2024      Time: 12:06:20  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -76,7 +76,7 @@
      |___________________________________________________|
 
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v59.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v60.k 
                        ncpu=2 
                        memory=20m
 
@@ -107,20 +107,20 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   07/30/24 15:29:07
+ Beginning of keyword reader                                   07/31/24 12:06:20
  expanding   memory to      227000 d     2068970  
  expanding   memory to      268620 d     2068970  
- expanding   memory to      290292 d     2179082  
- expanding   memory to      317918 d     2179082  
- expanding   memory to      340238 d     2447258  
- expanding   memory to      405238 d     2447258  
- expanding   memory to      429340 d     2447258  
- expanding   memory to      449910 d     2447258  
- expanding   memory to      474005 d     2639279  
- expanding   memory to      498822 d     2813807  
- expanding   memory to      520039 d     2841612  
+ expanding   memory to      290312 d     2179082  
+ expanding   memory to      317989 d     2179082  
+ expanding   memory to      340309 d     2447258  
+ expanding   memory to      405309 d     2447258  
+ expanding   memory to      429411 d     2447258  
+ expanding   memory to      450031 d     2447258  
+ expanding   memory to      474126 d     2639279  
+ expanding   memory to      498943 d     2813807  
+ expanding   memory to      520160 d     2841612  
 
- Memory required to process keyword     :     520039  
+ Memory required to process keyword     :     520160  
  Additional dynamic memory required     :    2857696  
 
  contracting memory to           1 d     2213429 end of keyword reader
@@ -133,14 +133,14 @@
  Allocating memory:                     37  words
  expanding   memory to        2001 d     1551348 material, node and element data
  expanding   memory to        2071 d     1551439 material properties
- expanding   memory to        2075 d     1691188 element data for composite material
- expanding   memory to        2089 d     2333313 gradient of damage data
- expanding   memory to        2119 d     2559786 user control for contact interfaces
- contracting memory to        2099 d     2559791 thermal expansion 0
- expanding   memory to        2101 d     2559796 cross-sectional force definitions 0
- expanding   memory to       16718 d     2559831 temp index array for node sorting
- contracting memory to        2101 d     2574452 just because?
- expanding   memory to       11101 d     2603728 arbitrary element numbering input
+ expanding   memory to        2079 d     1691188 element data for composite material
+ expanding   memory to        2093 d     2333313 gradient of damage data
+ expanding   memory to        2123 d     2559786 user control for contact interfaces
+ contracting memory to        2103 d     2559791 thermal expansion 0
+ expanding   memory to        2105 d     2559796 cross-sectional force definitions 0
+ expanding   memory to       16722 d     2559831 temp index array for node sorting
+ contracting memory to        2105 d     2574452 just because?
+ expanding   memory to       11105 d     2603728 arbitrary element numbering input
  
  *** Warning 20282 (STR+282)
      warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
@@ -484,18 +484,18 @@
      Number of elements exceed warpage angle = 112
        min warpage angle = 3.1860E+01
        max warpage angle = 3.9438E+01
- contracting memory to        4117 d     3012295 load curve data
- contracting memory to        2542 d     3012295 user_define_loading_set
- expanding   memory to        2748 d     3012295 regularize time history data
- contracting memory to        2546 d     3012295 *DEFINE_ELEMENT_DEATH
- expanding   memory to       32780 d     3105241 implicit contact 1
- expanding   memory to      104782 d     3105241 implicit contact 2
- contracting memory to        3546 d     3325321 contact segment data 1
- expanding   memory to      119397 d     3625465 contact segment data 3
- contracting memory to        2546 d     5081536 contact definition
- expanding   memory to       61137 d     5263752 contact friction
- expanding   memory to      226566 d     5263827 joints
- expanding   memory to      226573 d     5485823 control volume input
+ contracting memory to        4121 d     3097263 load curve data
+ contracting memory to        2546 d     3097263 user_define_loading_set
+ expanding   memory to        2752 d     3097263 regularize time history data
+ contracting memory to        2550 d     3097263 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       32784 d     3190209 implicit contact 1
+ expanding   memory to      104786 d     3190209 implicit contact 2
+ contracting memory to        3550 d     3410289 contact segment data 1
+ expanding   memory to      119401 d     3710433 contact segment data 3
+ contracting memory to        2550 d     5166504 contact definition
+ expanding   memory to       61141 d     5348720 contact friction
+ expanding   memory to      226570 d     5348795 joints
+ expanding   memory to      226577 d     5570791 control volume input
 
 Checking Control Volume Orientations
 
@@ -528,36 +528,36 @@ Checking Control Volume Orientations
  *** Warning 30107 (INI+107)
      Number of improperly numbered segments 2026
      for control volume 1
- expanding   memory to      226578 d     5554804 control volume input 4
- expanding   memory to      226673 d     5558709 rigid bodies for disp. termination
- expanding   memory to      226732 d     5558709 save d3plot control data
- expanding   memory to      226734 d     5661210 sensor_control for curve
+ expanding   memory to      226582 d     5639772 control volume input 4
+ expanding   memory to      226677 d     5643677 rigid bodies for disp. termination
+ expanding   memory to      226736 d     5643677 save d3plot control data
+ expanding   memory to      226738 d     5746178 sensor_control for curve
 
      slave surface of interface   = 1
      type                         =       a10
-     surface timestep             = 1.556E-04
-     controlling slave node ID    = 1666
+     surface timestep             = 1.496E-04
+     controlling slave node ID    = 4637
      part ID of slave node        = 1
-     current minimum time step    = 1.556E-04
+     current minimum time step    = 1.496E-04
 
      master surface of interface  = 1
      type                         =       a10
      surface timestep             = 1.676E-04
      controlling master node ID   = 20433
      part ID of master node       = 4
-     current minimum time step    = 1.556E-04
+     current minimum time step    = 1.496E-04
 
- The LS-DYNA time step size should not exceed     1.556E-04
+ The LS-DYNA time step size should not exceed     1.496E-04
  to avoid contact instabilities.  If the step size is
  bigger then scale the penalty of the offending surface.
 
  S t o r a g e   a l l o c a t i o n   
 
  Memory required to begin solution      :     521K
- Additional dynamically allocated memory:    6518K
-                                   Total:    7038K
-       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            07/30/24 15:29:07
-       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            07/30/24 15:29:07
+ Additional dynamically allocated memory:    6603K
+                                   Total:    7123K
+       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            07/31/24 12:06:20
+       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            07/31/24 12:06:20
  
  *** Warning 40864 (SOL+864)
      Segment based contact stiffness was reduced due to
@@ -820,46 +820,154 @@ Checking Control Volume Orientations
  *** Warning 40864 (SOL+864)
      Segment based contact stiffness was reduced due to
      an increasing solution time step. The new time step for
-     the stiffness calculation is 4.5570E-05
+     the stiffness calculation is 4.4644E-05
      Contact Interface # 2
-    5000 t 2.2428E-01 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:11
-   10000 t 4.5213E-01 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:15
-   11050 t 4.9998E-01 dt 4.56E-05 write d3plot file            07/30/24 15:29:16
-   15000 t 6.7998E-01 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:19
-   20000 t 9.0783E-01 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:23
-   22022 t 9.9998E-01 dt 4.56E-05 write d3plot file            07/30/24 15:29:25
-   25000 t 1.1357E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:27
-   30000 t 1.3635E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:31
-   32994 t 1.5000E+00 dt 4.56E-05 write d3plot file            07/30/24 15:29:33
-   35000 t 1.5914E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:34
-   40000 t 1.8192E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:38
-   43966 t 2.0000E+00 dt 4.56E-05 write d3plot file            07/30/24 15:29:41
-   45000 t 2.0471E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:41
-   50000 t 2.2749E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:45
- f a i l e d   e l e m e n t   r e p o r t  time=  2.4414E+00
-     number of failed solid  elements = 0
-     number of failed beam   elements = 1
-     number of failed shell  elements = 0
-     number of failed tshell elements = 0
-     beam  element 13450  failed at time  2.4414E+00
- f a i l e d   e l e m e n t   r e p o r t  time=  2.4415E+00
-     number of failed solid  elements = 0
-     number of failed beam   elements = 2
-     number of failed shell  elements = 0
-     number of failed tshell elements = 0
-     beam  element 13453  failed at time  2.4415E+00
- f a i l e d   e l e m e n t   r e p o r t  time=  2.4416E+00
-     number of failed solid  elements = 0
-     number of failed beam   elements = 3
-     number of failed shell  elements = 0
-     number of failed tshell elements = 0
-     beam  element 13449  failed at time  2.4416E+00
- f a i l e d   e l e m e n t   r e p o r t  time=  2.4417E+00
-     number of failed solid  elements = 0
-     number of failed beam   elements = 4
-     number of failed shell  elements = 0
-     number of failed tshell elements = 0
-     beam  element 13451  failed at time  2.4417E+00
-   54938 t 2.5000E+00 dt 4.56E-05 write d3plot file            07/30/24 15:29:58
-   55000 t 2.5028E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:29:58
-   60000 t 2.7306E+00 dt 4.56E-05 flush i/o buffers            07/30/24 15:30:01
+    5000 t 2.1973E-01 dt 4.46E-05 flush i/o buffers            07/31/24 12:06:25
+   10000 t 4.4295E-01 dt 4.46E-05 flush i/o buffers            07/31/24 12:06:29
+   11277 t 4.9996E-01 dt 4.46E-05 write d3plot file            07/31/24 12:06:30
+   15000 t 6.6616E-01 dt 4.46E-05 flush i/o buffers            07/31/24 12:06:33
+   20000 t 8.8938E-01 dt 4.46E-05 flush i/o buffers            07/31/24 12:06:37
+   22477 t 9.9997E-01 dt 4.46E-05 write d3plot file            07/31/24 12:06:39
+   25000 t 1.1126E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:06:41
+   30000 t 1.3358E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:06:45
+   33677 t 1.5000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:06:48
+   35000 t 1.5590E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:06:49
+   40000 t 1.7823E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:06:53
+   44877 t 2.0000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:06:57
+   45000 t 2.0055E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:06:57
+   50000 t 2.2287E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:00
+   55000 t 2.4519E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:04
+   56077 t 2.5000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:07:05
+   60000 t 2.6751E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:08
+   65000 t 2.8983E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:11
+   67276 t 3.0000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:07:13
+   70000 t 3.1216E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:15
+   75000 t 3.3448E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:19
+   78476 t 3.5000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:07:21
+   80000 t 3.5680E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:23
+   85000 t 3.7912E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:26
+   89676 t 4.0000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:07:30
+   90000 t 4.0144E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:30
+   95000 t 4.2377E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:34
+  100000 t 4.4609E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:38
+  100876 t 4.5000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:07:38
+  105000 t 4.6841E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:41
+  110000 t 4.9073E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:45
+  112076 t 5.0000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:07:47
+  115000 t 5.1305E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:49
+  120000 t 5.3538E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:53
+  123275 t 5.5000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:07:55
+  125000 t 5.5770E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:07:56
+  130000 t 5.8002E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:00
+  134475 t 6.0000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:08:04
+  135000 t 6.0234E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:04
+  140000 t 6.2466E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:08
+  145000 t 6.4698E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:12
+  145675 t 6.5000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:08:12
+  150000 t 6.6931E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:15
+  155000 t 6.9163E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:19
+  156875 t 7.0000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:08:21
+  160000 t 7.1395E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:23
+  165000 t 7.3627E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:27
+  168075 t 7.5000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:08:29
+  170000 t 7.5859E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:31
+  175000 t 7.8092E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:35
+  179274 t 8.0000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:08:40
+  180000 t 8.0324E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:41
+  185000 t 8.2556E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:48
+  190000 t 8.4788E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:08:56
+  190474 t 8.5000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:08:56
+  195000 t 8.7020E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:09:03
+  200000 t 8.9252E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:09:10
+  201674 t 9.0000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:09:13
+  205000 t 9.1485E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:09:18
+  210000 t 9.3717E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:09:25
+  212874 t 9.5000E+00 dt 4.46E-05 write d3plot file            07/31/24 12:09:29
+  215000 t 9.5949E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:09:33
+  220000 t 9.8181E+00 dt 4.46E-05 flush i/o buffers            07/31/24 12:09:40
+  224073 t 1.0000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:09:46
+  225000 t 1.0041E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:09:47
+  230000 t 1.0265E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:09:55
+  235000 t 1.0488E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:10:02
+  235273 t 1.0500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:10:03
+  240000 t 1.0711E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:10:10
+  245000 t 1.0934E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:10:17
+  246473 t 1.1000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:10:19
+  250000 t 1.1157E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:10:25
+  255000 t 1.1381E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:10:32
+  257673 t 1.1500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:10:36
+  260000 t 1.1604E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:10:40
+  265000 t 1.1827E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:10:47
+  268873 t 1.2000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:10:53
+  270000 t 1.2050E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:10:55
+  275000 t 1.2274E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:11:02
+  280000 t 1.2497E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:11:10
+  280072 t 1.2500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:11:10
+  285000 t 1.2720E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:11:17
+  290000 t 1.2943E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:11:25
+  291272 t 1.3000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:11:27
+  295000 t 1.3166E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:11:32
+  300000 t 1.3390E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:11:40
+  302472 t 1.3500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:11:44
+  305000 t 1.3613E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:11:47
+  310000 t 1.3836E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:11:55
+  313672 t 1.4000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:12:00
+  315000 t 1.4059E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:12:02
+  320000 t 1.4282E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:12:10
+  324872 t 1.4500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:12:17
+  325000 t 1.4506E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:12:17
+  330000 t 1.4729E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:12:25
+  335000 t 1.4952E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:12:32
+  336071 t 1.5000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:12:34
+  340000 t 1.5175E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:12:40
+  345000 t 1.5399E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:12:48
+  347271 t 1.5500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:12:51
+  350000 t 1.5622E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:12:55
+  355000 t 1.5845E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:13:03
+  358471 t 1.6000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:13:08
+  360000 t 1.6068E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:13:10
+  365000 t 1.6291E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:13:18
+  369671 t 1.6500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:13:25
+  370000 t 1.6515E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:13:25
+  375000 t 1.6738E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:13:33
+  380000 t 1.6961E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:13:40
+  380871 t 1.7000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:13:42
+  385000 t 1.7184E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:13:48
+  390000 t 1.7408E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:13:56
+  392070 t 1.7500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:13:59
+  395000 t 1.7631E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:14:03
+  400000 t 1.7854E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:14:11
+  403270 t 1.8000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:14:16
+  405000 t 1.8077E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:14:18
+  410000 t 1.8300E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:14:26
+  414470 t 1.8500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:14:33
+  415000 t 1.8524E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:14:33
+  420000 t 1.8747E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:14:41
+  425000 t 1.8970E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:14:48
+  425670 t 1.9000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:14:49
+  430000 t 1.9193E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:14:56
+  435000 t 1.9417E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:15:04
+  436870 t 1.9500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:15:06
+  440000 t 1.9640E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:15:11
+  445000 t 1.9863E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:15:19
+  448069 t 2.0000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:15:23
+  450000 t 2.0086E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:15:26
+  455000 t 2.0309E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:15:34
+  459269 t 2.0500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:15:40
+  460000 t 2.0533E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:15:41
+  465000 t 2.0756E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:15:49
+  470000 t 2.0979E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:15:57
+  470469 t 2.1000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:15:57
+  475000 t 2.1202E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:16:04
+  480000 t 2.1425E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:16:12
+  481669 t 2.1500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:16:14
+  485000 t 2.1649E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:16:19
+  490000 t 2.1872E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:16:27
+  492868 t 2.2000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:16:32
+  495000 t 2.2095E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:16:35
+  500000 t 2.2318E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:16:43
+  504068 t 2.2500E+01 dt 4.46E-05 write d3plot file            07/31/24 12:16:49
+  505000 t 2.2542E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:16:50
+  510000 t 2.2765E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:16:58
+  515000 t 2.2988E+01 dt 4.46E-05 flush i/o buffers            07/31/24 12:17:05
+  515268 t 2.3000E+01 dt 4.46E-05 write d3plot file            07/31/24 12:17:06

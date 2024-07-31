@@ -203,3 +203,4 @@
 	- also something could be wrong with thicknss of .25
 ## V57
 - reverted back to null material for inner mesh with 0 pressure cutoff. 
+- what if the fabric mesh was attached to the gas nozlzle with beams? would this fix the problem?

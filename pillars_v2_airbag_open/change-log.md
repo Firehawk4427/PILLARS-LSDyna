@@ -208,3 +208,6 @@
 - gave up on null material cause its a pain to work with
 - trying to get leakage keyword to work
 - tweaked poroous fabric keyword
+## V66
+- reverted everything back to V56 when everything ran
+- trying to make beams rigid / immovable and able to measure stress

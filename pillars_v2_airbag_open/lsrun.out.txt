@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/01/2024      Time: 10:30:46  
+      Date: 08/01/2024      Time: 10:40:27  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -82,3 +82,349 @@
  Student license active; 31 days remaning.
 
  Executing with ANSYS license
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v63.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+
+ on UNIX computers note the following change:
+
+ ctrl-c interrupts ls-dyna and prompts for a sense  switch.
+ type the desired sense switch: sw1., sw2., etc. to continue
+ the execution.  ls-dyna will respond as explained in the users manual
+
+    type                      response
+   -----   ------------------------------------------------------------
+   quit    ls-dyna terminates.
+   stop    ls-dyna terminates.
+   sw1.    a restart file is written and ls-dyna terminates.
+   sw2.    ls-dyna responds with time and cycle numbers.    
+   sw3.    a restart file is written and ls-dyna continues calculations.
+   sw4.    a plot state is written and ls-dyna continues calculations.
+   swa.    ls-dyna flushes all output i/o buffers.
+   swb.    a dynain is written and ls-dyna continues calculations.
+   swc.    a restart and dynain are written and ls-dyna continues calculations.
+   swd.    a restart and dynain are written and ls-dyna terminates.
+   swe.    stop dynamic relaxation just as though convergence
+   endtime=time change the termination time
+   lpri    toggle implicit lin. alg. solver output on/off.
+   nlpr    toggle implicit nonlinear solver output on/off.
+   iter    toggle implicit output to d3iter database on/off.
+   prof    output timing data to messag and continue.
+   conv    force implicit nonlinear convergence for current time step.
+   ttrm    terminate implicit time step, reduce time step, retry time step.
+   rtrm    terminate implicit at end of current time step.
+
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   08/01/24 10:40:28
+
+ Memory required to process keyword     :     514154  
+ Additional dynamic memory required     :    2796862  
+
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 31 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 48 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 53 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 74 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 79 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 104 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 108 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 137 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 140 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 171 is computed as 3.3783E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 174 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 207 is computed as 3.4540E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 210 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 245 is computed as 3.4424E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 248 is computed as 3.3691E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 285 is computed as 3.3633E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 288 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 327 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 372 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 413 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 460 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 503 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 552 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 597 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 744 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 791 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1194 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1241 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1388 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1433 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1482 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1525 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1572 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1613 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1658 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1697 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1700 is computed as 3.3716E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1737 is computed as 3.3692E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1740 is computed as 3.4426E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1775 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1778 is computed as 3.4431E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1811 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1814 is computed as 3.3624E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1845 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1848 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1877 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1881 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1906 is computed as 3.6378E+01 degrees.
+     Message 20282 (STR+282) exceeds 50 times
+     Further printing will be suppressed from screen only
+ 
+ *** Warning 20289 (STR+289)
+     Number of elements exceed warpage angle = 112
+       min warpage angle = 3.1860E+01
+       max warpage angle = 3.9438E+01
+ 
+ *** Warning 30107 (INI+107)
+     Number of improperly numbered segments 537
+     for control volume 1
+
+ input of data is completed
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 174 of interface 1
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 175 of interface 1
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 477 of interface 1
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 488 of interface 1
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 1352 of interface 1
+
+ initial kinetic energy = 0.00000000E+00
+ 
+ *** Warning 30131 (INI+131)
+     total number of massless nodes = 12
+ 
+ *** Error 30025 (INI+25)
+     massless node 3291 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3292 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3340 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3341 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3342 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3389 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3390 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3391 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3487 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3488 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3534 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3535 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+
+ The LS-DYNA time step size should not exceed     9.999E-05
+ to avoid contact instabilities.  If the step size is
+ bigger then scale the penalty of the offending surface.
+ 
+ *** Error 30006 (INI+6)
+     initialization completed with 22 or more fatal errors
+     please check messag file
+
+ Memory required to begin solution      :     515K
+ Additional dynamically allocated memory:    6179K
+                                   Total:    6694K
+ 
+ *** Error 30006 (INI+6)
+     initialization completed with 23 or more fatal errors
+     please check messag file
+
+ E r r o r   t e r m i n a t i o n                             08/01/24 10:40:28
+
+ Memory required to complete solution   :     515K
+ Additional dynamically allocated memory:    6179K
+                                   Total:    6694K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     7.0000E-02    5.48
+    KW Reading ......... 0.0000E+00    0.00     4.2000E-02    3.29
+    KW Writing ......... 0.0000E+00    0.00     4.0000E-03    0.31
+  Initialization ....... 1.0000E+00  100.00     1.2070E+00   94.52
+    Init Proc Phase 1 .. 0.0000E+00    0.00     5.9000E-02    4.62
+    Init Proc Phase 2 .. 0.0000E+00    0.00     1.8000E-02    1.41
+  ----------------------------------------------------------------
+  T o t a l s            1.0000E+00  100.00     1.2770E+00  100.00
+
+ Problem time       =    0.0000E+00
+ Problem cycle      =         0
+ Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
+ CPU time per zone cycle  =          0.000 picoseconds
+ Clock time per zone cycle=          0.000 picoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   08/01/2024 10:40:28  
+ End time     08/01/2024 10:40:28  
+ Elapsed time       0 second  for       0 cycles using  2 SMP threads
+             (      0 hour   0 minute   0 second )
+
+ E r r o r   t e r m i n a t i o n                             08/01/24 10:40:28
+

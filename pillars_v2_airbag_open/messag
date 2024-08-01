@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/01/2024      Time: 10:30:47  
+      Date: 08/01/2024      Time: 10:40:28  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -76,7 +76,7 @@
      |___________________________________________________|
 
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v62.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v63.k 
                        ncpu=2 
                        memory=20m
 
@@ -107,23 +107,23 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/01/24 10:30:47
- expanding   memory to      227000 d     2063948  
- expanding   memory to      268620 d     2063948  
- expanding   memory to      288700 d     2162420  
- expanding   memory to      315694 d     2162420  
- expanding   memory to      338014 d     2411900  
- expanding   memory to      403014 d     2411900  
- expanding   memory to      427116 d     2411900  
- expanding   memory to      447736 d     2411900  
- expanding   memory to      469054 d     2593040  
- expanding   memory to      493034 d     2764658  
- expanding   memory to      514250 d     2790654  
+ Beginning of keyword reader                                   08/01/24 10:40:28
+ expanding   memory to      227000 d     2063876  
+ expanding   memory to      268620 d     2063876  
+ expanding   memory to      288664 d     2162132  
+ expanding   memory to      315658 d     2162132  
+ expanding   memory to      337978 d     2411612  
+ expanding   memory to      402978 d     2411612  
+ expanding   memory to      427080 d     2411612  
+ expanding   memory to      447700 d     2411612  
+ expanding   memory to      468970 d     2592596  
+ expanding   memory to      492938 d     2764160  
+ expanding   memory to      514154 d     2790126  
 
- Memory required to process keyword     :     514250  
- Additional dynamic memory required     :    2797390  
+ Memory required to process keyword     :     514154  
+ Additional dynamic memory required     :    2796862  
 
- contracting memory to           1 d     2167188 end of keyword reader
+ contracting memory to           1 d     2166744 end of keyword reader
 
  LS-DYNA will perform a structural only analysis 
 
@@ -133,14 +133,14 @@
  Allocating memory:                     26  words
  expanding   memory to        2001 d     1550960 material, node and element data
  expanding   memory to        2071 d     1551037 material properties
- expanding   memory to        2075 d     1684124 element data for composite material
- expanding   memory to        2089 d     2289421 gradient of damage data
- expanding   memory to        2119 d     2492588 user control for contact interfaces
- contracting memory to        2099 d     2492592 thermal expansion 0
- expanding   memory to        2101 d     2492596 cross-sectional force definitions 0
- expanding   memory to       15881 d     2492624 temp index array for node sorting
- contracting memory to        2101 d     2506408 just because?
- expanding   memory to       11101 d     2534002 arbitrary element numbering input
+ expanding   memory to        2075 d     1684004 element data for composite material
+ expanding   memory to        2089 d     2288773 gradient of damage data
+ expanding   memory to        2119 d     2491508 user control for contact interfaces
+ contracting memory to        2099 d     2491512 thermal expansion 0
+ expanding   memory to        2101 d     2491516 cross-sectional force definitions 0
+ expanding   memory to       15869 d     2491544 temp index array for node sorting
+ contracting memory to        2101 d     2505316 just because?
+ expanding   memory to       11101 d     2532886 arbitrary element numbering input
  
  *** Warning 20282 (STR+282)
      warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
@@ -484,18 +484,18 @@
      Number of elements exceed warpage angle = 112
        min warpage angle = 3.1860E+01
        max warpage angle = 3.9438E+01
- contracting memory to        4117 d     2924765 load curve data
- contracting memory to        2542 d     2924765 user_define_loading_set
- expanding   memory to        2748 d     2924765 regularize time history data
- contracting memory to        2546 d     2924765 *DEFINE_ELEMENT_DEATH
- expanding   memory to       31106 d     3016025 implicit contact 1
- expanding   memory to      103108 d     3016025 implicit contact 2
- contracting memory to        3546 d     3216209 contact segment data 1
- expanding   memory to      116886 d     3482370 contact segment data 3
- contracting memory to        2546 d     4913896 contact definition
- expanding   memory to       48267 d     5085252 contact friction
- expanding   memory to      189522 d     5085312 joints
- expanding   memory to      189529 d     5275076 control volume input
+ contracting memory to        4117 d     2921747 load curve data
+ contracting memory to        2542 d     2921747 user_define_loading_set
+ expanding   memory to        2748 d     2921747 regularize time history data
+ contracting memory to        2546 d     2921747 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       31082 d     3012983 implicit contact 1
+ expanding   memory to      103084 d     3012983 implicit contact 2
+ contracting memory to        3546 d     3213059 contact segment data 1
+ expanding   memory to      116850 d     3478869 contact segment data 3
+ contracting memory to        2546 d     4910203 contact definition
+ expanding   memory to       47862 d     5081451 contact friction
+ expanding   memory to      188874 d     5081511 joints
+ expanding   memory to      188881 d     5270951 control volume input
 
 Checking Control Volume Orientations
 
@@ -578,10 +578,82 @@ Checking Control Volume Orientations
  *** Warning 30107 (INI+107)
      Number of improperly numbered segments 537
      for control volume 1
- expanding   memory to      189533 d     5323847 control volume input 4
- expanding   memory to      189629 d     5325924 rigid bodies for disp. termination
- expanding   memory to      189688 d     5325924 save d3plot control data
- expanding   memory to      189690 d     5414877 sensor_control for curve
+ expanding   memory to      188885 d     5319722 control volume input 4
+ expanding   memory to      188981 d     5321799 rigid bodies for disp. termination
+ expanding   memory to      189040 d     5321799 save d3plot control data
+ expanding   memory to      189042 d     5410546 sensor_control for curve
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 174 of interface 1
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 175 of interface 1
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 477 of interface 1
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 488 of interface 1
+ 
+ *** Error 30059 (INI+59)
+     cannot find element of slave segment 1352 of interface 1
+ 
+ *** Warning 30128 (INI+128)
+     Massless nodes
+     The following massless nodes were found
+ 3291 3292 3340 3341 3342 3389
+ 3390 3391 3487 3488 3534 3535
+ 
+ *** Warning 30131 (INI+131)
+     total number of massless nodes = 12
+ 
+ *** Error 30025 (INI+25)
+     massless node 3291 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3292 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3340 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3341 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3342 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3389 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3390 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3391 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3487 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3488 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3534 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
+ 
+ *** Error 30025 (INI+25)
+     massless node 3535 on the slave side of surface 1 type 5
+     This could be lead to a segment with no parent element defined.
 
      slave surface of interface   = 1
      type                         =       a10
@@ -600,307 +672,52 @@ Checking Control Volume Orientations
  The LS-DYNA time step size should not exceed     9.999E-05
  to avoid contact instabilities.  If the step size is
  bigger then scale the penalty of the offending surface.
+ 
+ *** Error 30006 (INI+6)
+     initialization completed with 22 or more fatal errors
+     please check messag file
 
  S t o r a g e   a l l o c a t i o n   
 
  Memory required to begin solution      :     515K
- Additional dynamically allocated memory:    6184K
-                                   Total:    6699K
-       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            08/01/24 10:30:48
-       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            08/01/24 10:30:48
+ Additional dynamically allocated memory:    6179K
+                                   Total:    6694K
  
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.3310E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.6105E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.9487E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.3579E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.8531E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 3.4523E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.1772E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 5.0545E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 6.1159E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 7.4002E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 8.9543E-08
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.0835E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.3110E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.5863E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.9194E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.3225E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.8102E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 3.4004E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.1145E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.9785E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 6.0240E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 7.2890E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 8.8197E-07
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.0672E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.2913E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.5625E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.8906E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.2876E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.7680E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 3.3493E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.0527E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 4.9037E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 5.9335E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 7.1795E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 8.6872E-06
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.0512E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.2719E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.5390E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 1.8622E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.2532E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 2.7264E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 3.2990E-05
-     Contact Interface # 2
- 
- *** Warning 40864 (SOL+864)
-     Segment based contact stiffness was reduced due to
-     an increasing solution time step. The new time step for
-     the stiffness calculation is 3.9918E-05
-     Contact Interface # 2
-    5000 t 2.1107E-01 dt 4.29E-05 flush i/o buffers            08/01/24 10:30:51
-   10000 t 4.2548E-01 dt 4.29E-05 flush i/o buffers            08/01/24 10:30:54
-   11737 t 4.9996E-01 dt 4.29E-05 write d3plot file            08/01/24 10:30:55
-   15000 t 6.3989E-01 dt 4.29E-05 flush i/o buffers            08/01/24 10:30:57
-   20000 t 8.5429E-01 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:00
-   23397 t 9.9996E-01 dt 4.29E-05 write d3plot file            08/01/24 10:31:02
-   25000 t 1.0687E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:04
-   30000 t 1.2831E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:07
-   35000 t 1.4975E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:10
-   35058 t 1.5000E+00 dt 4.29E-05 write d3plot file            08/01/24 10:31:10
-   40000 t 1.7119E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:13
-   45000 t 1.9263E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:16
-   46718 t 2.0000E+00 dt 4.29E-05 write d3plot file            08/01/24 10:31:17
-   50000 t 2.1407E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:18
-   55000 t 2.3551E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:21
-   58378 t 2.5000E+00 dt 4.29E-05 write d3plot file            08/01/24 10:31:23
-   60000 t 2.5695E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:24
-   65000 t 2.7840E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:27
-   70000 t 2.9984E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:29
-   70038 t 3.0000E+00 dt 4.29E-05 write d3plot file            08/01/24 10:31:29
-   75000 t 3.2128E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:32
-   80000 t 3.4272E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:34
-   81698 t 3.5000E+00 dt 4.29E-05 write d3plot file            08/01/24 10:31:35
-   85000 t 3.6416E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:37
-   90000 t 3.8560E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:40
-   93358 t 4.0000E+00 dt 4.29E-05 write d3plot file            08/01/24 10:31:42
-   95000 t 4.0704E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:42
-  100000 t 4.2848E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:45
-  105000 t 4.4992E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:48
-  105018 t 4.5000E+00 dt 4.29E-05 write d3plot file            08/01/24 10:31:48
-  110000 t 4.7136E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:51
-  115000 t 4.9280E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:53
-  116678 t 5.0000E+00 dt 4.29E-05 write d3plot file            08/01/24 10:31:54
-  120000 t 5.1424E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:56
-  125000 t 5.3568E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:31:59
-  128338 t 5.5000E+00 dt 4.29E-05 write d3plot file            08/01/24 10:32:01
-  130000 t 5.5712E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:32:02
-  135000 t 5.7856E+00 dt 4.29E-05 flush i/o buffers            08/01/24 10:32:06
+ *** Error 30006 (INI+6)
+     initialization completed with 23 or more fatal errors
+     please check messag file
+
+ E r r o r   t e r m i n a t i o n                             08/01/24 10:40:28
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to complete solution   :     515K
+ Additional dynamically allocated memory:    6179K
+                                   Total:    6694K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     7.0000E-02    5.48
+    KW Reading ......... 0.0000E+00    0.00     4.2000E-02    3.29
+    KW Writing ......... 0.0000E+00    0.00     4.0000E-03    0.31
+  Initialization ....... 1.0000E+00  100.00     1.2070E+00   94.52
+    Init Proc Phase 1 .. 0.0000E+00    0.00     5.9000E-02    4.62
+    Init Proc Phase 2 .. 0.0000E+00    0.00     1.8000E-02    1.41
+  ----------------------------------------------------------------
+  T o t a l s            1.0000E+00  100.00     1.2770E+00  100.00
+
+ Problem time       =    0.0000E+00
+ Problem cycle      =         0
+ Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
+ CPU time per zone cycle  =          0.000 picoseconds
+ Clock time per zone cycle=          0.000 picoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   08/01/2024 10:40:28  
+ End time     08/01/2024 10:40:28  
+ Elapsed time       0 second  for       0 cycles using  2 SMP threads
+             (      0 hour   0 minute   0 second )
+
+ E r r o r   t e r m i n a t i o n                             08/01/24 10:40:28

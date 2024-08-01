@@ -194,8 +194,6 @@
   },
   "active": "a0876cfd3d6078b6",
   "lastOpenFiles": [
-    "pillars_v2_airbag_open/lspost2.db",
-    "pillars_v2_airbag_open/lspost1.db",
     "pillars_v2_airbag_open/lspp_temp_1",
     "pillars_v2_airbag_open/d3plot",
     "pillars_v2_airbag_open/ldcrvv",
@@ -205,6 +203,8 @@
     "pillars_v2_airbag_open/group_file",
     "pillars_v2_airbag_open/dyna.lsda",
     "pillars_v2_airbag_open/messag",
+    "pillars_v2_airbag_open/d3hsp",
+    "pillars_v2_airbag_open/lsrun.out.txt",
     "README.md",
     "pillars_v2_airbag_open/gifs/null-explode.gif",
     "pillars_v2_airbag_open/gifs/collisions-on-null-fucked.gif",

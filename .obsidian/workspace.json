@@ -50,19 +50,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "38c0b56835c40ab2",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "pillars_v2_airbag_open/gifs/4-anchor-test.gif"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -128,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pillars_v2_airbag_open/gifs/4-anchor-test.gif",
+                "file": "pillars_v2_airbag_open/change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pillars_v2_airbag_open/gifs/4-anchor-test.gif",
+                "file": "pillars_v2_airbag_open/change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pillars_v2_airbag_open/gifs/4-anchor-test.gif"
+                "file": "pillars_v2_airbag_open/change-log.md"
               }
             }
           },
@@ -202,8 +192,9 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "38c0b56835c40ab2",
+  "active": "a0876cfd3d6078b6",
   "lastOpenFiles": [
+    "pillars_v2_airbag_open/gifs/4-anchor-test.gif",
     "pillars_v2_airbag_open/change-log.md",
     "pillars_v2_airbag_open/lspp_temp_1",
     "pillars_v2_airbag_open/d3plot",
@@ -218,7 +209,6 @@
     "README.md",
     "pillars_v2_airbag_open/gifs/null-explode.gif",
     "pillars_v2_airbag_open/gifs/collisions-on-null-fucked.gif",
-    "pillars_v2_airbag_open/gifs/4-anchor-test.gif",
     "pillars_v2_airbag_open/notes.md",
     "pillars_v2_airbag_open/gifs/collisions-on-null=porous-fabric.gif",
     "pillars_v2_airbag_open/gifs/airbag_open_v1.gif",

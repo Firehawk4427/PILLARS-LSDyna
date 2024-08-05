@@ -1,0 +1,221 @@
+ License option : check ansys licenses only
+
+
+ ***************************************************************
+ *            ANSYS 2023 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2023 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+      Date: 08/05/2024      Time: 13:44:42  
+      ___________________________________________________ 
+     |                                                   |
+     |  LS-DYNA, A Program for Nonlinear Dynamic         |
+     |  Analysis of Structures in Three Dimensions       |
+     |  Date    : 07/28/2023    Time: 16:45:29           |
+     |  Version : smp d R13                              |
+     |  Revision: R13.1.1-27-g8731a0d8c5                 |
+     |                                                   |
+     |  Features enabled in this version:                |
+     |    Shared Memory Parallel                         |
+     |    CESE CHEMISTRY EM ICFD STOCHASTIC_PARTICLES    |
+     |    FFTW (multi-dimensional FFTW Library)          |
+     |    ARPACK (nonsymmetric eigensolver library)      |
+     |    ANSYSLIC enabled                               |
+     |                                                   |
+     |  Licensed to:                                     |
+     |                                                   |
+     |  Platform   : WINDOWS X64 SSE2                    |
+     |  OS Level   : Windows 8/10 & Srv 2016/2019/2022   |
+     |  Compiler   : Intel Fortran XE 2019 MSVC++ 2019   |
+     |  Hostname   : DESKTOP-F2LHD1U                     |
+     |  Precision  : Double precision (I8R8)             |
+     |                                                   |
+     |  Unauthorized use infringes Ansys Inc. copyrights |
+     |___________________________________________________|
+
+[license/error] *** ANSYS LICENSE MANAGER ERROR ***
+[license/error] Request name dyna does not exist in the licensing pool.
+[license/error] No valid FLEXlm servers specified.
+[license/error] Licensing mode "ANSYS LSDYNA" failed on feature "dyna". Undoing partial checkout.
+ Student license active; 27 days remaning.
+
+ Executing with ANSYS license
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\bolted_connection_b.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\bolted_connec
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+
+ on UNIX computers note the following change:
+
+ ctrl-c interrupts ls-dyna and prompts for a sense  switch.
+ type the desired sense switch: sw1., sw2., etc. to continue
+ the execution.  ls-dyna will respond as explained in the users manual
+
+    type                      response
+   -----   ------------------------------------------------------------
+   quit    ls-dyna terminates.
+   stop    ls-dyna terminates.
+   sw1.    a restart file is written and ls-dyna terminates.
+   sw2.    ls-dyna responds with time and cycle numbers.    
+   sw3.    a restart file is written and ls-dyna continues calculations.
+   sw4.    a plot state is written and ls-dyna continues calculations.
+   swa.    ls-dyna flushes all output i/o buffers.
+   swb.    a dynain is written and ls-dyna continues calculations.
+   swc.    a restart and dynain are written and ls-dyna continues calculations.
+   swd.    a restart and dynain are written and ls-dyna terminates.
+   swe.    stop dynamic relaxation just as though convergence
+   endtime=time change the termination time
+   lpri    toggle implicit lin. alg. solver output on/off.
+   nlpr    toggle implicit nonlinear solver output on/off.
+   iter    toggle implicit output to d3iter database on/off.
+   prof    output timing data to messag and continue.
+   conv    force implicit nonlinear convergence for current time step.
+   ttrm    terminate implicit time step, reduce time step, retry time step.
+   rtrm    terminate implicit at end of current time step.
+
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   08/05/24 13:44:44
+ 
+ *** Error 10246 (KEY+246)
+     line contains improperly formatted data
+      reading *DEFINE_CURVE card.
+          At line# 91 of file
+ C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\bolted_connection_b.k
+ --------------------------------------------------------------------------
+        100           &dtPreStr &bltForce
+ --------------------------------------------------------------------------
+ 
+ *** Warning 10453 (KEY+453)
+     blank line where command expected
+          At line# 93 of file
+ C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\bolted_connection_b.k
+ 
+ *** Warning 10453 (KEY+453)
+     blank line where command expected
+          At line# 94 of file
+ C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\bolted_connection_b.k
+ 
+ *** Error 10246 (KEY+246)
+     line contains improperly formatted data
+      reading *DEFINE_CURVE card.
+          At line# 119 of file
+ C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\bolted_connection_b.k
+ --------------------------------------------------------------------------
+               &tLoad                 0.0
+ --------------------------------------------------------------------------
+ 
+ *** Warning 10453 (KEY+453)
+     blank line where command expected
+          At line# 120 of file
+ C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\bolted_connection_b.k
+ 
+ *** Warning 10453 (KEY+453)
+     blank line where command expected
+          At line# 121 of file
+ C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\bolted_connection_b.k
+ 
+ *** Error 10141 (KEY+141)
+     Load curve id 100 is undefined
+ 
+ *** Error 10133 (KEY+133)
+     input data failed with: 6 errors
+
+ E r r o r   t e r m i n a t i o n                             08/05/24 13:44:44
+
+ Memory required to complete solution   :     287K
+ Additional dynamically allocated memory:    2131K
+                                   Total:    2417K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     1.0000E-02    0.87
+    KW Reading ......... 0.0000E+00    0.00     3.0000E-03    0.26
+    KW Writing ......... 0.0000E+00    0.00     2.0000E-03    0.17
+  Initialization ....... 1.0000E+00  100.00     1.1400E+00   99.13
+  ----------------------------------------------------------------
+  T o t a l s            1.0000E+00  100.00     1.1500E+00  100.00
+
+ Problem time       =    0.0000E+00
+ Problem cycle      =         0
+ Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
+ CPU time per zone cycle  =          0.000 picoseconds
+ Clock time per zone cycle=          0.000 picoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   08/05/2024 13:44:44  
+ End time     08/05/2024 13:44:44  
+ Elapsed time       0 second  for       0 cycles using  2 SMP threads
+             (      0 hour   0 minute   0 second )
+
+ E r r o r   t e r m i n a t i o n                             08/05/24 13:44:44
+

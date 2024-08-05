@@ -1,24 +1,502 @@
 $# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
-$# Created on Aug-5-2024 (10:51:26)
-open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v66.k"
+$# Created on Aug-5-2024 (15:47:05)
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v68.k"
 Message 1
 Message 0
--M S2
-+M S2
-genselect target element
--M S2
-partdata readlist 5 
+partdata readlist 6 
 clearid part
-partdata readlist 5 
-clearid part
-partdata delete 5 
+-M S6
+-M S2
+-M S3
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+undogeom enter
+circle param  18 0.0 .25 0.0 0.0 1.0 0.075000
+circle param  18 0.0 .25 0.0 0.0 1.0 0.150000
+undogeom leave
+genselect target edge
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+genselect target geomobject
+occfilter add edge
+occfilter clear
+occfilter add Edge
+blankmesh outlinecurveadd 2
+blankmesh adaptive off
+blankmesh trmopt params 1.400000 0.000000 1.000000 0.000000 0.000000
+blankmesh trmopt create2 7 4449 20434
+blankmesh trmopt trimoutline
+blankmesh trmopt trimholes
+blankmesh trmopt reject
+elemedit multisplit init
+genselect clear
+genselect target shell
+genselect target geomobject
+occfilter add edge
+occfilter clear
+occfilter add Edge
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+genselect geomobject add node 1768/0 
+genselect geomobject add node 1770/0 
+genselect geomobject add node 1688/0 
+genselect geomobject add node 1686/0 
+blankmesh posopt p1 19.2 -1.2 0
+blankmesh posopt p2 19.2 1.2 0
+blankmesh posopt p3 16.8 1.2 0
+blankmesh posopt p4 16.8 -1.2 0
+blankmesh posopt elsz 16
+blankmesh posopt update
+-M S1
++M S1
+-M S1
+blankmesh posopt reject
+elemedit multisplit init
+genselect clear
+genselect target shell
+clearpick
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
++M S1
+genselect geomobject add node 1770/0 
+genselect geomobject add node 1686/0 
+genselect geomobject add node 1768/0 
+genselect geomobject add node 1688/0 
+blankmesh posopt p1 19.2 1.2 0
+blankmesh posopt p2 16.8 -1.2 0
+blankmesh posopt p3 19.2 -1.2 0
+blankmesh posopt p4 16.8 1.2 0
+blankmesh posopt elsz 16
+blankmesh posopt update
+-M S1
+blankmesh posopt reject
++M S1
+clearpick
+occfilter clear
+occfilter add Edge
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+clearpick
+occfilter clear
+genselect target edge
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+genselect geomobject add node 1768/0 
+genselect geomobject add node 1686/0 
+genselect geomobject add node 1688/0 
+genselect geomobject add node 1770/0 
+blankmesh posopt p1 19.2 -1.2 0
+blankmesh posopt p2 16.8 -1.2 0
+blankmesh posopt p3 16.8 1.2 0
+blankmesh posopt p4 19.2 1.2 0
+blankmesh posopt elsz 16
+blankmesh posopt update
+-M S1
+blankmesh posopt reject
+elemedit multisplit init
+genselect clear
+genselect target shell
+clearpick
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+blankmesh posopt p1 19.2 -1.2 0
+blankmesh posopt p2 16.8 -1.2 0
+blankmesh posopt p3 16.8 1.2 0
+blankmesh posopt p4 19.2 1.2 0
+blankmesh posopt elsz 16
+blankmesh posopt update
+blankmesh posopt accept 7 4449 20434
+elemedit multisplit init
+genselect clear
+genselect target shell
+genselect shell add shell 4449/0 
+elemedit multisplit apply 10
+elemedit multisplit reject
+elemedit multisplit apply 1
+genselect shell add shell 4449/0 
+elemedit multisplit apply 1
+elemedit multisplit reject
+elemedit multisplit apply 2
+genselect shell add shell 4449/0 
+elemedit multisplit apply 2
+elemedit multisplit reject
+genselect shell add shell 4449/0 
+elemedit multisplit apply 4
+elemedit multisplit reject
+genselect shell add shell 4449/0 
+elemedit multisplit apply 3
+elemedit multisplit reject
+genselect shell add shell 4449/0 
+elemedit multisplit apply 5
+clearpick
+occfilter clear
+genselect target edge
+elemedit multisplit done
+genselect target edge
 delelement unrefn 1
-delelement unrefn 0
-save keywordabsolute 0
-save keywordbylongfmt 0
-save keywordbyi10fmt 0
+delelement target element
+delelement target element
+genselect target edge
+genselect clear
+genselect propagate off
+genselect target part
+parttrim bycurve
+genselect target geomobject
+occfilter add Edge
+occfilter clear
+occfilter add Edge
+genselect geomobject add geomobject  2e
+genselect clear
+genselect propagate off
+genselect target part
+genselect part add part 7/0 
+parttrim setdir 0 0 1
+parttrim limit 9.8
+parttrim tolerance 0.4
+parttrim clearpart
+parttrim addpart 7
+parttrim clearcurve
+parttrim addcurve 2
+parttrim linecut 1
+genselect part add part 7/0 
+genselect part add part 7/0 
+top
+parttrim bycurve
+genselect target geomobject
+occfilter add Edge
+occfilter clear
+occfilter add Edge
+genselect geomobject add geomobject  1e
+parttrim acceptcut
+genselect clear
+genselect propagate off
+genselect target part
+genselect part add part 7/0 
+parttrim bycurve
+genselect target geomobject
+occfilter add Edge
+occfilter clear
+occfilter add Edge
+genselect geomobject add geomobject  1e
+parttrim setdir 0 0 1
+parttrim limit 9.8
+parttrim tolerance 0.4
+parttrim clearpart
+parttrim addpart 7
+parttrim clearcurve
+parttrim addcurve 1
+parttrim linecut 1
+parttrim acceptcut
+genselect clear
+genselect propagate off
+genselect target part
+genselect part add part 7/0 
+genselect target edge
 save keywordabsolute 0
 save keywordbylongfmt 0
 save keywordbyi10fmt 0
 save outversion 11
-save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v67.k"
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v69.k"
+genselect edge add shell 5040/E0/0 
+delelement target element
+delelement unrefn 1
+genselect propagate on
+genselect propagate featang 30
+genselect propagate featang 45
+genselect element add shell 5110/0 
+delelement delete
+delelement accept
+genselect clear
+genselect propagate off
+genselect target edge
+assembly off shape 1
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v70.k"
+genselect target node
+genselect transfer 0
+genselect node add part 7/0 
+genselect node add part 4/0 
+genselect node remove part 4/0 
+-M H4
+translate_model -0 -0 -2 copy 0 0 ""
+translate_model reject
++M H4
+translate_model -0 -0 -2 copy 0 0 ""
+translate_model reject
+translate_model -0 -0 -2 copy 0 0 ""
+translate_model reject
+translate_model 0 0 2 copy 0 0 ""
+translate_model reject
+translate_model -0 -0 -3 copy 0 0 ""
+translate_model reject
+translate_model 0 0 3 copy 0 0 ""
+translate_model -0 -0 -3.25 copy 0 0 ""
+translate_model reject
+translate_model -0 -0 -3.25 copy 0 0 ""
++M S1
+-M S1
++M S1
+translate_model accept 0 13449 21603
+genselect clear
+transform_model done
+genselect target edge
+elemedit multisplit init
+genselect clear
+genselect target shell
+genselect shell add shell 1678/0 
+genselect shell add shell 1677/0 
+genselect shell add shell 1718/0 
+genselect shell add shell 1719/0 
+elemedit multisplit apply 2
+elemedit multisplit reject
+genselect shell add shell 1678/0 
+genselect shell add shell 1677/0 
+genselect shell add shell 1718/0 
+genselect shell add shell 1719/0 
+elemedit multisplit apply 1
+genselect shell add shell 13469/0 
+genselect shell add shell 13473/0 
+genselect shell add shell 13477/0 
+genselect shell add shell 1719/0 
+elemedit multisplit apply 1
+genselect shell add shell 13481/0 
+genselect shell add shell 13485/0 
+genselect shell add shell 13489/0 
+genselect shell add shell 1719/0 
+elemedit multisplit apply 1
+genselect shell add shell 13481/0 
+genselect shell add shell 13498/0 
+genselect shell add shell 13496/0 
+genselect shell add shell 13489/0 
+genselect shell add shell 13500/0 
+genselect shell add shell 13502/0 
+genselect shell add shell 13504/0 
+genselect shell add shell 13494/0 
+elemedit multisplit apply 1
+genselect shell add shell 13497/0 
+genselect shell add shell 13501/0 
+genselect shell add shell 1719/0 
+genselect shell add shell 13493/0 
+elemedit multisplit apply 1
+genselect shell add shell 13612/0 
+genselect shell add shell 13493/0 
+genselect shell add shell 13603/0 
+genselect shell add shell 13497/0 
+genselect shell add shell 13601/0 
+genselect shell add shell 13501/0 
+genselect shell add shell 13604/0 
+genselect shell add shell 13605/0 
+genselect shell add shell 13607/0 
+genselect shell add shell 5504/0 
+genselect shell add shell 13610/0 
+genselect shell add shell 1719/0 
+genselect shell add shell 1719/0 
+genselect clear all
+-M S1
++M S1
+-M X7
+genselect shell add shell 13497/0 
+genselect shell add shell 13601/0 
+genselect shell add shell 13501/0 
+genselect shell add shell 13604/0 
+genselect shell add shell 13605/0 
+genselect shell add shell 13605/0 
+genselect shell add shell 13607/0 
+genselect shell add shell 13608/0 
+genselect shell add shell 13609/0 
+genselect shell add shell 13611/0 
+genselect shell add shell 13612/0 
+genselect shell add shell 13493/0 
+genselect shell add shell 13603/0 
+genselect shell add shell 13602/0 
+genselect shell add shell 13610/0 
+genselect shell add shell 1719/0 
+genselect shell add shell 13606/0 
+elemedit multisplit apply 1
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v71.k"
+clearpick
+occfilter clear
+delelement target element
+delelement unrefn 1
+genselect clear
+genselect propagate off
+genselect target part
+genselect part add part 1/0 
+parttrim bycurve
+genselect target geomobject
+occfilter add Edge
+occfilter clear
+occfilter add Edge
+genselect geomobject add geomobject  1e
+parttrim setdir 0 0 1
+parttrim limit 9.8
+parttrim tolerance 0.4
+parttrim clearpart
+parttrim addpart 1
+parttrim clearcurve
+parttrim addcurve 1
+parttrim linecut 1
+parttrim acceptcut
+genselect clear
+genselect propagate off
+genselect target part
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v72.k"
+genselect part add part 1/0 
+genselect part remove part 1/0 
+delelement target element
+delelement unrefn 1
+genselect element add shell 1719/0 
+genselect element add shell 13652/0 
+genselect element add shell 13652/0 
+genselect element add shell 13666/0 
+genselect element add shell 13675/0 
+genselect element add shell 13676/0 
+genselect element add shell 13681/0 
+genselect element add shell 13679/0 
+genselect element add shell 13678/0 
+genselect element add shell 13684/0 
+genselect element add shell 13660/0 
+genselect element add shell 13650/0 
+genselect element add shell 13674/0 
+genselect element add shell 13662/0 
+genselect element add shell 13673/0 
+genselect element add shell 13663/0 
+genselect element add shell 13683/0 
+delelement delete
+delelement accept
+genselect clear
+genselect clear
+genselect propagate off
+genselect target part
+-M S1
+elemedit multisplit init
+genselect clear
+genselect target shell
+-M H4
++M S3
++M S2
++M S1
++M H4
++M S6
++M X7
+clearpick
+occfilter clear
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+undogeom enter
+circle param  0 0.0 -.5 0.0 0.0 1.0 40.000000
+circle param  0 0.0 -.5 0.0 0.0 1.0 40.000000
+undogeom leave
+elemedit multisplit init
+genselect clear
+genselect target shell
+clearpick
+genselect target geomobject
+occfilter add edge
+occfilter clear
+occfilter add Edge
+blankmesh outlinecurveadd 3
+blankmesh adaptive off
+blankmesh trmopt params 1.400000 0.000000 1.000000 0.000000 0.000000
+blankmesh trmopt create2 7 13683 21911
+blankmesh trmopt trimoutline
+blankmesh trmopt trimholes
+blankmesh trmopt reject
+occfilter clear
+genselect clear
+genselect propagate off
+genselect target part
+genselect target geomobject
+occfilter add edge
+occfilter clear
+genselect target edge
+genselect target geomobject
+occfilter add edge
+blankmesh outlinecurveadd 3
+blankmesh adaptive off
+blankmesh trmopt params 1.400000 0.000000 1.000000 0.000000 0.000000
+blankmesh trmopt create2 7 13683 21911
+blankmesh trmopt trimoutline
+blankmesh trmopt trimholes
+blankmesh trmopt reject
+blankmesh adaptive off
+blankmesh trmopt params 4.000000 0.000000 1.000000 0.000000 0.000000
+blankmesh trmopt create2 7 13683 21911
+blankmesh trmopt trimoutline
+blankmesh trmopt trimholes
+blankmesh trmopt reject
+occfilter clear
+-M H4
+genselect target geomobject
+occfilter clear
+occfilter add Vertex Edge Face RefPlane RefTrihedron
+undogeom enter
+cylindersld 0 0 40 -.5 -1 0.0 360.0
+genselect geomobject add geomobject  2f
+undogeom leave
+genselect clear
+genselect geomobject add geomobjectcheck  1sh
+genselect clear
+genselect geomobject add geomobjectcheck  1s
+genselect clear
+genselect geomobject add geomobjectcheck  1sh
+genselect clear
+genselect geomobject add geomobjectcheck  1s
+delelement target element
+delelement unrefn 1
+genselect target geomobject
+occfilter add edge
+occfilter clear
+genselect target geomobject
+occfilter clear
+occfilter add Edge
+genselect target geomobject
+occfilter add edge
++M H4
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+elemedit multisplit init
+genselect clear
+genselect target shell
+genselect shell add shell 2140/0 
+genselect shell remove shell 2140/0 
+clearpick
+occfilter clear
+elemedit multisplit init
+genselect clear
+genselect target shell
+clearpick
+occfilter clear
+solidmesh set platform lspp
+solidmesh set model
+solidmesh select volume begin
+solidmesh toggle edge begin
+solidmesh select volume begin
+solidmesh select volume target begin
+solidmesh highlight volume target
+solidmesh select smesh
+solidmesh highlight volume smesh
+solidmesh select end
+solidmesh destroy
+elemedit multisplit init
+genselect clear
+genselect target shell
+clearpick
+occfilter clear

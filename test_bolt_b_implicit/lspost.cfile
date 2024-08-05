@@ -1,0 +1,125 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
+$# Created on Aug-5-2024 (13:29:55)
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\bolted_connection_b.k"
+Message 1
+Message 0
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\mainboltbimpl.k"
+Message 1
+Message 0
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_bolt_b_implicit\d3plot"
+anim forward
+-M X100
++M X100
+postmodel off 
+postmodel on 
+-M X101
++M X101
+-M X310
++M X310
+-M X120
++M X120
+-M X110
++M X110
+-M X100
++M X100
+-M X20
++M X20
+-M X10
++M X10
+postmodel off 
+postmodel on 
+fringe 2
+pfringe
+fringe 8
+pfringe
+fringe 1
+pfringe
+fringe 2
+pfringe
+fringe 3
+pfringe
+fringe 4
+pfringe
+fringe 7
+pfringe
+fringe 8
+pfringe
+fringe 10
+pfringe
+fringe 9
+pfringe
+fringe 530
+pfringe
+fringe 519
+pfringe
+fringe 16
+pfringe
+fringe 518
+pfringe
+fringe 519
+pfringe
+fringe 518
+pfringe
+fringe 16
+pfringe
+fringe 14
+pfringe
+fringe 12
+pfringe
+anim stop; state 20;
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\Bolt_B_Explicit\mainboltbexpl.k"
+Message 1
+Message 0
+shrink
+grid
+feat
+shrink
+mesh off
+edge
+wire
+noshad
+shad
+hide
+shad
+mesh on
+mesh off
+mesh on
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\Bolt_B_Explicit\d3plot"
+anim forward
+beamprism 1
+anim stop; state 9;
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\Bolt_B_Explicit\mainboltbexpl.k"
+Message 1
+Message 0
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\Bolt_B_Explicit\bolted_connection_b.k"
+Message 1
+Message 0
+partdata readlist 100 
+clearid part
+partdata readlist 101 
+clearid part
+partdata readlist 110 
+clearid part
+partdata readlist 120 
+clearid part
+partdata readlist 310 
+clearid part
+partdata readlist 120 
+clearid part
+partdata readlist 310 
+clearid part
+partdata readlist 120 
+clearid part
+partdata readlist 110 
+clearid part
+partdata readlist 101 
+clearid part
+partdata readlist 110 
+clearid part
+partdata readlist 120 
+clearid part
+partdata readlist 310 
+clearid part
+partdata readlist 120 
+clearid part
+new

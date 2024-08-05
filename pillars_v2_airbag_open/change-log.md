@@ -213,3 +213,17 @@
 - trying to make beams rigid / immovable and able to measure stress
 ## V67 
 - gonna try to model anchors as 2 cylinders each with contact cards
+## V68
+- split top and bottom fabric in half
+## V69
+- trying to do one anchor with square mesh and refine down 
+	- levels scale exponentially.
+	- made 1e7 dense nodes twice on accient and it crashed
+- square mesh trimmed down, just need to delete excess, mirror down, then elegen
+## V70
+- excess trimmed
+## V71
+- mirrored down 3.25m
+- refined fabric mesh around anchor
+## V72
+- part trimmed

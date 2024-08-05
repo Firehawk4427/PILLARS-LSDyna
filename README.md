@@ -16,3 +16,6 @@
 - [x] swap simple model for hybrid (or WANG_NEFSKE) model w/ leakage support
 	- [ ] Tweak the leakage support parameters
 - [x] need to find accurate numbers for sim parameters
+- [ ] redo anchors more accurately with shells and beams
+	- [ ] need to replace solid base with shell closer to fabric or move solid mesh closer and figure out how to refine it
+	- [ ] seems like solids can only be refined by editing their geometry file or manually creating the mesh

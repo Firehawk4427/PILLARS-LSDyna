@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/01/2024      Time: 14:51:06  
+      Date: 08/05/2024      Time: 12:49:18  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -76,7 +76,7 @@
      |___________________________________________________|
 
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v63.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v67.k 
                        ncpu=2 
                        memory=20m
 
@@ -107,40 +107,40 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/01/24 14:51:06
- expanding   memory to      227000 d     2063876  
- expanding   memory to      268620 d     2063876  
- expanding   memory to      288664 d     2162132  
- expanding   memory to      315658 d     2162132  
- expanding   memory to      337978 d     2411612  
- expanding   memory to      402978 d     2411612  
- expanding   memory to      427080 d     2411612  
- expanding   memory to      447700 d     2411612  
- expanding   memory to      468970 d     2592596  
- expanding   memory to      492938 d     2764160  
- expanding   memory to      514154 d     2790126  
+ Beginning of keyword reader                                   08/05/24 12:49:18
+ expanding   memory to      227000 d     2068970  
+ expanding   memory to      268500 d     2068970  
+ expanding   memory to      290172 d     2179082  
+ expanding   memory to      317514 d     2179082  
+ expanding   memory to      339834 d     2447258  
+ expanding   memory to      404834 d     2447258  
+ expanding   memory to      428936 d     2447258  
+ expanding   memory to      449506 d     2447258  
+ expanding   memory to      473601 d     2639279  
+ expanding   memory to      498418 d     2813807  
+ expanding   memory to      519634 d     2841610  
 
- Memory required to process keyword     :     514154  
- Additional dynamic memory required     :    2796862  
+ Memory required to process keyword     :     519634  
+ Additional dynamic memory required     :    2857694  
 
- contracting memory to           1 d     2166744 end of keyword reader
+ contracting memory to           1 d     2213427 end of keyword reader
 
  LS-DYNA will perform a structural only analysis 
 
  LS-DYNA keyword deck by LS-PrePost                                      
                     ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
- Allocating memory:                    462  words
- Allocating memory:                     26  words
+ Allocating memory:                    472  words
+ Allocating memory:                     36  words
  expanding   memory to        2001 d     1550960 material, node and element data
  expanding   memory to        2071 d     1551037 material properties
- expanding   memory to        2075 d     1684004 element data for composite material
- expanding   memory to        2089 d     2288773 gradient of damage data
- expanding   memory to        2119 d     2491508 user control for contact interfaces
- contracting memory to        2099 d     2491512 thermal expansion 0
- expanding   memory to        2101 d     2491516 cross-sectional force definitions 0
- expanding   memory to       15869 d     2491544 temp index array for node sorting
- contracting memory to        2101 d     2505316 just because?
- expanding   memory to       11101 d     2532886 arbitrary element numbering input
+ expanding   memory to        2079 d     1690761 element data for composite material
+ expanding   memory to        2093 d     2332886 gradient of damage data
+ expanding   memory to        2115 d     2559221 user control for contact interfaces
+ contracting memory to        2095 d     2559225 thermal expansion 0
+ expanding   memory to        2097 d     2559229 cross-sectional force definitions 0
+ expanding   memory to       16714 d     2559257 temp index array for node sorting
+ contracting memory to        2097 d     2573878 just because?
+ expanding   memory to       11097 d     2603146 arbitrary element numbering input
  
  *** Warning 20282 (STR+282)
      warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
@@ -484,18 +484,18 @@
      Number of elements exceed warpage angle = 112
        min warpage angle = 3.1860E+01
        max warpage angle = 3.9438E+01
- contracting memory to        4117 d     2921747 load curve data
- contracting memory to        2542 d     2921747 user_define_loading_set
- expanding   memory to        2748 d     2921747 regularize time history data
- contracting memory to        2546 d     2921747 *DEFINE_ELEMENT_DEATH
- expanding   memory to       31082 d     3012983 implicit contact 1
- expanding   memory to      103084 d     3012983 implicit contact 2
- contracting memory to        3546 d     3213059 contact segment data 1
- expanding   memory to      116850 d     3478869 contact segment data 3
- contracting memory to        2546 d     4910203 contact definition
- expanding   memory to       47862 d     5081451 contact friction
- expanding   memory to      188874 d     5081511 joints
- expanding   memory to      188881 d     5270951 control volume input
+ contracting memory to        4105 d     3096421 load curve data
+ contracting memory to        2530 d     3096421 user_define_loading_set
+ expanding   memory to        2736 d     3096421 regularize time history data
+ contracting memory to        2534 d     3096421 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       32768 d     3189355 implicit contact 1
+ expanding   memory to      104770 d     3189355 implicit contact 2
+ contracting memory to        3534 d     3409428 contact segment data 1
+ expanding   memory to      119385 d     3709572 contact segment data 3
+ contracting memory to        2534 d     5165643 contact definition
+ expanding   memory to       61125 d     5347743 contact friction
+ expanding   memory to      226554 d     5347803 joints
+ expanding   memory to      226561 d     5569799 control volume input
 
 Checking Control Volume Orientations
 
@@ -503,221 +503,101 @@ Checking Control Volume Orientations
  
  *** Warning 30105 (INI+105)
      improperly numbered segment
-     segment connectivity: 686 735 736 687
+     segment connectivity: 3062 3113 1089 1038
  
  *** Warning 30105 (INI+105)
      improperly numbered segment
-     segment connectivity: 449 494 495 495
+     segment connectivity: 3113 3164 1140 1089
  
  *** Warning 30105 (INI+105)
      improperly numbered segment
-     segment connectivity: 449 495 496 450
+     segment connectivity: 3011 3062 1038 987
  
  *** Warning 30105 (INI+105)
      improperly numbered segment
-     segment connectivity: 404 449 450 405
+     segment connectivity: 3164 3215 1191 1140
  
  *** Warning 30106 (INI+106)
      additional segments are being renumbered but not printed
-   convergence of normal check obtained in  25 iterations
-   region 1 has 1294 segments.
-   convergence of normal check obtained in   9 iterations
-   region 2 has 59 segments.
-   convergence of normal check obtained in   4 iterations
-   region 3 has 33 segments.
-   convergence of normal check obtained in   3 iterations
-   region 4 has 11 segments.
-   convergence of normal check obtained in   2 iterations
-   region 5 has 6 segments.
-   convergence of normal check obtained in  29 iterations
-   region 6 has 145 segments.
-   convergence of normal check obtained in   3 iterations
-   region 7 has 60 segments.
-   convergence of normal check obtained in   2 iterations
-   region 8 has 4 segments.
-   convergence of normal check obtained in   2 iterations
-   region 9 has 13 segments.
-   convergence of normal check obtained in   4 iterations
-   region 10 has 4 segments.
-   convergence of normal check obtained in   2 iterations
-   region 11 has 3 segments.
-   convergence of normal check obtained in   2 iterations
-   region 12 has 1 segments.
-   convergence of normal check obtained in   2 iterations
-   region 13 has 10 segments.
-   convergence of normal check obtained in   3 iterations
-   region 14 has 4 segments.
-   convergence of normal check obtained in   2 iterations
-   region 15 has 1 segments.
-   convergence of normal check obtained in   2 iterations
-   region 16 has 1 segments.
-   convergence of normal check obtained in   2 iterations
-   region 17 has 1 segments.
-   convergence of normal check obtained in   9 iterations
-   region 18 has 9 segments.
-   convergence of normal check obtained in   2 iterations
-   region 19 has 1 segments.
-   convergence of normal check obtained in   2 iterations
-   region 20 has 2 segments.
-   convergence of normal check obtained in   2 iterations
-   region 21 has 4 segments.
-   convergence of normal check obtained in   5 iterations
-   region 22 has 5 segments.
-   convergence of normal check obtained in   2 iterations
-   region 23 has 1 segments.
-   convergence of normal check obtained in   2 iterations
-   region 24 has 1 segments.
-   convergence of normal check obtained in   2 iterations
-   region 25 has 7 segments.
-   convergence of normal check obtained in   3 iterations
-   region 26 has 3 segments.
+   convergence of normal check obtained in  16 iterations
+   region 1 has 4020 segments.
    number of independent regions where normal vectors
-   are checked and if necessary reset =   26
-   number of renumbered segments = 537
+   are checked and if necessary reset =    1
+   number of renumbered segments = 2026
  
  *** Warning 30107 (INI+107)
-     Number of improperly numbered segments 537
+     Number of improperly numbered segments 2026
      for control volume 1
- expanding   memory to      188885 d     5319722 control volume input 4
- expanding   memory to      188981 d     5321799 rigid bodies for disp. termination
- expanding   memory to      189040 d     5321799 save d3plot control data
- expanding   memory to      189042 d     5410546 sensor_control for curve
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 174 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 175 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 477 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 488 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 1352 of interface 1
- 
- *** Warning 30128 (INI+128)
-     Massless nodes
-     The following massless nodes were found
- 3291 3292 3340 3341 3342 3389
- 3390 3391 3487 3488 3534 3535
- 
- *** Warning 30131 (INI+131)
-     total number of massless nodes = 12
- 
- *** Error 30025 (INI+25)
-     massless node 3291 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3292 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3340 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3341 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3342 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3389 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3390 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3391 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3487 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3488 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3534 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
- 
- *** Error 30025 (INI+25)
-     massless node 3535 on the slave side of surface 1 type 5
-     This could be lead to a segment with no parent element defined.
+ expanding   memory to      226565 d     5638780 control volume input 4
+ expanding   memory to      226661 d     5642685 rigid bodies for disp. termination
+ expanding   memory to      226720 d     5642685 save d3plot control data
+ expanding   memory to      226722 d     5745184 sensor_control for curve
 
      slave surface of interface   = 1
      type                         =       a10
-     surface timestep             = 9.999E-05
-     controlling slave node ID    = 4915
+     surface timestep             = 1.496E-04
+     controlling slave node ID    = 4637
      part ID of slave node        = 1
-     current minimum time step    = 9.999E-05
+     current minimum time step    = 1.496E-04
 
      master surface of interface  = 1
      type                         =       a10
      surface timestep             = 1.676E-04
      controlling master node ID   = 20433
      part ID of master node       = 4
-     current minimum time step    = 9.999E-05
+     current minimum time step    = 1.496E-04
 
- The LS-DYNA time step size should not exceed     9.999E-05
+ The LS-DYNA time step size should not exceed     1.496E-04
  to avoid contact instabilities.  If the step size is
  bigger then scale the penalty of the offending surface.
- 
- *** Error 30006 (INI+6)
-     initialization completed with 22 or more fatal errors
-     please check messag file
 
  S t o r a g e   a l l o c a t i o n   
 
- Memory required to begin solution      :     515K
- Additional dynamically allocated memory:    6179K
-                                   Total:    6694K
- 
- *** Error 30006 (INI+6)
-     initialization completed with 23 or more fatal errors
-     please check messag file
-
- E r r o r   t e r m i n a t i o n                             08/01/24 14:51:07
-
- S t o r a g e   a l l o c a t i o n   
-
- Memory required to complete solution   :     515K
- Additional dynamically allocated memory:    6179K
-                                   Total:    6694K
-
- T i m i n g   i n f o r m a t i o n
-                        CPU(seconds)   %CPU  Clock(seconds) %Clock
-  ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     1.1600E-01    8.58
-    KW Reading ......... 0.0000E+00    0.00     8.7000E-02    6.43
-    KW Writing ......... 0.0000E+00    0.00     6.0000E-03    0.44
-  Initialization ....... 1.0000E+00  100.00     1.2360E+00   91.42
-    Init Proc Phase 1 .. 0.0000E+00    0.00     5.9000E-02    4.36
-    Init Proc Phase 2 .. 0.0000E+00    0.00     1.8000E-02    1.33
-  ----------------------------------------------------------------
-  T o t a l s            1.0000E+00  100.00     1.3520E+00  100.00
-
- Problem time       =    0.0000E+00
- Problem cycle      =         0
- Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
- CPU time per zone cycle  =          0.000 picoseconds
- Clock time per zone cycle=          0.000 picoseconds
-
- Number of CPU's    2
- NLQ used/max     136/  136
- Start time   08/01/2024 14:51:06  
- End time     08/01/2024 14:51:07  
- Elapsed time       1 second  for       0 cycles using  2 SMP threads
-             (      0 hour   0 minute   1 second )
-
- E r r o r   t e r m i n a t i o n                             08/01/24 14:51:07
+ Memory required to begin solution      :     520K
+ Additional dynamically allocated memory:    6602K
+                                   Total:    7121K
+       1 t 0.0000E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:19
+       1 t 0.0000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:49:19
+    5000 t 2.2317E-01 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:23
+   10000 t 4.4639E-01 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:27
+   11200 t 4.9996E-01 dt 4.46E-05 write d3plot file            08/05/24 12:49:28
+   15000 t 6.6961E-01 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:31
+   20000 t 8.9283E-01 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:36
+   22400 t 9.9997E-01 dt 4.46E-05 write d3plot file            08/05/24 12:49:38
+   25000 t 1.1160E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:40
+   30000 t 1.3393E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:44
+   33600 t 1.5000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:49:46
+   35000 t 1.5625E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:47
+   40000 t 1.7857E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:51
+   44800 t 2.0000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:49:55
+   45000 t 2.0089E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:55
+   50000 t 2.2321E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:49:58
+   55000 t 2.4554E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:02
+   55999 t 2.5000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:50:03
+   60000 t 2.6786E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:06
+   65000 t 2.9018E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:09
+   67199 t 3.0000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:50:11
+   70000 t 3.1250E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:13
+   75000 t 3.3482E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:17
+   78399 t 3.5000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:50:19
+   80000 t 3.5715E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:21
+   85000 t 3.7947E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:24
+   89599 t 4.0000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:50:28
+   90000 t 4.0179E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:28
+   95000 t 4.2411E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:32
+  100000 t 4.4643E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:36
+  100799 t 4.5000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:50:36
+  105000 t 4.6875E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:39
+  110000 t 4.9108E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:43
+  111998 t 5.0000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:50:44
+  115000 t 5.1340E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:47
+  120000 t 5.3572E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:50
+  123198 t 5.5000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:50:53
+  125000 t 5.5804E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:54
+  130000 t 5.8036E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:50:58
+  134398 t 6.0000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:51:01
+  135000 t 6.0269E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:51:02
+  140000 t 6.2501E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:51:05
+  145000 t 6.4733E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:51:09
+  145598 t 6.5000E+00 dt 4.46E-05 write d3plot file            08/05/24 12:51:10
+  150000 t 6.6965E+00 dt 4.46E-05 flush i/o buffers            08/05/24 12:51:13

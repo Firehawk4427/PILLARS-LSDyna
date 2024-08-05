@@ -211,3 +211,5 @@
 ## V66
 - reverted everything back to V56 when everything ran
 - trying to make beams rigid / immovable and able to measure stress
+## V67 
+- gonna try to model anchors as 2 cylinders each with contact cards

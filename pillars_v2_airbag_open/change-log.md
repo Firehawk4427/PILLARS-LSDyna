@@ -227,3 +227,15 @@
 - refined fabric mesh around anchor
 ## V72
 - part trimmed
+## V73
+- shell base added and refined for 1 anchor
+## V75
+- anchor finished, now to delete everything else
+## V76
+- deleted unnecessary parts
+- renamed evrything else
+## V77
+- redid keywords to fit new parts
+## V78
+- autocleaned keyword errors
+- ran into errors with warpage and improperly numbered segments

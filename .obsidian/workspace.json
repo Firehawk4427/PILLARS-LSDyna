@@ -45,14 +45,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "pillars_v2_airbag_open/change-log.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a869e21275abe67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pillars_v2_airbag_open/change-log.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "pillars_v2_airbag_open/change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "pillars_v2_airbag_open/change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "pillars_v2_airbag_open/change-log.md"
               }
             }
           },
@@ -192,32 +204,33 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "a0876cfd3d6078b6",
+  "active": "6a869e21275abe67",
   "lastOpenFiles": [
-    "pillars_v2_airbag_open/lspp_temp_1",
-    "pillars_v2_airbag_open/tsf1.step",
-    "pillars_v2_airbag_open/change-log.md",
-    "pillars_v2_airbag_open/open_airbag_v72.k",
-    "pillars_v2_airbag_open/templsppfile_open_airbag_v72.k",
-    "pillars_v2_airbag_open/open_airbag_v71.k",
-    "pillars_v2_airbag_open/templsppfile_open_airbag_v71.k",
-    "pillars_v2_airbag_open/templsppfile_open_airbag_v70.k",
-    "pillars_v2_airbag_open/templsppfile_open_airbag_v69.k",
-    "Bolt_B_Explicit/lspp_temp_1",
-    "Bolt_B_Explicit/lspost.msg",
-    "pillars_v2_airbag_open/gifs/4-anchor-test.gif",
-    "README.md",
+    "pillars_v2_airbag_open/d3plot",
+    "pillars_v2_airbag_open/ldcrvv",
+    "pillars_v2_airbag_open/part_des",
+    "pillars_v2_airbag_open/abstat",
+    "pillars_v2_airbag_open/adptmp",
+    "pillars_v2_airbag_open/group_file",
+    "pillars_v2_airbag_open/dyna.lsda",
+    "pillars_v2_airbag_open/messag",
+    "pillars_v2_airbag_open/d3hsp",
+    "pillars_v2_airbag_open/lsrun.out.txt",
+    "pillars_v2_airbag_open/lsruncommand.bat",
     "pillars_v2_airbag_open/gifs/null-explode.gif",
-    "pillars_v2_airbag_open/gifs/collisions-on-null-fucked.gif",
-    "pillars_v2_airbag_open/notes.md",
-    "pillars_v2_airbag_open/gifs/collisions-on-null=porous-fabric.gif",
-    "pillars_v2_airbag_open/gifs/airbag_open_v1.gif",
+    "pillars_v2_airbag_open/gifs/null-material-v25.gif",
+    "pillars_v2_airbag_open/change-log.md",
     "pillars_v2_airbag_open/gifs/airbag_open_collision_fail.gif",
+    "pillars_v2_airbag_open/gifs/4-anchor-test.gif",
+    "pillars_v2_airbag_open/gifs/airbag_open_v1.gif",
+    "pillars_v2_airbag_open/gifs/collisions-on-null-fucked.gif",
+    "pillars_v2_airbag_open/gifs/collisions-on-null=porous-fabric.gif",
+    "README.md",
+    "pillars_v2_airbag_open/notes.md",
     "notes_and_resources/resources.md",
     "attachments/Pasted image 20240724143221.png",
     "attachments/Pasted image 20240724143244.png",
     "attachments/Pasted image 20240724143157.png",
-    "attachments/Pasted image 20240729141108.png",
     "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/notes.md",
     "notes_and_resources/material_properties.md",

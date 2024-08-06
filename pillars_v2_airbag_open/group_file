@@ -1,3 +1,5 @@
 *Group_file
 SetP1-airbag
-         1         2
+         1         2         6
+SetP2-anchor
+         7

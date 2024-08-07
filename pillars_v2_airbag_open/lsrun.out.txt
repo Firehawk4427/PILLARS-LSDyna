@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/06/2024      Time: 16:20:40  
+      Date: 08/07/2024      Time: 15:13:14  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -79,7 +79,7 @@
 [license/error] Request name dyna does not exist in the licensing pool.
 [license/error] No valid FLEXlm servers specified.
 [license/error] Licensing mode "ANSYS LSDYNA" failed on feature "dyna". Undoing partial checkout.
- Student license active; 26 days remaning.
+ Student license active; 25 days remaning.
 
  Executing with ANSYS license
 
@@ -142,7 +142,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/06/24 16:20:42
+ Beginning of keyword reader                                   08/07/24 15:13:15
  
  *** Warning 10848 (KEY+848)
      *CONTACT_... default ID 2 - (contact input # 2)
@@ -323,7 +323,7 @@
      input phase completed with 1 fatal errors
      please check messag file
 
- E r r o r   t e r m i n a t i o n                             08/06/24 16:20:42
+ E r r o r   t e r m i n a t i o n                             08/07/24 15:13:15
 
  Memory required to complete solution   :     336K
  Additional dynamically allocated memory:    3745K
@@ -332,13 +332,13 @@
  T i m i n g   i n f o r m a t i o n
                         CPU(seconds)   %CPU  Clock(seconds) %Clock
   ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     3.8000E-02    3.02
-    KW Reading ......... 0.0000E+00    0.00     1.4000E-02    1.11
-    KW Writing ......... 0.0000E+00    0.00     6.0000E-03    0.48
-  Initialization ....... 1.0000E+00  100.00     1.2190E+00   96.98
-    Init Proc Phase 1 .. 0.0000E+00    0.00     4.9000E-02    3.90
+  Keyword Processing ... 0.0000E+00    0.00     3.9000E-02    3.12
+    KW Reading ......... 0.0000E+00    0.00     1.4000E-02    1.12
+    KW Writing ......... 0.0000E+00    0.00     7.0000E-03    0.56
+  Initialization ....... 1.0000E+00  100.00     1.2130E+00   96.88
+    Init Proc Phase 1 .. 0.0000E+00    0.00     4.9000E-02    3.91
   ----------------------------------------------------------------
-  T o t a l s            1.0000E+00  100.00     1.2570E+00  100.00
+  T o t a l s            1.0000E+00  100.00     1.2520E+00  100.00
 
  Problem time       =    0.0000E+00
  Problem cycle      =         0
@@ -348,10 +348,10 @@
 
  Number of CPU's    2
  NLQ used/max     136/  136
- Start time   08/06/2024 16:20:42  
- End time     08/06/2024 16:20:42  
+ Start time   08/07/2024 15:13:15  
+ End time     08/07/2024 15:13:15  
  Elapsed time       0 second  for       0 cycles using  2 SMP threads
              (      0 hour   0 minute   0 second )
 
- E r r o r   t e r m i n a t i o n                             08/06/24 16:20:42
+ E r r o r   t e r m i n a t i o n                             08/07/24 15:13:15
 

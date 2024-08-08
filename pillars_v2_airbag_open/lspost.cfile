@@ -261,3 +261,87 @@ elgenerate shelltype 1
 genselect target solid
 elgenerate shelltype 3
 genselect target edge
+genselect propagate on
+genselect edge add shell 27966/E0/0 
+genselect edge add shell 28026/E3/0 
+genselect edge add shell 28012/E2/0 
+genselect edge remove shell 28012/E2/0 
+genselect edge add shell 20143/E1/0 
+genselect edge remove shell 27979/E3/0 
+genselect edge add shell 28014/E2/0 
+genselect entire on
+genselect edge add shell 28012/E1/0 
+genselect edge add shell 27956/E2/0 
+genselect edge add shell 28024/E2/0 
+genselect edge add shell 27963/E0/0 
+genselect propagate off
+genselect propagate on
+genselect edge add shell 28031/E2/0 
+genselect edge add shell 28017/E2/0 
+genselect edge add shell 28017/E3/0 
+genselect edge add shell 28017/E3/0 
+genselect edge remove shell 28029/E1/0 
+genselect edge add shell 28029/E2/0 
+genselect edge add shell 28010/E1/0 
+genselect edge add shell 27997/E1/0 
+genselect edge add shell 27996/E1/0 
+genselect edge add shell 27995/E1/0 
+genselect edge add shell 27994/E0/0 
+genselect edge add shell 28009/E1/0 
+genselect edge add shell 27951/E2/0 
+genselect edge add shell 27992/E0/0 
+genselect edge add shell 28006/E2/0 
+genselect edge add shell 28003/E0/0 
+genselect edge add shell 28005/E0/0 
+genselect edge add shell 27998/E3/0 
+genselect edge add shell 28001/E0/0 
+genselect edge add shell 28016/E0/0 
+genselect edge add shell 27953/E3/0 
+genselect edge add shell 28021/E0/0 
+genselect edge add shell 28022/E3/0 
+genselect edge add shell 27961/E0/0 
+genselect edge add shell 28018/E3/0 
+genselect edge add shell 27957/E3/0 
+genselect edge add shell 28019/E3/0 
+genselect edge add shell 27958/E2/0 
+elgenerate shell elementedgedrag 2 28059 0.3 10 0 0 0 0 0 2 
+genselect clear
+elgenerate accept
+genselect propagate off
+genselect target node
+genselect transfer 0
+transform_model done
+genselect target node
+dupnode open 1
+dupnode showdup 0.002000
+dupnode merge 0.002000
+genselect clear
+dupnode accept
+dupnode open 0
+genselect target node
+genselect transfer 0
+transform_model done
+genselect target element
+genselect element add shell 10542/0 
+genselect propagate on
+genselect element add shell 27523/0 
+elemmove apply 2 ""
+genselect propagate off
+genselect target node
+genselect transfer 0
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save outversion 11
+save keyword "C:\Users\Trey\Downloads\bladder_v1.k"
+transform_model done
+elemcheck shell init
+elemcheck shell init
+elemcheck clear
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+genselect clear

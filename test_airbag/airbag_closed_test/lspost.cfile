@@ -1,0 +1,350 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
+$# Created on Aug-8-2024 (13:07:46)
+cemptymodel
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+undogeom enter
+circle param  0.0 0.0 0.0 0.0 0.0 1.0 10.000000
+ac
+circle param  0.0 0.0 0.0 0.0 0.0 1.0 9.500000
+undogeom leave
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+genselect target geomobject
+occfilter add edge
+occfilter clear
+occfilter add Edge
+blankmesh outlinecurveadd 2
+blankmesh outlinecurveadd 1
+blankmesh adaptive off
+blankmesh trmopt params 0.400000 0.000000 1.000000 0.000000 0.000000
+blankmesh trmopt create2 1 1 1
+blankmesh trmopt trimoutline
+blankmesh trmopt trimholes
+blankmesh trmopt accept
+elemedit multisplit init
+genselect clear
+genselect target shell
+genselect shell add part 1/0 
+elemedit multisplit apply 1
+genselect shell add part 1/0 
+elemedit multisplit apply 1
+genselect shell add part 1/0 
+elemedit multisplit apply 1
+occfilter clear
+genselect target node
+genselect transfer 0
+genselect node add node 8349/0 
+genselect node add part 1/0 
+translate_model 0 0 0.15 copy 0 0 ""
+translate_model accept 0 13313 14689
+genselect clear
+genselect node add shell 21783/E1/0 
+genselect propagate on
+genselect node add shell 21784/E1/0 
+genselect node add shell 21652/E2/0 
+translate_model -0 -0 -0.075
+translate_model accept 0 26625 29377
+genselect clear
+genselect node add shell 8498/E1/0 
+genselect node add shell 3415/E2/0 
+genselect node remove shell 919/E2/0 
+genselect node remove shell 919/E0/0 
+genselect node add shell 299/E3/0 
+translate_model 0 0 0.075
+translate_model accept 0 26625 29377
+genselect clear
+genselect propagate off
+transform_model done
+genselect target node
+dupnode open 1
+dupnode showdup 0.002000
+dupnode merge 0.002000
+genselect clear
+dupnode accept
+dupnode open 0
+elemedit multisplit init
+genselect clear
+genselect target shell
+genselect shell add shell 13685/0 
+genselect adjacent
+genselect adjacent
+genselect adjacent
+genselect adjacent
+genselect adjacent
+genselect adjacent
+genselect adjacent
+elemedit multisplit apply 1
+occfilter clear
+genselect clear
+genselect propagate off
+genselect target part
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+undogeom enter
+circle param  0.0 9.75 0.0 0.0 0.0 1.0 0.200000
+genselect clear
+genselect geomobject add geomobjectcheck  2e
+genselect clear
+genselect geomobject add geomobjectcheck  3e
+genselect clear
+genselect geomobject add geomobjectcheck  2e
+genselect clear
+genselect geomobject add geomobjectcheck  3e
+undogeom leave
+genselect clear
+genselect propagate off
+genselect target part
+genselect target node
+genselect transfer 0
+transform_model done
+elemedit multisplit init
+genselect clear
+genselect target shell
+genselect shell add shell 6832/0 
+genselect adjacent
+genselect adjacent
+genselect adjacent
+genselect adjacent
+genselect adjacent
+elemedit multisplit apply 1
+occfilter clear
+genselect clear
+genselect propagate off
+genselect target part
+genselect part add part 1/0 
+parttrim bycurve
+genselect target geomobject
+occfilter add Edge
+occfilter clear
+occfilter add Edge
+genselect geomobject add geomobject  3e
+parttrim setdir 0 0 1
+parttrim limit 0.35
+parttrim tolerance 0.4
+parttrim clearpart
+parttrim addpart 1
+parttrim clearcurve
+parttrim addcurve 3
+parttrim linecut 1
+parttrim acceptcut
+genselect clear
+genselect propagate off
+genselect target part
+elemedit multisplit init
+genselect clear
+genselect target shell
+occfilter clear
+genselect target node
+genselect transfer 0
+genselect propagate on
+genselect node add shell 27457/0 
+translate_model -0 -0 -0.075
+genselect node add shell 27707/0 
+genselect node remove shell 27682/0 
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model reject
+genselect node remove shell 23921/0 
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model reject
+genselect propagate off
+transform_model done
+elemedit multisplit init
+genselect clear
+genselect target shell
+occfilter clear
+genselect target node
+dupnode open 1
+dupnode showdup 0.002000
+dupnode merge 0.002000
+genselect clear
+dupnode showdup 0.002000
+dupnode accept
+dupnode open 0
+genselect clear
+genselect propagate off
+genselect target part
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+undogeom enter
+circle param  0.0 9.75 0.0 0.0 0.0 1.0 0.150000
+undogeom leave
+genselect clear
+genselect propagate off
+genselect target part
+parttrim bycurve
+genselect target geomobject
+occfilter add Edge
+occfilter clear
+occfilter add Edge
+genselect geomobject add geomobject  4e
+genselect clear
+genselect propagate off
+genselect target part
+genselect part add part 1/0 
+parttrim setdir 0 0 1
+parttrim limit 0.35
+parttrim tolerance 0.4
+parttrim clearpart
+parttrim addpart 1
+parttrim clearcurve
+parttrim addcurve 4
+parttrim linecut 1
+parttrim acceptcut
+genselect clear
+genselect propagate off
+genselect target part
+genselect target node
+dupnode open 1
+dupnode open 0
+elemedit multisplit init
+genselect clear
+genselect target shell
+occfilter clear
+genselect target node
+genselect transfer 0
+genselect node add node 30262/0 
+genselect node add shell 27452/0 
+genselect propagate on
+genselect node add shell 532/0 
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model 0 0 0.075
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model reject
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model -0 -0 -0.075
+translate_model accept 0 28059 31199
+genselect clear
+genselect propagate off
+transform_model done
+genselect target edge
+elgenerate shelltype 1
+genselect target solid
+elgenerate shelltype 3
+genselect target edge
+genselect propagate on
+genselect edge add shell 27966/E0/0 
+genselect edge add shell 28026/E3/0 
+genselect edge add shell 28012/E2/0 
+genselect edge remove shell 28012/E2/0 
+genselect edge add shell 20143/E1/0 
+genselect edge remove shell 27979/E3/0 
+genselect edge add shell 28014/E2/0 
+genselect entire on
+genselect edge add shell 28012/E1/0 
+genselect edge add shell 27956/E2/0 
+genselect edge add shell 28024/E2/0 
+genselect edge add shell 27963/E0/0 
+genselect propagate off
+genselect propagate on
+genselect edge add shell 28031/E2/0 
+genselect edge add shell 28017/E2/0 
+genselect edge add shell 28017/E3/0 
+genselect edge add shell 28017/E3/0 
+genselect edge remove shell 28029/E1/0 
+genselect edge add shell 28029/E2/0 
+genselect edge add shell 28010/E1/0 
+genselect edge add shell 27997/E1/0 
+genselect edge add shell 27996/E1/0 
+genselect edge add shell 27995/E1/0 
+genselect edge add shell 27994/E0/0 
+genselect edge add shell 28009/E1/0 
+genselect edge add shell 27951/E2/0 
+genselect edge add shell 27992/E0/0 
+genselect edge add shell 28006/E2/0 
+genselect edge add shell 28003/E0/0 
+genselect edge add shell 28005/E0/0 
+genselect edge add shell 27998/E3/0 
+genselect edge add shell 28001/E0/0 
+genselect edge add shell 28016/E0/0 
+genselect edge add shell 27953/E3/0 
+genselect edge add shell 28021/E0/0 
+genselect edge add shell 28022/E3/0 
+genselect edge add shell 27961/E0/0 
+genselect edge add shell 28018/E3/0 
+genselect edge add shell 27957/E3/0 
+genselect edge add shell 28019/E3/0 
+genselect edge add shell 27958/E2/0 
+elgenerate shell elementedgedrag 2 28059 0.3 10 0 0 0 0 0 2 
+genselect clear
+elgenerate accept
+genselect propagate off
+genselect target node
+genselect transfer 0
+transform_model done
+genselect target node
+dupnode open 1
+dupnode showdup 0.002000
+dupnode merge 0.002000
+genselect clear
+dupnode accept
+dupnode open 0
+genselect target node
+genselect transfer 0
+transform_model done
+genselect target element
+genselect element add shell 10542/0 
+genselect propagate on
+genselect element add shell 27523/0 
+elemmove apply 2 ""
+genselect propagate off
+genselect target node
+genselect transfer 0
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save outversion 11
+save keyword "C:\Users\Trey\Downloads\bladder_v1.k"
+transform_model done
+elemcheck shell init
+elemcheck shell init
+elemcheck clear
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+genselect clear
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_airbag\airbag_closed_test\airbagtutorial.k"
+Message 1
+Message 0

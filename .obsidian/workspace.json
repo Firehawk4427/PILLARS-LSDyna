@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "notes_and_resources/units_and_initial_params.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "notes_and_resources/units_and_initial_params.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "notes_and_resources/units_and_initial_params.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md"
+                "file": "notes_and_resources/units_and_initial_params.md"
               }
             }
           },
@@ -206,19 +206,19 @@
   },
   "active": "6a869e21275abe67",
   "lastOpenFiles": [
+    "pillars_v2_airbag_open/notes.md",
+    "pillars_v2_airbag_open/change-log.md",
     "test_airbag/airbag_closed_test/lspp_temp_1",
     "test_airbag/airbag_closed_test/tsf1.step",
     "test_airbag/airbag_closed_test/lspost1.db",
     "test_airbag/airbag_closed_test/lspost.msg",
     "test_airbag/airbag_closed_test/lspost.cfile",
     "pillars_windtunnel/pillars_v31_thru_v40/change-log.md",
-    "pillars_v2_airbag_open/change-log.md",
     "pillars_v2_airbag_open/lspost.db",
     "pillars_v2_airbag_open/lspp_temp_1",
     "pillars_v2_airbag_open/d3plot",
     "pillars_v2_airbag_open/ldcrvv",
     "pillars_v2_airbag_open/part_des",
-    "pillars_v2_airbag_open/abstat",
     "pillars_v2_airbag_open/gifs/null-explode.gif",
     "pillars_v2_airbag_open/gifs/null-material-v25.gif",
     "pillars_v2_airbag_open/gifs/airbag_open_collision_fail.gif",
@@ -227,7 +227,6 @@
     "pillars_v2_airbag_open/gifs/collisions-on-null-fucked.gif",
     "pillars_v2_airbag_open/gifs/collisions-on-null=porous-fabric.gif",
     "README.md",
-    "pillars_v2_airbag_open/notes.md",
     "notes_and_resources/resources.md",
     "attachments/Pasted image 20240724143221.png",
     "attachments/Pasted image 20240724143244.png",

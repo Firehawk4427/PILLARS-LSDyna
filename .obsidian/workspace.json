@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "notes_and_resources/units_and_initial_params.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "notes_and_resources/units_and_initial_params.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "notes_and_resources/units_and_initial_params.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md"
+                "file": "notes_and_resources/units_and_initial_params.md"
               }
             }
           },
@@ -206,6 +206,7 @@
   },
   "active": "6a869e21275abe67",
   "lastOpenFiles": [
+    "pillars_v2_airbag_open/change-log.md",
     "pillars_v2_airbag_open/status.out",
     "pillars_v2_airbag_open/d3plot01",
     "pillars_v2_airbag_open/d3plot",
@@ -216,11 +217,9 @@
     "pillars_v2_airbag_open/group_file",
     "pillars_v2_airbag_open/dyna.lsda",
     "pillars_v2_airbag_open/messag",
-    "pillars_v2_airbag_open/d3hsp",
     "attachments/Pasted image 20240808161710.png",
     "notes_and_resources/units_and_initial_params.md",
     "pillars_v2_airbag_open/notes.md",
-    "pillars_v2_airbag_open/change-log.md",
     "pillars_windtunnel/pillars_v31_thru_v40/change-log.md",
     "pillars_v2_airbag_open/gifs/null-explode.gif",
     "pillars_v2_airbag_open/gifs/null-material-v25.gif",

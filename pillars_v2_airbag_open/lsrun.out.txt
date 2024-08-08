@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/08/2024      Time: 15:35:24  
+      Date: 08/08/2024      Time: 16:24:34  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -83,7 +83,7 @@
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v78.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v80.k 
                        ncpu=2 
                        memory=20m
 
@@ -142,15 +142,10 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/08/24 15:35:26
- 
- *** Warning 10848 (KEY+848)
-     *CONTACT_... default ID 2 - (contact input # 2)
-     is duplicated. This is CONTACT 3 in the order of input
-     It has been assigned a new CONTACT ID 4
+ Beginning of keyword reader                                   08/08/24 16:24:35
 
- Memory required to process keyword     :     335089  
- Additional dynamic memory required     :    2382128  
+ Memory required to process keyword     :     332089  
+ Additional dynamic memory required     :    2382936  
 
  
  *** Warning 20282 (STR+282)
@@ -311,47 +306,277 @@
        max warpage angle = 3.9438E+01
  
  *** Warning 30107 (INI+107)
-     Number of improperly numbered segments 2030
+     Number of improperly numbered segments 2020
      for control volume 1
- 
- *** Error 20975 (STR+975)
-     in control volume initialization-possibly
-     looking for flat polygon to cover airbag
-     hole control volume number= 1
- 
- *** Error 20018 (STR+18)
-     input phase completed with 1 fatal errors
-     please check messag file
 
- E r r o r   t e r m i n a t i o n                             08/08/24 15:35:26
+ input of data is completed
+ slave  stiffness of sliding interface 3 is scaled by   1.33863E-02
+ master stiffness of sliding interface 3 is scaled by   7.47035E+01
 
- Memory required to complete solution   :     336K
- Additional dynamically allocated memory:    3745K
-                                   Total:    4080K
+ initial kinetic energy = 0.00000000E+00
+
+ The LS-DYNA time step size should not exceed     6.072E-05
+ to avoid contact instabilities.  If the step size is
+ bigger then scale the penalty of the offending surface.
+
+ Memory required to begin solution      :     333K
+ Additional dynamically allocated memory:    4139K
+                                   Total:    4471K
+
+ initialization completed
+     Message 40565 (SOL+565) exceeds 50 times
+     Further printing will be suppressed from screen only
+ 
+ summary of initial penetration for interface #= 1
+   number of warning messages                  = 2128
+   number of penetrating nodes                 = 2128
+   number of penetrating node eliminated       = 0
+   min penetration distance                    =  5.0000E-01
+   max penetration distance                    =  5.0000E-01
+ 
+ summary of initial penetration for interface #= 2
+   number of warning messages                  = 49
+   number of penetrating nodes                 = 49
+   number of penetrating node eliminated       = 0
+   min penetration distance                    =  2.5000E-01
+   max penetration distance                    =  7.4900E-01
+       1 t 0.0000E+00 dt 2.42E-06 flush i/o buffers            08/08/24 16:24:36
+       1 t 0.0000E+00 dt 2.42E-06 write d3plot file            08/08/24 16:24:36
+ cpu time per zone cycle............         0 nanoseconds
+ average cpu time per zone cycle....         0 nanoseconds
+ average clock time per zone cycle..      1207 nanoseconds
+
+ estimated total cpu time          =         1 sec (       0 hrs  0 mins)
+ estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
+ estimated total clock time        =    168825 sec (      46 hrs 53 mins)
+ estimated clock time to complete  =    168824 sec (      46 hrs 53 mins)
+ termination time                  = 4.000E+01
+ 
+ *** Error 40500 (SOL+500)
+     node # 21644 has out-of-range velocities
+       x-velocity= -4.5005E+31
+       y-velocity= -3.8817E+31
+       z-velocity= 1.8992E+31
+ 
+ *** Error 40500 (SOL+500)
+     node # 21650 has out-of-range velocities
+       x-velocity= 1.7773E+31
+       y-velocity= 7.2095E+31
+       z-velocity= -9.9390E+30
+ 
+ *** Error 40500 (SOL+500)
+     node # 21652 has out-of-range velocities
+       x-velocity= -4.9018E+30
+       y-velocity= 5.7016E+30
+       z-velocity= 1.7229E+30
+ 
+ *** Error 40500 (SOL+500)
+     node # 21660 has out-of-range velocities
+       x-velocity= 2.6204E+36
+       y-velocity= 3.6511E+36
+       z-velocity= 1.6696E+36
+ 
+ *** Error 40500 (SOL+500)
+     node # 21661 has out-of-range velocities
+       x-velocity= -2.1255E+30
+       y-velocity= 6.5357E+30
+       z-velocity= 7.7509E+30
+ 
+ *** Error 40500 (SOL+500)
+     node # 21665 has out-of-range velocities
+       x-velocity= 1.8657E+31
+       y-velocity= 1.1459E+32
+       z-velocity= -5.5711E+31
+ 
+ *** Error 40500 (SOL+500)
+     node # 21666 has out-of-range velocities
+       x-velocity= 7.0255E+35
+       y-velocity= 2.5825E+36
+       z-velocity= -3.8585E+35
+ 
+ *** Error 40500 (SOL+500)
+     node # 21667 has out-of-range velocities
+       x-velocity= -6.8836E+31
+       y-velocity= -5.9308E+31
+       z-velocity= 1.2627E+30
+ 
+ *** Error 40500 (SOL+500)
+     node # 21668 has out-of-range velocities
+       x-velocity= -5.1059E+37
+       y-velocity= -2.5638E+38
+       z-velocity= -3.5539E+38
+ 
+ *** Error 40500 (SOL+500)
+     node # 21671 has out-of-range velocities
+       x-velocity= -6.0386E+30
+       y-velocity= -1.6900E+30
+       z-velocity= 1.0737E+31
+ 
+ *** Error 40500 (SOL+500)
+     node # 21675 has out-of-range velocities
+       x-velocity= 1.4499E+33
+       y-velocity= 2.1780E+33
+       z-velocity= -6.1245E+33
+ 
+ *** Error 40500 (SOL+500)
+     node # 21676 has out-of-range velocities
+       x-velocity= -4.8822E+34
+       y-velocity= 1.1846E+35
+       z-velocity= 2.1658E+35
+ 
+ *** Error 40500 (SOL+500)
+     node # 21677 has out-of-range velocities
+       x-velocity= -7.3821E+30
+       y-velocity= -1.5706E+31
+       z-velocity= 1.0098E+31
+ 
+ *** Error 40500 (SOL+500)
+     node # 21680 has out-of-range velocities
+       x-velocity= -4.6155E+30
+       y-velocity= -9.7860E+30
+       z-velocity= 6.3522E+30
+ 
+ *** Error 40500 (SOL+500)
+     node # 21681 has out-of-range velocities
+       x-velocity= -8.6827E+36
+       y-velocity= 2.3919E+37
+       z-velocity= 1.0318E+36
+ 
+ *** Error 40500 (SOL+500)
+     node # 21682 has out-of-range velocities
+       x-velocity= 7.1109E+38
+       y-velocity= 8.3631E+38
+       z-velocity= -1.0379E+38
+ 
+ *** Error 40500 (SOL+500)
+     node # 21683 has out-of-range velocities
+       x-velocity= -6.2778E+32
+       y-velocity= -6.4931E+32
+       z-velocity= 7.4622E+31
+ 
+ *** Error 40500 (SOL+500)
+     node # 21684 has out-of-range velocities
+       x-velocity= -4.3903E+36
+       y-velocity= 1.2078E+37
+       z-velocity= 7.3245E+35
+ 
+ *** Error 40500 (SOL+500)
+     node # 21685 has out-of-range velocities
+       x-velocity= 2.6959E+32
+       y-velocity= 1.0414E+33
+       z-velocity= -4.3930E+32
+ 
+ *** Error 40500 (SOL+500)
+     node # 21686 has out-of-range velocities
+       x-velocity= 3.3701E+34
+       y-velocity= 2.7587E+35
+       z-velocity= 2.0439E+35
+ 
+ *** Error 40500 (SOL+500)
+     node # 21687 has out-of-range velocities
+       x-velocity= -3.8087E+38
+       y-velocity= -1.0060E+39
+       z-velocity= 3.5899E+38
+ 
+ *** Error 40500 (SOL+500)
+     node # 21688 has out-of-range velocities
+       x-velocity= -1.6877E+37
+       y-velocity= 8.4627E+36
+       z-velocity= 4.9536E+36
+ 
+ *** Error 40500 (SOL+500)
+     node # 21689 has out-of-range velocities
+       x-velocity= -8.4049E+36
+       y-velocity= 4.5072E+36
+       z-velocity= 2.6811E+36
+ 
+ *** Error 40500 (SOL+500)
+     node # 21692 has out-of-range velocities
+       x-velocity= 7.2048E+30
+       y-velocity= 3.7650E+31
+       z-velocity= -6.4334E+30
+ 
+ *** Error 40500 (SOL+500)
+     node # 21693 has out-of-range velocities
+       x-velocity= 4.4578E+30
+       y-velocity= 2.3546E+31
+       z-velocity= -3.9589E+30
+ 
+ *** Error 40500 (SOL+500)
+     node # 21700 has out-of-range velocities
+       x-velocity= -1.6501E+32
+       y-velocity= 2.5781E+32
+       z-velocity= -2.0940E+32
+ 
+ *** Error 40500 (SOL+500)
+     node # 21701 has out-of-range velocities
+       x-velocity= 4.3057E+32
+       y-velocity= 4.0352E+33
+       z-velocity= 9.8492E+33
+ 
+ *** Error 40500 (SOL+500)
+     node # 21702 has out-of-range velocities
+       x-velocity= -8.6452E+31
+       y-velocity= 1.2659E+32
+       z-velocity= -9.9070E+31
+ 
+ *** Error 40500 (SOL+500)
+     node # 21703 has out-of-range velocities
+       x-velocity= 4.8926E+32
+       y-velocity= -9.5818E+33
+       z-velocity= 3.4974E+33
+ 
+ *** Error 40500 (SOL+500)
+     node # 21704 has out-of-range velocities
+       x-velocity= -1.5634E+32
+       y-velocity= 2.2362E+31
+       z-velocity= -2.9535E+32
+
+ E r r o r   t e r m i n a t i o n                             08/08/24 16:24:36
+
+ Memory required to complete solution   :     333K
+ Additional dynamically allocated memory:    4245K
+                                   Total:    4577K
 
  T i m i n g   i n f o r m a t i o n
                         CPU(seconds)   %CPU  Clock(seconds) %Clock
   ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     5.8000E-02    4.64
-    KW Reading ......... 0.0000E+00    0.00     3.0000E-02    2.40
-    KW Writing ......... 0.0000E+00    0.00     1.0000E-02    0.80
-  Initialization ....... 1.0000E+00  100.00     1.1910E+00   95.36
-    Init Proc Phase 1 .. 0.0000E+00    0.00     4.6000E-02    3.68
+  Keyword Processing ... 0.0000E+00    0.00     5.7000E-02    4.03
+    KW Reading ......... 0.0000E+00    0.00     3.0000E-02    2.12
+    KW Writing ......... 0.0000E+00    0.00     1.4000E-02    0.99
+  Initialization ....... 1.0000E+00  100.00     1.1780E+00   83.19
+    Init Proc Phase 1 .. 0.0000E+00    0.00     4.0000E-02    2.82
+    Init Proc Phase 2 .. 0.0000E+00    0.00     8.0000E-03    0.56
+  Element processing ... 0.0000E+00    0.00     4.1000E-02    2.90
+    Shells ............. 0.0000E+00    0.00     4.1000E-02    2.90
+  Binary databases ..... 0.0000E+00    0.00     3.0000E-03    0.21
+  ASCII database ....... 0.0000E+00    0.00     1.0000E-03    0.07
+  Contact algorithm .... 0.0000E+00    0.00     1.1800E-01    8.33
+    Interf. ID         1 0.0000E+00    0.00     9.2000E-02    6.50
+    Interf. ID         3 0.0000E+00    0.00     1.3000E-02    0.92
+    Interf. ID         2 0.0000E+00    0.00     1.3000E-02    0.92
+  Rigid Bodies ......... 0.0000E+00    0.00     1.0000E-03    0.07
+  Misc. 1 .............. 0.0000E+00    0.00     5.0000E-03    0.35
+    Force to Accel ..... 0.0000E+00    0.00     1.0000E-03    0.07
+    Update RB nodes .... 0.0000E+00    0.00     1.0000E-03    0.07
+  Misc. 2 .............. 0.0000E+00    0.00     3.0000E-03    0.21
+  Misc. 4 .............. 0.0000E+00    0.00     9.0000E-03    0.64
+    Apply Loads ........ 0.0000E+00    0.00     9.0000E-03    0.64
   ----------------------------------------------------------------
-  T o t a l s            1.0000E+00  100.00     1.2490E+00  100.00
+  T o t a l s            1.0000E+00  100.00     1.4160E+00  100.00
 
- Problem time       =    0.0000E+00
- Problem cycle      =         0
+ Problem time       =    2.0295E-04
+ Problem cycle      =       100
  Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
  CPU time per zone cycle  =          0.000 picoseconds
- Clock time per zone cycle=          0.000 picoseconds
+ Clock time per zone cycle=     253076.063 picoseconds
 
  Number of CPU's    2
  NLQ used/max     136/  136
- Start time   08/08/2024 15:35:26  
- End time     08/08/2024 15:35:26  
- Elapsed time       0 second  for       0 cycles using  2 SMP threads
-             (      0 hour   0 minute   0 second )
+ Start time   08/08/2024 16:24:35  
+ End time     08/08/2024 16:24:36  
+ Elapsed time       1 second  for     100 cycles using  2 SMP threads
+             (      0 hour   0 minute   1 second )
 
- E r r o r   t e r m i n a t i o n                             08/08/24 15:35:26
+ E r r o r   t e r m i n a t i o n                             08/08/24 16:24:36
 

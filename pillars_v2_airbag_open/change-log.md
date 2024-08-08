@@ -240,3 +240,8 @@
 ## V78
 - autocleaned keyword errors
 - ran into errors with warpage and improperly numbered segments
+## V79
+- attempted to fix segmentation error
+![[Pasted image 20240808161710.png|400]]
+## V80
+- CONSTRAINE_ADAPTIVITY keyword became self aware and keeps adding itself to my shit. i deleted it again

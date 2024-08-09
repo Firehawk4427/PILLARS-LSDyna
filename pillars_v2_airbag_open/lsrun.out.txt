@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/09/2024      Time: 14:17:47  
+      Date: 08/09/2024      Time: 15:47:13  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -142,7 +142,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/09/24 14:17:48
+ Beginning of keyword reader                                   08/09/24 15:47:14
 
  Memory required to process keyword     :     974114  
  Additional dynamic memory required     :    7046165  
@@ -192,8 +192,8 @@
    number of penetrating node eliminated       = 0
    min penetration distance                    =  2.5000E-01
    max penetration distance                    =  8.5000E-01
-       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            08/09/24 14:17:50
-       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            08/09/24 14:17:50
+       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            08/09/24 15:47:16
+       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            08/09/24 15:47:16
  
  summary of initial penetration for interface #= 2
    number of warning messages                  = 0
@@ -203,12 +203,12 @@
    max penetration distance                    =  6.2563E-01
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....      1609 nanoseconds
- average clock time per zone cycle..      1137 nanoseconds
+ average clock time per zone cycle..      1072 nanoseconds
 
  estimated total cpu time          =  63726165 sec (   17701 hrs 42 mins)
  estimated cpu time to complete    =  63726162 sec (   17701 hrs 42 mins)
- estimated total clock time        =  45054399 sec (   12515 hrs  6 mins)
- estimated clock time to complete  =  45054396 sec (   12515 hrs  6 mins)
+ estimated total clock time        =  42473490 sec (   11798 hrs 11 mins)
+ estimated clock time to complete  =  42473487 sec (   11798 hrs 11 mins)
  termination time                  = 1.000E+01
 forrtl: severe (157): Program Exception - access violation
 Image              PC                Routine            Line        Source             

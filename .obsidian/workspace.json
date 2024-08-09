@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -204,9 +204,8 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6a869e21275abe67",
+  "active": "a0876cfd3d6078b6",
   "lastOpenFiles": [
-    "pillars_v2_airbag_open/lspp_temp_1",
     "pillars_v2_airbag_open/status.out",
     "pillars_v2_airbag_open/d3plot01",
     "pillars_v2_airbag_open/d3plot",
@@ -217,6 +216,7 @@
     "pillars_v2_airbag_open/group_file",
     "pillars_v2_airbag_open/dyna.lsda",
     "pillars_v2_airbag_open/messag",
+    "pillars_v2_airbag_open/d3hsp",
     "notes_and_resources/units_and_initial_params.md",
     "pillars_v2_airbag_open/change-log.md",
     "attachments/Pasted image 20240808161710.png",

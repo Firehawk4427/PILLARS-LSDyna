@@ -248,7 +248,9 @@
 ## V81
 - added 1 layer of refinement
 ## V82
-- added 1 layer of refinement
+- added 1 layer of refinement 
+	- tested this with normal airbag and it increase runtime by 50x - 100x
+	- expected runtime should be ~ 1 day +/- 12 hours
 - warpage error disappeared, segment error remains, new error: cannot find element of slave segment 35 of interface 1
 - beam prism not showing (needs to be fixed)
 ## V83 

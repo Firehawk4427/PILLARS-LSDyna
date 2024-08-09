@@ -264,3 +264,14 @@
 - changed collision of bag to only care about bottom half of fabric
 ## V87
 - lowered thickness of anchor
+## V88
+- decreased timestep size
+- lowered endtime to 10s
+- changed mfr curve
+- projected time seemed smaller by a factor of 1/20, but it still terminated
+## V89
+- timestep changed to 6.034E-05
+- seemed to increase runtime, but terminated before i could verify
+## V90
+- timestep changed to 1E-8
+- 

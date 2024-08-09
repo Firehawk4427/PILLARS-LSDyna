@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/09/2024      Time: 14:08:10  
+      Date: 08/09/2024      Time: 14:17:47  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -83,7 +83,7 @@
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v87.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v90.k 
                        ncpu=2 
                        memory=45m
 
@@ -142,7 +142,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/09/24 14:08:11
+ Beginning of keyword reader                                   08/09/24 14:17:48
 
  Memory required to process keyword     :     974114  
  Additional dynamic memory required     :    7046165  
@@ -192,8 +192,8 @@
    number of penetrating node eliminated       = 0
    min penetration distance                    =  2.5000E-01
    max penetration distance                    =  8.5000E-01
-       1 t 0.0000E+00 dt 4.27E-07 flush i/o buffers            08/09/24 14:08:13
-       1 t 0.0000E+00 dt 4.27E-07 write d3plot file            08/09/24 14:08:13
+       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            08/09/24 14:17:50
+       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            08/09/24 14:17:50
  
  summary of initial penetration for interface #= 2
    number of warning messages                  = 0
@@ -203,13 +203,13 @@
    max penetration distance                    =  6.2563E-01
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....      1609 nanoseconds
- average clock time per zone cycle..      1063 nanoseconds
+ average clock time per zone cycle..      1137 nanoseconds
 
- estimated total cpu time          =  17022024 sec (    4728 hrs 20 mins)
- estimated cpu time to complete    =  17022021 sec (    4728 hrs 20 mins)
- estimated total clock time        =  11243048 sec (    3123 hrs  4 mins)
- estimated clock time to complete  =  11243045 sec (    3123 hrs  4 mins)
- termination time                  = 4.000E+01
+ estimated total cpu time          =  63726165 sec (   17701 hrs 42 mins)
+ estimated cpu time to complete    =  63726162 sec (   17701 hrs 42 mins)
+ estimated total clock time        =  45054399 sec (   12515 hrs  6 mins)
+ estimated clock time to complete  =  45054396 sec (   12515 hrs  6 mins)
+ termination time                  = 1.000E+01
 forrtl: severe (157): Program Exception - access violation
 Image              PC                Routine            Line        Source             
 ls-dyna_smp_d_R13  00007FF73A832A78  BKSRT4A                 15131  fem3d_a.F

@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/09/2024      Time: 12:12:32  
+      Date: 08/09/2024      Time: 12:15:16  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -83,7 +83,7 @@
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v84.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v85.k 
                        ncpu=2 
                        memory=45m
 
@@ -142,72 +142,89 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/09/24 12:12:33
- 
- *** Error 10144 (KEY+144)
-     CHECKING CONTACT INPUT DATA [*CONTACT]Control-intf. # 1
-     segment set for contact interface # 1 is not found.
-     This is #1 in the input order)
- 
- *** Error 10144 (KEY+144)
-     CHECKING CONTACT INPUT DATA [*CONTACT]Control-intf. # 2
-     segment set for contact interface # 2 is not found.
-     This is #1 in the input order)
- 
- *** Error 10144 (KEY+144)
-     CHECKING CONTACT INPUT DATA [*CONTACT]Surface-intf. # 1
-     slave segment set for contact interface # 1 is not found.
-     This is #1 in the input order)
- 
- *** Error 10144 (KEY+144)
-     CHECKING CONTACT INPUT DATA [*CONTACT]Surface-intf. # 2
-     slave segment set for contact interface # 2 is not found.
-     This is #1 in the input order)
- 
- *** Error 10144 (KEY+144)
-     CHECKING AIRBAG INPUT [*AIRBAG]
-     airbag segment set for airbag # 1 is not found.
-     This is #1 in the input order)
- 
- *** Error 10144 (KEY+144)
-     CHECKING AIRBAG INPUT [*AIRBAG]
-     airbag segment set for airbag # 1 is not found.
-     This is #1 in the input order)
- 
- *** Error 10346 (KEY+346)
-     Zero segments in set defining airbag # 1
- 
- *** Error 10133 (KEY+133)
-     input data failed with: 14 errors
+ Beginning of keyword reader                                   08/09/24 12:15:17
 
- E r r o r   t e r m i n a t i o n                             08/09/24 12:12:33
+ Memory required to process keyword     :     974098  
+ Additional dynamic memory required     :    7046165  
 
- Memory required to complete solution   :     975K
- Additional dynamically allocated memory:    7047K
-                                   Total:    8021K
+ 
+ *** Warning 30107 (INI+107)
+     Number of improperly numbered segments 33360
+     for control volume 1
 
- T i m i n g   i n f o r m a t i o n
-                        CPU(seconds)   %CPU  Clock(seconds) %Clock
-  ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     4.4500E-01   28.51
-    KW Reading ......... 0.0000E+00    0.00     3.4900E-01   22.36
-    KW Writing ......... 0.0000E+00    0.00     7.0000E-03    0.45
-  Initialization ....... 1.0000E+00  100.00     1.1160E+00   71.49
-  ----------------------------------------------------------------
-  T o t a l s            1.0000E+00  100.00     1.5610E+00  100.00
+ input of data is completed
+ slave  stiffness of sliding interface 3 is scaled by   7.30766E-03
+ master stiffness of sliding interface 3 is scaled by   1.36843E+02
+ slave  stiffness of sliding interface 4 is scaled by   1.94492E+01
+ master stiffness of sliding interface 4 is scaled by   5.14160E-02
 
- Problem time       =    0.0000E+00
- Problem cycle      =         0
- Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
- CPU time per zone cycle  =          0.000 picoseconds
- Clock time per zone cycle=          0.000 picoseconds
+ initial kinetic energy = 0.00000000E+00
 
- Number of CPU's    2
- NLQ used/max     136/  136
- Start time   08/09/2024 12:12:33  
- End time     08/09/2024 12:12:33  
- Elapsed time       0 second  for       0 cycles using  2 SMP threads
-             (      0 hour   0 minute   0 second )
+ The LS-DYNA time step size should not exceed     6.034E-05
+ to avoid contact instabilities.  If the step size is
+ bigger then scale the penalty of the offending surface.
 
- E r r o r   t e r m i n a t i o n                             08/09/24 12:12:33
+ Memory required to begin solution      :    3614K
+ Additional dynamically allocated memory:      52M
+                                   Total:      55M
 
+ initialization completed
+     Message 40565 (SOL+565) exceeds 50 times
+     Further printing will be suppressed from screen only
+ 
+ summary of initial penetration for interface #= 1
+   number of warning messages                  = 35120
+   number of penetrating nodes                 = 35120
+   number of penetrating node eliminated       = 0
+   min penetration distance                    =  8.3333E-02
+   max penetration distance                    =  5.0000E-01
+ 
+ summary of initial penetration for interface #= 2
+   number of warning messages                  = 601
+   number of penetrating nodes                 = 601
+   number of penetrating node eliminated       = 0
+   min penetration distance                    =  2.5000E-01
+   max penetration distance                    =  7.4902E-01
+     Message 40571 (SOL+571) exceeds 50 times
+     Further printing will be suppressed from screen only
+ 
+ summary of initial penetration for interface #= 4
+   number of warning messages                  = 476
+   number of penetrating nodes                 = 476
+   number of penetrating node eliminated       = 0
+   min penetration distance                    =  2.5000E-01
+   max penetration distance                    =  8.5000E-01
+       1 t 0.0000E+00 dt 4.27E-07 flush i/o buffers            08/09/24 12:15:24
+       1 t 0.0000E+00 dt 4.27E-07 write d3plot file            08/09/24 12:15:24
+ 
+ summary of initial penetration for interface #= 2
+   number of warning messages                  = 0
+   number of penetrating nodes                 = 0
+   number of penetrating node eliminated       = 562
+   min penetration distance                    =  2.4900E-01
+   max penetration distance                    =  6.2563E-01
+ cpu time per zone cycle............         0 nanoseconds
+ average cpu time per zone cycle....      2414 nanoseconds
+ average clock time per zone cycle..      1974 nanoseconds
+
+ estimated total cpu time          =  25533040 sec (    7092 hrs 30 mins)
+ estimated cpu time to complete    =  25533032 sec (    7092 hrs 30 mins)
+ estimated total clock time        =  20886028 sec (    5801 hrs 40 mins)
+ estimated clock time to complete  =  20886020 sec (    5801 hrs 40 mins)
+ termination time                  = 4.000E+01
+forrtl: severe (157): Program Exception - access violation
+Image              PC                Routine            Line        Source             
+ls-dyna_smp_d_R13  00007FF73A832A78  BKSRT4A                 15131  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF74051AD18  ASLAV0R                 28396  dynpc.F
+ls-dyna_smp_d_R13  00007FF73D3DFE00  CONTACT                  2688  dyn33.F
+ls-dyna_smp_d_R13  00007FF73A889A81  FEM3D_CONTACT           37480  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF73A7D2900  FEM3D                   11649  fem3d.F
+ls-dyna_smp_d_R13  00007FF73A7C607A  SOLTN                     431  fem3d.F
+ls-dyna_smp_d_R13  00007FF73A8F2118  OVERLY                    276  dyn0.F
+ls-dyna_smp_d_R13  00007FF739680B6A  LSDYNA1                   823  dynm.F
+ls-dyna_smp_d_R13  00007FF7396804D9  MAIN__                   1912  dynm.F
+ls-dyna_smp_d_R13  00007FF746CC9092  Unknown               Unknown  Unknown
+ls-dyna_smp_d_R13  00007FF7475A9D48  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FFADC0E7344  Unknown               Unknown  Unknown
+ntdll.dll          00007FFADCE826B1  Unknown               Unknown  Unknown
+forrtl: severe (157): Program Exception - access violation

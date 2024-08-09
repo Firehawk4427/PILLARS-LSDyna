@@ -256,3 +256,5 @@
 - probably need to split head and nut to separate parts and have head collide with fabric and nut with base
 ## V84 
 - deleted set segment
+## V85
+- converted everything addressing set_segment_airbag to be addressing set_part_airbag

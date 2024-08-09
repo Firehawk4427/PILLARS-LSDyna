@@ -1,0 +1,15 @@
+ LS-DYNA keyword deck by LS-PrePost                                      
+                    ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
+
+{BEGIN LEGEND}
+ Entity #        Title
+        1                                                                          
+{END LEGEND}
+
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 4.27254E-07       1     1.3608E+03     8.6400E-09     3.4202E-05     1.3886E-05     1.1868E-14  0.000E+00  1.615E-11  2.364E+03  5.596E+03  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.2108E+04    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           2  Unblocked  Area=  0.1334E+04    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           6  Unblocked  Area=  0.2153E+04    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00

@@ -250,4 +250,4 @@
 ## V82
 - added 1 layer of refinement
 - warpage error disappeared, segment error remains, new error: cannot find element of slave segment 35 of interface 1
-
+- beam prism not showing (needs to be fixed)

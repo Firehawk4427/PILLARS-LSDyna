@@ -1,8 +1,8 @@
  cpu time per zone cycle............         0 nanoseconds
- average cpu time per zone cycle....      2414 nanoseconds
- average clock time per zone cycle..      1974 nanoseconds
+ average cpu time per zone cycle....      1609 nanoseconds
+ average clock time per zone cycle..      1067 nanoseconds
 
- estimated total cpu time          =  25533040 sec (    7092 hrs 30 mins)
- estimated cpu time to complete    =  25533032 sec (    7092 hrs 30 mins)
- estimated total clock time        =  20886028 sec (    5801 hrs 40 mins)
- estimated clock time to complete  =  20886020 sec (    5801 hrs 40 mins)
+ estimated total cpu time          =  17022024 sec (    4728 hrs 20 mins)
+ estimated cpu time to complete    =  17022021 sec (    4728 hrs 20 mins)
+ estimated total clock time        =  11294114 sec (    3137 hrs 15 mins)
+ estimated clock time to complete  =  11294111 sec (    3137 hrs 15 mins)

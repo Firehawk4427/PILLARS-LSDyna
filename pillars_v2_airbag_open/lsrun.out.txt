@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/09/2024      Time: 12:15:16  
+      Date: 08/09/2024      Time: 12:32:28  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -83,7 +83,7 @@
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v85.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v86.k 
                        ncpu=2 
                        memory=45m
 
@@ -142,9 +142,9 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/09/24 12:15:17
+ Beginning of keyword reader                                   08/09/24 12:32:29
 
- Memory required to process keyword     :     974098  
+ Memory required to process keyword     :     973998  
  Additional dynamic memory required     :    7046165  
 
  
@@ -153,10 +153,10 @@
      for control volume 1
 
  input of data is completed
- slave  stiffness of sliding interface 3 is scaled by   7.30766E-03
- master stiffness of sliding interface 3 is scaled by   1.36843E+02
- slave  stiffness of sliding interface 4 is scaled by   1.94492E+01
- master stiffness of sliding interface 4 is scaled by   5.14160E-02
+ slave  stiffness of sliding interface 2 is scaled by   7.22667E-03
+ master stiffness of sliding interface 2 is scaled by   1.38376E+02
+ slave  stiffness of sliding interface 3 is scaled by   1.94492E+01
+ master stiffness of sliding interface 3 is scaled by   5.14160E-02
 
  initial kinetic energy = 0.00000000E+00
 
@@ -164,26 +164,26 @@
  to avoid contact instabilities.  If the step size is
  bigger then scale the penalty of the offending surface.
 
- Memory required to begin solution      :    3614K
- Additional dynamically allocated memory:      52M
-                                   Total:      55M
+ Memory required to begin solution      :    1311K
+ Additional dynamically allocated memory:      33M
+                                   Total:      34M
 
  initialization completed
      Message 40565 (SOL+565) exceeds 50 times
      Further printing will be suppressed from screen only
  
  summary of initial penetration for interface #= 1
-   number of warning messages                  = 35120
-   number of penetrating nodes                 = 35120
+   number of warning messages                  = 26844
+   number of penetrating nodes                 = 26844
    number of penetrating node eliminated       = 0
    min penetration distance                    =  8.3333E-02
    max penetration distance                    =  5.0000E-01
  
  summary of initial penetration for interface #= 2
-   number of warning messages                  = 601
-   number of penetrating nodes                 = 601
+   number of warning messages                  = 600
+   number of penetrating nodes                 = 600
    number of penetrating node eliminated       = 0
-   min penetration distance                    =  2.5000E-01
+   min penetration distance                    =  7.4899E-01
    max penetration distance                    =  7.4902E-01
      Message 40571 (SOL+571) exceeds 50 times
      Further printing will be suppressed from screen only
@@ -194,8 +194,8 @@
    number of penetrating node eliminated       = 0
    min penetration distance                    =  2.5000E-01
    max penetration distance                    =  8.5000E-01
-       1 t 0.0000E+00 dt 4.27E-07 flush i/o buffers            08/09/24 12:15:24
-       1 t 0.0000E+00 dt 4.27E-07 write d3plot file            08/09/24 12:15:24
+       1 t 0.0000E+00 dt 4.27E-07 flush i/o buffers            08/09/24 12:32:31
+       1 t 0.0000E+00 dt 4.27E-07 write d3plot file            08/09/24 12:32:31
  
  summary of initial penetration for interface #= 2
    number of warning messages                  = 0
@@ -204,13 +204,13 @@
    min penetration distance                    =  2.4900E-01
    max penetration distance                    =  6.2563E-01
  cpu time per zone cycle............         0 nanoseconds
- average cpu time per zone cycle....      2414 nanoseconds
- average clock time per zone cycle..      1974 nanoseconds
+ average cpu time per zone cycle....      1609 nanoseconds
+ average clock time per zone cycle..      1067 nanoseconds
 
- estimated total cpu time          =  25533040 sec (    7092 hrs 30 mins)
- estimated cpu time to complete    =  25533032 sec (    7092 hrs 30 mins)
- estimated total clock time        =  20886028 sec (    5801 hrs 40 mins)
- estimated clock time to complete  =  20886020 sec (    5801 hrs 40 mins)
+ estimated total cpu time          =  17022024 sec (    4728 hrs 20 mins)
+ estimated cpu time to complete    =  17022021 sec (    4728 hrs 20 mins)
+ estimated total clock time        =  11294114 sec (    3137 hrs 15 mins)
+ estimated clock time to complete  =  11294111 sec (    3137 hrs 15 mins)
  termination time                  = 4.000E+01
 forrtl: severe (157): Program Exception - access violation
 Image              PC                Routine            Line        Source             

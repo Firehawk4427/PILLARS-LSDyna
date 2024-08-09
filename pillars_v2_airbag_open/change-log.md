@@ -258,3 +258,7 @@
 - deleted set segment
 ## V85
 - converted everything addressing set_segment_airbag to be addressing set_part_airbag
+- runtime 216 days
+## V86
+- deleted self collision
+- changed collision of bag to only care about bottom half of fabric

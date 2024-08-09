@@ -57,7 +57,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes_and_resources/units_and_initial_params.md",
+                "file": "pillars_v2_airbag_open/change-log.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes_and_resources/units_and_initial_params.md",
+                "file": "pillars_v2_airbag_open/change-log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes_and_resources/units_and_initial_params.md",
+                "file": "pillars_v2_airbag_open/change-log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes_and_resources/units_and_initial_params.md"
+                "file": "pillars_v2_airbag_open/change-log.md"
               }
             }
           },
@@ -204,8 +204,12 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "6a869e21275abe67",
+  "active": "4b28d76607c00fcb",
   "lastOpenFiles": [
+    "pillars_v2_airbag_open/open_airbag_v81.k",
+    "pillars_v2_airbag_open/templsppfile_open_airbag_v81.k",
+    "notes_and_resources/units_and_initial_params.md",
+    "pillars_v2_airbag_open/lspost.db",
     "pillars_v2_airbag_open/change-log.md",
     "pillars_v2_airbag_open/status.out",
     "pillars_v2_airbag_open/d3plot01",
@@ -215,10 +219,7 @@
     "pillars_v2_airbag_open/abstat",
     "pillars_v2_airbag_open/adptmp",
     "pillars_v2_airbag_open/group_file",
-    "pillars_v2_airbag_open/dyna.lsda",
-    "pillars_v2_airbag_open/messag",
     "attachments/Pasted image 20240808161710.png",
-    "notes_and_resources/units_and_initial_params.md",
     "pillars_v2_airbag_open/notes.md",
     "pillars_windtunnel/pillars_v31_thru_v40/change-log.md",
     "pillars_v2_airbag_open/gifs/null-explode.gif",

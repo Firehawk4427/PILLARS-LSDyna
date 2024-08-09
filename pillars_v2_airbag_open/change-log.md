@@ -262,3 +262,5 @@
 ## V86
 - deleted self collision
 - changed collision of bag to only care about bottom half of fabric
+## V87
+- lowered thickness of anchor

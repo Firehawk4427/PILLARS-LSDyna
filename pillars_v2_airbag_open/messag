@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/09/2024      Time: 10:20:38  
+      Date: 08/09/2024      Time: 10:44:36  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -76,15 +76,15 @@
      |___________________________________________________|
 
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v81.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v82.k 
                        ncpu=2 
-                       memory=20m
+                       memory=45m
 
  Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag
 
  The native file format       : 64-bit small endian
- Memory size from command line:    20000000
- allocating  memory to    20000000 d     1975081 Initial allocation
+ Memory size from command line:    45000000
+ allocating  memory to    45000000 d     1975081 Initial allocation
 
  ********  notice  ********  notice  ********  notice  ********
  *                                                            *
@@ -107,27 +107,27 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/09/24 10:20:38
- expanding   memory to       65000 d     2153930  
- expanding   memory to       97500 d     2153930  
- expanding   memory to      130740 d     2552810  
- expanding   memory to      163980 d     2552810  
- expanding   memory to      194823 d     2552810  
- expanding   memory to      217143 d     2786730  
- expanding   memory to      282143 d     2786730  
- expanding   memory to      306245 d     2786730  
- expanding   memory to      326815 d     2786730  
- expanding   memory to      347941 d     2786730  
- expanding   memory to      388681 d     3162831  
- expanding   memory to      416921 d     3162831  
- expanding   memory to      445698 d     3162831  
- expanding   memory to      474475 d     3247551  
- expanding   memory to      496975 d     3247551  
+ Beginning of keyword reader                                   08/09/24 10:44:36
+ expanding   memory to       65000 d     2666390  
+ expanding   memory to       97500 d     2666390  
+ expanding   memory to      215460 d     4081910  
+ expanding   memory to      333420 d     4081910  
+ expanding   memory to      364263 d     4081910  
+ expanding   memory to      386583 d     4993590  
+ expanding   memory to      451583 d     4993590  
+ expanding   memory to      475685 d     4993590  
+ expanding   memory to      496255 d     4993590  
+ expanding   memory to      517381 d     4993590  
+ expanding   memory to      642841 d     6480021  
+ expanding   memory to      755801 d     6480021  
+ expanding   memory to      869988 d     6480021  
+ expanding   memory to      984175 d     6818901  
+ expanding   memory to     1006675 d     6818901  
 
- Memory required to process keyword     :     496975  
- Additional dynamic memory required     :    3321388  
+ Memory required to process keyword     :    1006675  
+ Additional dynamic memory required     :    7062868  
 
- contracting memory to           1 d     2736983 end of keyword reader
+ contracting memory to           1 d     6054173 end of keyword reader
 
  LS-DYNA will perform a structural only analysis 
 
@@ -137,175 +137,26 @@
  Allocating memory:                     48  words
  expanding   memory to        2001 d     1551736 material, node and element data
  expanding   memory to        2071 d     1551850 material properties
- expanding   memory to        2083 d     1751128 element data for composite material
- expanding   memory to        2097 d     3016293 gradient of damage data
- expanding   memory to        2119 d     3694219 user control for contact interfaces
- contracting memory to        2099 d     3694225 thermal expansion 0
- expanding   memory to        2101 d     3694231 cross-sectional force definitions 0
- expanding   memory to       30878 d     3694273 temp index array for node sorting
- contracting memory to        2101 d     3723054 just because?
- expanding   memory to       30341 d     3780658 arbitrary element numbering input
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 24 is computed as 2.1052E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 1194 is computed as 2.0991E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 1241 is computed as 2.0666E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 1525 is computed as 2.0076E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 1932 is computed as 2.0127E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 1970 is computed as 2.0674E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 2008 is computed as 2.1052E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 3178 is computed as 2.0991E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 3225 is computed as 2.0666E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 3509 is computed as 2.0076E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 3916 is computed as 2.0127E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 3954 is computed as 2.0674E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 16526 is computed as 2.0675E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 16527 is computed as 2.1052E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 16552 is computed as 2.0675E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 16629 is computed as 2.0127E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 16691 is computed as 2.0127E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 17745 is computed as 2.0076E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 17825 is computed as 2.0076E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 18210 is computed as 2.0991E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 18211 is computed as 2.0666E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 18279 is computed as 2.0666E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 18280 is computed as 2.0991E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 18859 is computed as 2.0666E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 18928 is computed as 2.0990E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 19327 is computed as 2.0076E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 20485 is computed as 2.0127E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 20630 is computed as 2.1052E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 20631 is computed as 2.0675E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 20656 is computed as 2.1052E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 24892 is computed as 2.0675E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 24893 is computed as 2.1052E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 24918 is computed as 2.0675E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 25002 is computed as 2.0127E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 25064 is computed as 2.0127E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 26142 is computed as 2.0076E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 26222 is computed as 2.0076E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 26623 is computed as 2.0991E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 26624 is computed as 2.0666E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 26692 is computed as 2.0666E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 26693 is computed as 2.0991E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 27277 is computed as 2.0666E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 27346 is computed as 2.0990E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 27743 is computed as 2.0076E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 28886 is computed as 2.0127E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 29027 is computed as 2.1052E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 29028 is computed as 2.0675E+01 degrees.
- 
- *** Warning 20282 (STR+282)
-     warpage angle of element ID= 29053 is computed as 2.1052E+01 degrees.
- 
- *** Warning 20289 (STR+289)
-     Number of elements exceed warpage angle = 48
-       min warpage angle = 2.0076E+01
-       max warpage angle = 2.1052E+01
- contracting memory to        4109 d     5653877 load curve data
- contracting memory to        2534 d     5653877 user_define_loading_set
- expanding   memory to        2740 d     5653877 regularize time history data
- contracting memory to        2538 d     5653877 *DEFINE_ELEMENT_DEATH
- expanding   memory to       61092 d     5712388 implicit contact 1
- expanding   memory to       61094 d     5712388 implicit contact 2
- contracting memory to        3538 d     5930166 contact segment data 1
- expanding   memory to      174589 d     6413848 contact segment data 3
- contracting memory to        2538 d     7567246 contact definition
- expanding   memory to      253594 d     7863386 contact friction
- expanding   memory to      581554 d     7863476 joints
- expanding   memory to      581561 d     8302180 control volume input
+ expanding   memory to        2083 d     2344858 element data for composite material
+ expanding   memory to        2097 d     7368063 gradient of damage data
+ expanding   memory to        2119 d    10079269 user control for contact interfaces
+ contracting memory to        2099 d    10079275 thermal expansion 0
+ expanding   memory to        2101 d    10079281 cross-sectional force definitions 0
+ expanding   memory to      116288 d    10079323 temp index array for node sorting
+ contracting memory to        2101 d    10193514 just because?
+ expanding   memory to      115061 d    10421938 arbitrary element numbering input
+ contracting memory to        4109 d    17913420 load curve data
+ contracting memory to        2534 d    17913420 user_define_loading_set
+ expanding   memory to        2740 d    17913420 regularize time history data
+ contracting memory to        2538 d    17913420 *DEFINE_ELEMENT_DEATH
+ expanding   memory to      231912 d    18142751 implicit contact 1
+ expanding   memory to      231914 d    18142751 implicit contact 2
+ contracting memory to        3538 d    18862122 contact segment data 1
+ expanding   memory to      684979 d    20512522 contact segment data 3
+ contracting memory to        2538 d    24906160 contact definition
+ expanding   memory to     1002034 d    25928420 contact friction
+ expanding   memory to     2082268 d    25928510 joints
+ expanding   memory to     2082275 d    27370246 control volume input
 
 Checking Control Volume Orientations
 
@@ -338,10 +189,10 @@ Checking Control Volume Orientations
  *** Warning 30107 (INI+107)
      Number of improperly numbered segments 2020
      for control volume 1
- expanding   memory to      581567 d     8373060 control volume input 4
- expanding   memory to      581661 d     8377188 rigid bodies for disp. termination
- expanding   memory to      581720 d     8377188 save d3plot control data
- expanding   memory to      581722 d     9076959 sensor_control for curve
+ expanding   memory to     2082281 d    27441126 control volume input 4
+ expanding   memory to     2082375 d    27445254 rigid bodies for disp. termination
+ expanding   memory to     2082434 d    27445254 save d3plot control data
+ expanding   memory to     2082436 d    35473641 sensor_control for curve
  
  *** Error 30059 (INI+59)
      cannot find element of slave segment 1 of interface 1
@@ -25554,26 +25405,26 @@ Checking Control Volume Orientations
 
      master surface of interface  = 1
      type                         =       a10
-     surface timestep             = 6.172E-04
-     controlling master node ID   = 46442
+     surface timestep             = 6.159E-04
+     controlling master node ID   = 112353
      part ID of master node       = 8
-     current minimum time step    = 6.172E-04
+     current minimum time step    = 6.159E-04
 
      slave surface of interface   = 2
      type                         =       a10
      surface timestep             = 1.000E+16
      controlling slave node ID    = 1
      part ID of slave node        = 6
-     current minimum time step    = 6.172E-04
+     current minimum time step    = 6.159E-04
 
      master surface of interface  = 2
      type                         =       a10
-     surface timestep             = 5.925E-04
-     controlling master node ID   = 21554
+     surface timestep             = 6.103E-04
+     controlling master node ID   = 21564
      part ID of master node       = 7
-     current minimum time step    = 5.925E-04
+     current minimum time step    = 6.103E-04
 
- The LS-DYNA time step size should not exceed     5.925E-04
+ The LS-DYNA time step size should not exceed     6.103E-04
  to avoid contact instabilities.  If the step size is
  bigger then scale the penalty of the offending surface.
  
@@ -25583,45 +25434,45 @@ Checking Control Volume Orientations
 
  S t o r a g e   a l l o c a t i o n   
 
- Memory required to begin solution      :     582K
- Additional dynamically allocated memory:      11M
-                                   Total:      11M
+ Memory required to begin solution      :    2083K
+ Additional dynamically allocated memory:      39M
+                                   Total:      42M
  
  *** Error 30006 (INI+6)
      initialization completed with 16801 or more fatal errors
      please check messag file
 
- E r r o r   t e r m i n a t i o n                             08/09/24 10:20:39
+ E r r o r   t e r m i n a t i o n                             08/09/24 10:44:40
 
  S t o r a g e   a l l o c a t i o n   
 
- Memory required to complete solution   :     582K
- Additional dynamically allocated memory:      11M
-                                   Total:      11M
+ Memory required to complete solution   :    2083K
+ Additional dynamically allocated memory:      39M
+                                   Total:      42M
 
  T i m i n g   i n f o r m a t i o n
                         CPU(seconds)   %CPU  Clock(seconds) %Clock
   ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     1.3300E-01    8.53
-    KW Reading ......... 0.0000E+00    0.00     9.6000E-02    6.15
-    KW Writing ......... 0.0000E+00    0.00     1.1000E-02    0.71
-  Initialization ....... 1.0000E+00  100.00     1.4270E+00   91.47
-    Init Proc Phase 1 .. 0.0000E+00    0.00     1.7900E-01   11.47
-    Init Proc Phase 2 .. 0.0000E+00    0.00     7.1000E-02    4.55
+  Keyword Processing ... 0.0000E+00    0.00     4.5600E-01    8.19
+    KW Reading ......... 0.0000E+00    0.00     3.5300E-01    6.34
+    KW Writing ......... 0.0000E+00    0.00     1.3000E-02    0.23
+  Initialization ....... 5.0000E+00  100.00     5.1140E+00   91.81
+    Init Proc Phase 1 .. 4.0000E+00   80.00     3.8460E+00   69.05
+    Init Proc Phase 2 .. 0.0000E+00    0.00     1.2800E-01    2.30
   ----------------------------------------------------------------
-  T o t a l s            1.0000E+00  100.00     1.5600E+00  100.00
+  T o t a l s            5.0000E+00  100.00     5.5700E+00  100.00
 
  Problem time       =    0.0000E+00
  Problem cycle      =         0
- Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
+ Total CPU time     =         5 seconds (   0 hours  0 minutes  5 seconds)
  CPU time per zone cycle  =          0.000 picoseconds
  Clock time per zone cycle=          0.000 picoseconds
 
  Number of CPU's    2
  NLQ used/max     136/  136
- Start time   08/09/2024 10:20:38  
- End time     08/09/2024 10:20:39  
- Elapsed time       1 second  for       0 cycles using  2 SMP threads
-             (      0 hour   0 minute   1 second )
+ Start time   08/09/2024 10:44:36  
+ End time     08/09/2024 10:44:40  
+ Elapsed time       4 seconds for       0 cycles using  2 SMP threads
+             (      0 hour   0 minute   4 seconds)
 
- E r r o r   t e r m i n a t i o n                             08/09/24 10:20:39
+ E r r o r   t e r m i n a t i o n                             08/09/24 10:44:40

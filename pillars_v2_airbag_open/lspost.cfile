@@ -21,3 +21,6 @@ save keywordbylongfmt 0
 save keywordbyi10fmt 0
 save outversion 11
 save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v81.k"
+elemedit multisplit init
+genselect clear
+genselect target shell

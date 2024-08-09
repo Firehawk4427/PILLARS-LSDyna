@@ -245,3 +245,9 @@
 ![[Pasted image 20240808161710.png|400]]
 ## V80
 - CONSTRAINE_ADAPTIVITY keyword became self aware and keeps adding itself to my shit. i deleted it again
+## V81
+- added 1 layer of refinement
+## V82
+- added 1 layer of refinement
+- warpage error disappeared, segment error remains, new error: cannot find element of slave segment 35 of interface 1
+

@@ -251,3 +251,8 @@
 - added 1 layer of refinement
 - warpage error disappeared, segment error remains, new error: cannot find element of slave segment 35 of interface 1
 - beam prism not showing (needs to be fixed)
+## V83 
+- added material for anchor, constrained in x and y and all rotation
+- probably need to split head and nut to separate parts and have head collide with fabric and nut with base
+## V84 
+- deleted set segment

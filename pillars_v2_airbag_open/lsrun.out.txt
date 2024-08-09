@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/09/2024      Time: 10:44:35  
+      Date: 08/09/2024      Time: 12:12:32  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -83,7 +83,7 @@
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v82.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v84.k 
                        ncpu=2 
                        memory=45m
 
@@ -142,218 +142,72 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/09/24 10:44:36
+ Beginning of keyword reader                                   08/09/24 12:12:33
+ 
+ *** Error 10144 (KEY+144)
+     CHECKING CONTACT INPUT DATA [*CONTACT]Control-intf. # 1
+     segment set for contact interface # 1 is not found.
+     This is #1 in the input order)
+ 
+ *** Error 10144 (KEY+144)
+     CHECKING CONTACT INPUT DATA [*CONTACT]Control-intf. # 2
+     segment set for contact interface # 2 is not found.
+     This is #1 in the input order)
+ 
+ *** Error 10144 (KEY+144)
+     CHECKING CONTACT INPUT DATA [*CONTACT]Surface-intf. # 1
+     slave segment set for contact interface # 1 is not found.
+     This is #1 in the input order)
+ 
+ *** Error 10144 (KEY+144)
+     CHECKING CONTACT INPUT DATA [*CONTACT]Surface-intf. # 2
+     slave segment set for contact interface # 2 is not found.
+     This is #1 in the input order)
+ 
+ *** Error 10144 (KEY+144)
+     CHECKING AIRBAG INPUT [*AIRBAG]
+     airbag segment set for airbag # 1 is not found.
+     This is #1 in the input order)
+ 
+ *** Error 10144 (KEY+144)
+     CHECKING AIRBAG INPUT [*AIRBAG]
+     airbag segment set for airbag # 1 is not found.
+     This is #1 in the input order)
+ 
+ *** Error 10346 (KEY+346)
+     Zero segments in set defining airbag # 1
+ 
+ *** Error 10133 (KEY+133)
+     input data failed with: 14 errors
 
- Memory required to process keyword     :    1006675  
- Additional dynamic memory required     :    7062868  
+ E r r o r   t e r m i n a t i o n                             08/09/24 12:12:33
 
- 
- *** Warning 30107 (INI+107)
-     Number of improperly numbered segments 2020
-     for control volume 1
-
- input of data is completed
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 1 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 2 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 3 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 4 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 5 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 6 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 7 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 8 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 9 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 10 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 11 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 12 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 13 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 14 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 15 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 16 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 17 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 18 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 19 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 20 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 21 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 22 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 23 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 24 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 25 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 26 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 27 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 28 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 29 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 30 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 31 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 32 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 33 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 34 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 35 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 36 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 37 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 38 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 39 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 40 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 41 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 42 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 43 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 44 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 45 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 46 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 47 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 48 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 49 of interface 1
- 
- *** Error 30059 (INI+59)
-     cannot find element of slave segment 50 of interface 1
-     Message 30059 (INI+59) exceeds 50 times
-     Further printing will be suppressed from screen only
-
- initial kinetic energy = 0.00000000E+00
-
- The LS-DYNA time step size should not exceed     6.103E-04
- to avoid contact instabilities.  If the step size is
- bigger then scale the penalty of the offending surface.
- 
- *** Error 30006 (INI+6)
-     initialization completed with 16800 or more fatal errors
-     please check messag file
-
- Memory required to begin solution      :    2083K
- Additional dynamically allocated memory:      39M
-                                   Total:      42M
- 
- *** Error 30006 (INI+6)
-     initialization completed with 16801 or more fatal errors
-     please check messag file
-
- E r r o r   t e r m i n a t i o n                             08/09/24 10:44:40
-
- Memory required to complete solution   :    2083K
- Additional dynamically allocated memory:      39M
-                                   Total:      42M
+ Memory required to complete solution   :     975K
+ Additional dynamically allocated memory:    7047K
+                                   Total:    8021K
 
  T i m i n g   i n f o r m a t i o n
                         CPU(seconds)   %CPU  Clock(seconds) %Clock
   ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     4.5600E-01    8.19
-    KW Reading ......... 0.0000E+00    0.00     3.5300E-01    6.34
-    KW Writing ......... 0.0000E+00    0.00     1.3000E-02    0.23
-  Initialization ....... 5.0000E+00  100.00     5.1140E+00   91.81
-    Init Proc Phase 1 .. 4.0000E+00   80.00     3.8460E+00   69.05
-    Init Proc Phase 2 .. 0.0000E+00    0.00     1.2800E-01    2.30
+  Keyword Processing ... 0.0000E+00    0.00     4.4500E-01   28.51
+    KW Reading ......... 0.0000E+00    0.00     3.4900E-01   22.36
+    KW Writing ......... 0.0000E+00    0.00     7.0000E-03    0.45
+  Initialization ....... 1.0000E+00  100.00     1.1160E+00   71.49
   ----------------------------------------------------------------
-  T o t a l s            5.0000E+00  100.00     5.5700E+00  100.00
+  T o t a l s            1.0000E+00  100.00     1.5610E+00  100.00
 
  Problem time       =    0.0000E+00
  Problem cycle      =         0
- Total CPU time     =         5 seconds (   0 hours  0 minutes  5 seconds)
+ Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
  CPU time per zone cycle  =          0.000 picoseconds
  Clock time per zone cycle=          0.000 picoseconds
 
  Number of CPU's    2
  NLQ used/max     136/  136
- Start time   08/09/2024 10:44:36  
- End time     08/09/2024 10:44:40  
- Elapsed time       4 seconds for       0 cycles using  2 SMP threads
-             (      0 hour   0 minute   4 seconds)
+ Start time   08/09/2024 12:12:33  
+ End time     08/09/2024 12:12:33  
+ Elapsed time       0 second  for       0 cycles using  2 SMP threads
+             (      0 hour   0 minute   0 second )
 
- E r r o r   t e r m i n a t i o n                             08/09/24 10:44:40
+ E r r o r   t e r m i n a t i o n                             08/09/24 12:12:33
 

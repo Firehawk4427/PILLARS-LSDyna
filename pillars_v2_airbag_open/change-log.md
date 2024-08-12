@@ -298,3 +298,5 @@
  
  *** Warning 20542 (STR+542)
      number of master segments is zero.
+## V98
+- thickness lowered to .25

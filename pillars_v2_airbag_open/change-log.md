@@ -278,3 +278,7 @@
 - timestep changed to 1E-8
 ## V91
 - swapped airbag on anchor one-way to two-way contact
+## V92
+- reverted to v80 and repeated all steps except refinement in hopes of speeding up simulations
+## V93
+- dele

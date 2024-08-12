@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/09/2024      Time: 15:47:13  
+      Date: 08/12/2024      Time: 10:52:12  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -79,11 +79,11 @@
 [license/error] Request name dyna does not exist in the licensing pool.
 [license/error] No valid FLEXlm servers specified.
 [license/error] Licensing mode "ANSYS LSDYNA" failed on feature "dyna". Undoing partial checkout.
- Student license active; 23 days remaning.
+ Student license active; 20 days remaning.
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v90.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v91.k 
                        ncpu=2 
                        memory=45m
 
@@ -142,9 +142,19 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/09/24 15:47:14
+ Beginning of keyword reader                                   08/12/24 10:52:13
+ 
+ *** Warning 10848 (KEY+848)
+     *CONTACT_... ID 1 - airbag to anchor
+     is duplicated. This is CONTACT 3 in the order of input
+     It has been assigned a new CONTACT ID 5
+ 
+ *** Warning 10848 (KEY+848)
+     *CONTACT_... ID 1 - airbag to anchor
+     is duplicated. This is CONTACT 4 in the order of input
+     It has been assigned a new CONTACT ID 6
 
- Memory required to process keyword     :     974114  
+ Memory required to process keyword     :     974214  
  Additional dynamic memory required     :    7046165  
 
  
@@ -153,8 +163,10 @@
      for control volume 1
 
  input of data is completed
- slave  stiffness of sliding interface 2 is scaled by   1.44533E-02
- master stiffness of sliding interface 2 is scaled by   6.91882E+01
+ slave  stiffness of sliding interface 3 is scaled by   1.46153E-02
+ master stiffness of sliding interface 3 is scaled by   6.84214E+01
+ slave  stiffness of sliding interface 4 is scaled by   1.46153E-02
+ master stiffness of sliding interface 4 is scaled by   6.84214E+01
 
  initial kinetic energy = 0.00000000E+00
 
@@ -162,9 +174,9 @@
  to avoid contact instabilities.  If the step size is
  bigger then scale the penalty of the offending surface.
 
- Memory required to begin solution      :    1311K
- Additional dynamically allocated memory:      33M
-                                   Total:      34M
+ Memory required to begin solution      :    2268K
+ Additional dynamically allocated memory:      41M
+                                   Total:      44M
 
  initialization completed
      Message 40565 (SOL+565) exceeds 50 times
@@ -176,13 +188,6 @@
    number of penetrating node eliminated       = 0
    min penetration distance                    =  8.3333E-02
    max penetration distance                    =  5.0000E-01
- 
- summary of initial penetration for interface #= 2
-   number of warning messages                  = 600
-   number of penetrating nodes                 = 600
-   number of penetrating node eliminated       = 0
-   min penetration distance                    =  7.4899E-01
-   max penetration distance                    =  7.4902E-01
      Message 40571 (SOL+571) exceeds 50 times
      Further printing will be suppressed from screen only
  
@@ -192,37 +197,79 @@
    number of penetrating node eliminated       = 0
    min penetration distance                    =  2.5000E-01
    max penetration distance                    =  8.5000E-01
-       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            08/09/24 15:47:16
-       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            08/09/24 15:47:16
  
- summary of initial penetration for interface #= 2
+ summary of initial penetration for interface #= 5
+   number of warning messages                  = 888
+   number of penetrating nodes                 = 888
+   number of penetrating node eliminated       = 0
+   min penetration distance                    =  5.5397E-03
+   max penetration distance                    =  2.4950E-01
+ 
+ summary of initial penetration for interface #= 5
+   number of warning messages                  = 246
+   number of penetrating nodes                 = 246
+   number of penetrating node eliminated       = 0
+   min penetration distance                    =  2.4546E-01
+   max penetration distance                    =  2.4950E-01
+ 
+ summary of initial penetration for interface #= 6
+   number of warning messages                  = 1304
+   number of penetrating nodes                 = 1304
+   number of penetrating node eliminated       = 0
+   min penetration distance                    =  2.6495E-02
+   max penetration distance                    =  9.9950E-01
+ 
+ summary of initial penetration for interface #= 6
+   number of warning messages                  = 322
+   number of penetrating nodes                 = 322
+   number of penetrating node eliminated       = 0
+   min penetration distance                    =  1.2650E-01
+   max penetration distance                    =  9.9950E-01
+       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            08/12/24 10:52:15
+       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            08/12/24 10:52:15
+ 
+ summary of initial penetration for interface #= 5
    number of warning messages                  = 0
    number of penetrating nodes                 = 0
-   number of penetrating node eliminated       = 562
-   min penetration distance                    =  2.4900E-01
-   max penetration distance                    =  6.2563E-01
+   number of penetrating node eliminated       = 4
+   min penetration distance                    =  1.1729E-01
+   max penetration distance                    =  1.3589E-01
+ 
+ summary of initial penetration for interface #= 6
+   number of warning messages                  = 0
+   number of penetrating nodes                 = 0
+   number of penetrating node eliminated       = 60
+   min penetration distance                    =  1.1042E-02
+   max penetration distance                    =  7.3921E-01
+ 
+ summary of initial penetration for interface #= 6
+   number of warning messages                  = 0
+   number of penetrating nodes                 = 0
+   number of penetrating node eliminated       = 1
+   min penetration distance                    =  6.9695E-01
+   max penetration distance                    =  6.9695E-01
  cpu time per zone cycle............         0 nanoseconds
- average cpu time per zone cycle....      1609 nanoseconds
- average clock time per zone cycle..      1072 nanoseconds
+ average cpu time per zone cycle....       804 nanoseconds
+ average clock time per zone cycle..      1156 nanoseconds
 
- estimated total cpu time          =  63726165 sec (   17701 hrs 42 mins)
- estimated cpu time to complete    =  63726162 sec (   17701 hrs 42 mins)
- estimated total clock time        =  42473490 sec (   11798 hrs 11 mins)
- estimated clock time to complete  =  42473487 sec (   11798 hrs 11 mins)
+ estimated total cpu time          =  31863084 sec (    8850 hrs 51 mins)
+ estimated cpu time to complete    =  31863081 sec (    8850 hrs 51 mins)
+ estimated total clock time        =  45787250 sec (   12718 hrs 40 mins)
+ estimated clock time to complete  =  45787247 sec (   12718 hrs 40 mins)
  termination time                  = 1.000E+01
+    5000 t 1.6274E-04 dt 3.26E-08 flush i/o buffers            08/12/24 10:53:40
 forrtl: severe (157): Program Exception - access violation
 Image              PC                Routine            Line        Source             
-ls-dyna_smp_d_R13  00007FF73A832A78  BKSRT4A                 15131  fem3d_a.F
-ls-dyna_smp_d_R13  00007FF74051AD18  ASLAV0R                 28396  dynpc.F
-ls-dyna_smp_d_R13  00007FF73D3DFE00  CONTACT                  2688  dyn33.F
-ls-dyna_smp_d_R13  00007FF73A889A81  FEM3D_CONTACT           37480  fem3d_a.F
-ls-dyna_smp_d_R13  00007FF73A7D2900  FEM3D                   11649  fem3d.F
-ls-dyna_smp_d_R13  00007FF73A7C607A  SOLTN                     431  fem3d.F
-ls-dyna_smp_d_R13  00007FF73A8F2118  OVERLY                    276  dyn0.F
-ls-dyna_smp_d_R13  00007FF739680B6A  LSDYNA1                   823  dynm.F
-ls-dyna_smp_d_R13  00007FF7396804D9  MAIN__                   1912  dynm.F
-ls-dyna_smp_d_R13  00007FF746CC9092  Unknown               Unknown  Unknown
-ls-dyna_smp_d_R13  00007FF7475A9D48  Unknown               Unknown  Unknown
+ls-dyna_smp_d_R13  00007FF64ED52A78  BKSRT4A                 15131  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF654A3AD18  ASLAV0R                 28396  dynpc.F
+ls-dyna_smp_d_R13  00007FF6518FFE00  CONTACT                  2688  dyn33.F
+ls-dyna_smp_d_R13  00007FF64EDA9A81  FEM3D_CONTACT           37480  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF64ECF2900  FEM3D                   11649  fem3d.F
+ls-dyna_smp_d_R13  00007FF64ECE607A  SOLTN                     431  fem3d.F
+ls-dyna_smp_d_R13  00007FF64EE12118  OVERLY                    276  dyn0.F
+ls-dyna_smp_d_R13  00007FF64DBA0B6A  LSDYNA1                   823  dynm.F
+ls-dyna_smp_d_R13  00007FF64DBA04D9  MAIN__                   1912  dynm.F
+ls-dyna_smp_d_R13  00007FF65B1E9092  Unknown               Unknown  Unknown
+ls-dyna_smp_d_R13  00007FF65BAC9D48  Unknown               Unknown  Unknown
 KERNEL32.DLL       00007FFADC0E7344  Unknown               Unknown  Unknown
 ntdll.dll          00007FFADCE826B1  Unknown               Unknown  Unknown
-forrtl: severe (157): Program Exception - access violation

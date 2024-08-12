@@ -82,3 +82,254 @@
  Student license active; 20 days remaning.
 
  Executing with ANSYS license
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v104.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+
+ on UNIX computers note the following change:
+
+ ctrl-c interrupts ls-dyna and prompts for a sense  switch.
+ type the desired sense switch: sw1., sw2., etc. to continue
+ the execution.  ls-dyna will respond as explained in the users manual
+
+    type                      response
+   -----   ------------------------------------------------------------
+   quit    ls-dyna terminates.
+   stop    ls-dyna terminates.
+   sw1.    a restart file is written and ls-dyna terminates.
+   sw2.    ls-dyna responds with time and cycle numbers.    
+   sw3.    a restart file is written and ls-dyna continues calculations.
+   sw4.    a plot state is written and ls-dyna continues calculations.
+   swa.    ls-dyna flushes all output i/o buffers.
+   swb.    a dynain is written and ls-dyna continues calculations.
+   swc.    a restart and dynain are written and ls-dyna continues calculations.
+   swd.    a restart and dynain are written and ls-dyna terminates.
+   swe.    stop dynamic relaxation just as though convergence
+   endtime=time change the termination time
+   lpri    toggle implicit lin. alg. solver output on/off.
+   nlpr    toggle implicit nonlinear solver output on/off.
+   iter    toggle implicit output to d3iter database on/off.
+   prof    output timing data to messag and continue.
+   conv    force implicit nonlinear convergence for current time step.
+   ttrm    terminate implicit time step, reduce time step, retry time step.
+   rtrm    terminate implicit at end of current time step.
+
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   08/12/24 16:10:22
+
+ Memory required to process keyword     :     330955  
+ Additional dynamic memory required     :    2364273  
+
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 31 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 48 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 53 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 74 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 79 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 104 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 108 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 137 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 140 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 171 is computed as 3.3783E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 174 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 207 is computed as 3.4540E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 210 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 245 is computed as 3.4424E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 248 is computed as 3.3691E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 285 is computed as 3.3633E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 288 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 327 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 372 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 413 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 460 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 503 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 552 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 597 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 744 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 791 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1194 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1241 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1388 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1433 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1482 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1525 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1572 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1613 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1658 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1697 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1700 is computed as 3.3716E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1737 is computed as 3.3692E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1740 is computed as 3.4426E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1775 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1778 is computed as 3.4431E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1811 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1814 is computed as 3.3624E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1845 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1848 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1877 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1881 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1906 is computed as 3.6378E+01 degrees.
+     Message 20282 (STR+282) exceeds 50 times
+     Further printing will be suppressed from screen only
+ 
+ *** Warning 20289 (STR+289)
+     Number of elements exceed warpage angle = 112
+       min warpage angle = 3.1860E+01
+       max warpage angle = 3.9438E+01
+ 
+ *** Warning 30107 (INI+107)
+     Number of improperly numbered segments 1982
+     for control volume 1
+
+ input of data is completed
+
+ initial kinetic energy = 0.00000000E+00
+
+ The LS-DYNA time step size should not exceed     3.795E-05
+ to avoid contact instabilities.  If the step size is
+ bigger then scale the penalty of the offending surface.
+
+ Memory required to begin solution      :     331K
+ Additional dynamically allocated memory:    3494K
+                                   Total:    3825K
+
+ initialization completed
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            08/12/24 16:10:22
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            08/12/24 16:10:22
+ cpu time per zone cycle............         0 nanoseconds
+ average cpu time per zone cycle....         0 nanoseconds
+ average clock time per zone cycle..       140 nanoseconds
+
+ estimated total cpu time          =         1 sec (       0 hrs  0 mins)
+ estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
+ estimated total clock time        =     70099 sec (      19 hrs 28 mins)
+ estimated clock time to complete  =     70098 sec (      19 hrs 28 mins)
+ termination time                  = 2.000E+01

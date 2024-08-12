@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/09/2024      Time: 15:46:19  
+      Date: 08/12/2024      Time: 15:37:03  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -79,7 +79,7 @@
 [license/error] Request name dyna does not exist in the licensing pool.
 [license/error] No valid FLEXlm servers specified.
 [license/error] Licensing mode "ANSYS LSDYNA" failed on feature "dyna". Undoing partial checkout.
- Student license active; 23 days remaning.
+ Student license active; 20 days remaning.
 
  Executing with ANSYS license
 
@@ -142,7 +142,7 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/09/24 15:46:21
+ Beginning of keyword reader                                   08/12/24 15:37:04
 
  Memory required to process keyword     :     624080  
  Additional dynamic memory required     :    4882911  
@@ -161,38 +161,26 @@
                                    Total:      17M
 
  initialization completed
-       1 t 0.0000E+00 dt 1.07E-03 flush i/o buffers            08/09/24 15:46:21
-       1 t 0.0000E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:21
+       1 t 0.0000E+00 dt 1.07E-03 flush i/o buffers            08/12/24 15:37:05
+       1 t 0.0000E+00 dt 1.07E-03 write d3plot file            08/12/24 15:37:05
  cpu time per zone cycle............         0 nanoseconds
  average cpu time per zone cycle....         0 nanoseconds
- average clock time per zone cycle..       155 nanoseconds
+ average clock time per zone cycle..       158 nanoseconds
 
  estimated total cpu time          =         1 sec (       0 hrs  0 mins)
  estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =       375 sec (       0 hrs  6 mins)
- estimated clock time to complete  =       374 sec (       0 hrs  6 mins)
+ estimated total clock time        =       381 sec (       0 hrs  6 mins)
+ estimated clock time to complete  =       380 sec (       0 hrs  6 mins)
  termination time                  = 4.000E+01
-     468 t 4.9922E-01 dt 1.07E-03 write d3plot file            08/09/24 15:46:24
-     936 t 9.9950E-01 dt 1.07E-03 write d3plot file            08/09/24 15:46:27
-    1404 t 1.4998E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:30
-    1871 t 1.9990E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:33
-    2339 t 2.4993E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:36
-    2807 t 2.9996E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:39
-    3275 t 3.4999E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:42
-    3742 t 3.9991E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:45
-    4210 t 4.4994E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:48
-    4678 t 4.9996E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:51
-    5000 t 5.3439E+00 dt 1.07E-03 flush i/o buffers            08/09/24 15:46:53
-    5146 t 5.4999E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:54
-    5613 t 5.9991E+00 dt 1.07E-03 write d3plot file            08/09/24 15:46:57
-    6081 t 6.4994E+00 dt 1.07E-03 write d3plot file            08/09/24 15:47:00
+     468 t 4.9922E-01 dt 1.07E-03 write d3plot file            08/12/24 15:37:08
+     936 t 9.9950E-01 dt 1.07E-03 write d3plot file            08/12/24 15:37:11
 
  *** kill file detected - terminating ****
-    6302 t 6.7357E+00 dt 1.07E-03 write d3plot file            08/09/24 15:47:02
-    6302 t 6.7367E+00 dt 1.07E-03 write d3dump01 file          08/09/24 15:47:02
-    6302 t 6.7367E+00 dt 1.07E-03 write d3plot file            08/09/24 15:47:02
+    1302 t 1.3908E+00 dt 1.07E-03 write d3plot file            08/12/24 15:37:13
+    1302 t 1.3918E+00 dt 1.07E-03 write d3dump01 file          08/12/24 15:37:13
+    1302 t 1.3918E+00 dt 1.07E-03 write d3plot file            08/12/24 15:37:13
 
- N o r m a l    t e r m i n a t i o n                          08/09/24 15:47:02
+ N o r m a l    t e r m i n a t i o n                          08/12/24 15:37:13
 
  Memory required to complete solution   :     625K
  Additional dynamically allocated memory:      16M
@@ -201,49 +189,48 @@
  T i m i n g   i n f o r m a t i o n
                         CPU(seconds)   %CPU  Clock(seconds) %Clock
   ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     2.6100E-01    0.62
-    KW Reading ......... 0.0000E+00    0.00     2.0300E-01    0.48
-    KW Writing ......... 0.0000E+00    0.00     5.0000E-03    0.01
-  Initialization ....... 1.0000E+00    2.38     1.3360E+00    3.16
-    Init Proc Phase 1 .. 0.0000E+00    0.00     1.8800E-01    0.44
-    Init Proc Phase 2 .. 0.0000E+00    0.00     2.5000E-02    0.06
-  Element processing ... 3.2000E+01   76.19     3.2925E+01   77.88
-    Shells ............. 3.2000E+01   76.19     3.2203E+01   76.18
-    ISO Shells ......... 0.0000E+00    0.00     2.0000E-03    0.00
-    E Other ............ 0.0000E+00    0.00     6.8600E-01    1.62
-  Binary databases ..... 0.0000E+00    0.00     3.4100E-01    0.81
-  ASCII database ....... 0.0000E+00    0.00     1.4000E-02    0.03
-  Contact algorithm .... 0.0000E+00    0.00     3.0000E-03    0.01
-  Rigid Bodies ......... 0.0000E+00    0.00     6.8000E-02    0.16
-  Time step size ....... 0.0000E+00    0.00     1.2000E-02    0.03
-  Group force file ..... 0.0000E+00    0.00     3.0000E-03    0.01
-  Others ............... 0.0000E+00    0.00     1.2000E-02    0.03
-  Misc. 1 .............. 0.0000E+00    0.00     4.9600E-01    1.17
-    Scale Masses ....... 0.0000E+00    0.00     1.0000E-03    0.00
-    Force Constraints .. 0.0000E+00    0.00     2.0000E-03    0.00
-    Force to Accel ..... 0.0000E+00    0.00     3.7500E-01    0.89
-    Update RB nodes .... 0.0000E+00    0.00     5.4000E-02    0.13
-  Misc. 2 .............. 3.0000E+00    7.14     1.3750E+00    3.25
-  Misc. 3 .............. 0.0000E+00    0.00     7.0000E-02    0.17
-  Misc. 4 .............. 6.0000E+00   14.29     5.3590E+00   12.68
-    Timestep Init ...... 2.0000E+00    4.76     7.0400E-01    1.67
-    Apply Loads ........ 4.0000E+00    9.52     3.7520E+00    8.88
-    Compute exwork ..... 0.0000E+00    0.00     9.0000E-01    2.13
+  Keyword Processing ... 0.0000E+00    0.00     2.5600E-01    2.52
+    KW Reading ......... 0.0000E+00    0.00     2.0000E-01    1.97
+    KW Writing ......... 0.0000E+00    0.00     5.0000E-03    0.05
+  Initialization ....... 1.0000E+00   10.00     1.3420E+00   13.21
+    Init Proc Phase 1 .. 0.0000E+00    0.00     1.8400E-01    1.81
+    Init Proc Phase 2 .. 0.0000E+00    0.00     2.5000E-02    0.25
+  Init solver .......... 0.0000E+00    0.00     1.0000E-03    0.01
+  Element processing ... 9.0000E+00   90.00     6.8900E+00   67.81
+    Shells ............. 9.0000E+00   90.00     6.7530E+00   66.47
+    E Other ............ 0.0000E+00    0.00     1.3000E-01    1.28
+  Binary databases ..... 0.0000E+00    0.00     1.0200E-01    1.00
+  ASCII database ....... 0.0000E+00    0.00     4.0000E-03    0.04
+  Contact algorithm .... 0.0000E+00    0.00     4.0000E-03    0.04
+  Rigid Bodies ......... 0.0000E+00    0.00     1.4000E-02    0.14
+  Time step size ....... 0.0000E+00    0.00     2.0000E-03    0.02
+  Others ............... 0.0000E+00    0.00     5.0000E-03    0.05
+  Misc. 1 .............. 0.0000E+00    0.00     9.9000E-02    0.97
+    Scale Masses ....... 0.0000E+00    0.00     1.0000E-03    0.01
+    Force Constraints .. 0.0000E+00    0.00     1.0000E-03    0.01
+    Force to Accel ..... 0.0000E+00    0.00     7.5000E-02    0.74
+    Update RB nodes .... 0.0000E+00    0.00     7.0000E-03    0.07
+  Misc. 2 .............. 0.0000E+00    0.00     2.7500E-01    2.71
+  Misc. 3 .............. 0.0000E+00    0.00     5.1000E-02    0.50
+  Misc. 4 .............. 0.0000E+00    0.00     1.1150E+00   10.97
+    Timestep Init ...... 0.0000E+00    0.00     1.6800E-01    1.65
+    Apply Loads ........ 0.0000E+00    0.00     7.7200E-01    7.60
+    Compute exwork ..... 0.0000E+00    0.00     1.7300E-01    1.70
   ----------------------------------------------------------------
-  T o t a l s            4.2000E+01  100.00     4.2275E+01  100.00
+  T o t a l s            1.0000E+01  100.00     1.0160E+01  100.00
 
- Problem time       =    6.7367E+00
- Problem cycle      =      6302
- Total CPU time     =        42 seconds (   0 hours  0 minutes 42 seconds)
- CPU time per zone cycle  =        101.098 nanoseconds
- Clock time per zone cycle=        100.304 nanoseconds
+ Problem time       =    1.3918E+00
+ Problem cycle      =      1302
+ Total CPU time     =        10 seconds (   0 hours  0 minutes 10 seconds)
+ CPU time per zone cycle  =        107.416 nanoseconds
+ Clock time per zone cycle=        102.189 nanoseconds
 
  Number of CPU's    2
  NLQ used/max     136/  136
- Start time   08/09/2024 15:46:21  
- End time     08/09/2024 15:47:02  
- Elapsed time      41 seconds for    6302 cycles using  2 SMP threads
-             (      0 hour   0 minute  41 seconds)
+ Start time   08/12/2024 15:37:04  
+ End time     08/12/2024 15:37:13  
+ Elapsed time       9 seconds for    1302 cycles using  2 SMP threads
+             (      0 hour   0 minute   9 seconds)
 
- N o r m a l    t e r m i n a t i o n                          08/09/24 15:47:02
+ N o r m a l    t e r m i n a t i o n                          08/12/24 15:37:13
 

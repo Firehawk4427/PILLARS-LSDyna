@@ -281,4 +281,20 @@
 ## V92
 - reverted to v80 and repeated all steps except refinement in hopes of speeding up simulations
 ## V93
-- dele
+- deleted self collision and set_segment
+- ETA 3min
+## V94
+- swapped one-way for two-way collision
+- lowered leakage area
+## V95
+- timestep changed to 1e-8
+## V96
+- shell thickness upped to 1m
+## V97
+- deleted anchor for testing purposes
+ *** Error 20216 (STR+216)
+	part # 7 is out-of-range 
+	input phase will continue if possible
+ 
+ *** Warning 20542 (STR+542)
+     number of master segments is zero.

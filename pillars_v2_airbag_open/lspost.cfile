@@ -1,61 +1,15 @@
 $# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
-$# Created on Aug-12-2024 (10:47:14)
-open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v90.k"
-Message 1
-Message 0
-KEYWORD INPUT 4
-*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
-$#     cid                                                                 title
-         1airbag to anchor
-$#   surfa     surfb  surfatyp  surfbtyp   saboxid   sbboxid      sapr      sbpr
-         1         2         2         2         0         0         0         0
-$#      fs        fd        dc        vc       vdc    penchk        bt        dt
-       0.0       0.0       0.0       0.0       0.0         0       0.01.00000E20
-$#    sfsa      sfsb      sast      sbst     sfsat     sfsbt       fsf       vsf
-       1.0       1.0       0.0       0.0       1.0       1.0       1.0       1.0
-*SET_PART_LIST_TITLE
-airbag
-$#     sid       da1       da2       da3       da4    solver
-         1       0.0       0.0       0.0       0.0MECH
-$#    pid1      pid2      pid3      pid4      pid5      pid6      pid7      pid8
-         1         2         6         0         0         0         0         0
-*SET_PART_LIST_TITLE
-anchor
-$#     sid       da1       da2       da3       da4    solver
-         2       0.0       0.0       0.0       0.0MECH
-$#    pid1      pid2      pid3      pid4      pid5      pid6      pid7      pid8
-         7         0         0         0         0         0         0         0
-*END
-keyword updatekind
-CONTACT_AUTOMATIC_SURFACE_TO_SURFACE
-Keyword Delete 960 2
-KEYWORD INPUT 4
-*CONTACT_AUTOMATIC_SURFACE_TO_SURFACE_ID
-$#     cid                                                                 title
-         1airbag to anchor
-$#   surfa     surfb  surfatyp  surfbtyp   saboxid   sbboxid      sapr      sbpr
-         1         2         2         2         0         0         0         0
-$#      fs        fd        dc        vc       vdc    penchk        bt        dt
-       0.0       0.0       0.0       0.0       0.0         0       0.01.00000E20
-$#    sfsa      sfsb      sast      sbst     sfsat     sfsbt       fsf       vsf
-       1.0       1.0       1.0       1.0       1.0       1.0       1.0       1.0
-*SET_PART_LIST_TITLE
-airbag
-$#     sid       da1       da2       da3       da4    solver
-         1       0.0       0.0       0.0       0.0MECH
-$#    pid1      pid2      pid3      pid4      pid5      pid6      pid7      pid8
-         1         2         6         0         0         0         0         0
-*SET_PART_LIST_TITLE
-anchor
-$#     sid       da1       da2       da3       da4    solver
-         2       0.0       0.0       0.0       0.0MECH
-$#    pid1      pid2      pid3      pid4      pid5      pid6      pid7      pid8
-         7         0         0         0         0         0         0         0
-*END
-keyword updatekind
-CONTACT_AUTOMATIC_SURFACE_TO_SURFACE
-save keywordabsolute 0
-save keywordbylongfmt 0
-save keywordbyi10fmt 0
-save outversion 11
-save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v91.k"
+$# Created on Aug-12-2024 (13:31:39)
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\d3plot"
+ac
+anim forward
+anim forward
+anim stop; state 1;
+anim stop; state 1;
+anim forward
+anim forward
+anim forward
+anim cycle
+state +1;
+state 1;
+state 1;

@@ -48,7 +48,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/12/2024      Time: 10:52:12  
+      Date: 08/12/2024      Time: 15:37:18  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -83,14 +83,14 @@
 
  Executing with ANSYS license
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v91.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v97.k 
                        ncpu=2 
-                       memory=45m
+                       memory=20m
 
  Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag
 
  The native file format       : 64-bit small endian
- Memory size from command line:    45000000
+ Memory size from command line:    20000000
 
  on UNIX computers note the following change:
 
@@ -142,134 +142,214 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/12/24 10:52:13
- 
- *** Warning 10848 (KEY+848)
-     *CONTACT_... ID 1 - airbag to anchor
-     is duplicated. This is CONTACT 3 in the order of input
-     It has been assigned a new CONTACT ID 5
- 
- *** Warning 10848 (KEY+848)
-     *CONTACT_... ID 1 - airbag to anchor
-     is duplicated. This is CONTACT 4 in the order of input
-     It has been assigned a new CONTACT ID 6
+ Beginning of keyword reader                                   08/12/24 15:37:19
 
- Memory required to process keyword     :     974214  
- Additional dynamic memory required     :    7046165  
+ Memory required to process keyword     :     331268  
+ Additional dynamic memory required     :    2364273  
 
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 31 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 48 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 53 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 74 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 79 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 104 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 108 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 137 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 140 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 171 is computed as 3.3783E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 174 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 207 is computed as 3.4540E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 210 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 245 is computed as 3.4424E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 248 is computed as 3.3691E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 285 is computed as 3.3633E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 288 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 327 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 372 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 413 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 460 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 503 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 552 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 597 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 744 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 791 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1194 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1241 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1388 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1433 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1482 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1525 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1572 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1613 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1658 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1697 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1700 is computed as 3.3716E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1737 is computed as 3.3692E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1740 is computed as 3.4426E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1775 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1778 is computed as 3.4431E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1811 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1814 is computed as 3.3624E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1845 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1848 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1877 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1881 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1906 is computed as 3.6378E+01 degrees.
+     Message 20282 (STR+282) exceeds 50 times
+     Further printing will be suppressed from screen only
+ 
+ *** Warning 20289 (STR+289)
+     Number of elements exceed warpage angle = 112
+       min warpage angle = 3.1860E+01
+       max warpage angle = 3.9438E+01
+ 
+ *** Error 20216 (STR+216)
+     part # 7 is out-of-range
+ 
+     input phase will continue if possible
+ 
+ *** Warning 20542 (STR+542)
+     number of master segments is zero.
  
  *** Warning 30107 (INI+107)
-     Number of improperly numbered segments 33360
+     Number of improperly numbered segments 1982
      for control volume 1
+ 
+ *** Error 20018 (STR+18)
+     input phase completed with 1 fatal errors
+     please check messag file
 
- input of data is completed
- slave  stiffness of sliding interface 3 is scaled by   1.46153E-02
- master stiffness of sliding interface 3 is scaled by   6.84214E+01
- slave  stiffness of sliding interface 4 is scaled by   1.46153E-02
- master stiffness of sliding interface 4 is scaled by   6.84214E+01
+ E r r o r   t e r m i n a t i o n                             08/12/24 15:37:19
 
- initial kinetic energy = 0.00000000E+00
+ Memory required to complete solution   :     332K
+ Additional dynamically allocated memory:    3532K
+                                   Total:    3863K
 
- The LS-DYNA time step size should not exceed     6.034E-05
- to avoid contact instabilities.  If the step size is
- bigger then scale the penalty of the offending surface.
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     2.6000E-02    2.20
+    KW Reading ......... 0.0000E+00    0.00     1.2000E-02    1.02
+    KW Writing ......... 0.0000E+00    0.00     3.0000E-03    0.25
+  Initialization ....... 1.0000E+00  100.00     1.1550E+00   97.80
+    Init Proc Phase 1 .. 0.0000E+00    0.00     2.5000E-02    2.12
+  ----------------------------------------------------------------
+  T o t a l s            1.0000E+00  100.00     1.1810E+00  100.00
 
- Memory required to begin solution      :    2268K
- Additional dynamically allocated memory:      41M
-                                   Total:      44M
+ Problem time       =    0.0000E+00
+ Problem cycle      =         0
+ Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
+ CPU time per zone cycle  =          0.000 picoseconds
+ Clock time per zone cycle=          0.000 picoseconds
 
- initialization completed
-     Message 40565 (SOL+565) exceeds 50 times
-     Further printing will be suppressed from screen only
- 
- summary of initial penetration for interface #= 1
-   number of warning messages                  = 26844
-   number of penetrating nodes                 = 26844
-   number of penetrating node eliminated       = 0
-   min penetration distance                    =  8.3333E-02
-   max penetration distance                    =  5.0000E-01
-     Message 40571 (SOL+571) exceeds 50 times
-     Further printing will be suppressed from screen only
- 
- summary of initial penetration for interface #= 4
-   number of warning messages                  = 476
-   number of penetrating nodes                 = 476
-   number of penetrating node eliminated       = 0
-   min penetration distance                    =  2.5000E-01
-   max penetration distance                    =  8.5000E-01
- 
- summary of initial penetration for interface #= 5
-   number of warning messages                  = 888
-   number of penetrating nodes                 = 888
-   number of penetrating node eliminated       = 0
-   min penetration distance                    =  5.5397E-03
-   max penetration distance                    =  2.4950E-01
- 
- summary of initial penetration for interface #= 5
-   number of warning messages                  = 246
-   number of penetrating nodes                 = 246
-   number of penetrating node eliminated       = 0
-   min penetration distance                    =  2.4546E-01
-   max penetration distance                    =  2.4950E-01
- 
- summary of initial penetration for interface #= 6
-   number of warning messages                  = 1304
-   number of penetrating nodes                 = 1304
-   number of penetrating node eliminated       = 0
-   min penetration distance                    =  2.6495E-02
-   max penetration distance                    =  9.9950E-01
- 
- summary of initial penetration for interface #= 6
-   number of warning messages                  = 322
-   number of penetrating nodes                 = 322
-   number of penetrating node eliminated       = 0
-   min penetration distance                    =  1.2650E-01
-   max penetration distance                    =  9.9950E-01
-       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            08/12/24 10:52:15
-       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            08/12/24 10:52:15
- 
- summary of initial penetration for interface #= 5
-   number of warning messages                  = 0
-   number of penetrating nodes                 = 0
-   number of penetrating node eliminated       = 4
-   min penetration distance                    =  1.1729E-01
-   max penetration distance                    =  1.3589E-01
- 
- summary of initial penetration for interface #= 6
-   number of warning messages                  = 0
-   number of penetrating nodes                 = 0
-   number of penetrating node eliminated       = 60
-   min penetration distance                    =  1.1042E-02
-   max penetration distance                    =  7.3921E-01
- 
- summary of initial penetration for interface #= 6
-   number of warning messages                  = 0
-   number of penetrating nodes                 = 0
-   number of penetrating node eliminated       = 1
-   min penetration distance                    =  6.9695E-01
-   max penetration distance                    =  6.9695E-01
- cpu time per zone cycle............         0 nanoseconds
- average cpu time per zone cycle....       804 nanoseconds
- average clock time per zone cycle..      1156 nanoseconds
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   08/12/2024 15:37:19  
+ End time     08/12/2024 15:37:19  
+ Elapsed time       0 second  for       0 cycles using  2 SMP threads
+             (      0 hour   0 minute   0 second )
 
- estimated total cpu time          =  31863084 sec (    8850 hrs 51 mins)
- estimated cpu time to complete    =  31863081 sec (    8850 hrs 51 mins)
- estimated total clock time        =  45787250 sec (   12718 hrs 40 mins)
- estimated clock time to complete  =  45787247 sec (   12718 hrs 40 mins)
- termination time                  = 1.000E+01
-    5000 t 1.6274E-04 dt 3.26E-08 flush i/o buffers            08/12/24 10:53:40
-forrtl: severe (157): Program Exception - access violation
-Image              PC                Routine            Line        Source             
-ls-dyna_smp_d_R13  00007FF64ED52A78  BKSRT4A                 15131  fem3d_a.F
-ls-dyna_smp_d_R13  00007FF654A3AD18  ASLAV0R                 28396  dynpc.F
-ls-dyna_smp_d_R13  00007FF6518FFE00  CONTACT                  2688  dyn33.F
-ls-dyna_smp_d_R13  00007FF64EDA9A81  FEM3D_CONTACT           37480  fem3d_a.F
-ls-dyna_smp_d_R13  00007FF64ECF2900  FEM3D                   11649  fem3d.F
-ls-dyna_smp_d_R13  00007FF64ECE607A  SOLTN                     431  fem3d.F
-ls-dyna_smp_d_R13  00007FF64EE12118  OVERLY                    276  dyn0.F
-ls-dyna_smp_d_R13  00007FF64DBA0B6A  LSDYNA1                   823  dynm.F
-ls-dyna_smp_d_R13  00007FF64DBA04D9  MAIN__                   1912  dynm.F
-ls-dyna_smp_d_R13  00007FF65B1E9092  Unknown               Unknown  Unknown
-ls-dyna_smp_d_R13  00007FF65BAC9D48  Unknown               Unknown  Unknown
-KERNEL32.DLL       00007FFADC0E7344  Unknown               Unknown  Unknown
-ntdll.dll          00007FFADCE826B1  Unknown               Unknown  Unknown
+ E r r o r   t e r m i n a t i o n                             08/12/24 15:37:19
+

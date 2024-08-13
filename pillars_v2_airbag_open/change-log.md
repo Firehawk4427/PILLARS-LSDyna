@@ -308,4 +308,5 @@
 - new ETA without anchor is ~ 1hr 45min
 - runs fine, but total time might need to be longer in final sim
 ## V105
--*gonna try making more refined anchors and test without collisions or the anchors being able to move
+*gonna try making more refined anchors and test without collisions or the anchors being able to move*
+- anchor mesh created

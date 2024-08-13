@@ -326,3 +326,9 @@
 - step cleaned errors
 - set n2 bolt thickness and set inner diameters to 0
 - ETA 1hr 30min (collisions for anchors not enabled)
+## V113
+- anchor collision enabled
+	- decided to make anchors static and have the bag be slave
+## V114 
+- tryed deleting segments not on elements
+	- didnt seem to work

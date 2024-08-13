@@ -306,3 +306,4 @@
 - reduced end time to 20 and fitted mfr curve to match
 - settled on timestep of 1e-7 (too high or low increases runtime)
 - new ETA without anchor is ~ 1hr 45min
+- runs fine, but total time might need to be longer in final sim

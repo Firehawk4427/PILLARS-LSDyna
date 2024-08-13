@@ -332,3 +332,4 @@
 ## V114 
 - tried deleting segments not on elements
 	- didn't seem to work
+- in the modify menu for entities, theres an option to delete these, but the nodes appear to be real elements when i do this, so ill hold off for now

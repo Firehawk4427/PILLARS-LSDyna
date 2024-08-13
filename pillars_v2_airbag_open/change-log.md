@@ -312,3 +312,9 @@
 - anchor mesh created
 - ls-dyna has a bug where if i try to translate with copy elem it gets rid of current file and opens my temp_airbag file. idk why
 *Open – Open file (new model created for each file opened)  Import – Import file (adds keyword data to current model)*
+## V107
+- head and nut shell 1.1 m apart
+## V108
+- nodal rigid bodies created
+## V109
+- two_nodal_sets created

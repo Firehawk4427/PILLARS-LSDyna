@@ -330,5 +330,5 @@
 - anchor collision enabled
 	- decided to make anchors static and have the bag be slave
 ## V114 
-- tryed deleting segments not on elements
-	- didnt seem to work
+- tried deleting segments not on elements
+	- didn't seem to work

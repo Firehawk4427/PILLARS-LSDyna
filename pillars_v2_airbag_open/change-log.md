@@ -325,3 +325,4 @@
 ## V112
 - step cleaned errors
 - set n2 bolt thickness and set inner diameters to 0
+- ETA 1hr 30min (collisions for anchors not enabled)

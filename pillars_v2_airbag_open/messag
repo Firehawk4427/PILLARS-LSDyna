@@ -1,4 +1,3 @@
- License option : check ansys licenses only
 
 
  ***************************************************************
@@ -48,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/13/2024      Time: 14:38:34  
+      Date: 08/13/2024      Time: 14:38:35  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -65,6 +64,7 @@
      |    ANSYSLIC enabled                               |
      |                                                   |
      |  Licensed to:                                     |
+     |  Issued by  : ANSYS                               |
      |                                                   |
      |  Platform   : WINDOWS X64 SSE2                    |
      |  OS Level   : Windows 8/10 & Srv 2016/2019/2022   |
@@ -75,13 +75,6 @@
      |  Unauthorized use infringes Ansys Inc. copyrights |
      |___________________________________________________|
 
-[license/error] *** ANSYS LICENSE MANAGER ERROR ***
-[license/error] Request name dyna does not exist in the licensing pool.
-[license/error] No valid FLEXlm servers specified.
-[license/error] Licensing mode "ANSYS LSDYNA" failed on feature "dyna". Undoing partial checkout.
- Student license active; 19 days remaning.
-
- Executing with ANSYS license
 
  Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v112.k 
                        ncpu=2 
@@ -91,35 +84,7 @@
 
  The native file format       : 64-bit small endian
  Memory size from command line:    20000000
-
- on UNIX computers note the following change:
-
- ctrl-c interrupts ls-dyna and prompts for a sense  switch.
- type the desired sense switch: sw1., sw2., etc. to continue
- the execution.  ls-dyna will respond as explained in the users manual
-
-    type                      response
-   -----   ------------------------------------------------------------
-   quit    ls-dyna terminates.
-   stop    ls-dyna terminates.
-   sw1.    a restart file is written and ls-dyna terminates.
-   sw2.    ls-dyna responds with time and cycle numbers.    
-   sw3.    a restart file is written and ls-dyna continues calculations.
-   sw4.    a plot state is written and ls-dyna continues calculations.
-   swa.    ls-dyna flushes all output i/o buffers.
-   swb.    a dynain is written and ls-dyna continues calculations.
-   swc.    a restart and dynain are written and ls-dyna continues calculations.
-   swd.    a restart and dynain are written and ls-dyna terminates.
-   swe.    stop dynamic relaxation just as though convergence
-   endtime=time change the termination time
-   lpri    toggle implicit lin. alg. solver output on/off.
-   nlpr    toggle implicit nonlinear solver output on/off.
-   iter    toggle implicit output to d3iter database on/off.
-   prof    output timing data to messag and continue.
-   conv    force implicit nonlinear convergence for current time step.
-   ttrm    terminate implicit time step, reduce time step, retry time step.
-   rtrm    terminate implicit at end of current time step.
-
+ allocating  memory to    20000000 d     1975081 Initial allocation
 
  ********  notice  ********  notice  ********  notice  ********
  *                                                            *
@@ -143,10 +108,38 @@
  ********  notice  ********  notice  ********  notice  ********
 
  Beginning of keyword reader                                   08/13/24 14:38:35
+ expanding   memory to       65000 d     2025908  
+ expanding   memory to       97530 d     2025908  
+ expanding   memory to      122346 d     2174804  
+ expanding   memory to      153918 d     2174804  
+ expanding   memory to      176238 d     2242068  
+ expanding   memory to      241238 d     2242068  
+ expanding   memory to      265340 d     2242068  
+ expanding   memory to      285520 d     2242068  
+ expanding   memory to      308902 d     2340788  
+ expanding   memory to      333842 d     2363012  
 
  Memory required to process keyword     :     333842  
  Additional dynamic memory required     :    2377979  
 
+ contracting memory to           1 d     1914942 end of keyword reader
+
+ LS-DYNA will perform a structural only analysis 
+
+ LS-DYNA keyword deck by LS-PrePost                                      
+                    ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
+ Allocating memory:                    812  words
+ Allocating memory:                     49  words
+ expanding   memory to        2001 d     1552124 material, node and element data
+ expanding   memory to        2071 d     1552234 material properties
+ expanding   memory to        2083 d     1605193 element data for composite material
+ expanding   memory to        2097 d     1931530 gradient of damage data
+ expanding   memory to        2119 d     2109536 user control for contact interfaces
+ contracting memory to        2099 d     2109543 thermal expansion 0
+ expanding   memory to        2101 d     2109550 cross-sectional force definitions 0
+ expanding   memory to        9541 d     2109599 temp index array for node sorting
+ contracting memory to        2101 d     2117043 just because?
+ expanding   memory to        9509 d     2131981 arbitrary element numbering input
  
  *** Warning 20282 (STR+282)
      warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
@@ -300,39 +293,270 @@
      Message 20282 (STR+282) exceeds 50 times
      Further printing will be suppressed from screen only
  
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1911 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1932 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1937 is computed as 3.6164E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1954 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1961 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1970 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1999 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2008 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2015 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2032 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2037 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2058 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2063 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2088 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2092 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2121 is computed as 3.1905E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2124 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2155 is computed as 3.3783E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2158 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2191 is computed as 3.4540E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2194 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2229 is computed as 3.4424E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2232 is computed as 3.3691E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2269 is computed as 3.3633E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2272 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2311 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2356 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2397 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2444 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2487 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2536 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2581 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2728 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2775 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3178 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3225 is computed as 3.9423E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3372 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3417 is computed as 3.6135E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3466 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3509 is computed as 3.8232E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3556 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3597 is computed as 3.6353E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3642 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3681 is computed as 3.1860E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3684 is computed as 3.3716E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3721 is computed as 3.3692E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3724 is computed as 3.4426E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3759 is computed as 3.4415E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3762 is computed as 3.4431E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3795 is computed as 3.4443E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3798 is computed as 3.3624E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3829 is computed as 3.3644E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3832 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3861 is computed as 3.1906E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3865 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3890 is computed as 3.6378E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3895 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3916 is computed as 3.8339E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3921 is computed as 3.6164E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3938 is computed as 3.6165E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3945 is computed as 3.9438E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3954 is computed as 3.9438E+01 degrees.
+ 
  *** Warning 20289 (STR+289)
      Number of elements exceed warpage angle = 112
        min warpage angle = 3.1860E+01
        max warpage angle = 3.9438E+01
+ contracting memory to        4109 d     2610083 load curve data
+ contracting memory to        2534 d     2610083 user_define_loading_set
+ expanding   memory to        2740 d     2610083 regularize time history data
+ contracting memory to        2538 d     2610083 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       18418 d     2625330 implicit contact 1
+ expanding   memory to       18420 d     2625330 implicit contact 2
+ contracting memory to        3538 d     2667607 contact segment data 1
+ expanding   memory to       48082 d     2765158 contact segment data 3
+ contracting memory to        2538 d     3074750 contact definition
+ expanding   memory to        2569 d     3140782 contact friction
+ expanding   memory to       65290 d     3140887 joints
+ expanding   memory to       65297 d     3225939 control volume input
+
+Checking Control Volume Orientations
+
+ Control Volume ID            1
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 1 2039 2040 2
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 1 13 2039 2039
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 2 2040 2041 3
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 3 2041 2042 4
+ 
+ *** Warning 30106 (INI+106)
+     additional segments are being renumbered but not printed
+   convergence of normal check obtained in   5 iterations
+   region 1 has 4200 segments.
+   number of independent regions where normal vectors
+   are checked and if necessary reset =    1
+   number of renumbered segments = 1982
  
  *** Warning 30107 (INI+107)
      Number of improperly numbered segments 1982
      for control volume 1
+ expanding   memory to       65304 d     3296820 control volume input 4
+ expanding   memory to       65397 d     3300948 rigid bodies for disp. termination
+ expanding   memory to       65456 d     3300948 save d3plot control data
+ expanding   memory to       65458 d     3330766 sensor_control for curve
 
- input of data is completed
+     slave surface of interface   = 1
+     type                         =       a10
+     surface timestep             = 3.795E-05
+     controlling slave node ID    = 21879
+     part ID of slave node        = 1
+     current minimum time step    = 3.795E-05
 
- initial kinetic energy = 0.00000000E+00
+     master surface of interface  = 1
+     type                         =       a10
+     surface timestep             = 3.862E-04
+     controlling master node ID   = 24735
+     part ID of master node       = 8
+     current minimum time step    = 3.795E-05
 
  The LS-DYNA time step size should not exceed     3.795E-05
  to avoid contact instabilities.  If the step size is
  bigger then scale the penalty of the offending surface.
 
+ S t o r a g e   a l l o c a t i o n   
+
  Memory required to begin solution      :     334K
  Additional dynamically allocated memory:    3534K
                                    Total:    3868K
-
- initialization completed
        1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            08/13/24 14:38:35
        1 t 0.0000E+00 dt 1.10E-07 write d3plot file            08/13/24 14:38:35
- cpu time per zone cycle............         0 nanoseconds
- average cpu time per zone cycle....         0 nanoseconds
- average clock time per zone cycle..       147 nanoseconds
-
- estimated total cpu time          =         1 sec (       0 hrs  0 mins)
- estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
- estimated total clock time        =     76472 sec (      21 hrs 14 mins)
- estimated clock time to complete  =     76471 sec (      21 hrs 14 mins)
- termination time                  = 2.000E+01
     5000 t 1.2024E-02 dt 2.42E-06 flush i/o buffers            08/13/24 14:38:38
    10000 t 2.4106E-02 dt 2.42E-06 flush i/o buffers            08/13/24 14:38:40
    15000 t 3.6188E-02 dt 2.42E-06 flush i/o buffers            08/13/24 14:38:43

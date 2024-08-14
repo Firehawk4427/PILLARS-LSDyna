@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "test_null/changelog.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "test_null/changelog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "test_null/changelog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md"
+                "file": "test_null/changelog.md"
               }
             }
           },
@@ -206,6 +206,8 @@
   },
   "active": "a0876cfd3d6078b6",
   "lastOpenFiles": [
+    "test_airbag/airbag_closed_test/airbag.gif",
+    "pillars_v2_airbag_open/change-log.md",
     "test_null/changelog.md",
     "test_null/lspost.db",
     "test_null/lspost.msg",
@@ -214,7 +216,6 @@
     "attachments/Pasted image 20240814154527.png",
     "README.md",
     "test_null",
-    "pillars_v2_airbag_open/change-log.md",
     "pillars_v2_airbag_open/keyfiles/100/20/lspp_temp_1",
     "pillars_v2_airbag_open/keyfiles/100/20/status.out",
     "pillars_v2_airbag_open/keyfiles/100/20/d3plot01",

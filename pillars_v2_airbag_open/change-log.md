@@ -336,3 +336,9 @@
 - ran fine, only errors were warpage and segment, however, collisions for anchor didnt work
 ## V115
 - head/nut thickness upped to .25m
+## V116
+- started refining mesh for other hole
+## V117 
+- hole made in fabric
+- hole made in base
+*might need to add collision for beam in anchor rather than just head / nut*

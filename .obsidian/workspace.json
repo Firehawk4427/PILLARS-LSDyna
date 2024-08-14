@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md"
+                "file": "README.md"
               }
             }
           },
@@ -206,6 +206,8 @@
   },
   "active": "a0876cfd3d6078b6",
   "lastOpenFiles": [
+    "pillars_v2_airbag_open/change-log.md",
+    "pillars_v2_airbag_open/keyfiles/100/20/lspp_temp_1",
     "pillars_v2_airbag_open/keyfiles/100/20/status.out",
     "pillars_v2_airbag_open/keyfiles/100/20/d3plot01",
     "pillars_v2_airbag_open/keyfiles/100/20/d3plot",
@@ -215,10 +217,7 @@
     "pillars_v2_airbag_open/keyfiles/100/20/adptmp",
     "pillars_v2_airbag_open/keyfiles/100/20/group_file",
     "pillars_v2_airbag_open/keyfiles/100/20/dyna.lsda",
-    "pillars_v2_airbag_open/keyfiles/100/20/messag",
-    "pillars_v2_airbag_open/keyfiles/100/20/d3hsp",
     "pillars_v2_airbag_open/notes.md",
-    "pillars_v2_airbag_open/change-log.md",
     "notes_and_resources/units_and_initial_params.md",
     "attachments/Pasted image 20240808161710.png",
     "pillars_windtunnel/pillars_v31_thru_v40/change-log.md",

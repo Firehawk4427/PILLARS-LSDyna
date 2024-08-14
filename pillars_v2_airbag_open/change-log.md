@@ -346,3 +346,7 @@
 - all holes made for anchors, now i need to duplicate the anchor
 ## V127
 - anchors made
+- ETA 24hr
+## V128
+- lowered timestep to 1e-8
+- ETA 13hr

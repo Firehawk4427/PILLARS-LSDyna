@@ -333,3 +333,4 @@
 - tried deleting segments not on elements
 	- didn't seem to work
 - in the modify menu for entities, theres an option to delete these, but the nodes appear to be real elements when i do this, so ill hold off for now
+- ran fine, only errors were warpage and segment, however, collisions for anchor didnt work

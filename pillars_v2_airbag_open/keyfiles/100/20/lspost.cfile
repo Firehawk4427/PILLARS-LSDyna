@@ -1,17 +1,2 @@
 $# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
-$# Created on Aug-14-2024 (15:02:39)
-open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\100\20\open_airbag_v127.k"
-Message 1
-Message 0
-KEYWORD INPUT 203
-*CONTROL_TIMESTEP
-$#  dtinit    tssfac      isdo    tslimt     dt2ms      lctm     erode     ms1st
-1.00000E-8       0.0         0       0.0       0.0         0         0         0
-*END
-keyword updatekind
-CONTROL_TIMESTEP
-save keywordabsolute 0
-save keywordbylongfmt 0
-save keywordbyi10fmt 0
-save outversion 11
-save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\100\20\open_airbag_v128.k"
+$# Created on Aug-14-2024 (15:47:13)

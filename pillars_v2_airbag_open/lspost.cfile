@@ -3,4 +3,75 @@ $# Created on Aug-14-2024 (11:19:08)
 open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v114.k"
 Message 1
 Message 0
--M S6
+-M S6beselectentity None
+elemcheck shell init
+elemcheck shell init
+elemcheck clear
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabelanim forward
+anim stop; state 28;
+k checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+inipene contactoff
+selectentity getalllabel
+genselect clear
+elemcheck shell init
+elemcheck shell init
+elemcheck clear
+modelcheck checkgeneral
+selectentity None
+displayentity Contact General off all
+selectentity getalllabel
+selectentity getalllabel
+inipene contactoff
+genselect clear
+beamprism 1
+KEYWORD INPUT 2
+*SECTION_SHELL_TITLE
+anchor
+$#   secid    elform      shrf       nip     propt   qr/irid     icomp     setyp
+         2         5       1.0         1       1.0         0         0         1
+$#      t1        t2        t3        t4      nloc     marea      idof    edgset
+      0.25      0.25      0.25      0.25       0.0       0.0       0.0         0
+*END
+keyword updatekind
+SECTION_SHELL
+selectentity None
+displayentity Contact General off all
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save outversion 11
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v115.k"
+inipene contactoff
+genselect clear
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+undogeom enter
+circle param  0.0 18 0.0 0.0 0.0 1.0 0.150000
+circle param  0.0 -18 0.0 0.0 0.0 1.0 0.150000
+circle param  -18 -0 0.0 0.0 0.0 1.0 0.150000
+circle param  -18 -0 0.0 0.0 0.0 1.0 0.075000
+circle param  0 18 0.0 0.0 0.0 1.0 0.075000
+circle param  0 -18 0.0 0.0 0.0 1.0 0.075000
+genselect geomobject add geomobject  5v
+undogeom leave
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+elemedit multisplit init
+genselect clear
+genselect target shell
+genselect shell add shell 267/0 
+genselect shell add shell 266/0 
+genselect shell add shell 307/0 
+genselect shell add shell 308/0 
+elemedit multisplit apply 1

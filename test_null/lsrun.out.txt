@@ -1,0 +1,379 @@
+ License option : check ansys licenses only
+
+
+ ***************************************************************
+ *            ANSYS 2023 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2023 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+      Date: 08/15/2024      Time: 11:22:50  
+      ___________________________________________________ 
+     |                                                   |
+     |  LS-DYNA, A Program for Nonlinear Dynamic         |
+     |  Analysis of Structures in Three Dimensions       |
+     |  Date    : 07/28/2023    Time: 16:45:29           |
+     |  Version : smp d R13                              |
+     |  Revision: R13.1.1-27-g8731a0d8c5                 |
+     |                                                   |
+     |  Features enabled in this version:                |
+     |    Shared Memory Parallel                         |
+     |    CESE CHEMISTRY EM ICFD STOCHASTIC_PARTICLES    |
+     |    FFTW (multi-dimensional FFTW Library)          |
+     |    ARPACK (nonsymmetric eigensolver library)      |
+     |    ANSYSLIC enabled                               |
+     |                                                   |
+     |  Licensed to:                                     |
+     |                                                   |
+     |  Platform   : WINDOWS X64 SSE2                    |
+     |  OS Level   : Windows 8/10 & Srv 2016/2019/2022   |
+     |  Compiler   : Intel Fortran XE 2019 MSVC++ 2019   |
+     |  Hostname   : DESKTOP-F2LHD1U                     |
+     |  Precision  : Double precision (I8R8)             |
+     |                                                   |
+     |  Unauthorized use infringes Ansys Inc. copyrights |
+     |___________________________________________________|
+
+[license/error] *** ANSYS LICENSE MANAGER ERROR ***
+[license/error] Request name dyna does not exist in the licensing pool.
+[license/error] No valid FLEXlm servers specified.
+[license/error] Licensing mode "ANSYS LSDYNA" failed on feature "dyna". Undoing partial checkout.
+ Student license active; 17 days remaning.
+
+ Executing with ANSYS license
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\nulltest_v6.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\nulltest_v6.k           
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+
+ on UNIX computers note the following change:
+
+ ctrl-c interrupts ls-dyna and prompts for a sense  switch.
+ type the desired sense switch: sw1., sw2., etc. to continue
+ the execution.  ls-dyna will respond as explained in the users manual
+
+    type                      response
+   -----   ------------------------------------------------------------
+   quit    ls-dyna terminates.
+   stop    ls-dyna terminates.
+   sw1.    a restart file is written and ls-dyna terminates.
+   sw2.    ls-dyna responds with time and cycle numbers.    
+   sw3.    a restart file is written and ls-dyna continues calculations.
+   sw4.    a plot state is written and ls-dyna continues calculations.
+   swa.    ls-dyna flushes all output i/o buffers.
+   swb.    a dynain is written and ls-dyna continues calculations.
+   swc.    a restart and dynain are written and ls-dyna continues calculations.
+   swd.    a restart and dynain are written and ls-dyna terminates.
+   swe.    stop dynamic relaxation just as though convergence
+   endtime=time change the termination time
+   lpri    toggle implicit lin. alg. solver output on/off.
+   nlpr    toggle implicit nonlinear solver output on/off.
+   iter    toggle implicit output to d3iter database on/off.
+   prof    output timing data to messag and continue.
+   conv    force implicit nonlinear convergence for current time step.
+   ttrm    terminate implicit time step, reduce time step, retry time step.
+   rtrm    terminate implicit at end of current time step.
+
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   08/15/24 11:22:51
+
+ Memory required to process keyword     :     581887  
+ Additional dynamic memory required     :    3427088  
+
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1194 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1241 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1525 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1932 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1970 is computed as 2.0674E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2008 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3178 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3225 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3509 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3916 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3954 is computed as 2.0674E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7365 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7366 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7391 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7475 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7537 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 8618 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 8698 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 9099 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 9100 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 9168 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 9169 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 9753 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 9822 is computed as 2.0990E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 10223 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11384 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11529 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11530 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11555 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11637 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11638 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11663 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11747 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11809 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12890 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12970 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13371 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13372 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13440 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13441 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14025 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14094 is computed as 2.0990E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14495 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 15656 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 15801 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 15802 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 15827 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20289 (STR+289)
+     Number of elements exceed warpage angle = 48
+       min warpage angle = 2.0076E+01
+       max warpage angle = 2.1052E+01
+ 
+ *** Warning 30107 (INI+107)
+     Number of improperly numbered segments 7886
+     for control volume 1
+
+ input of data is completed
+
+ initial kinetic energy = 0.00000000E+00
+
+ The LS-DYNA time step size should not exceed     8.135E-05
+ to avoid contact instabilities.  If the step size is
+ bigger then scale the penalty of the offending surface.
+
+ Memory required to begin solution      :     621K
+ Additional dynamically allocated memory:      11M
+                                   Total:      12M
+
+ initialization completed
+       1 t 0.0000E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:22:52
+       1 t 0.0000E+00 dt 1.52E-05 write d3plot file            08/15/24 11:22:52
+ cpu time per zone cycle............         0 nanoseconds
+ average cpu time per zone cycle....         0 nanoseconds
+ average clock time per zone cycle..       211 nanoseconds
+
+ estimated total cpu time          =         1 sec (       0 hrs  0 mins)
+ estimated cpu time to complete    =         0 sec (       0 hrs  0 mins)
+ estimated total clock time        =     13885 sec (       3 hrs 51 mins)
+ estimated clock time to complete  =     13884 sec (       3 hrs 51 mins)
+ termination time                  = 4.000E+01
+    5000 t 7.5933E-02 dt 1.52E-05 flush i/o buffers            08/15/24 11:23:06
+   10000 t 1.5188E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:23:20
+   15000 t 2.2783E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:23:34
+   20000 t 3.0378E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:23:49
+   25000 t 3.7973E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:24:03
+   30000 t 4.5568E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:24:17
+   32918 t 5.0000E-01 dt 1.52E-05 write d3plot file            08/15/24 11:24:26
+   35000 t 5.3162E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:24:31
+   40000 t 6.0757E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:24:52
+   45000 t 6.8352E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:25:17
+   50000 t 7.5947E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:25:41
+   55000 t 8.3542E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:26:06
+   60000 t 9.1137E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:26:31
+   65000 t 9.8731E-01 dt 1.52E-05 flush i/o buffers            08/15/24 11:26:46
+   65835 t 1.0000E+00 dt 1.52E-05 write d3plot file            08/15/24 11:26:49
+   70000 t 1.0633E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:26:59
+   75000 t 1.1392E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:27:13
+   80000 t 1.2152E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:27:26
+   85000 t 1.2911E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:27:39
+   90000 t 1.3671E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:27:52
+   95000 t 1.4430E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:28:04
+   98752 t 1.5000E+00 dt 1.52E-05 write d3plot file            08/15/24 11:28:14
+  100000 t 1.5190E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:28:17
+  105000 t 1.5949E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:28:29
+  110000 t 1.6708E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:28:42
+  115000 t 1.7468E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:28:54
+  120000 t 1.8227E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:29:07
+  125000 t 1.8987E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:29:19
+  130000 t 1.9746E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:29:32
+  131669 t 2.0000E+00 dt 1.52E-05 write d3plot file            08/15/24 11:29:36
+  135000 t 2.0506E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:29:45
+  140000 t 2.1265E+00 dt 1.52E-05 flush i/o buffers            08/15/24 11:29:58
+     beam  element 13449  failed at time  2.1567E+00
+     beam  element 13451  failed at time  2.1567E+00
+     beam  element 13450  failed at time  2.1568E+00
+     beam  element 13453  failed at time  2.1568E+00
+forrtl: severe (157): Program Exception - access violation
+Image              PC                Routine            Line        Source             
+ls-dyna_smp_d_R13  00007FF6569E7D60  CHKTPP                  25731  dyn33.F
+ls-dyna_smp_d_R13  00007FF6569E7ADE  CHKEDGCNT5              25684  dyn33.F
+ls-dyna_smp_d_R13  00007FF65695048B  CONTACT                   225  dyn33.F
+ls-dyna_smp_d_R13  00007FF653E19A81  FEM3D_CONTACT           37480  fem3d_a.F
+ls-dyna_smp_d_R13  00007FF653D62900  FEM3D                   11649  fem3d.F
+ls-dyna_smp_d_R13  00007FF653D5607A  SOLTN                     431  fem3d.F
+ls-dyna_smp_d_R13  00007FF653E82118  OVERLY                    276  dyn0.F
+ls-dyna_smp_d_R13  00007FF652C10B6A  LSDYNA1                   823  dynm.F
+ls-dyna_smp_d_R13  00007FF652C104D9  MAIN__                   1912  dynm.F
+ls-dyna_smp_d_R13  00007FF660259092  Unknown               Unknown  Unknown
+ls-dyna_smp_d_R13  00007FF660B39D48  Unknown               Unknown  Unknown
+KERNEL32.DLL       00007FF8F7927344  Unknown               Unknown  Unknown
+ntdll.dll          00007FF8F7B826B1  Unknown               Unknown  Unknown
+forrtl: severe (157): Program Exception - access violation

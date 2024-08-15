@@ -1,0 +1,5 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
+$# Created on Aug-14-2024 (14:29:08)
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\d3plots\v114\d3plot"
+ac
+anim forward

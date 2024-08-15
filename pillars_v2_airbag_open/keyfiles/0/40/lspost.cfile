@@ -1,0 +1,258 @@
+$# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
+$# Created on Aug-15-2024 (10:50:20)
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\0\40\open_airbag_v41.k"
+Message 1
+Message 0
+KEYWORD INPUT 4
+*SECTION_SHELL_TITLE
+null
+$#   secid    elform      shrf       nip     propt   qr/irid     icomp     setyp
+         4         9       1.0         1       1.0         0         0         1
+$#      t1        t2        t3        t4      nloc     marea      idof    edgset
+       0.4       0.4       0.4       0.4       0.0       0.0       0.0         0
+*END
+keyword updatekind
+SECTION_SHELL
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save outversion 11
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\nulltest_v1.k"
+KEYWORD INPUT 2
+*PART
+$#                                                                         title
+null
+$#     pid     secid       mid     eosid      hgid      grav    adpopt      tmid
+         2         4         3         0         0         0         0         0
+*SECTION_SHELL_TITLE
+null
+$#   secid    elform      shrf       nip     propt   qr/irid     icomp     setyp
+         4         9       1.0         1       1.0         0         0         1
+$#      t1        t2        t3        t4      nloc     marea      idof    edgset
+       0.4       0.4       0.4       0.4       0.0       0.0       0.0         0
+*MAT_NULL_TITLE
+null (material)
+$#     mid        ro        pc        mu     terod     cerod        ym        pr
+         37.86000E-71.00000E-5       0.0       0.0       0.0       0.3       0.2
+*END
+keyword updatekind
+PART_PART
+KEYWORD INPUT 3
+*MAT_NULL_TITLE
+null (material)
+$#     mid        ro        pc        mu     terod     cerod        ym        pr
+         37.86000E-7       0.0       0.0       0.0       0.0       0.3       0.2
+*END
+keyword updatekind
+MAT_NULL
+selectentity None
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\0\50\open_airbag_v55.k"
+Message 1
+Message 0
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\0\50\open_airbag_v56.k"
+Message 1
+Message 0
+KEYWORD INPUT 1
+*AIRBAG_WANG_NEFSKE_ID
+$#      id                                                                 title
+         1                                                                      
+$#     sid    sidtyp      rbid      vsca      psca      vini       mwd      spsf
+         1         0         0       1.0       1.0       0.0       0.0       0.0
+$#      cv        cp         t       lct      lcmt      tvol      lcdt      iabt
+     896.0    1204.0    3600.0         0         1       0.0         0     260.0
+$#     c23     lcc23       a23     lca23      cp23    lccp23      ap23    lcap23
+       0.0         0      -1.0         0       0.0         0    2300.0         0
+$#      pe        ro        gc     lcefr     pover      ppop       opt     knkdn
+3.0000E-103.9000E-15       0.0         0       0.0       0.0         1         0
+$#     ioc       ioa      ivol       iro        it      lcbf
+       0.0       0.0       0.0       0.0       0.0         0
+*END
+keyword updatekind
+AIRBAG_WANG_NEFSKE_ID
+KEYWORD INPUT 4
+*SECTION_SHELL_TITLE
+null
+$#   secid    elform      shrf       nip     propt   qr/irid     icomp     setyp
+         4         9       1.0         1       1.0         0         0         1
+$#      t1        t2        t3        t4      nloc     marea      idof    edgset
+       0.4       0.4       0.4       0.4       0.0       0.0       0.0         0
+*END
+keyword updatekind
+SECTION_SHELL
+KEYWORD INPUT 3
+*MAT_NULL_TITLE
+null (material)
+$#     mid        ro        pc        mu     terod     cerod        ym        pr
+         3    1440.0       0.0       0.0       0.0       0.01.00000E11       0.2
+*END
+keyword updatekind
+MAT_NULL
+KEYWORD INPUT 2
+*PART
+$#                                                                         title
+null
+$#     pid     secid       mid     eosid      hgid      grav    adpopt      tmid
+         2         4         3         0         0         0         0         0
+*SECTION_SHELL_TITLE
+null
+$#   secid    elform      shrf       nip     propt   qr/irid     icomp     setyp
+         4         9       1.0         1       1.0         0         0         1
+$#      t1        t2        t3        t4      nloc     marea      idof    edgset
+       0.4       0.4       0.4       0.4       0.0       0.0       0.0         0
+*MAT_NULL_TITLE
+null (material)
+$#     mid        ro        pc        mu     terod     cerod        ym        pr
+         3    1440.0       0.0       0.0       0.0       0.01.00000E11       0.2
+*END
+keyword updatekind
+PART_PART
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\nulltest_v2.k"
+KEYWORD INPUT 3
+*MAT_NULL_TITLE
+null (material)
+$#     mid        ro        pc        mu     terod     cerod        ym        pr
+         3    1440.01.000000E7       0.0       0.0       0.01.00000E11       0.2
+*END
+keyword updatekind
+MAT_NULL
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\nulltest_v3.k"
+KEYWORD INPUT 3
+*MAT_NULL_TITLE
+null (material)
+$#     mid        ro        pc        mu     terod     cerod        ym        pr
+         3    1440.01.00000E-7       0.0       0.0       0.01.00000E11       0.2
+*END
+keyword updatekind
+MAT_NULL
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\nulltest_v4.k"
+selectentity None
+genselect target geomobject
+occfilter clear
+occfilter add Node Vertex RefPoint
+elemedit multisplit init
+genselect clear
+genselect target shell
+genselect shell add part 2/2 
+genselect shell add part 1/2 
+genselect shell remove part 3/2 
+genselect shell add part 3/2 
+genselect shell remove part 3/2 
+genselect shell remove part 3/2 
+genselect shell remove part 3/2 
+genselect shell remove shell 3002/2 
+elemedit multisplit apply 1
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\nulltest_v5.k"
+clearpick
+occfilter clear
+elemcheck shell init
+elemcheck shell init
+elemcheck clear
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck autocleaninfo
+modelcheck applyclean all
+selectentity getalllabel
+selectentity getalllabel
+inipene contactoff
+selectentity getalllabel
+genselect clear
+selectentity None
+setnode
+setsegment
+genselect clear
+setsegment off
+setsegment readlist 1
+setsegment show  1
+genselect clear
+setsegment off
+setsegment readlist 2
+setsegment show  2
+genselect clear
+setsegment off
+setsegment readlist 1
+setsegment show  1
+clearent SegmentSet all
+genselect clear
+setsegment off
+setsegment readlist 1
+genselect target segment
+setsegment modify 1
+setsegment show  1
+genselect element add part 1/2 
+genselect element add part 2/2 
+setsegment modifyset 1 1 0 0 0 0 
+clearent SegmentSet all
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+save keywordabsolute 0
+save keywordbylongfmt 0
+save keywordbyi10fmt 0
+save keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\nulltest_v6.k"
+inipene contactoff
+genselect clear
+open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\nulltest_v4.k"
+Message 1
+Message 0
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck autocleaninfo
+modelcheck applyclean all
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+modelcheck autocleaninfo
+KEYWORD INPUT 3
+*MAT_NULL_TITLE
+null (material)
+$#     mid        ro        pc        mu     terod     cerod        ym        pr
+         3    1440.0       0.0       0.0       0.0       0.01.00000E11       0.2
+*END
+keyword updatekind
+MAT_NULL
+modelcheck checkgeneral
+selectentity None
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+selectentity getalllabel
+modelcheck checkgeneral
+selectentity getalllabel
+selectentity getalllabel
+selectentity getalllabel
+inipene contactoff
+genselect clear

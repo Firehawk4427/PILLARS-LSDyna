@@ -353,3 +353,4 @@
 ## V129
 - gonna try restricting movement of fabric to z only (seems to only work for rigid bodies)
 - swapped oneway for two way collision for anchors (soft=2)
+- ETA 14hr

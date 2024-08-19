@@ -1,26 +1,11 @@
 $# LS-PrePost command file created by LS-PrePost(R) V4.10.5-23Jun2023 -64bit-Window
-$# Created on Aug-14-2024 (15:47:13)
-open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\airbagtutorial.k"
-Message 1
-Message 0
-open keyword "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\0\40\open_airbag_v41.k"
-Message 1
-Message 0
-KEYWORD INPUT 3
-*MAT_NULL_TITLE
-null (material)
-$#     mid        ro        pc        mu     terod     cerod        ym        pr
-         37.86000E-7       0.0       0.0       0.0       0.0       0.3       0.2
-*END
-keyword updatekind
-MAT_NULL
-KEYWORD INPUT 4
-*SECTION_SHELL_TITLE
-null (elform 9)
-$#   secid    elform      shrf       nip     propt   qr/irid     icomp     setyp
-         4         9       1.0         1       1.0         0         0         1
-$#      t1        t2        t3        t4      nloc     marea      idof    edgset
-       0.4       0.4       0.4       0.4       0.0       0.0       0.0         0
-*END
-keyword updatekind
-SECTION_SHELL
+$# Created on Aug-16-2024 (16:09:41)
+open d3plot "C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_null\d3plot"
+ac
+anim forward
+state 49;
+state 28;
+anim stop; state 29;
+state 1;
+anim forward
+anim stop; state 57;

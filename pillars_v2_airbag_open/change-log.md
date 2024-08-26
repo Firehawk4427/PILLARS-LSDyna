@@ -354,3 +354,6 @@
 - gonna try restricting movement of fabric to z only (seems to only work for rigid bodies)
 - swapped oneway for two way collision for anchors (soft=2)
 - ETA 14hr
+## V133
+- added 1 layer of refinement (2 created issues)
+	- need to try selectively refining back from v129 because current ETA is over 10 days

@@ -7,6 +7,7 @@
 	- [ ] more anchors
 - [x] add gravity (1/6 earth)
 - [ ] test off nominal
+	- [ ] to make an off nominal case, move the top part of gas nozzle to blue fabric pid. then delete walls and translate top down. then merge nodes. next pt trim the new area, translate up, and ele gen a new edge drag down to the fabric, then merge nodes again
 	- [ ] get load curve for stress on anchors as a function of off nominal distance
 - [ ] test stress around anchor nodes
 - [ ] make the inner fabric mesh able to stretch so it doesn't constrain geometry of outer mesh

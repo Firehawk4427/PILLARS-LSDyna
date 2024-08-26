@@ -1,0 +1,420 @@
+
+
+ ***************************************************************
+ *            ANSYS 2023 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2023 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+      Date: 08/26/2024      Time: 09:46:15  
+      ___________________________________________________ 
+     |                                                   |
+     |  LS-DYNA, A Program for Nonlinear Dynamic         |
+     |  Analysis of Structures in Three Dimensions       |
+     |  Date    : 07/28/2023    Time: 16:45:29           |
+     |  Version : smp d R13                              |
+     |  Revision: R13.1.1-27-g8731a0d8c5                 |
+     |                                                   |
+     |  Features enabled in this version:                |
+     |    Shared Memory Parallel                         |
+     |    CESE CHEMISTRY EM ICFD STOCHASTIC_PARTICLES    |
+     |    FFTW (multi-dimensional FFTW Library)          |
+     |    ARPACK (nonsymmetric eigensolver library)      |
+     |    ANSYSLIC enabled                               |
+     |                                                   |
+     |  Licensed to:                                     |
+     |  Issued by  : ANSYS                               |
+     |                                                   |
+     |  Platform   : WINDOWS X64 SSE2                    |
+     |  OS Level   : Windows 8/10 & Srv 2016/2019/2022   |
+     |  Compiler   : Intel Fortran XE 2019 MSVC++ 2019   |
+     |  Hostname   : DESKTOP-F2LHD1U                     |
+     |  Precision  : Double precision (I8R8)             |
+     |                                                   |
+     |  Unauthorized use infringes Ansys Inc. copyrights |
+     |___________________________________________________|
+
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\100\30\open_airbag_v135.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\10
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+ allocating  memory to    20000000 d     1975081 Initial allocation
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   08/26/24 09:46:15
+ expanding   memory to       65000 d     2137556  
+ expanding   memory to       97620 d     2137556  
+ expanding   memory to      127192 d     2492420  
+ expanding   memory to      156764 d     2492420  
+ expanding   memory to      188336 d     2492420  
+ expanding   memory to      210656 d     2696996  
+ expanding   memory to      275656 d     2696996  
+ expanding   memory to      299758 d     2696996  
+ expanding   memory to      320328 d     2696996  
+ expanding   memory to      346026 d     3037620  
+ expanding   memory to      370598 d     3037620  
+ expanding   memory to      396646 d     3037620  
+ expanding   memory to      422694 d     3111336  
+ expanding   memory to      445094 d     3111336  
+
+ Memory required to process keyword     :     445094  
+ Additional dynamic memory required     :    3162075  
+
+ contracting memory to           1 d     2611774 end of keyword reader
+
+ LS-DYNA will perform a structural only analysis 
+
+ LS-DYNA keyword deck by LS-PrePost                                      
+                    ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
+ Allocating memory:                    812  words
+ Allocating memory:                     49  words
+ expanding   memory to        2001 d     1552124 material, node and element data
+ expanding   memory to        2071 d     1552243 material properties
+ expanding   memory to        2083 d     1726809 element data for composite material
+ expanding   memory to        2097 d     2871898 gradient of damage data
+ expanding   memory to        2119 d     3461927 user control for contact interfaces
+ contracting memory to        2099 d     3461934 thermal expansion 0
+ expanding   memory to        2101 d     3461941 cross-sectional force definitions 0
+ expanding   memory to       28149 d     3461990 temp index array for node sorting
+ contracting memory to        2101 d     3488042 just because?
+ expanding   memory to       26673 d     3540196 arbitrary element numbering input
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1194 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1241 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1525 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1932 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 1970 is computed as 2.0674E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 2008 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3178 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3225 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3509 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3916 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3954 is computed as 2.0674E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 20657 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 20658 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 20683 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 20767 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 20829 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 21910 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 21990 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 22391 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 22392 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 22460 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 22461 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 23045 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 23114 is computed as 2.0990E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 23511 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24654 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24795 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24796 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 24821 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 25091 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 25092 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 25117 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 25194 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 25256 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 26307 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 26387 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 26772 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 26773 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 26841 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 26842 is computed as 2.0991E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 27415 is computed as 2.0666E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 27484 is computed as 2.0990E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 27883 is computed as 2.0076E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 29041 is computed as 2.0127E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 29186 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 29187 is computed as 2.0675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 29212 is computed as 2.1052E+01 degrees.
+ 
+ *** Warning 20289 (STR+289)
+     Number of elements exceed warpage angle = 48
+       min warpage angle = 2.0076E+01
+       max warpage angle = 2.1052E+01
+ contracting memory to        4109 d     5711509 load curve data
+ contracting memory to        2534 d     5711509 user_define_loading_set
+ expanding   memory to        2740 d     5711509 regularize time history data
+ contracting memory to        2538 d     5711509 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       55634 d     5764274 implicit contact 1
+ expanding   memory to       55636 d     5764274 implicit contact 2
+ contracting memory to        3538 d     6027000 contact segment data 1
+ expanding   memory to      155398 d     6599645 contact segment data 3
+ contracting memory to        2538 d     7923567 contact definition
+ expanding   memory to        2569 d     8237665 contact friction
+ expanding   memory to      416785 d     8237770 joints
+ expanding   memory to      416791 d     8791482 control volume input
+
+Checking Control Volume Orientations
+
+ Control Volume ID            1
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 1 29827 29832 29831
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 1 29722 29828 29827
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 29831 29832 29830 2
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 2 29830 29836 29835
+ 
+ *** Warning 30106 (INI+106)
+     additional segments are being renumbered but not printed
+   convergence of normal check obtained in  19 iterations
+   region 1 has 20020 segments.
+   number of independent regions where normal vectors
+   are checked and if necessary reset =    1
+   number of renumbered segments = 7866
+ 
+ *** Warning 30107 (INI+107)
+     Number of improperly numbered segments 7866
+     for control volume 1
+ expanding   memory to      416798 d     9007724 control volume input 4
+ expanding   memory to      416891 d     9028833 rigid bodies for disp. termination
+ expanding   memory to      416950 d     9028833 save d3plot control data
+ expanding   memory to      416952 d     9296118 sensor_control for curve
+
+     slave surface of interface   = 1
+     type                         =       a10
+     surface timestep             = 3.725E-05
+     controlling slave node ID    = 40261
+     part ID of slave node        = 1
+     current minimum time step    = 3.725E-05
+
+     master surface of interface  = 1
+     type                         =       a10
+     surface timestep             = 2.904E-04
+     controlling master node ID   = 28279
+     part ID of master node       = 8
+     current minimum time step    = 3.725E-05
+
+ The LS-DYNA time step size should not exceed     3.725E-05
+ to avoid contact instabilities.  If the step size is
+ bigger then scale the penalty of the offending surface.
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to begin solution      :     446K
+ Additional dynamically allocated memory:      11M
+                                   Total:      12M
+       1 t 0.0000E+00 dt 1.10E-08 flush i/o buffers            08/26/24 09:46:15
+       1 t 0.0000E+00 dt 1.10E-08 write d3plot file            08/26/24 09:46:15
+    5000 t 6.0478E-04 dt 1.21E-07 flush i/o buffers            08/26/24 09:46:30
+   10000 t 1.2116E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:46:45
+   15000 t 1.8185E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:47:12
+   20000 t 2.4253E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:47:39
+   25000 t 3.0322E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:48:06
+   30000 t 3.6391E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:48:33
+   35000 t 4.2459E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:49:00
+   40000 t 4.8528E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:49:27
+   45000 t 5.4596E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:49:54
+   50000 t 6.0665E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:50:21
+   55000 t 6.6733E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:50:48
+   60000 t 7.2802E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:51:15
+   65000 t 7.8871E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:51:42
+   70000 t 8.4939E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:52:09
+   75000 t 9.1008E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:52:36
+   80000 t 9.7076E-03 dt 1.21E-07 flush i/o buffers            08/26/24 09:53:04
+   85000 t 1.0314E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:53:31
+   90000 t 1.0921E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:53:58
+   95000 t 1.1528E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:54:25
+  100000 t 1.2135E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:54:52
+  105000 t 1.2742E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:55:19
+  110000 t 1.3349E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:55:46
+  115000 t 1.3956E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:56:13
+  120000 t 1.4562E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:56:40
+  125000 t 1.5169E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:57:07
+  130000 t 1.5776E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:57:34
+  135000 t 1.6383E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:58:01
+  140000 t 1.6990E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:58:28
+  145000 t 1.7597E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:58:56
+  150000 t 1.8204E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:59:23
+  155000 t 1.8810E-02 dt 1.21E-07 flush i/o buffers            08/26/24 09:59:50
+  160000 t 1.9417E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:00:17
+  165000 t 2.0024E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:00:44
+  170000 t 2.0631E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:01:11
+  175000 t 2.1238E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:01:39
+  180000 t 2.1845E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:02:06
+  185000 t 2.2452E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:02:33
+  190000 t 2.3058E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:03:00
+  195000 t 2.3665E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:03:28
+  200000 t 2.4272E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:03:55
+  205000 t 2.4879E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:04:22
+  210000 t 2.5486E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:04:50
+  215000 t 2.6093E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:05:17
+  220000 t 2.6700E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:05:44
+  225000 t 2.7306E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:06:11
+  230000 t 2.7913E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:06:38
+  235000 t 2.8520E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:07:06
+  240000 t 2.9127E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:07:33
+  245000 t 2.9734E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:08:00
+  250000 t 3.0341E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:08:27
+  255000 t 3.0948E-02 dt 1.21E-07 flush i/o buffers            08/26/24 10:08:55

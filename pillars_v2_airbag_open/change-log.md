@@ -240,3 +240,120 @@
 ## V78
 - autocleaned keyword errors
 - ran into errors with warpage and improperly numbered segments
+## V79
+- attempted to fix segmentation error
+![[Pasted image 20240808161710.png|400]]
+## V80
+- CONSTRAINE_ADAPTIVITY keyword became self aware and keeps adding itself to my shit. i deleted it again
+## V81
+- added 1 layer of refinement
+## V82
+- added 1 layer of refinement 
+	- tested this with normal airbag and it increase runtime by 50x - 100x
+	- expected runtime should be ~ 1 day +/- 12 hours
+- warpage error disappeared, segment error remains, new error: cannot find element of slave segment 35 of interface 1
+- beam prism not showing (needs to be fixed)
+## V83 
+- added material for anchor, constrained in x and y and all rotation
+- probably need to split head and nut to separate parts and have head collide with fabric and nut with base
+## V84 
+- deleted set segment
+## V85
+- converted everything addressing set_segment_airbag to be addressing set_part_airbag
+- runtime 216 days
+## V86
+- deleted self collision
+- changed collision of bag to only care about bottom half of fabric
+## V87
+- lowered thickness of anchor
+## V88
+- decreased timestep size
+- lowered endtime to 10s
+- changed mfr curve
+- projected time seemed smaller by a factor of 1/20, but it still terminated
+## V89
+- timestep changed to 6.034E-05
+- seemed to increase runtime, but terminated before i could verify
+## V90
+- timestep changed to 1E-8
+## V91
+- swapped airbag on anchor one-way to two-way contact
+## V92
+- reverted to v80 and repeated all steps except refinement in hopes of speeding up simulations
+## V93
+- deleted self collision and set_segment
+- ETA 3min
+## V94
+- swapped one-way for two-way collision
+- lowered leakage area
+## V95
+- timestep changed to 1e-8
+## V96
+- shell thickness upped to 1m
+## V97
+- deleted anchor for testing purposes
+ *** Error 20216 (STR+216)
+	part # 7 is out-of-range 
+	input phase will continue if possible
+ 
+ *** Warning 20542 (STR+542)
+     number of master segments is zero.
+## V98
+- thickness lowered to .25
+## V104
+- messed around with parameters to speed up basic sim.
+- changed back to one way collision
+- reduced end time to 20 and fitted mfr curve to match
+- settled on timestep of 1e-7 (too high or low increases runtime)
+- new ETA without anchor is ~ 1hr 45min
+- runs fine, but total time might need to be longer in final sim
+## V105
+*gonna try making more refined anchors and test without collisions or the anchors being able to move*
+- anchor mesh created
+- ls-dyna has a bug where if i try to translate with copy elem it gets rid of current file and opens my temp_airbag file. idk why
+*Open – Open file (new model created for each file opened)  Import – Import file (adds keyword data to current model)*
+## V107
+- head and nut shell 1.1 m apart
+## V108
+- nodal rigid bodies created
+## V109
+- two_nodal_sets created
+## V110
+- initial keywords made for anchor
+## V111
+- changed thickness of bolt and set to tubular
+## V112
+- step cleaned errors
+- set n2 bolt thickness and set inner diameters to 0
+- ETA 1hr 30min (collisions for anchors not enabled)
+## V113
+- anchor collision enabled
+	- decided to make anchors static and have the bag be slave
+## V114 
+- tried deleting segments not on elements
+	- didn't seem to work
+- in the modify menu for entities, theres an option to delete these, but the nodes appear to be real elements when i do this, so ill hold off for now
+- ran fine, only errors were warpage and segment, however, collisions for anchor didnt work
+## V115
+- head/nut thickness upped to .25m
+## V116
+- started refining mesh for other hole
+## V117 
+- hole made in fabric
+- hole made in base
+*might need to add collision for beam in anchor rather than just head / nut*
+## V126
+- all holes made for anchors, now i need to duplicate the anchor
+## V127
+- anchors made
+- ETA 24hr
+## V128
+- lowered timestep to 1e-8
+- ETA 21hr
+## V129
+- gonna try restricting movement of fabric to z only (seems to only work for rigid bodies)
+- swapped oneway for two way collision for anchors (soft=2)
+- ETA 14hr
+## V133
+- added 1 layer of refinement (2 created issues)
+	- need to try selectively refining back from v129 because current ETA is over 10 days

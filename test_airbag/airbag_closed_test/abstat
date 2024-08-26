@@ -1,0 +1,20 @@
+ LS-DYNA keyword deck by LS-PrePost                                      
+                    ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 1.06899E-03       1     2.7270E+05     1.0130E-04     6.9132E+01     3.5633E-07     1.2250E-09  0.000E+00  3.341E-04  1.055E+03  5.602E+05  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           2  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 4.99216E-01       1     2.9806E+05     1.0149E-04     7.5705E+01     1.6641E-04     1.2604E-09  0.000E+00  3.757E-04  1.027E+03  5.602E+05  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           2  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+
+
+      time   airbag/cv #  volume        pressure    internal energy      dm/dt in      density dm/dt out  total mass gas temp. surface area   reaction dm/dt outp dm/dt outv
+ 9.99502E-01       1     3.7535E+05     1.0150E-04     9.5338E+01     3.3317E-04     1.3341E-09  0.000E+00  5.007E-04  9.704E+02  5.602E+05  0.000E+00  0.000E+00  0.000E+00
+    Material I.D.=           1  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00
+    Material I.D.=           2  Unblocked  Area=  0.0000E+00    Blocked  Area=  0.0000E+00    Leakage      =  0.0000E+00

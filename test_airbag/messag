@@ -1,0 +1,1015 @@
+
+
+ ***************************************************************
+ *            ANSYS 2023 R1          LEGAL NOTICES             *
+ ***************************************************************
+ *                                                             *
+ * Copyright 1971-2023 ANSYS, Inc.  All rights reserved.       *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of ANSYS, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * ANSYS, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * ANSYS, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the ANSYS, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the ANSYS, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+      Date: 08/08/2024      Time: 14:47:07  
+      ___________________________________________________ 
+     |                                                   |
+     |  LS-DYNA, A Program for Nonlinear Dynamic         |
+     |  Analysis of Structures in Three Dimensions       |
+     |  Date    : 07/28/2023    Time: 16:45:29           |
+     |  Version : smp d R13                              |
+     |  Revision: R13.1.1-27-g8731a0d8c5                 |
+     |                                                   |
+     |  Features enabled in this version:                |
+     |    Shared Memory Parallel                         |
+     |    CESE CHEMISTRY EM ICFD STOCHASTIC_PARTICLES    |
+     |    FFTW (multi-dimensional FFTW Library)          |
+     |    ARPACK (nonsymmetric eigensolver library)      |
+     |    ANSYSLIC enabled                               |
+     |                                                   |
+     |  Licensed to:                                     |
+     |  Issued by  : ANSYS                               |
+     |                                                   |
+     |  Platform   : WINDOWS X64 SSE2                    |
+     |  OS Level   : Windows 8/10 & Srv 2016/2019/2022   |
+     |  Compiler   : Intel Fortran XE 2019 MSVC++ 2019   |
+     |  Hostname   : DESKTOP-F2LHD1U                     |
+     |  Precision  : Double precision (I8R8)             |
+     |                                                   |
+     |  Unauthorized use infringes Ansys Inc. copyrights |
+     |___________________________________________________|
+
+
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_airbag\airbag_closed_test_v6.k 
+                       ncpu=2 
+                       memory=20m
+
+ Input file: C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\test_airbag\airbag_closed_test_v6.
+
+ The native file format       : 64-bit small endian
+ Memory size from command line:    20000000
+ allocating  memory to    20000000 d     1975081 Initial allocation
+
+ ********  notice  ********  notice  ********  notice  ********
+ *                                                            *
+ * This is the LS-DYNA Finite Element code.                   *
+ *                                                            *
+ * Neither LST nor the authors assume any responsibility for  *
+ * the validity, accuracy, or applicability of any results    *
+ * obtained from this system. Users must verify their own     *
+ * results.                                                   *
+ *                                                            *
+ * LST endeavors to make the LS-DYNA code as complete,        *
+ * accurate and easy to use as possible.                      *
+ * Suggestions and comments are welcomed.  Please report any  *
+ * errors encountered in either the documentation or results  *
+ * immediately to LST through your site focus.                *
+ *                                                            *
+ * Copyright (C) 1990-2022                                    *
+ * by Ansys, Inc.                                             *
+ * All rights reserved                                        *
+ *                                                            *
+ ********  notice  ********  notice  ********  notice  ********
+
+ Beginning of keyword reader                                   08/08/24 14:47:07
+ expanding   memory to       65000 d     2088944  
+ expanding   memory to       97500 d     2088944  
+ expanding   memory to      120452 d     2364368  
+ expanding   memory to      143404 d     2364368  
+ expanding   memory to      172756 d     2364368  
+ expanding   memory to      195076 d     2515984  
+ expanding   memory to      260076 d     2515984  
+ expanding   memory to      291536 d     2751288  
+ expanding   memory to      327434 d     2751288  
+
+ Memory required to process keyword     :     327434  
+ Additional dynamic memory required     :    2841155  
+
+ contracting memory to           1 d     2325436 end of keyword reader
+
+ LS-DYNA will perform a structural only analysis 
+
+ LS-DYNA keyword deck by LS-PrePost                                      
+                    ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
+ expanding   memory to        2001 d     1550188 material, node and element data
+ expanding   memory to        2071 d     1550219 material properties
+ expanding   memory to        2075 d     1676918 element data for composite material
+ expanding   memory to        2089 d     2465519 gradient of damage data
+ expanding   memory to        2111 d     2896420 user control for contact interfaces
+ contracting memory to        2091 d     2896422 thermal expansion 0
+ expanding   memory to        2093 d     2896424 cross-sectional force definitions 0
+ expanding   memory to       20039 d     2896438 temp index array for node sorting
+ contracting memory to        2093 d     2914388 just because?
+ expanding   memory to       20045 d     2950298 arbitrary element numbering input
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14 is computed as 9.3205E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 29 is computed as 9.6180E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 51 is computed as 1.0339E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 67 is computed as 1.0418E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 81 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 94 is computed as 7.7027E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 106 is computed as 8.3543E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 116 is computed as 8.8768E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 126 is computed as 9.0639E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 136 is computed as 8.7600E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 144 is computed as 7.7094E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 160 is computed as 9.8585E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 174 is computed as 1.0548E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 188 is computed as 9.3973E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 200 is computed as 9.6008E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 230 is computed as 9.5427E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 285 is computed as 9.5518E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 304 is computed as 9.7622E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 323 is computed as 9.5588E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 330 is computed as 8.1964E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 344 is computed as 9.5888E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 352 is computed as 7.6699E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 368 is computed as 9.8772E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 378 is computed as 9.7488E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 387 is computed as 7.6080E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 397 is computed as 7.6781E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 409 is computed as 9.5753E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 422 is computed as 8.8133E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 436 is computed as 8.9070E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 452 is computed as 9.7658E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 473 is computed as 9.3675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3584 is computed as 9.3206E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3673 is computed as 1.0290E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3768 is computed as 1.0290E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3803 is computed as 9.6179E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3856 is computed as 9.7658E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3909 is computed as 9.7657E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3935 is computed as 1.0339E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 3988 is computed as 8.9070E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4023 is computed as 8.9070E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4049 is computed as 1.0322E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4102 is computed as 8.8133E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4137 is computed as 8.8133E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4163 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4207 is computed as 9.5754E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4242 is computed as 9.5754E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4268 is computed as 7.7027E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4303 is computed as 7.6781E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4320 is computed as 7.6781E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4346 is computed as 8.3623E+01 degrees.
+     Message 20282 (STR+282) exceeds 50 times
+     Further printing will be suppressed from screen only
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4381 is computed as 7.6080E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4398 is computed as 7.6080E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4424 is computed as 8.8750E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4450 is computed as 9.7488E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4485 is computed as 9.7707E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4502 is computed as 9.0591E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4528 is computed as 9.8771E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4545 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4562 is computed as 8.7531E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4628 is computed as 7.7094E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4657 is computed as 7.6699E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4674 is computed as 7.6699E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4720 is computed as 9.5888E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4737 is computed as 9.5888E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4754 is computed as 9.8585E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4834 is computed as 8.1964E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4851 is computed as 8.1964E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4868 is computed as 1.0613E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4888 is computed as 1.0133E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4905 is computed as 9.5474E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 4964 is computed as 9.9473E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5044 is computed as 9.7622E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5061 is computed as 9.7622E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5078 is computed as 9.6008E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5206 is computed as 1.0068E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5223 is computed as 9.5517E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5318 is computed as 1.0050E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5655 is computed as 9.5428E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5686 is computed as 1.0050E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5750 is computed as 1.0068E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5895 is computed as 9.6008E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5912 is computed as 9.7622E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 5938 is computed as 9.6009E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6009 is computed as 9.3973E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6040 is computed as 9.9472E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6068 is computed as 1.0227E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6105 is computed as 1.0534E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6122 is computed as 8.1440E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6148 is computed as 1.0548E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6219 is computed as 9.8585E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6236 is computed as 9.5925E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6262 is computed as 9.8585E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6299 is computed as 7.6680E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6345 is computed as 7.7094E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6394 is computed as 7.7094E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6411 is computed as 8.7618E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6428 is computed as 9.9342E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6454 is computed as 8.7600E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6471 is computed as 9.0719E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6488 is computed as 9.6832E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6532 is computed as 9.0639E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6549 is computed as 8.8762E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6575 is computed as 7.6080E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6610 is computed as 8.8767E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6627 is computed as 8.3528E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6653 is computed as 7.6835E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6688 is computed as 8.3542E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6705 is computed as 7.7027E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6731 is computed as 9.5648E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6784 is computed as 7.7027E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6810 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6836 is computed as 8.8132E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6889 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6924 is computed as 1.0418E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 6950 is computed as 8.9070E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7003 is computed as 1.0418E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7038 is computed as 1.0339E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7064 is computed as 9.7658E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7135 is computed as 1.0339E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7170 is computed as 9.6181E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7205 is computed as 9.3675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7327 is computed as 9.6180E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7389 is computed as 5.4286E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7456 is computed as 7.8951E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7582 is computed as 9.3205E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7597 is computed as 9.6180E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7619 is computed as 1.0339E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7635 is computed as 1.0418E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7649 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7662 is computed as 7.7027E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7674 is computed as 8.3543E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7684 is computed as 8.8768E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7694 is computed as 9.0639E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7704 is computed as 8.7600E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7712 is computed as 7.7094E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7728 is computed as 9.8585E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7742 is computed as 1.0548E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7756 is computed as 9.3973E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7768 is computed as 9.6008E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7798 is computed as 9.5427E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7853 is computed as 9.5518E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7872 is computed as 9.7622E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7891 is computed as 9.5588E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7898 is computed as 8.1964E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7912 is computed as 9.5888E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7920 is computed as 7.6699E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7936 is computed as 9.8772E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7946 is computed as 9.7488E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7955 is computed as 7.6080E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7965 is computed as 7.6781E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7977 is computed as 9.5753E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 7990 is computed as 8.8133E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 8004 is computed as 8.9070E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 8020 is computed as 9.7658E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 8041 is computed as 9.3675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11152 is computed as 9.3206E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11241 is computed as 1.0290E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11336 is computed as 1.0290E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11371 is computed as 9.6179E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11424 is computed as 9.7658E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11477 is computed as 9.7657E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11503 is computed as 1.0339E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11556 is computed as 8.9070E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11591 is computed as 8.9070E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11617 is computed as 1.0322E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11670 is computed as 8.8133E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11705 is computed as 8.8133E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11731 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11775 is computed as 9.5754E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11810 is computed as 9.5754E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11836 is computed as 7.7027E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11871 is computed as 7.6781E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11888 is computed as 7.6781E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11914 is computed as 8.3623E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11949 is computed as 7.6080E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11966 is computed as 7.6080E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 11992 is computed as 8.8750E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12018 is computed as 9.7488E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12053 is computed as 9.7707E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12070 is computed as 9.0591E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12096 is computed as 9.8771E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12113 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12130 is computed as 8.7531E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12196 is computed as 7.7094E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12225 is computed as 7.6699E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12242 is computed as 7.6699E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12288 is computed as 9.5888E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12305 is computed as 9.5888E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12322 is computed as 9.8585E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12402 is computed as 8.1964E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12419 is computed as 8.1964E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12436 is computed as 1.0613E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12456 is computed as 1.0133E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12473 is computed as 9.5474E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12532 is computed as 9.9473E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12612 is computed as 9.7622E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12629 is computed as 9.7622E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12646 is computed as 9.6008E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12774 is computed as 1.0068E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12791 is computed as 9.5517E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 12886 is computed as 1.0050E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13223 is computed as 9.5428E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13254 is computed as 1.0050E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13318 is computed as 1.0068E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13463 is computed as 9.6008E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13480 is computed as 9.7622E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13506 is computed as 9.6009E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13577 is computed as 9.3973E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13608 is computed as 9.9472E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13636 is computed as 1.0227E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13673 is computed as 1.0534E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13690 is computed as 8.1440E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13716 is computed as 1.0548E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13787 is computed as 9.8585E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13804 is computed as 9.5925E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13830 is computed as 9.8585E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13867 is computed as 7.6680E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13913 is computed as 7.7094E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13962 is computed as 7.7094E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13979 is computed as 8.7618E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 13996 is computed as 9.9342E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14022 is computed as 8.7600E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14039 is computed as 9.0719E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14056 is computed as 9.6832E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14100 is computed as 9.0639E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14117 is computed as 8.8762E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14143 is computed as 7.6080E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14178 is computed as 8.8767E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14195 is computed as 8.3528E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14221 is computed as 7.6835E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14256 is computed as 8.3542E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14273 is computed as 7.7027E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14299 is computed as 9.5648E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14352 is computed as 7.7027E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14378 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14404 is computed as 8.8132E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14457 is computed as 9.8553E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14492 is computed as 1.0418E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14518 is computed as 8.9070E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14571 is computed as 1.0418E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14606 is computed as 1.0339E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14632 is computed as 9.7658E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14703 is computed as 1.0339E+02 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14738 is computed as 9.6181E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14773 is computed as 9.3675E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14895 is computed as 9.6180E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 14957 is computed as 5.4286E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 15024 is computed as 7.8951E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17288 is computed as 5.0387E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17289 is computed as 4.7993E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17290 is computed as 7.8953E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17336 is computed as 5.0387E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17337 is computed as 4.7993E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17338 is computed as 7.8953E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17390 is computed as 4.7995E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17391 is computed as 5.0385E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17392 is computed as 5.4287E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17432 is computed as 4.7995E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17433 is computed as 5.0385E+01 degrees.
+ 
+ *** Warning 20282 (STR+282)
+     warpage angle of element ID= 17434 is computed as 5.4287E+01 degrees.
+ 
+ *** Warning 20289 (STR+289)
+     Number of elements exceed warpage angle = 260
+       min warpage angle = 4.7993E+01
+       max warpage angle = 1.0613E+02
+ contracting memory to        4101 d     4802170 load curve data
+ contracting memory to        2526 d     4802170 user_define_loading_set
+ expanding   memory to        2732 d     4802170 regularize time history data
+ contracting memory to        2530 d     4802170 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       39422 d     4838087 implicit contact 1
+ contracting memory to        3530 d     4839122 contact segment data 1
+ expanding   memory to      111224 d     4839122 contact segment data 3
+ contracting memory to        2530 d     5230623 contact definition
+ expanding   memory to        2534 d     5237909 contact friction
+ expanding   memory to        2541 d     5239363 control volume input
+
+Checking Control Volume Orientations
+
+ Control Volume ID            1
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 1 2193 10365 10364
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 1 10364 10369 2200
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 2193 593 10362 10365
+ 
+ *** Warning 30105 (INI+105)
+     improperly numbered segment
+     segment connectivity: 2200 10369 10367 599
+ 
+ *** Warning 30106 (INI+106)
+     additional segments are being renumbered but not printed
+   convergence of normal check obtained in  52 iterations
+   region 1 has 17404 segments.
+   number of independent regions where normal vectors
+   are checked and if necessary reset =    1
+   number of renumbered segments = 9042
+ 
+ *** Warning 30107 (INI+107)
+     Number of improperly numbered segments 9042
+     for control volume 1
+ 
+ *** Error 20975 (STR+975)
+     in control volume initialization-possibly
+     looking for flat polygon to cover airbag
+     hole control volume number= 1
+ expanding   memory to        2543 d     5428772 control volume input 4
+ expanding   memory to        2641 d     5446188 rigid bodies for disp. termination
+ expanding   memory to        2700 d     5446188 save d3plot control data
+ expanding   memory to        2702 d     5518025 sensor_control for curve
+ 
+ *** Error 20018 (STR+18)
+     input phase completed with 1 fatal errors
+     please check messag file
+
+ E r r o r   t e r m i n a t i o n                             08/08/24 14:47:07
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to complete solution   :     328K
+ Additional dynamically allocated memory:    5623K
+                                   Total:    5951K
+
+ T i m i n g   i n f o r m a t i o n
+                        CPU(seconds)   %CPU  Clock(seconds) %Clock
+  ----------------------------------------------------------------
+  Keyword Processing ... 0.0000E+00    0.00     4.8000E-02    3.55
+    KW Reading ......... 0.0000E+00    0.00     2.7000E-02    1.99
+    KW Writing ......... 0.0000E+00    0.00     3.0000E-03    0.22
+  Initialization ....... 1.0000E+00  100.00     1.3060E+00   96.45
+    Init Proc Phase 1 .. 0.0000E+00    0.00     1.8000E-01   13.29
+  ----------------------------------------------------------------
+  T o t a l s            1.0000E+00  100.00     1.3540E+00  100.00
+
+ Problem time       =    0.0000E+00
+ Problem cycle      =         0
+ Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
+ CPU time per zone cycle  =          0.000 picoseconds
+ Clock time per zone cycle=          0.000 picoseconds
+
+ Number of CPU's    2
+ NLQ used/max     136/  136
+ Start time   08/08/2024 14:47:07  
+ End time     08/08/2024 14:47:07  
+ Elapsed time       0 second  for       0 cycles using  2 SMP threads
+             (      0 hour   0 minute   0 second )
+
+ E r r o r   t e r m i n a t i o n                             08/08/24 14:47:07

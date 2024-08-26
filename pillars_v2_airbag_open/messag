@@ -47,7 +47,7 @@
  *                                                             *
  ***************************************************************
 
-      Date: 08/07/2024      Time: 15:13:15  
+      Date: 08/14/2024      Time: 12:23:37  
       ___________________________________________________ 
      |                                                   |
      |  LS-DYNA, A Program for Nonlinear Dynamic         |
@@ -76,7 +76,7 @@
      |___________________________________________________|
 
 
- Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v78.k 
+ Command line options: i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\open_airbag_v115.k 
                        ncpu=2 
                        memory=20m
 
@@ -107,44 +107,39 @@
  *                                                            *
  ********  notice  ********  notice  ********  notice  ********
 
- Beginning of keyword reader                                   08/07/24 15:13:15
- expanding   memory to       65000 d     2024228  
- expanding   memory to       97500 d     2024228  
- expanding   memory to      121804 d     2170052  
- expanding   memory to      152647 d     2170052  
- expanding   memory to      174967 d     2235268  
- expanding   memory to      239967 d     2235268  
- expanding   memory to      264069 d     2235268  
- expanding   memory to      284639 d     2235268  
- 
- *** Warning 10848 (KEY+848)
-     *CONTACT_... default ID 2 - (contact input # 2)
-     is duplicated. This is CONTACT 3 in the order of input
-     It has been assigned a new CONTACT ID 4
- expanding   memory to      310229 d     2330348  
- expanding   memory to      335089 d     2351804  
+ Beginning of keyword reader                                   08/14/24 12:23:37
+ expanding   memory to       65000 d     2025908  
+ expanding   memory to       97530 d     2025908  
+ expanding   memory to      122346 d     2174804  
+ expanding   memory to      153918 d     2174804  
+ expanding   memory to      176238 d     2242068  
+ expanding   memory to      241238 d     2242068  
+ expanding   memory to      265340 d     2242068  
+ expanding   memory to      285910 d     2242068  
+ expanding   memory to      309292 d     2340788  
+ expanding   memory to      334332 d     2363012  
 
- Memory required to process keyword     :     335089  
- Additional dynamic memory required     :    2382128  
+ Memory required to process keyword     :     334332  
+ Additional dynamic memory required     :    2377979  
 
- contracting memory to           1 d     1904500 end of keyword reader
+ contracting memory to           1 d     1914942 end of keyword reader
 
  LS-DYNA will perform a structural only analysis 
 
  LS-DYNA keyword deck by LS-PrePost                                      
                     ls-dyna smp d R13 R13.1.1_27_8731a0 date 07/28/2023
- Allocating memory:                    702  words
- Allocating memory:                     48  words
- expanding   memory to        2001 d     1551736 material, node and element data
- expanding   memory to        2071 d     1551850 material properties
- expanding   memory to        2083 d     1602983 element data for composite material
- expanding   memory to        2097 d     1917000 gradient of damage data
- expanding   memory to        2119 d     2088814 user control for contact interfaces
- contracting memory to        2099 d     2088820 thermal expansion 0
- expanding   memory to        2101 d     2088826 cross-sectional force definitions 0
- expanding   memory to        9261 d     2088868 temp index array for node sorting
- contracting memory to        2101 d     2096032 just because?
- expanding   memory to        9253 d     2110402 arbitrary element numbering input
+ Allocating memory:                    812  words
+ Allocating memory:                     49  words
+ expanding   memory to        2001 d     1552124 material, node and element data
+ expanding   memory to        2071 d     1552243 material properties
+ expanding   memory to        2083 d     1605202 element data for composite material
+ expanding   memory to        2097 d     1931539 gradient of damage data
+ expanding   memory to        2119 d     2109548 user control for contact interfaces
+ contracting memory to        2099 d     2109555 thermal expansion 0
+ expanding   memory to        2101 d     2109562 cross-sectional force definitions 0
+ expanding   memory to        9541 d     2109611 temp index array for node sorting
+ contracting memory to        2101 d     2117055 just because?
+ expanding   memory to        9509 d     2131993 arbitrary element numbering input
  
  *** Warning 20282 (STR+282)
      warpage angle of element ID= 15 is computed as 3.9438E+01 degrees.
@@ -488,18 +483,18 @@
      Number of elements exceed warpage angle = 112
        min warpage angle = 3.1860E+01
        max warpage angle = 3.9438E+01
- contracting memory to        4109 d     2585867 load curve data
- contracting memory to        2534 d     2585867 user_define_loading_set
- expanding   memory to        2740 d     2585867 regularize time history data
- contracting memory to        2538 d     2585867 *DEFINE_ELEMENT_DEATH
- expanding   memory to       17858 d     2601144 implicit contact 1
- expanding   memory to       17860 d     2601144 implicit contact 2
- contracting memory to        3538 d     2691645 contact segment data 1
- expanding   memory to       46474 d     2876152 contact segment data 3
- contracting memory to        2538 d     3245005 contact definition
- expanding   memory to       64474 d     3354365 contact friction
- expanding   memory to      197845 d     3354455 joints
- expanding   memory to      197851 d     3533707 control volume input
+ contracting memory to        4109 d     2610095 load curve data
+ contracting memory to        2534 d     2610095 user_define_loading_set
+ expanding   memory to        2740 d     2610095 regularize time history data
+ contracting memory to        2538 d     2610095 *DEFINE_ELEMENT_DEATH
+ expanding   memory to       18418 d     2625644 implicit contact 1
+ expanding   memory to       18420 d     2625644 implicit contact 2
+ contracting memory to        3538 d     2694912 contact segment data 1
+ expanding   memory to       48082 d     2841623 contact segment data 3
+ contracting memory to        2538 d     3185720 contact definition
+ expanding   memory to        2569 d     3276522 contact friction
+ expanding   memory to      105394 d     3276627 joints
+ expanding   memory to      105401 d     3415151 control volume input
 
 Checking Control Volume Orientations
 
@@ -507,75 +502,1826 @@ Checking Control Volume Orientations
  
  *** Warning 30105 (INI+105)
      improperly numbered segment
-     segment connectivity: 3062 3113 1089 1038
+     segment connectivity: 1 2039 2040 2
  
  *** Warning 30105 (INI+105)
      improperly numbered segment
-     segment connectivity: 3113 3164 1140 1089
+     segment connectivity: 1 13 2039 2039
  
  *** Warning 30105 (INI+105)
      improperly numbered segment
-     segment connectivity: 3011 3062 1038 987
+     segment connectivity: 2 2040 2041 3
  
  *** Warning 30105 (INI+105)
      improperly numbered segment
-     segment connectivity: 3164 3215 1191 1140
+     segment connectivity: 3 2041 2042 4
  
  *** Warning 30106 (INI+106)
      additional segments are being renumbered but not printed
-   convergence of normal check obtained in  16 iterations
-   region 1 has 3998 segments.
+   convergence of normal check obtained in   5 iterations
+   region 1 has 4200 segments.
    number of independent regions where normal vectors
    are checked and if necessary reset =    1
-   number of renumbered segments = 2030
+   number of renumbered segments = 1982
  
  *** Warning 30107 (INI+107)
-     Number of improperly numbered segments 2030
+     Number of improperly numbered segments 1982
      for control volume 1
- 
- *** Error 20975 (STR+975)
-     in control volume initialization-possibly
-     looking for flat polygon to cover airbag
-     hole control volume number= 1
- expanding   memory to      197857 d     3602469 control volume input 4
- expanding   memory to      197951 d     3606369 rigid bodies for disp. termination
- expanding   memory to      198010 d     3606369 save d3plot control data
- expanding   memory to      198012 d     3680733 sensor_control for curve
- 
- *** Error 20018 (STR+18)
-     input phase completed with 1 fatal errors
-     please check messag file
+ expanding   memory to      105408 d     3486032 control volume input 4
+ expanding   memory to      105501 d     3490160 rigid bodies for disp. termination
+ expanding   memory to      105560 d     3490160 save d3plot control data
+ expanding   memory to      105562 d     3519978 sensor_control for curve
 
- E r r o r   t e r m i n a t i o n                             08/07/24 15:13:15
+     slave surface of interface   = 1
+     type                         =       a10
+     surface timestep             = 3.795E-05
+     controlling slave node ID    = 21879
+     part ID of slave node        = 1
+     current minimum time step    = 3.795E-05
+
+     master surface of interface  = 1
+     type                         =       a10
+     surface timestep             = 3.862E-04
+     controlling master node ID   = 24735
+     part ID of master node       = 8
+     current minimum time step    = 3.795E-05
+
+     slave surface of interface   = 2
+     type                         =       a10
+     surface timestep             = 3.795E-05
+     controlling slave node ID    = 21879
+     part ID of slave node        = 1
+     current minimum time step    = 3.795E-05
+
+     master surface of interface  = 2
+     type                         =       a10
+     surface timestep             = 3.518E-04
+     controlling master node ID   = 24969
+     part ID of master node       = 9
+     current minimum time step    = 3.795E-05
+
+ The LS-DYNA time step size should not exceed     3.795E-05
+ to avoid contact instabilities.  If the step size is
+ bigger then scale the penalty of the offending surface.
 
  S t o r a g e   a l l o c a t i o n   
 
- Memory required to complete solution   :     336K
- Additional dynamically allocated memory:    3745K
-                                   Total:    4080K
+ Memory required to begin solution      :     335K
+ Additional dynamically allocated memory:    3848K
+                                   Total:    4183K
+       1 t 0.0000E+00 dt 1.10E-07 flush i/o buffers            08/14/24 12:23:37
+       1 t 0.0000E+00 dt 1.10E-07 write d3plot file            08/14/24 12:23:37
+    5000 t 1.2024E-02 dt 2.42E-06 flush i/o buffers            08/14/24 12:23:40
+   10000 t 2.4106E-02 dt 2.42E-06 flush i/o buffers            08/14/24 12:23:43
+   15000 t 3.6188E-02 dt 2.42E-06 flush i/o buffers            08/14/24 12:23:46
+   20000 t 4.8270E-02 dt 2.42E-06 flush i/o buffers            08/14/24 12:23:48
+   25000 t 6.0353E-02 dt 2.42E-06 flush i/o buffers            08/14/24 12:23:51
+   30000 t 7.2435E-02 dt 2.42E-06 flush i/o buffers            08/14/24 12:23:54
+   35000 t 8.4517E-02 dt 2.42E-06 flush i/o buffers            08/14/24 12:23:57
+   40000 t 9.6599E-02 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:00
+   45000 t 1.0868E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:03
+   50000 t 1.2076E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:08
+   55000 t 1.3284E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:14
+   60000 t 1.4493E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:20
+   65000 t 1.5701E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:26
+   70000 t 1.6909E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:32
+   75000 t 1.8117E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:37
+   80000 t 1.9326E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:43
+   85000 t 2.0534E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:49
+   90000 t 2.1742E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:24:55
+   95000 t 2.2950E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:01
+  100000 t 2.4158E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:07
+  105000 t 2.5367E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:13
+  110000 t 2.6575E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:18
+  115000 t 2.7783E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:24
+  120000 t 2.8991E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:30
+  125000 t 3.0199E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:36
+  130000 t 3.1408E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:42
+  135000 t 3.2616E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:48
+  140000 t 3.3824E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:25:54
+  145000 t 3.5032E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:00
+  150000 t 3.6240E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:05
+  155000 t 3.7449E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:11
+  160000 t 3.8657E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:17
+  165000 t 3.9865E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:23
+  170000 t 4.1073E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:30
+  175000 t 4.2281E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:36
+  180000 t 4.3490E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:42
+  185000 t 4.4698E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:48
+  190000 t 4.5906E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:26:54
+  195000 t 4.7114E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:00
+  200000 t 4.8322E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:06
+  205000 t 4.9531E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:12
+  206942 t 5.0000E-01 dt 2.42E-06 write d3plot file            08/14/24 12:27:14
+  210000 t 5.0739E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:18
+  215000 t 5.1947E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:24
+  220000 t 5.3155E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:30
+  225000 t 5.4363E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:36
+  230000 t 5.5572E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:42
+  235000 t 5.6780E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:48
+  240000 t 5.7988E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:27:54
+  245000 t 5.9196E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:00
+  250000 t 6.0404E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:06
+  255000 t 6.1613E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:12
+  260000 t 6.2821E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:18
+  265000 t 6.4029E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:23
+  270000 t 6.5237E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:29
+  275000 t 6.6445E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:35
+  280000 t 6.7654E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:41
+  285000 t 6.8862E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:47
+  290000 t 7.0070E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:28:54
+  295000 t 7.1278E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:00
+  300000 t 7.2487E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:06
+  305000 t 7.3695E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:12
+  310000 t 7.4903E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:17
+  315000 t 7.6111E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:23
+  320000 t 7.7319E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:29
+  325000 t 7.8528E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:35
+  330000 t 7.9736E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:41
+  335000 t 8.0944E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:46
+  340000 t 8.2152E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:52
+  345000 t 8.3360E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:29:58
+  350000 t 8.4569E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:04
+  355000 t 8.5777E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:10
+  360000 t 8.6985E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:16
+  365000 t 8.8193E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:21
+  370000 t 8.9401E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:27
+  375000 t 9.0610E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:33
+  380000 t 9.1818E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:39
+  385000 t 9.3026E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:45
+  390000 t 9.4234E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:51
+  395000 t 9.5442E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:30:57
+  400000 t 9.6651E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:03
+  405000 t 9.7859E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:09
+  410000 t 9.9067E-01 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:15
+  413861 t 1.0000E+00 dt 2.42E-06 write d3plot file            08/14/24 12:31:19
+  415000 t 1.0028E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:21
+  420000 t 1.0148E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:26
+  425000 t 1.0269E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:32
+  430000 t 1.0390E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:38
+  435000 t 1.0511E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:44
+  440000 t 1.0632E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:50
+  445000 t 1.0752E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:31:55
+  450000 t 1.0873E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:01
+  455000 t 1.0994E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:07
+  460000 t 1.1115E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:13
+  465000 t 1.1236E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:19
+  470000 t 1.1357E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:24
+  475000 t 1.1477E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:30
+  480000 t 1.1598E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:36
+  485000 t 1.1719E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:42
+  490000 t 1.1840E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:48
+  495000 t 1.1961E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:32:54
+  500000 t 1.2081E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:00
+  505000 t 1.2202E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:06
+  510000 t 1.2323E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:12
+  515000 t 1.2444E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:18
+  520000 t 1.2565E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:24
+  525000 t 1.2686E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:30
+  530000 t 1.2806E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:36
+  535000 t 1.2927E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:41
+  540000 t 1.3048E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:47
+  545000 t 1.3169E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:53
+  550000 t 1.3290E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:33:59
+  555000 t 1.3410E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:05
+  560000 t 1.3531E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:10
+  565000 t 1.3652E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:17
+  570000 t 1.3773E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:22
+  575000 t 1.3894E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:28
+  580000 t 1.4015E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:34
+  585000 t 1.4135E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:40
+  590000 t 1.4256E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:46
+  595000 t 1.4377E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:52
+  600000 t 1.4498E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:34:58
+  605000 t 1.4619E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:04
+  610000 t 1.4740E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:10
+  615000 t 1.4860E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:16
+  620000 t 1.4981E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:21
+  620779 t 1.5000E+00 dt 2.42E-06 write d3plot file            08/14/24 12:35:22
+  625000 t 1.5102E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:27
+  630000 t 1.5223E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:33
+  635000 t 1.5344E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:39
+  640000 t 1.5464E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:45
+  645000 t 1.5585E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:51
+  650000 t 1.5706E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:35:57
+  655000 t 1.5827E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:03
+  660000 t 1.5948E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:09
+  665000 t 1.6069E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:14
+  670000 t 1.6189E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:20
+  675000 t 1.6310E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:26
+  680000 t 1.6431E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:32
+  685000 t 1.6552E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:38
+  690000 t 1.6673E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:44
+  695000 t 1.6793E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:50
+  700000 t 1.6914E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:36:56
+  705000 t 1.7035E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:02
+  710000 t 1.7156E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:07
+  715000 t 1.7277E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:13
+  720000 t 1.7398E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:19
+  725000 t 1.7518E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:25
+  730000 t 1.7639E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:31
+  735000 t 1.7760E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:37
+  740000 t 1.7881E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:43
+  745000 t 1.8002E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:49
+  750000 t 1.8122E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:37:55
+  755000 t 1.8243E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:01
+  760000 t 1.8364E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:07
+  765000 t 1.8485E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:13
+  770000 t 1.8606E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:18
+  775000 t 1.8727E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:24
+  780000 t 1.8847E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:30
+  785000 t 1.8968E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:36
+  790000 t 1.9089E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:42
+  795000 t 1.9210E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:48
+  800000 t 1.9331E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:38:54
+  805000 t 1.9452E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:00
+  810000 t 1.9572E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:05
+  815000 t 1.9693E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:11
+  820000 t 1.9814E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:17
+  825000 t 1.9935E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:23
+  827698 t 2.0000E+00 dt 2.42E-06 write d3plot file            08/14/24 12:39:26
+  830000 t 2.0056E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:29
+  835000 t 2.0176E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:35
+  840000 t 2.0297E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:41
+  845000 t 2.0418E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:47
+  850000 t 2.0539E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:52
+  855000 t 2.0660E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:39:58
+  860000 t 2.0781E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:04
+  865000 t 2.0901E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:10
+  870000 t 2.1022E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:16
+  875000 t 2.1143E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:22
+  880000 t 2.1264E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:27
+  885000 t 2.1385E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:33
+  890000 t 2.1505E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:39
+  895000 t 2.1626E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:45
+  900000 t 2.1747E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:51
+  905000 t 2.1868E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:40:57
+  910000 t 2.1989E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:02
+  915000 t 2.2110E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:08
+  920000 t 2.2230E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:14
+  925000 t 2.2351E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:20
+  930000 t 2.2472E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:26
+  935000 t 2.2593E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:32
+  940000 t 2.2714E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:38
+  945000 t 2.2834E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:43
+  950000 t 2.2955E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:49
+  955000 t 2.3076E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:41:55
+  960000 t 2.3197E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:01
+  965000 t 2.3318E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:07
+  970000 t 2.3439E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:13
+  975000 t 2.3559E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:19
+  980000 t 2.3680E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:25
+  985000 t 2.3801E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:31
+  990000 t 2.3922E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:37
+  995000 t 2.4043E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:42
+ 1000000 t 2.4164E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:48
+ 1005000 t 2.4284E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:42:54
+ 1010000 t 2.4405E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:00
+ 1015000 t 2.4526E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:06
+ 1020000 t 2.4647E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:11
+ 1025000 t 2.4768E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:17
+ 1030000 t 2.4888E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:23
+ 1034616 t 2.5000E+00 dt 2.42E-06 write d3plot file            08/14/24 12:43:28
+ 1035000 t 2.5009E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:29
+ 1040000 t 2.5130E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:35
+ 1045000 t 2.5251E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:40
+ 1050000 t 2.5372E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:46
+ 1055000 t 2.5493E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:52
+ 1060000 t 2.5613E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:43:58
+ 1065000 t 2.5734E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:04
+ 1070000 t 2.5855E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:10
+ 1075000 t 2.5976E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:16
+ 1080000 t 2.6097E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:22
+ 1085000 t 2.6217E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:28
+ 1090000 t 2.6338E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:34
+ 1095000 t 2.6459E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:40
+ 1100000 t 2.6580E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:46
+ 1105000 t 2.6701E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:52
+ 1110000 t 2.6822E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:44:58
+ 1115000 t 2.6942E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:04
+ 1120000 t 2.7063E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:10
+ 1125000 t 2.7184E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:16
+ 1130000 t 2.7305E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:22
+ 1135000 t 2.7426E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:28
+ 1140000 t 2.7546E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:34
+ 1145000 t 2.7667E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:40
+ 1150000 t 2.7788E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:46
+ 1155000 t 2.7909E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:52
+ 1160000 t 2.8030E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:45:58
+ 1165000 t 2.8151E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:04
+ 1170000 t 2.8271E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:10
+ 1175000 t 2.8392E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:16
+ 1180000 t 2.8513E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:22
+ 1185000 t 2.8634E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:28
+ 1190000 t 2.8755E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:34
+ 1195000 t 2.8876E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:40
+ 1200000 t 2.8996E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:46
+ 1205000 t 2.9117E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:52
+ 1210000 t 2.9238E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:46:58
+ 1215000 t 2.9359E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:04
+ 1220000 t 2.9480E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:10
+ 1225000 t 2.9600E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:15
+ 1230000 t 2.9721E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:21
+ 1235000 t 2.9842E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:27
+ 1240000 t 2.9963E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:33
+ 1241535 t 3.0000E+00 dt 2.42E-06 write d3plot file            08/14/24 12:47:35
+ 1245000 t 3.0084E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:39
+ 1250000 t 3.0205E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:45
+ 1255000 t 3.0325E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:50
+ 1260000 t 3.0446E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:47:56
+ 1265000 t 3.0567E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:02
+ 1270000 t 3.0688E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:08
+ 1275000 t 3.0809E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:14
+ 1280000 t 3.0929E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:20
+ 1285000 t 3.1050E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:26
+ 1290000 t 3.1171E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:32
+ 1295000 t 3.1292E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:38
+ 1300000 t 3.1413E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:44
+ 1305000 t 3.1534E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:50
+ 1310000 t 3.1654E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:48:56
+ 1315000 t 3.1775E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:02
+ 1320000 t 3.1896E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:08
+ 1325000 t 3.2017E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:14
+ 1330000 t 3.2138E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:20
+ 1335000 t 3.2258E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:25
+ 1340000 t 3.2379E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:31
+ 1345000 t 3.2500E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:37
+ 1350000 t 3.2621E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:43
+ 1355000 t 3.2742E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:49
+ 1360000 t 3.2863E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:49:55
+ 1365000 t 3.2983E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:01
+ 1370000 t 3.3104E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:06
+ 1375000 t 3.3225E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:12
+ 1380000 t 3.3346E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:18
+ 1385000 t 3.3467E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:24
+ 1390000 t 3.3588E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:30
+ 1395000 t 3.3708E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:36
+ 1400000 t 3.3829E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:42
+ 1405000 t 3.3950E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:47
+ 1410000 t 3.4071E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:53
+ 1415000 t 3.4192E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:50:59
+ 1420000 t 3.4312E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:05
+ 1425000 t 3.4433E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:11
+ 1430000 t 3.4554E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:17
+ 1435000 t 3.4675E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:22
+ 1440000 t 3.4796E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:28
+ 1445000 t 3.4917E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:34
+ 1448454 t 3.5000E+00 dt 2.42E-06 write d3plot file            08/14/24 12:51:38
+ 1450000 t 3.5037E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:40
+ 1455000 t 3.5158E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:46
+ 1460000 t 3.5279E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:51
+ 1465000 t 3.5400E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:51:57
+ 1470000 t 3.5521E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:03
+ 1475000 t 3.5641E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:09
+ 1480000 t 3.5762E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:14
+ 1485000 t 3.5883E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:20
+ 1490000 t 3.6004E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:26
+ 1495000 t 3.6125E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:32
+ 1500000 t 3.6246E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:37
+ 1505000 t 3.6366E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:43
+ 1510000 t 3.6487E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:49
+ 1515000 t 3.6608E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:52:55
+ 1520000 t 3.6729E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:00
+ 1525000 t 3.6850E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:06
+ 1530000 t 3.6970E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:12
+ 1535000 t 3.7091E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:17
+ 1540000 t 3.7212E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:23
+ 1545000 t 3.7333E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:29
+ 1550000 t 3.7454E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:34
+ 1555000 t 3.7575E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:40
+ 1560000 t 3.7695E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:45
+ 1565000 t 3.7816E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:51
+ 1570000 t 3.7937E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:53:57
+ 1575000 t 3.8058E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:02
+ 1580000 t 3.8179E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:08
+ 1585000 t 3.8300E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:13
+ 1590000 t 3.8420E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:19
+ 1595000 t 3.8541E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:24
+ 1600000 t 3.8662E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:30
+ 1605000 t 3.8783E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:36
+ 1610000 t 3.8904E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:41
+ 1615000 t 3.9024E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:47
+ 1620000 t 3.9145E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:52
+ 1625000 t 3.9266E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:54:58
+ 1630000 t 3.9387E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:03
+ 1635000 t 3.9508E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:09
+ 1640000 t 3.9629E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:14
+ 1645000 t 3.9749E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:20
+ 1650000 t 3.9870E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:26
+ 1655000 t 3.9991E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:31
+ 1655372 t 4.0000E+00 dt 2.42E-06 write d3plot file            08/14/24 12:55:32
+ 1660000 t 4.0112E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:37
+ 1665000 t 4.0233E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:42
+ 1670000 t 4.0353E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:48
+ 1675000 t 4.0474E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:53
+ 1680000 t 4.0595E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:55:59
+ 1685000 t 4.0716E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:04
+ 1690000 t 4.0837E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:10
+ 1695000 t 4.0958E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:15
+ 1700000 t 4.1078E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:21
+ 1705000 t 4.1199E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:27
+ 1710000 t 4.1320E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:32
+ 1715000 t 4.1441E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:38
+ 1720000 t 4.1562E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:43
+ 1725000 t 4.1682E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:49
+ 1730000 t 4.1803E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:56:55
+ 1735000 t 4.1924E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:00
+ 1740000 t 4.2045E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:06
+ 1745000 t 4.2166E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:11
+ 1750000 t 4.2287E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:17
+ 1755000 t 4.2407E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:23
+ 1760000 t 4.2528E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:28
+ 1765000 t 4.2649E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:34
+ 1770000 t 4.2770E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:39
+ 1775000 t 4.2891E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:45
+ 1780000 t 4.3012E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:50
+ 1785000 t 4.3132E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:57:56
+ 1790000 t 4.3253E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:02
+ 1795000 t 4.3374E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:07
+ 1800000 t 4.3495E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:13
+ 1805000 t 4.3616E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:18
+ 1810000 t 4.3736E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:24
+ 1815000 t 4.3857E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:30
+ 1820000 t 4.3978E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:35
+ 1825000 t 4.4099E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:41
+ 1830000 t 4.4220E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:47
+ 1835000 t 4.4341E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:52
+ 1840000 t 4.4461E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:58:58
+ 1845000 t 4.4582E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:03
+ 1850000 t 4.4703E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:09
+ 1855000 t 4.4824E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:15
+ 1860000 t 4.4945E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:20
+ 1862291 t 4.5000E+00 dt 2.42E-06 write d3plot file            08/14/24 12:59:23
+ 1865000 t 4.5065E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:26
+ 1870000 t 4.5186E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:31
+ 1875000 t 4.5307E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:37
+ 1880000 t 4.5428E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:43
+ 1885000 t 4.5549E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:48
+ 1890000 t 4.5670E+00 dt 2.42E-06 flush i/o buffers            08/14/24 12:59:54
+ 1895000 t 4.5790E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:00
+ 1900000 t 4.5911E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:05
+ 1905000 t 4.6032E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:11
+ 1910000 t 4.6153E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:17
+ 1915000 t 4.6274E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:22
+ 1920000 t 4.6394E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:28
+ 1925000 t 4.6515E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:33
+ 1930000 t 4.6636E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:39
+ 1935000 t 4.6757E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:45
+ 1940000 t 4.6878E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:50
+ 1945000 t 4.6999E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:00:56
+ 1950000 t 4.7119E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:02
+ 1955000 t 4.7240E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:07
+ 1960000 t 4.7361E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:13
+ 1965000 t 4.7482E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:19
+ 1970000 t 4.7603E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:24
+ 1975000 t 4.7724E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:30
+ 1980000 t 4.7844E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:36
+ 1985000 t 4.7965E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:41
+ 1990000 t 4.8086E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:47
+ 1995000 t 4.8207E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:53
+ 2000000 t 4.8328E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:01:58
+ 2005000 t 4.8448E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:04
+ 2010000 t 4.8569E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:09
+ 2015000 t 4.8690E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:15
+ 2020000 t 4.8811E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:21
+ 2025000 t 4.8932E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:26
+ 2030000 t 4.9053E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:32
+ 2035000 t 4.9173E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:38
+ 2040000 t 4.9294E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:43
+ 2045000 t 4.9415E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:49
+ 2050000 t 4.9536E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:02:54
+ 2055000 t 4.9657E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:00
+ 2060000 t 4.9777E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:06
+ 2065000 t 4.9898E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:11
+ 2069209 t 5.0000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:03:16
+ 2070000 t 5.0019E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:17
+ 2075000 t 5.0140E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:22
+ 2080000 t 5.0261E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:28
+ 2085000 t 5.0382E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:33
+ 2090000 t 5.0502E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:39
+ 2095000 t 5.0623E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:45
+ 2100000 t 5.0744E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:50
+ 2105000 t 5.0865E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:03:56
+ 2110000 t 5.0986E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:01
+ 2115000 t 5.1106E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:07
+ 2120000 t 5.1227E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:13
+ 2125000 t 5.1348E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:18
+ 2130000 t 5.1469E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:24
+ 2135000 t 5.1590E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:29
+ 2140000 t 5.1711E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:35
+ 2145000 t 5.1831E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:41
+ 2150000 t 5.1952E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:46
+ 2155000 t 5.2073E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:52
+ 2160000 t 5.2194E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:04:57
+ 2165000 t 5.2315E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:03
+ 2170000 t 5.2436E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:08
+ 2175000 t 5.2556E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:14
+ 2180000 t 5.2677E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:19
+ 2185000 t 5.2798E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:25
+ 2190000 t 5.2919E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:31
+ 2195000 t 5.3040E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:36
+ 2200000 t 5.3160E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:42
+ 2205000 t 5.3281E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:47
+ 2210000 t 5.3402E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:53
+ 2215000 t 5.3523E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:05:58
+ 2220000 t 5.3644E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:04
+ 2225000 t 5.3765E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:09
+ 2230000 t 5.3885E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:15
+ 2235000 t 5.4006E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:21
+ 2240000 t 5.4127E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:26
+ 2245000 t 5.4248E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:32
+ 2250000 t 5.4369E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:37
+ 2255000 t 5.4489E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:43
+ 2260000 t 5.4610E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:48
+ 2265000 t 5.4731E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:06:54
+ 2270000 t 5.4852E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:00
+ 2275000 t 5.4973E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:05
+ 2276128 t 5.5000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:07:06
+ 2280000 t 5.5094E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:11
+ 2285000 t 5.5214E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:16
+ 2290000 t 5.5335E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:22
+ 2295000 t 5.5456E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:27
+ 2300000 t 5.5577E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:33
+ 2305000 t 5.5698E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:38
+ 2310000 t 5.5818E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:44
+ 2315000 t 5.5939E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:49
+ 2320000 t 5.6060E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:07:55
+ 2325000 t 5.6181E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:01
+ 2330000 t 5.6302E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:06
+ 2335000 t 5.6423E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:12
+ 2340000 t 5.6543E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:17
+ 2345000 t 5.6664E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:23
+ 2350000 t 5.6785E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:28
+ 2355000 t 5.6906E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:34
+ 2360000 t 5.7027E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:39
+ 2365000 t 5.7147E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:45
+ 2370000 t 5.7268E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:50
+ 2375000 t 5.7389E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:08:56
+ 2380000 t 5.7510E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:02
+ 2385000 t 5.7631E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:07
+ 2390000 t 5.7752E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:13
+ 2395000 t 5.7872E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:18
+ 2400000 t 5.7993E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:24
+ 2405000 t 5.8114E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:29
+ 2410000 t 5.8235E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:35
+ 2415000 t 5.8356E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:41
+ 2420000 t 5.8477E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:46
+ 2425000 t 5.8597E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:52
+ 2430000 t 5.8718E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:09:57
+ 2435000 t 5.8839E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:03
+ 2440000 t 5.8960E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:08
+ 2445000 t 5.9081E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:14
+ 2450000 t 5.9201E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:19
+ 2455000 t 5.9322E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:25
+ 2460000 t 5.9443E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:31
+ 2465000 t 5.9564E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:36
+ 2470000 t 5.9685E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:42
+ 2475000 t 5.9806E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:47
+ 2480000 t 5.9926E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:53
+ 2483047 t 6.0000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:10:56
+ 2485000 t 6.0047E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:10:58
+ 2490000 t 6.0168E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:04
+ 2495000 t 6.0289E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:09
+ 2500000 t 6.0410E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:15
+ 2505000 t 6.0530E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:21
+ 2510000 t 6.0651E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:26
+ 2515000 t 6.0772E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:32
+ 2520000 t 6.0893E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:37
+ 2525000 t 6.1014E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:43
+ 2530000 t 6.1135E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:48
+ 2535000 t 6.1255E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:54
+ 2540000 t 6.1376E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:11:59
+ 2545000 t 6.1497E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:05
+ 2550000 t 6.1618E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:10
+ 2555000 t 6.1739E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:16
+ 2560000 t 6.1859E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:22
+ 2565000 t 6.1980E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:27
+ 2570000 t 6.2101E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:33
+ 2575000 t 6.2222E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:38
+ 2580000 t 6.2343E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:44
+ 2585000 t 6.2464E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:50
+ 2590000 t 6.2584E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:12:55
+ 2595000 t 6.2705E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:01
+ 2600000 t 6.2826E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:07
+ 2605000 t 6.2947E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:12
+ 2610000 t 6.3068E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:18
+ 2615000 t 6.3189E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:23
+ 2620000 t 6.3309E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:29
+ 2625000 t 6.3430E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:34
+ 2630000 t 6.3551E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:40
+ 2635000 t 6.3672E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:45
+ 2640000 t 6.3793E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:51
+ 2645000 t 6.3913E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:13:56
+ 2650000 t 6.4034E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:02
+ 2655000 t 6.4155E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:07
+ 2660000 t 6.4276E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:13
+ 2665000 t 6.4397E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:18
+ 2670000 t 6.4518E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:24
+ 2675000 t 6.4638E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:29
+ 2680000 t 6.4759E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:35
+ 2685000 t 6.4880E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:41
+ 2689965 t 6.5000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:14:46
+ 2690000 t 6.5001E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:46
+ 2695000 t 6.5122E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:52
+ 2700000 t 6.5242E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:14:57
+ 2705000 t 6.5363E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:03
+ 2710000 t 6.5484E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:08
+ 2715000 t 6.5605E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:14
+ 2720000 t 6.5726E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:19
+ 2725000 t 6.5847E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:25
+ 2730000 t 6.5967E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:30
+ 2735000 t 6.6088E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:36
+ 2740000 t 6.6209E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:41
+ 2745000 t 6.6330E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:47
+ 2750000 t 6.6451E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:53
+ 2755000 t 6.6571E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:15:58
+ 2760000 t 6.6692E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:04
+ 2765000 t 6.6813E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:09
+ 2770000 t 6.6934E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:15
+ 2775000 t 6.7055E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:20
+ 2780000 t 6.7176E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:26
+ 2785000 t 6.7296E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:31
+ 2790000 t 6.7417E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:37
+ 2795000 t 6.7538E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:42
+ 2800000 t 6.7659E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:48
+ 2805000 t 6.7780E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:53
+ 2810000 t 6.7901E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:16:57
+ 2815000 t 6.8021E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:00
+ 2820000 t 6.8142E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:02
+ 2825000 t 6.8263E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:05
+ 2830000 t 6.8384E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:08
+ 2835000 t 6.8505E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:11
+ 2840000 t 6.8625E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:13
+ 2845000 t 6.8746E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:16
+ 2850000 t 6.8867E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:19
+ 2855000 t 6.8988E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:22
+ 2860000 t 6.9109E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:24
+ 2865000 t 6.9230E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:27
+ 2870000 t 6.9350E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:30
+ 2875000 t 6.9471E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:33
+ 2880000 t 6.9592E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:35
+ 2885000 t 6.9713E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:38
+ 2890000 t 6.9834E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:41
+ 2895000 t 6.9954E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:44
+ 2896884 t 7.0000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:17:45
+ 2900000 t 7.0075E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:46
+ 2905000 t 7.0196E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:49
+ 2910000 t 7.0317E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:52
+ 2915000 t 7.0438E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:55
+ 2920000 t 7.0559E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:17:57
+ 2925000 t 7.0679E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:00
+ 2930000 t 7.0800E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:03
+ 2935000 t 7.0921E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:06
+ 2940000 t 7.1042E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:08
+ 2945000 t 7.1163E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:11
+ 2950000 t 7.1283E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:14
+ 2955000 t 7.1404E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:17
+ 2960000 t 7.1525E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:19
+ 2965000 t 7.1646E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:22
+ 2970000 t 7.1767E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:25
+ 2975000 t 7.1888E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:28
+ 2980000 t 7.2008E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:30
+ 2985000 t 7.2129E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:33
+ 2990000 t 7.2250E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:36
+ 2995000 t 7.2371E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:38
+ 3000000 t 7.2492E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:41
+ 3005000 t 7.2613E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:44
+ 3010000 t 7.2733E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:47
+ 3015000 t 7.2854E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:49
+ 3020000 t 7.2975E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:52
+ 3025000 t 7.3096E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:55
+ 3030000 t 7.3217E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:18:58
+ 3035000 t 7.3337E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:00
+ 3040000 t 7.3458E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:03
+ 3045000 t 7.3579E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:06
+ 3050000 t 7.3700E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:08
+ 3055000 t 7.3821E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:11
+ 3060000 t 7.3942E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:14
+ 3065000 t 7.4062E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:17
+ 3070000 t 7.4183E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:19
+ 3075000 t 7.4304E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:22
+ 3080000 t 7.4425E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:25
+ 3085000 t 7.4546E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:28
+ 3090000 t 7.4666E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:30
+ 3095000 t 7.4787E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:33
+ 3100000 t 7.4908E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:36
+ 3103802 t 7.5000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:19:38
+ 3105000 t 7.5029E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:39
+ 3110000 t 7.5150E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:41
+ 3115000 t 7.5271E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:44
+ 3120000 t 7.5391E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:47
+ 3125000 t 7.5512E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:50
+ 3130000 t 7.5633E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:52
+ 3135000 t 7.5754E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:55
+ 3140000 t 7.5875E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:19:58
+ 3145000 t 7.5995E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:01
+ 3150000 t 7.6116E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:03
+ 3155000 t 7.6237E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:06
+ 3160000 t 7.6358E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:09
+ 3165000 t 7.6479E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:12
+ 3170000 t 7.6600E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:14
+ 3175000 t 7.6720E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:17
+ 3180000 t 7.6841E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:20
+ 3185000 t 7.6962E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:23
+ 3190000 t 7.7083E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:25
+ 3195000 t 7.7204E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:28
+ 3200000 t 7.7325E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:31
+ 3205000 t 7.7445E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:33
+ 3210000 t 7.7566E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:36
+ 3215000 t 7.7687E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:39
+ 3220000 t 7.7808E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:42
+ 3225000 t 7.7929E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:44
+ 3230000 t 7.8049E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:47
+ 3235000 t 7.8170E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:50
+ 3240000 t 7.8291E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:53
+ 3245000 t 7.8412E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:55
+ 3250000 t 7.8533E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:20:58
+ 3255000 t 7.8654E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:01
+ 3260000 t 7.8774E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:04
+ 3265000 t 7.8895E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:06
+ 3270000 t 7.9016E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:09
+ 3275000 t 7.9137E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:12
+ 3280000 t 7.9258E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:15
+ 3285000 t 7.9378E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:17
+ 3290000 t 7.9499E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:20
+ 3295000 t 7.9620E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:23
+ 3300000 t 7.9741E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:26
+ 3305000 t 7.9862E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:28
+ 3310000 t 7.9983E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:31
+ 3310721 t 8.0000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:21:32
+ 3315000 t 8.0103E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:34
+ 3320000 t 8.0224E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:37
+ 3325000 t 8.0345E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:39
+ 3330000 t 8.0466E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:42
+ 3335000 t 8.0587E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:45
+ 3340000 t 8.0707E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:48
+ 3345000 t 8.0828E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:51
+ 3350000 t 8.0949E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:53
+ 3355000 t 8.1070E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:56
+ 3360000 t 8.1191E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:21:59
+ 3365000 t 8.1312E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:02
+ 3370000 t 8.1432E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:04
+ 3375000 t 8.1553E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:07
+ 3380000 t 8.1674E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:10
+ 3385000 t 8.1795E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:13
+ 3390000 t 8.1916E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:15
+ 3395000 t 8.2037E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:18
+ 3400000 t 8.2157E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:21
+ 3405000 t 8.2278E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:24
+ 3410000 t 8.2399E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:26
+ 3415000 t 8.2520E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:29
+ 3420000 t 8.2641E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:32
+ 3425000 t 8.2761E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:34
+ 3430000 t 8.2882E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:37
+ 3435000 t 8.3003E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:40
+ 3440000 t 8.3124E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:43
+ 3445000 t 8.3245E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:45
+ 3450000 t 8.3366E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:48
+ 3455000 t 8.3486E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:51
+ 3460000 t 8.3607E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:54
+ 3465000 t 8.3728E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:56
+ 3470000 t 8.3849E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:22:59
+ 3475000 t 8.3970E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:02
+ 3480000 t 8.4090E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:05
+ 3485000 t 8.4211E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:07
+ 3490000 t 8.4332E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:10
+ 3495000 t 8.4453E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:13
+ 3500000 t 8.4574E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:16
+ 3505000 t 8.4695E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:18
+ 3510000 t 8.4815E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:21
+ 3515000 t 8.4936E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:24
+ 3517640 t 8.5000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:23:25
+ 3520000 t 8.5057E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:26
+ 3525000 t 8.5178E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:29
+ 3530000 t 8.5299E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:32
+ 3535000 t 8.5419E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:35
+ 3540000 t 8.5540E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:37
+ 3545000 t 8.5661E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:40
+ 3550000 t 8.5782E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:43
+ 3555000 t 8.5903E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:45
+ 3560000 t 8.6024E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:48
+ 3565000 t 8.6144E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:51
+ 3570000 t 8.6265E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:54
+ 3575000 t 8.6386E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:56
+ 3580000 t 8.6507E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:23:59
+ 3585000 t 8.6628E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:02
+ 3590000 t 8.6749E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:04
+ 3595000 t 8.6869E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:07
+ 3600000 t 8.6990E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:10
+ 3605000 t 8.7111E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:13
+ 3610000 t 8.7232E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:15
+ 3615000 t 8.7353E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:18
+ 3620000 t 8.7473E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:21
+ 3625000 t 8.7594E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:23
+ 3630000 t 8.7715E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:26
+ 3635000 t 8.7836E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:29
+ 3640000 t 8.7957E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:32
+ 3645000 t 8.8078E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:34
+ 3650000 t 8.8198E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:37
+ 3655000 t 8.8319E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:40
+ 3660000 t 8.8440E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:42
+ 3665000 t 8.8561E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:45
+ 3670000 t 8.8682E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:48
+ 3675000 t 8.8802E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:51
+ 3680000 t 8.8923E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:53
+ 3685000 t 8.9044E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:56
+ 3690000 t 8.9165E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:24:59
+ 3695000 t 8.9286E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:01
+ 3700000 t 8.9407E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:04
+ 3705000 t 8.9527E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:07
+ 3710000 t 8.9648E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:10
+ 3715000 t 8.9769E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:12
+ 3720000 t 8.9890E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:15
+ 3724558 t 9.0000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:25:17
+ 3725000 t 9.0011E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:18
+ 3730000 t 9.0131E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:20
+ 3735000 t 9.0252E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:23
+ 3740000 t 9.0373E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:26
+ 3745000 t 9.0494E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:29
+ 3750000 t 9.0615E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:31
+ 3755000 t 9.0736E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:34
+ 3760000 t 9.0856E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:37
+ 3765000 t 9.0977E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:39
+ 3770000 t 9.1098E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:42
+ 3775000 t 9.1219E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:45
+ 3780000 t 9.1340E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:48
+ 3785000 t 9.1461E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:50
+ 3790000 t 9.1581E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:53
+ 3795000 t 9.1702E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:56
+ 3800000 t 9.1823E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:25:58
+ 3805000 t 9.1944E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:01
+ 3810000 t 9.2065E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:04
+ 3815000 t 9.2185E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:07
+ 3820000 t 9.2306E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:09
+ 3825000 t 9.2427E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:12
+ 3830000 t 9.2548E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:15
+ 3835000 t 9.2669E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:17
+ 3840000 t 9.2790E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:20
+ 3845000 t 9.2910E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:23
+ 3850000 t 9.3031E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:26
+ 3855000 t 9.3152E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:28
+ 3860000 t 9.3273E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:31
+ 3865000 t 9.3394E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:34
+ 3870000 t 9.3514E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:36
+ 3875000 t 9.3635E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:39
+ 3880000 t 9.3756E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:42
+ 3885000 t 9.3877E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:45
+ 3890000 t 9.3998E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:47
+ 3895000 t 9.4119E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:50
+ 3900000 t 9.4239E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:53
+ 3905000 t 9.4360E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:55
+ 3910000 t 9.4481E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:26:58
+ 3915000 t 9.4602E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:01
+ 3920000 t 9.4723E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:03
+ 3925000 t 9.4843E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:06
+ 3930000 t 9.4964E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:09
+ 3931477 t 9.5000E+00 dt 2.42E-06 write d3plot file            08/14/24 13:27:10
+ 3935000 t 9.5085E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:12
+ 3940000 t 9.5206E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:14
+ 3945000 t 9.5327E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:17
+ 3950000 t 9.5448E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:20
+ 3955000 t 9.5568E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:22
+ 3960000 t 9.5689E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:25
+ 3965000 t 9.5810E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:28
+ 3970000 t 9.5931E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:30
+ 3975000 t 9.6052E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:33
+ 3980000 t 9.6173E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:36
+ 3985000 t 9.6293E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:38
+ 3990000 t 9.6414E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:41
+ 3995000 t 9.6535E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:44
+ 4000000 t 9.6656E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:47
+ 4005000 t 9.6777E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:49
+ 4010000 t 9.6897E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:52
+ 4015000 t 9.7018E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:55
+ 4020000 t 9.7139E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:27:57
+ 4025000 t 9.7260E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:00
+ 4030000 t 9.7381E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:03
+ 4035000 t 9.7502E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:05
+ 4040000 t 9.7622E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:08
+ 4045000 t 9.7743E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:11
+ 4050000 t 9.7864E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:13
+ 4055000 t 9.7985E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:16
+ 4060000 t 9.8106E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:19
+ 4065000 t 9.8226E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:22
+ 4070000 t 9.8347E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:24
+ 4075000 t 9.8468E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:27
+ 4080000 t 9.8589E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:30
+ 4085000 t 9.8710E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:32
+ 4090000 t 9.8831E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:35
+ 4095000 t 9.8951E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:38
+ 4100000 t 9.9072E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:40
+ 4105000 t 9.9193E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:43
+ 4110000 t 9.9314E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:46
+ 4115000 t 9.9435E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:49
+ 4120000 t 9.9555E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:51
+ 4125000 t 9.9676E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:54
+ 4130000 t 9.9797E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:57
+ 4135000 t 9.9918E+00 dt 2.42E-06 flush i/o buffers            08/14/24 13:28:59
+ 4138395 t 1.0000E+01 dt 2.42E-06 write d3plot file            08/14/24 13:29:01
+ 4140000 t 1.0004E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:02
+ 4145000 t 1.0016E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:05
+ 4150000 t 1.0028E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:07
+ 4155000 t 1.0040E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:10
+ 4160000 t 1.0052E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:13
+ 4165000 t 1.0064E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:15
+ 4170000 t 1.0076E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:18
+ 4175000 t 1.0088E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:21
+ 4180000 t 1.0101E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:23
+ 4185000 t 1.0113E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:26
+ 4190000 t 1.0125E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:29
+ 4195000 t 1.0137E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:31
+ 4200000 t 1.0149E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:34
+ 4205000 t 1.0161E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:37
+ 4210000 t 1.0173E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:39
+ 4215000 t 1.0185E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:42
+ 4220000 t 1.0197E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:45
+ 4225000 t 1.0209E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:47
+ 4230000 t 1.0221E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:50
+ 4235000 t 1.0233E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:53
+ 4240000 t 1.0246E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:55
+ 4245000 t 1.0258E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:29:58
+ 4250000 t 1.0270E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:01
+ 4255000 t 1.0282E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:03
+ 4260000 t 1.0294E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:06
+ 4265000 t 1.0306E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:08
+ 4270000 t 1.0318E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:11
+ 4275000 t 1.0330E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:14
+ 4280000 t 1.0342E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:16
+ 4285000 t 1.0354E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:19
+ 4290000 t 1.0366E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:22
+ 4295000 t 1.0378E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:24
+ 4300000 t 1.0391E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:27
+ 4305000 t 1.0403E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:30
+ 4310000 t 1.0415E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:32
+ 4315000 t 1.0427E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:35
+ 4320000 t 1.0439E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:38
+ 4325000 t 1.0451E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:40
+ 4330000 t 1.0463E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:43
+ 4335000 t 1.0475E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:46
+ 4340000 t 1.0487E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:48
+ 4345000 t 1.0499E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:51
+ 4345314 t 1.0500E+01 dt 2.42E-06 write d3plot file            08/14/24 13:30:51
+ 4350000 t 1.0511E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:54
+ 4355000 t 1.0523E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:56
+ 4360000 t 1.0535E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:30:59
+ 4365000 t 1.0548E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:02
+ 4370000 t 1.0560E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:04
+ 4375000 t 1.0572E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:07
+ 4380000 t 1.0584E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:10
+ 4385000 t 1.0596E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:12
+ 4390000 t 1.0608E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:15
+ 4395000 t 1.0620E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:17
+ 4400000 t 1.0632E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:20
+ 4405000 t 1.0644E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:23
+ 4410000 t 1.0656E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:25
+ 4415000 t 1.0668E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:28
+ 4420000 t 1.0680E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:31
+ 4425000 t 1.0693E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:33
+ 4430000 t 1.0705E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:36
+ 4435000 t 1.0717E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:39
+ 4440000 t 1.0729E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:42
+ 4445000 t 1.0741E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:44
+ 4450000 t 1.0753E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:47
+ 4455000 t 1.0765E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:49
+ 4460000 t 1.0777E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:52
+ 4465000 t 1.0789E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:55
+ 4470000 t 1.0801E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:31:57
+ 4475000 t 1.0813E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:00
+ 4480000 t 1.0825E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:03
+ 4485000 t 1.0838E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:05
+ 4490000 t 1.0850E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:08
+ 4495000 t 1.0862E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:11
+ 4500000 t 1.0874E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:13
+ 4505000 t 1.0886E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:16
+ 4510000 t 1.0898E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:19
+ 4515000 t 1.0910E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:21
+ 4520000 t 1.0922E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:24
+ 4525000 t 1.0934E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:27
+ 4530000 t 1.0946E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:29
+ 4535000 t 1.0958E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:32
+ 4540000 t 1.0970E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:35
+ 4545000 t 1.0983E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:37
+ 4550000 t 1.0995E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:40
+ 4552233 t 1.1000E+01 dt 2.42E-06 write d3plot file            08/14/24 13:32:41
+ 4555000 t 1.1007E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:43
+ 4560000 t 1.1019E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:45
+ 4565000 t 1.1031E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:48
+ 4570000 t 1.1043E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:51
+ 4575000 t 1.1055E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:53
+ 4580000 t 1.1067E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:56
+ 4585000 t 1.1079E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:32:58
+ 4590000 t 1.1091E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:01
+ 4595000 t 1.1103E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:04
+ 4600000 t 1.1115E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:06
+ 4605000 t 1.1128E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:09
+ 4610000 t 1.1140E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:12
+ 4615000 t 1.1152E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:14
+ 4620000 t 1.1164E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:17
+ 4625000 t 1.1176E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:20
+ 4630000 t 1.1188E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:22
+ 4635000 t 1.1200E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:25
+ 4640000 t 1.1212E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:28
+ 4645000 t 1.1224E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:30
+ 4650000 t 1.1236E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:33
+ 4655000 t 1.1248E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:36
+ 4660000 t 1.1260E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:38
+ 4665000 t 1.1272E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:41
+ 4670000 t 1.1285E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:44
+ 4675000 t 1.1297E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:46
+ 4680000 t 1.1309E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:49
+ 4685000 t 1.1321E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:52
+ 4690000 t 1.1333E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:54
+ 4695000 t 1.1345E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:33:57
+ 4700000 t 1.1357E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:00
+ 4705000 t 1.1369E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:02
+ 4710000 t 1.1381E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:05
+ 4715000 t 1.1393E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:08
+ 4720000 t 1.1405E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:10
+ 4725000 t 1.1417E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:13
+ 4730000 t 1.1430E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:16
+ 4735000 t 1.1442E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:18
+ 4740000 t 1.1454E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:21
+ 4745000 t 1.1466E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:23
+ 4750000 t 1.1478E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:26
+ 4755000 t 1.1490E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:29
+ 4759151 t 1.1500E+01 dt 2.42E-06 write d3plot file            08/14/24 13:34:31
+ 4760000 t 1.1502E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:31
+ 4765000 t 1.1514E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:34
+ 4770000 t 1.1526E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:37
+ 4775000 t 1.1538E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:39
+ 4780000 t 1.1550E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:42
+ 4785000 t 1.1562E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:45
+ 4790000 t 1.1575E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:47
+ 4795000 t 1.1587E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:50
+ 4800000 t 1.1599E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:53
+ 4805000 t 1.1611E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:55
+ 4810000 t 1.1623E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:34:58
+ 4815000 t 1.1635E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:01
+ 4820000 t 1.1647E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:03
+ 4825000 t 1.1659E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:06
+ 4830000 t 1.1671E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:08
+ 4835000 t 1.1683E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:11
+ 4840000 t 1.1695E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:14
+ 4845000 t 1.1707E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:16
+ 4850000 t 1.1720E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:19
+ 4855000 t 1.1732E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:22
+ 4860000 t 1.1744E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:24
+ 4865000 t 1.1756E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:27
+ 4870000 t 1.1768E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:30
+ 4875000 t 1.1780E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:32
+ 4880000 t 1.1792E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:35
+ 4885000 t 1.1804E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:37
+ 4890000 t 1.1816E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:40
+ 4895000 t 1.1828E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:43
+ 4900000 t 1.1840E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:45
+ 4905000 t 1.1852E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:48
+ 4910000 t 1.1865E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:51
+ 4915000 t 1.1877E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:53
+ 4920000 t 1.1889E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:56
+ 4925000 t 1.1901E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:35:59
+ 4930000 t 1.1913E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:01
+ 4935000 t 1.1925E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:04
+ 4940000 t 1.1937E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:07
+ 4945000 t 1.1949E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:09
+ 4950000 t 1.1961E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:12
+ 4955000 t 1.1973E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:14
+ 4960000 t 1.1985E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:17
+ 4965000 t 1.1997E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:20
+ 4966070 t 1.2000E+01 dt 2.42E-06 write d3plot file            08/14/24 13:36:20
+ 4970000 t 1.2009E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:22
+ 4975000 t 1.2022E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:25
+ 4980000 t 1.2034E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:28
+ 4985000 t 1.2046E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:30
+ 4990000 t 1.2058E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:33
+ 4995000 t 1.2070E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:36
+ 5000000 t 1.2082E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:38
+ 5005000 t 1.2094E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:41
+ 5010000 t 1.2106E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:43
+ 5015000 t 1.2118E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:46
+ 5020000 t 1.2130E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:49
+ 5025000 t 1.2142E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:51
+ 5030000 t 1.2154E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:54
+ 5035000 t 1.2167E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:57
+ 5040000 t 1.2179E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:36:59
+ 5045000 t 1.2191E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:02
+ 5050000 t 1.2203E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:05
+ 5055000 t 1.2215E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:07
+ 5060000 t 1.2227E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:10
+ 5065000 t 1.2239E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:12
+ 5070000 t 1.2251E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:15
+ 5075000 t 1.2263E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:18
+ 5080000 t 1.2275E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:20
+ 5085000 t 1.2287E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:23
+ 5090000 t 1.2299E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:26
+ 5095000 t 1.2312E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:28
+ 5100000 t 1.2324E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:31
+ 5105000 t 1.2336E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:34
+ 5110000 t 1.2348E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:36
+ 5115000 t 1.2360E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:39
+ 5120000 t 1.2372E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:42
+ 5125000 t 1.2384E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:44
+ 5130000 t 1.2396E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:47
+ 5135000 t 1.2408E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:49
+ 5140000 t 1.2420E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:52
+ 5145000 t 1.2432E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:55
+ 5150000 t 1.2444E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:37:57
+ 5155000 t 1.2457E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:00
+ 5160000 t 1.2469E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:02
+ 5165000 t 1.2481E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:05
+ 5170000 t 1.2493E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:08
+ 5172988 t 1.2500E+01 dt 2.42E-06 write d3plot file            08/14/24 13:38:09
+ 5175000 t 1.2505E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:10
+ 5180000 t 1.2517E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:13
+ 5185000 t 1.2529E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:15
+ 5190000 t 1.2541E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:18
+ 5195000 t 1.2553E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:21
+ 5200000 t 1.2565E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:23
+ 5205000 t 1.2577E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:26
+ 5210000 t 1.2589E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:28
+ 5215000 t 1.2602E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:31
+ 5220000 t 1.2614E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:34
+ 5225000 t 1.2626E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:36
+ 5230000 t 1.2638E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:39
+ 5235000 t 1.2650E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:41
+ 5240000 t 1.2662E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:44
+ 5245000 t 1.2674E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:47
+ 5250000 t 1.2686E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:49
+ 5255000 t 1.2698E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:52
+ 5260000 t 1.2710E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:55
+ 5265000 t 1.2722E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:38:57
+ 5270000 t 1.2734E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:00
+ 5275000 t 1.2747E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:02
+ 5280000 t 1.2759E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:05
+ 5285000 t 1.2771E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:08
+ 5290000 t 1.2783E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:10
+ 5295000 t 1.2795E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:13
+ 5300000 t 1.2807E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:15
+ 5305000 t 1.2819E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:18
+ 5310000 t 1.2831E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:21
+ 5315000 t 1.2843E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:23
+ 5320000 t 1.2855E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:26
+ 5325000 t 1.2867E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:29
+ 5330000 t 1.2879E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:31
+ 5335000 t 1.2891E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:34
+ 5340000 t 1.2904E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:36
+ 5345000 t 1.2916E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:39
+ 5350000 t 1.2928E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:42
+ 5355000 t 1.2940E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:44
+ 5360000 t 1.2952E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:47
+ 5365000 t 1.2964E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:49
+ 5370000 t 1.2976E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:52
+ 5375000 t 1.2988E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:55
+ 5379907 t 1.3000E+01 dt 2.42E-06 write d3plot file            08/14/24 13:39:57
+ 5380000 t 1.3000E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:39:57
+ 5385000 t 1.3012E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:00
+ 5390000 t 1.3024E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:02
+ 5395000 t 1.3036E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:05
+ 5400000 t 1.3049E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:08
+ 5405000 t 1.3061E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:10
+ 5410000 t 1.3073E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:13
+ 5415000 t 1.3085E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:15
+ 5420000 t 1.3097E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:18
+ 5425000 t 1.3109E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:20
+ 5430000 t 1.3121E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:23
+ 5435000 t 1.3133E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:26
+ 5440000 t 1.3145E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:28
+ 5445000 t 1.3157E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:31
+ 5450000 t 1.3169E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:34
+ 5455000 t 1.3181E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:36
+ 5460000 t 1.3194E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:39
+ 5465000 t 1.3206E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:41
+ 5470000 t 1.3218E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:44
+ 5475000 t 1.3230E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:46
+ 5480000 t 1.3242E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:49
+ 5485000 t 1.3254E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:52
+ 5490000 t 1.3266E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:54
+ 5495000 t 1.3278E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:57
+ 5500000 t 1.3290E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:40:59
+ 5505000 t 1.3302E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:02
+ 5510000 t 1.3314E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:05
+ 5515000 t 1.3326E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:07
+ 5520000 t 1.3339E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:10
+ 5525000 t 1.3351E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:12
+ 5530000 t 1.3363E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:15
+ 5535000 t 1.3375E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:18
+ 5540000 t 1.3387E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:20
+ 5545000 t 1.3399E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:23
+ 5550000 t 1.3411E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:25
+ 5555000 t 1.3423E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:28
+ 5560000 t 1.3435E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:30
+ 5565000 t 1.3447E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:33
+ 5570000 t 1.3459E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:36
+ 5575000 t 1.3471E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:38
+ 5580000 t 1.3484E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:41
+ 5585000 t 1.3496E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:43
+ 5586826 t 1.3500E+01 dt 2.42E-06 write d3plot file            08/14/24 13:41:44
+ 5590000 t 1.3508E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:46
+ 5595000 t 1.3520E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:48
+ 5600000 t 1.3532E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:51
+ 5605000 t 1.3544E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:54
+ 5610000 t 1.3556E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:56
+ 5615000 t 1.3568E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:41:59
+ 5620000 t 1.3580E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:01
+ 5625000 t 1.3592E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:04
+ 5630000 t 1.3604E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:07
+ 5635000 t 1.3616E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:09
+ 5640000 t 1.3628E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:12
+ 5645000 t 1.3641E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:14
+ 5650000 t 1.3653E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:17
+ 5655000 t 1.3665E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:20
+ 5660000 t 1.3677E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:22
+ 5665000 t 1.3689E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:25
+ 5670000 t 1.3701E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:27
+ 5675000 t 1.3713E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:30
+ 5680000 t 1.3725E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:33
+ 5685000 t 1.3737E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:35
+ 5690000 t 1.3749E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:38
+ 5695000 t 1.3761E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:40
+ 5700000 t 1.3773E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:43
+ 5705000 t 1.3786E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:46
+ 5710000 t 1.3798E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:48
+ 5715000 t 1.3810E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:51
+ 5720000 t 1.3822E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:53
+ 5725000 t 1.3834E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:56
+ 5730000 t 1.3846E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:42:59
+ 5735000 t 1.3858E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:01
+ 5740000 t 1.3870E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:04
+ 5745000 t 1.3882E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:07
+ 5750000 t 1.3894E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:09
+ 5755000 t 1.3906E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:12
+ 5760000 t 1.3918E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:14
+ 5765000 t 1.3931E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:17
+ 5770000 t 1.3943E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:20
+ 5775000 t 1.3955E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:22
+ 5780000 t 1.3967E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:25
+ 5785000 t 1.3979E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:28
+ 5790000 t 1.3991E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:30
+ 5793744 t 1.4000E+01 dt 2.42E-06 write d3plot file            08/14/24 13:43:32
+ 5795000 t 1.4003E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:33
+ 5800000 t 1.4015E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:35
+ 5805000 t 1.4027E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:38
+ 5810000 t 1.4039E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:41
+ 5815000 t 1.4051E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:43
+ 5820000 t 1.4063E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:46
+ 5825000 t 1.4076E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:48
+ 5830000 t 1.4088E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:51
+ 5835000 t 1.4100E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:54
+ 5840000 t 1.4112E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:56
+ 5845000 t 1.4124E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:43:59
+ 5850000 t 1.4136E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:02
+ 5855000 t 1.4148E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:04
+ 5860000 t 1.4160E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:07
+ 5865000 t 1.4172E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:09
+ 5870000 t 1.4184E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:12
+ 5875000 t 1.4196E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:15
+ 5880000 t 1.4208E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:17
+ 5885000 t 1.4221E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:20
+ 5890000 t 1.4233E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:23
+ 5895000 t 1.4245E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:25
+ 5900000 t 1.4257E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:28
+ 5905000 t 1.4269E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:30
+ 5910000 t 1.4281E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:33
+ 5915000 t 1.4293E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:36
+ 5920000 t 1.4305E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:38
+ 5925000 t 1.4317E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:41
+ 5930000 t 1.4329E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:44
+ 5935000 t 1.4341E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:46
+ 5940000 t 1.4353E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:49
+ 5945000 t 1.4365E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:51
+ 5950000 t 1.4378E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:54
+ 5955000 t 1.4390E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:57
+ 5960000 t 1.4402E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:44:59
+ 5965000 t 1.4414E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:02
+ 5970000 t 1.4426E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:04
+ 5975000 t 1.4438E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:07
+ 5980000 t 1.4450E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:10
+ 5985000 t 1.4462E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:12
+ 5990000 t 1.4474E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:15
+ 5995000 t 1.4486E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:18
+ 6000000 t 1.4498E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:20
+ 6000663 t 1.4500E+01 dt 2.42E-06 write d3plot file            08/14/24 13:45:20
+ 6005000 t 1.4510E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:23
+ 6010000 t 1.4523E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:25
+ 6015000 t 1.4535E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:28
+ 6020000 t 1.4547E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:31
+ 6025000 t 1.4559E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:33
+ 6030000 t 1.4571E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:36
+ 6035000 t 1.4583E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:38
+ 6040000 t 1.4595E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:41
+ 6045000 t 1.4607E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:44
+ 6050000 t 1.4619E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:46
+ 6055000 t 1.4631E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:49
+ 6060000 t 1.4643E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:51
+ 6065000 t 1.4655E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:54
+ 6070000 t 1.4668E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:57
+ 6075000 t 1.4680E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:45:59
+ 6080000 t 1.4692E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:02
+ 6085000 t 1.4704E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:05
+ 6090000 t 1.4716E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:07
+ 6095000 t 1.4728E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:10
+ 6100000 t 1.4740E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:12
+ 6105000 t 1.4752E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:15
+ 6110000 t 1.4764E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:18
+ 6115000 t 1.4776E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:20
+ 6120000 t 1.4788E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:23
+ 6125000 t 1.4800E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:25
+ 6130000 t 1.4813E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:28
+ 6135000 t 1.4825E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:31
+ 6140000 t 1.4837E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:33
+ 6145000 t 1.4849E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:36
+ 6150000 t 1.4861E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:39
+ 6155000 t 1.4873E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:41
+ 6160000 t 1.4885E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:44
+ 6165000 t 1.4897E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:46
+ 6170000 t 1.4909E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:49
+ 6175000 t 1.4921E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:52
+ 6180000 t 1.4933E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:54
+ 6185000 t 1.4945E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:57
+ 6190000 t 1.4958E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:46:59
+ 6195000 t 1.4970E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:02
+ 6200000 t 1.4982E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:05
+ 6205000 t 1.4994E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:07
+ 6207581 t 1.5000E+01 dt 2.42E-06 write d3plot file            08/14/24 13:47:09
+ 6210000 t 1.5006E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:10
+ 6215000 t 1.5018E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:13
+ 6220000 t 1.5030E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:15
+ 6225000 t 1.5042E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:18
+ 6230000 t 1.5054E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:20
+ 6235000 t 1.5066E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:23
+ 6240000 t 1.5078E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:26
+ 6245000 t 1.5090E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:28
+ 6250000 t 1.5102E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:31
+ 6255000 t 1.5115E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:34
+ 6260000 t 1.5127E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:36
+ 6265000 t 1.5139E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:39
+ 6270000 t 1.5151E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:42
+ 6275000 t 1.5163E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:44
+ 6280000 t 1.5175E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:47
+ 6285000 t 1.5187E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:50
+ 6290000 t 1.5199E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:52
+ 6295000 t 1.5211E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:55
+ 6300000 t 1.5223E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:47:58
+ 6305000 t 1.5235E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:00
+ 6310000 t 1.5247E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:03
+ 6315000 t 1.5260E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:06
+ 6320000 t 1.5272E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:08
+ 6325000 t 1.5284E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:11
+ 6330000 t 1.5296E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:14
+ 6335000 t 1.5308E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:16
+ 6340000 t 1.5320E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:19
+ 6345000 t 1.5332E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:22
+ 6350000 t 1.5344E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:24
+ 6355000 t 1.5356E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:27
+ 6360000 t 1.5368E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:30
+ 6365000 t 1.5380E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:32
+ 6370000 t 1.5392E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:35
+ 6375000 t 1.5405E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:38
+ 6380000 t 1.5417E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:40
+ 6385000 t 1.5429E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:43
+ 6390000 t 1.5441E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:46
+ 6395000 t 1.5453E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:48
+ 6400000 t 1.5465E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:51
+ 6405000 t 1.5477E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:53
+ 6410000 t 1.5489E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:56
+ 6414500 t 1.5500E+01 dt 2.42E-06 write d3plot file            08/14/24 13:48:58
+ 6415000 t 1.5501E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:48:59
+ 6420000 t 1.5513E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:01
+ 6425000 t 1.5525E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:04
+ 6430000 t 1.5537E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:07
+ 6435000 t 1.5550E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:09
+ 6440000 t 1.5562E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:12
+ 6445000 t 1.5574E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:14
+ 6450000 t 1.5586E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:17
+ 6455000 t 1.5598E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:20
+ 6460000 t 1.5610E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:22
+ 6465000 t 1.5622E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:25
+ 6470000 t 1.5634E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:27
+ 6475000 t 1.5646E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:30
+ 6480000 t 1.5658E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:33
+ 6485000 t 1.5670E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:35
+ 6490000 t 1.5682E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:38
+ 6495000 t 1.5695E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:41
+ 6500000 t 1.5707E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:43
+ 6505000 t 1.5719E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:46
+ 6510000 t 1.5731E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:48
+ 6515000 t 1.5743E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:51
+ 6520000 t 1.5755E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:54
+ 6525000 t 1.5767E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:56
+ 6530000 t 1.5779E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:49:59
+ 6535000 t 1.5791E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:02
+ 6540000 t 1.5803E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:04
+ 6545000 t 1.5815E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:07
+ 6550000 t 1.5827E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:09
+ 6555000 t 1.5840E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:12
+ 6560000 t 1.5852E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:15
+ 6565000 t 1.5864E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:17
+ 6570000 t 1.5876E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:20
+ 6575000 t 1.5888E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:23
+ 6580000 t 1.5900E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:25
+ 6585000 t 1.5912E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:28
+ 6590000 t 1.5924E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:30
+ 6595000 t 1.5936E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:33
+ 6600000 t 1.5948E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:36
+ 6605000 t 1.5960E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:38
+ 6610000 t 1.5972E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:41
+ 6615000 t 1.5984E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:44
+ 6620000 t 1.5997E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:46
+ 6621419 t 1.6000E+01 dt 2.42E-06 write d3plot file            08/14/24 13:50:47
+ 6625000 t 1.6009E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:49
+ 6630000 t 1.6021E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:51
+ 6635000 t 1.6033E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:54
+ 6640000 t 1.6045E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:57
+ 6645000 t 1.6057E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:50:59
+ 6650000 t 1.6069E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:02
+ 6655000 t 1.6081E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:05
+ 6660000 t 1.6093E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:07
+ 6665000 t 1.6105E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:10
+ 6670000 t 1.6117E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:12
+ 6675000 t 1.6129E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:15
+ 6680000 t 1.6142E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:18
+ 6685000 t 1.6154E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:20
+ 6690000 t 1.6166E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:23
+ 6695000 t 1.6178E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:25
+ 6700000 t 1.6190E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:28
+ 6705000 t 1.6202E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:31
+ 6710000 t 1.6214E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:33
+ 6715000 t 1.6226E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:36
+ 6720000 t 1.6238E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:39
+ 6725000 t 1.6250E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:41
+ 6730000 t 1.6262E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:44
+ 6735000 t 1.6274E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:46
+ 6740000 t 1.6287E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:49
+ 6745000 t 1.6299E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:52
+ 6750000 t 1.6311E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:54
+ 6755000 t 1.6323E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:51:57
+ 6760000 t 1.6335E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:00
+ 6765000 t 1.6347E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:02
+ 6770000 t 1.6359E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:05
+ 6775000 t 1.6371E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:07
+ 6780000 t 1.6383E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:10
+ 6785000 t 1.6395E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:13
+ 6790000 t 1.6407E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:15
+ 6795000 t 1.6419E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:18
+ 6800000 t 1.6432E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:21
+ 6805000 t 1.6444E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:23
+ 6810000 t 1.6456E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:26
+ 6815000 t 1.6468E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:29
+ 6820000 t 1.6480E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:31
+ 6825000 t 1.6492E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:34
+ 6828337 t 1.6500E+01 dt 2.42E-06 write d3plot file            08/14/24 13:52:36
+ 6830000 t 1.6504E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:36
+ 6835000 t 1.6516E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:39
+ 6840000 t 1.6528E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:42
+ 6845000 t 1.6540E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:44
+ 6850000 t 1.6552E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:47
+ 6855000 t 1.6564E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:50
+ 6860000 t 1.6577E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:52
+ 6865000 t 1.6589E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:55
+ 6870000 t 1.6601E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:52:57
+ 6875000 t 1.6613E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:00
+ 6880000 t 1.6625E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:03
+ 6885000 t 1.6637E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:05
+ 6890000 t 1.6649E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:08
+ 6895000 t 1.6661E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:10
+ 6900000 t 1.6673E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:13
+ 6905000 t 1.6685E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:16
+ 6910000 t 1.6697E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:18
+ 6915000 t 1.6709E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:21
+ 6920000 t 1.6721E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:23
+ 6925000 t 1.6734E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:26
+ 6930000 t 1.6746E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:29
+ 6935000 t 1.6758E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:31
+ 6940000 t 1.6770E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:34
+ 6945000 t 1.6782E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:36
+ 6950000 t 1.6794E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:39
+ 6955000 t 1.6806E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:42
+ 6960000 t 1.6818E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:44
+ 6965000 t 1.6830E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:47
+ 6970000 t 1.6842E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:49
+ 6975000 t 1.6854E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:52
+ 6980000 t 1.6866E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:55
+ 6985000 t 1.6879E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:53:57
+ 6990000 t 1.6891E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:00
+ 6995000 t 1.6903E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:02
+ 7000000 t 1.6915E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:05
+ 7005000 t 1.6927E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:07
+ 7010000 t 1.6939E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:10
+ 7015000 t 1.6951E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:13
+ 7020000 t 1.6963E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:15
+ 7025000 t 1.6975E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:18
+ 7030000 t 1.6987E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:20
+ 7035000 t 1.6999E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:23
+ 7035256 t 1.7000E+01 dt 2.42E-06 write d3plot file            08/14/24 13:54:23
+ 7040000 t 1.7011E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:26
+ 7045000 t 1.7024E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:28
+ 7050000 t 1.7036E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:31
+ 7055000 t 1.7048E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:33
+ 7060000 t 1.7060E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:36
+ 7065000 t 1.7072E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:39
+ 7070000 t 1.7084E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:41
+ 7075000 t 1.7096E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:44
+ 7080000 t 1.7108E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:46
+ 7085000 t 1.7120E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:49
+ 7090000 t 1.7132E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:51
+ 7095000 t 1.7144E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:54
+ 7100000 t 1.7156E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:57
+ 7105000 t 1.7169E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:54:59
+ 7110000 t 1.7181E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:02
+ 7115000 t 1.7193E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:04
+ 7120000 t 1.7205E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:07
+ 7125000 t 1.7217E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:10
+ 7130000 t 1.7229E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:12
+ 7135000 t 1.7241E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:15
+ 7140000 t 1.7253E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:17
+ 7145000 t 1.7265E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:20
+ 7150000 t 1.7277E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:23
+ 7155000 t 1.7289E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:25
+ 7160000 t 1.7301E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:28
+ 7165000 t 1.7314E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:30
+ 7170000 t 1.7326E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:33
+ 7175000 t 1.7338E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:35
+ 7180000 t 1.7350E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:38
+ 7185000 t 1.7362E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:41
+ 7190000 t 1.7374E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:43
+ 7195000 t 1.7386E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:46
+ 7200000 t 1.7398E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:48
+ 7205000 t 1.7410E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:51
+ 7210000 t 1.7422E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:54
+ 7215000 t 1.7434E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:56
+ 7220000 t 1.7446E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:55:59
+ 7225000 t 1.7458E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:01
+ 7230000 t 1.7471E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:04
+ 7235000 t 1.7483E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:07
+ 7240000 t 1.7495E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:09
+ 7242174 t 1.7500E+01 dt 2.42E-06 write d3plot file            08/14/24 13:56:10
+ 7245000 t 1.7507E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:12
+ 7250000 t 1.7519E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:14
+ 7255000 t 1.7531E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:17
+ 7260000 t 1.7543E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:19
+ 7265000 t 1.7555E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:22
+ 7270000 t 1.7567E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:25
+ 7275000 t 1.7579E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:27
+ 7280000 t 1.7591E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:30
+ 7285000 t 1.7603E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:32
+ 7290000 t 1.7616E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:35
+ 7295000 t 1.7628E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:38
+ 7300000 t 1.7640E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:40
+ 7305000 t 1.7652E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:43
+ 7310000 t 1.7664E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:45
+ 7315000 t 1.7676E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:48
+ 7320000 t 1.7688E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:51
+ 7325000 t 1.7700E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:53
+ 7330000 t 1.7712E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:56
+ 7335000 t 1.7724E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:56:58
+ 7340000 t 1.7736E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:01
+ 7345000 t 1.7748E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:04
+ 7350000 t 1.7761E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:06
+ 7355000 t 1.7773E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:09
+ 7360000 t 1.7785E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:11
+ 7365000 t 1.7797E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:14
+ 7370000 t 1.7809E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:17
+ 7375000 t 1.7821E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:19
+ 7380000 t 1.7833E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:22
+ 7385000 t 1.7845E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:24
+ 7390000 t 1.7857E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:27
+ 7395000 t 1.7869E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:30
+ 7400000 t 1.7881E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:32
+ 7405000 t 1.7893E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:35
+ 7410000 t 1.7906E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:37
+ 7415000 t 1.7918E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:40
+ 7420000 t 1.7930E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:43
+ 7425000 t 1.7942E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:45
+ 7430000 t 1.7954E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:48
+ 7435000 t 1.7966E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:50
+ 7440000 t 1.7978E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:53
+ 7445000 t 1.7990E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:56
+ 7449093 t 1.8000E+01 dt 2.42E-06 write d3plot file            08/14/24 13:57:58
+ 7450000 t 1.8002E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:57:58
+ 7455000 t 1.8014E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:01
+ 7460000 t 1.8026E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:03
+ 7465000 t 1.8038E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:06
+ 7470000 t 1.8051E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:09
+ 7475000 t 1.8063E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:11
+ 7480000 t 1.8075E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:14
+ 7485000 t 1.8087E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:16
+ 7490000 t 1.8099E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:19
+ 7495000 t 1.8111E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:22
+ 7500000 t 1.8123E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:24
+ 7505000 t 1.8135E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:27
+ 7510000 t 1.8147E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:29
+ 7515000 t 1.8159E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:32
+ 7520000 t 1.8171E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:35
+ 7525000 t 1.8183E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:37
+ 7530000 t 1.8196E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:40
+ 7535000 t 1.8208E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:42
+ 7540000 t 1.8220E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:45
+ 7545000 t 1.8232E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:48
+ 7550000 t 1.8244E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:50
+ 7555000 t 1.8256E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:53
+ 7560000 t 1.8268E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:55
+ 7565000 t 1.8280E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:58:58
+ 7570000 t 1.8292E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:01
+ 7575000 t 1.8304E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:03
+ 7580000 t 1.8316E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:06
+ 7585000 t 1.8328E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:09
+ 7590000 t 1.8340E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:11
+ 7595000 t 1.8353E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:14
+ 7600000 t 1.8365E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:16
+ 7605000 t 1.8377E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:19
+ 7610000 t 1.8389E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:22
+ 7615000 t 1.8401E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:24
+ 7620000 t 1.8413E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:27
+ 7625000 t 1.8425E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:29
+ 7630000 t 1.8437E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:32
+ 7635000 t 1.8449E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:35
+ 7640000 t 1.8461E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:37
+ 7645000 t 1.8473E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:40
+ 7650000 t 1.8485E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:43
+ 7655000 t 1.8498E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:45
+ 7656012 t 1.8500E+01 dt 2.42E-06 write d3plot file            08/14/24 13:59:46
+ 7660000 t 1.8510E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:48
+ 7665000 t 1.8522E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:50
+ 7670000 t 1.8534E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:53
+ 7675000 t 1.8546E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:56
+ 7680000 t 1.8558E+01 dt 2.42E-06 flush i/o buffers            08/14/24 13:59:58
+ 7685000 t 1.8570E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:01
+ 7690000 t 1.8582E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:03
+ 7695000 t 1.8594E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:06
+ 7700000 t 1.8606E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:09
+ 7705000 t 1.8618E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:11
+ 7710000 t 1.8630E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:14
+ 7715000 t 1.8643E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:17
+ 7720000 t 1.8655E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:19
+ 7725000 t 1.8667E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:22
+ 7730000 t 1.8679E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:24
+ 7735000 t 1.8691E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:27
+ 7740000 t 1.8703E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:30
+ 7745000 t 1.8715E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:32
+ 7750000 t 1.8727E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:35
+ 7755000 t 1.8739E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:37
+ 7760000 t 1.8751E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:40
+ 7765000 t 1.8763E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:43
+ 7770000 t 1.8775E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:45
+ 7775000 t 1.8788E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:48
+ 7780000 t 1.8800E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:51
+ 7785000 t 1.8812E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:53
+ 7790000 t 1.8824E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:56
+ 7795000 t 1.8836E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:00:58
+ 7800000 t 1.8848E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:01
+ 7805000 t 1.8860E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:04
+ 7810000 t 1.8872E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:06
+ 7815000 t 1.8884E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:09
+ 7820000 t 1.8896E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:11
+ 7825000 t 1.8908E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:14
+ 7830000 t 1.8920E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:17
+ 7835000 t 1.8933E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:19
+ 7840000 t 1.8945E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:22
+ 7845000 t 1.8957E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:25
+ 7850000 t 1.8969E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:27
+ 7855000 t 1.8981E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:30
+ 7860000 t 1.8993E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:32
+ 7862930 t 1.9000E+01 dt 2.42E-06 write d3plot file            08/14/24 14:01:34
+ 7865000 t 1.9005E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:35
+ 7870000 t 1.9017E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:38
+ 7875000 t 1.9029E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:40
+ 7880000 t 1.9041E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:43
+ 7885000 t 1.9053E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:45
+ 7890000 t 1.9065E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:48
+ 7895000 t 1.9077E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:51
+ 7900000 t 1.9090E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:53
+ 7905000 t 1.9102E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:56
+ 7910000 t 1.9114E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:01:59
+ 7915000 t 1.9126E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:01
+ 7920000 t 1.9138E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:04
+ 7925000 t 1.9150E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:06
+ 7930000 t 1.9162E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:09
+ 7935000 t 1.9174E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:12
+ 7940000 t 1.9186E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:14
+ 7945000 t 1.9198E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:17
+ 7950000 t 1.9210E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:19
+ 7955000 t 1.9222E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:22
+ 7960000 t 1.9235E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:25
+ 7965000 t 1.9247E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:27
+ 7970000 t 1.9259E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:30
+ 7975000 t 1.9271E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:32
+ 7980000 t 1.9283E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:35
+ 7985000 t 1.9295E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:38
+ 7990000 t 1.9307E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:40
+ 7995000 t 1.9319E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:43
+ 8000000 t 1.9331E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:46
+ 8005000 t 1.9343E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:48
+ 8010000 t 1.9355E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:51
+ 8015000 t 1.9367E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:53
+ 8020000 t 1.9380E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:56
+ 8025000 t 1.9392E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:02:59
+ 8030000 t 1.9404E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:01
+ 8035000 t 1.9416E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:04
+ 8040000 t 1.9428E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:06
+ 8045000 t 1.9440E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:09
+ 8050000 t 1.9452E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:12
+ 8055000 t 1.9464E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:14
+ 8060000 t 1.9476E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:17
+ 8065000 t 1.9488E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:20
+ 8069849 t 1.9500E+01 dt 2.42E-06 write d3plot file            08/14/24 14:03:22
+ 8070000 t 1.9500E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:22
+ 8075000 t 1.9512E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:25
+ 8080000 t 1.9525E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:27
+ 8085000 t 1.9537E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:30
+ 8090000 t 1.9549E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:33
+ 8095000 t 1.9561E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:35
+ 8100000 t 1.9573E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:38
+ 8105000 t 1.9585E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:40
+ 8110000 t 1.9597E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:43
+ 8115000 t 1.9609E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:46
+ 8120000 t 1.9621E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:48
+ 8125000 t 1.9633E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:51
+ 8130000 t 1.9645E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:53
+ 8135000 t 1.9657E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:56
+ 8140000 t 1.9670E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:03:59
+ 8145000 t 1.9682E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:01
+ 8150000 t 1.9694E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:04
+ 8155000 t 1.9706E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:07
+ 8160000 t 1.9718E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:09
+ 8165000 t 1.9730E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:12
+ 8170000 t 1.9742E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:14
+ 8175000 t 1.9754E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:17
+ 8180000 t 1.9766E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:20
+ 8185000 t 1.9778E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:22
+ 8190000 t 1.9790E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:25
+ 8195000 t 1.9802E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:27
+ 8200000 t 1.9814E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:30
+ 8205000 t 1.9827E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:33
+ 8210000 t 1.9839E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:35
+ 8215000 t 1.9851E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:38
+ 8220000 t 1.9863E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:40
+ 8225000 t 1.9875E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:43
+ 8230000 t 1.9887E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:46
+ 8235000 t 1.9899E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:48
+ 8240000 t 1.9911E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:51
+ 8245000 t 1.9923E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:53
+ 8250000 t 1.9935E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:56
+ 8255000 t 1.9947E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:04:58
+ 8260000 t 1.9959E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:05:01
+ 8265000 t 1.9972E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:05:04
+ 8270000 t 1.9984E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:05:06
+ 8275000 t 1.9996E+01 dt 2.42E-06 flush i/o buffers            08/14/24 14:05:09
+ 8276767 t 2.0000E+01 dt 2.42E-06 write d3plot file            08/14/24 14:05:10
+ 
+ *** termination time reached ***
+ 8276767 t 2.0000E+01 dt 2.42E-06 write d3dump01 file          08/14/24 14:05:10
+ 8276767 t 2.0000E+01 dt 2.42E-06 write d3plot file            08/14/24 14:05:10
+
+ N o r m a l    t e r m i n a t i o n                          08/14/24 14:05:10
+
+ S t o r a g e   a l l o c a t i o n   
+
+ Memory required to complete solution   :     335K
+ Additional dynamically allocated memory:    3848K
+                                   Total:    4183K
 
  T i m i n g   i n f o r m a t i o n
                         CPU(seconds)   %CPU  Clock(seconds) %Clock
   ----------------------------------------------------------------
-  Keyword Processing ... 0.0000E+00    0.00     3.9000E-02    3.12
-    KW Reading ......... 0.0000E+00    0.00     1.4000E-02    1.12
-    KW Writing ......... 0.0000E+00    0.00     7.0000E-03    0.56
-  Initialization ....... 1.0000E+00  100.00     1.2130E+00   96.88
-    Init Proc Phase 1 .. 0.0000E+00    0.00     4.9000E-02    3.91
+  Initialization ....... 1.0000E+00    0.02     1.1970E+00    0.02
+  Element processing ... 3.5800E+03   58.73     3.5833E+03   58.78
+    Shells ............. 3.4680E+03   56.89     3.4722E+03   56.95
+    Beams .............. 4.0000E+00    0.07     5.4470E+00    0.09
+    ISO Shells ......... 0.0000E+00    0.00     5.6800E-01    0.01
+    E Other ............ 9.1000E+01    1.49     8.8328E+01    1.45
+  Binary databases ..... 1.0000E+00    0.02     1.8080E+00    0.03
+  ASCII database ....... 6.0000E+00    0.10     5.2950E+00    0.09
+  Contact algorithm .... 1.2040E+03   19.75     1.1804E+03   19.36
+    Interf. ID         1 7.4400E+02   12.20     7.1547E+02   11.74
+    Interf. ID         2 4.4800E+02    7.35     4.5286E+02    7.43
+  Rigid Bodies ......... 7.3000E+01    1.20     8.2715E+01    1.36
+  Time step size ....... 3.0000E+00    0.05     3.9210E+00    0.06
+  Group force file ..... 1.0000E+00    0.02     1.0750E+00    0.02
+  Others ............... 4.0000E+00    0.07     5.7990E+00    0.10
+  Misc. 1 .............. 2.3800E+02    3.90     2.2424E+02    3.68
+    Scale Masses ....... 0.0000E+00    0.00     8.0000E-01    0.01
+    Force Constraints .. 2.0000E+00    0.03     7.0900E-01    0.01
+    Force to Accel ..... 9.0000E+01    1.48     7.9504E+01    1.30
+    Update RB nodes .... 1.2500E+02    2.05     1.2722E+02    2.09
+  Misc. 2 .............. 2.6600E+02    4.36     2.7578E+02    4.52
+  Misc. 3 .............. 1.2000E+01    0.20     1.0454E+01    0.17
+  Misc. 4 .............. 7.0700E+02   11.60     7.2043E+02   11.82
+    Timestep Init ...... 8.9000E+01    1.46     8.5541E+01    1.40
+    Apply Loads ........ 4.9000E+02    8.04     5.1060E+02    8.38
+    Compute exwork ..... 1.2600E+02    2.07     1.2204E+02    2.00
   ----------------------------------------------------------------
-  T o t a l s            1.0000E+00  100.00     1.2520E+00  100.00
+  T o t a l s            6.0960E+03  100.00     6.0964E+03  100.00
 
- Problem time       =    0.0000E+00
- Problem cycle      =         0
- Total CPU time     =         1 seconds (   0 hours  0 minutes  1 seconds)
- CPU time per zone cycle  =          0.000 picoseconds
- Clock time per zone cycle=          0.000 picoseconds
+ Problem time       =    2.0000E+01
+ Problem cycle      =   8276767
+ Total CPU time     =      6096 seconds (   1 hours 41 minutes 36 seconds)
+ CPU time per zone cycle  =         99.392 nanoseconds
+ Clock time per zone cycle=         99.395 nanoseconds
 
  Number of CPU's    2
  NLQ used/max     136/  136
- Start time   08/07/2024 15:13:15  
- End time     08/07/2024 15:13:15  
- Elapsed time       0 second  for       0 cycles using  2 SMP threads
-             (      0 hour   0 minute   0 second )
+ Start time   08/14/2024 12:23:37  
+ End time     08/14/2024 14:05:10  
+ Elapsed time    6093 seconds for 8276767 cycles using  2 SMP threads
+             (      1 hour  41 minutes 33 seconds)
 
- E r r o r   t e r m i n a t i o n                             08/07/24 15:13:15
+ N o r m a l    t e r m i n a t i o n                          08/14/24 14:05:10

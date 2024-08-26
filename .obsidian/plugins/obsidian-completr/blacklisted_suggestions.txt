@@ -3,3 +3,4 @@ solid
 Solid
 rigidwall
 SOLID
+CONSTRAINED

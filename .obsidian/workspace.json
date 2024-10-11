@@ -11,11 +11,9 @@
             "id": "26cd68aa6b6ed1da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
-                "mode": "source",
-                "source": false
+                "file": "notes_and_resources/contact-definitions-jason-rabinovitch.pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "notes_and_resources/contact-definitions-jason-rabinovitch.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md",
+                "file": "notes_and_resources/contact-definitions-jason-rabinovitch.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pillars_v2_airbag_open/change-log.md"
+                "file": "notes_and_resources/contact-definitions-jason-rabinovitch.pdf"
               }
             }
           },
@@ -161,7 +159,6 @@
   },
   "active": "26cd68aa6b6ed1da",
   "lastOpenFiles": [
-    "pillars_v2_airbag_open/keyfiles/100/30/lspp_temp_1",
     "pillars_v2_airbag_open/keyfiles/100/30/status.out",
     "pillars_v2_airbag_open/keyfiles/100/30/d3plot01",
     "pillars_v2_airbag_open/keyfiles/100/30/d3plot",
@@ -172,29 +169,30 @@
     "pillars_v2_airbag_open/keyfiles/100/30/group_file",
     "pillars_v2_airbag_open/keyfiles/100/30/dyna.lsda",
     "pillars_v2_airbag_open/keyfiles/100/30/messag",
-    "pillars_v2_airbag_open/gifs/null-material-v25.gif",
-    "test_null/nulltest.gif",
-    "pillars_v2_airbag_open/gifs/null-explode.gif",
-    "pillars_v2_airbag_open/gifs/collisions-on-null=porous-fabric.gif",
-    "pillars_v2_airbag_open/gifs/collisions-on-null-fucked.gif",
-    "pillars_v2_airbag_open/gifs/airbag_open_v1.gif",
-    "pillars_v2_airbag_open/gifs/airbag_open_collision_fail.gif",
-    "pillars_v2_airbag_open/gifs/4-anchor-test.gif",
-    "notes_and_resources/resources.md",
-    "pillars_windtunnel/pillars_v31_thru_v40/wind-tunnel-fail.gif",
-    "pillars_windtunnel/pillars_v21_thru_v30/PILLARS_v24_stress.gif",
+    "pillars_v2_airbag_open/keyfiles/100/30/d3hsp",
     "pillars_v2_airbag_open/change-log.md",
+    "notes_and_resources/bugs_and_issues.md",
+    "notes_and_resources/units_and_initial_params.md",
+    "notes_and_resources/resources.md",
+    "notes_and_resources/material_properties.md",
+    "notes_and_resources/manuals.md",
+    "attachments/Screenshot 2024-07-22 151701.png",
+    "attachments/Pasted image 20240814154527.png",
+    "attachments/Pasted image 20240808161710.png",
+    "attachments/Pasted image 20240729141108.png",
+    "attachments/Pasted image 20240724143157.png",
+    "attachments/Pasted image 20240724143221.png",
+    "attachments/Pasted image 20240724124525.png",
+    "attachments/Pasted image 20240723131424.png",
+    "attachments/Pasted image 20240722145105.png",
+    "attachments/Pasted image 20240722144515.png",
     "README.md",
     "test_null/changelog.md",
     "pillars_windtunnel/pillars_v31_thru_v40/change-log.md",
     "pillars_windtunnel/pillars_v21_thru_v30/change-log.md",
     "pillars_v2_airbag_open/notes.md",
-    "notes_and_resources/units_and_initial_params.md",
     "airbag/airbag_open/change-log.md",
     "airbag/airbag_open/notes.md",
-    "notes_and_resources/material_properties.md",
-    "notes_and_resources/manuals.md",
-    "notes_and_resources/bugs_and_issues.md",
     "airbag_/change-log.md",
     "drafts/Jason Rabinovitch.md",
     "PILLARS/PILLARS_v31_thru_v40/change-log.md",

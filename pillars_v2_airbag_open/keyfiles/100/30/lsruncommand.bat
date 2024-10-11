@@ -1,1 +1,1 @@
-"C:\Program Files\LS-DYNA Suite R13 Student\lsdyna\ls-dyna_smp_d_R13.1.1_27-g8731a0d8c5_winx64_ifort190.exe" i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\100\30\open_airbag_v135.k ncpu=2 memory=20m > lsrun.out.txt 2>&1
+"C:\Program Files\LS-DYNA Suite R14 Student\lsdyna\ls-dyna_smp_d_R14.1.1s_1-gef50e1efb1_winx64_ifort190.exe" i=C:\Users\Trey\Documents\GitHub\PILLARS-LSDyna\pillars_v2_airbag_open\keyfiles\100\30\open_airbag_v136.k ncpu=4 memory=400m > lsrun.out.txt 2>&1
